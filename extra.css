@@ -1,0 +1,12 @@
+nav{
+    background-image: linear-gradient(to right,#333333,#12100E)  !important;
+    
+} 
+
+.wy-side-nav-search{
+    background-color: #333333;
+}
+
+.wy-side-nav-search .toctree-l1{
+    color: white !important;
+}
