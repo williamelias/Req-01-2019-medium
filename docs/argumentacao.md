@@ -1,6 +1,5 @@
 ![argumentação](images/argumentacao.jpg)
-
-(https://www.coladaweb.com/wp-content/uploads/2015/12/20160111-argumentacao-e1452510813753.jpg)
+**fonte**: https://baudelivrosonline.files.wordpress.com/2016/07/argumento.jpg?w=676
 ***
 
 ## Definição
@@ -38,18 +37,19 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 ![aspectos gerais rascunho](pre-rastreabilidade/argumentations/rascunho1.jpg) 
 
 ***
-**Esquemático (Versão 1)**
+**Esquemático (Versão 2)**
 
 ![aspectos gerais](pre-rastreabilidade/argumentations/Argumentacao_2(v2).jpg)
 
 ***
 
-**Esquemático (Versão 2)**:
-![Conteúdo](pre-rastreabilidade/argumentations/Diagrama3(v3).png)
+**Esquemático (Versão 3)**:
+![visão geral](pre-rastreabilidade/argumentations/Diagrama1(v3).png)
+
 
 ***
 
-### Argumentação 2 - Leitores
+### Argumentação 2 - Público-alvo
 **Proposições**
 
 * **p1:** As publicações do MEDIUM possuem um teor majoritariamente sério.
@@ -67,12 +67,12 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 
 ***
 
-**Esquemático (Versão 1)**:
+**Esquemático (Versão 2)**:
 ![Conteúdo](pre-rastreabilidade/argumentations/Argumentacao_1(v2).jpg)
 
 ***
 
-**Esquemático (Versão 2)**:
+**Esquemático (Versão 3)**:
 ![Conteúdo](pre-rastreabilidade/argumentations/Diagrama2(v3).png)
 
 ***
@@ -91,11 +91,10 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 ![conteúdo](pre-rastreabilidade/argumentations/rascunho2.jpg) 
 
 ***
-**Esquemático (versão 1)**:
+**Esquemático (versão 2)**:
 
 ![conteúdo](pre-rastreabilidade/argumentations/Argumentacao_3(v2).jpg)
 ***
-**Esquemático (versão 2)**:
-
-![conteúdo](pre-rastreabilidade/argumentations/Diagrama1(v3).png)
+**Esquemático (versão 3)**:
+![Conteúdo](pre-rastreabilidade/argumentations/Diagrama3(v3).png)
 
