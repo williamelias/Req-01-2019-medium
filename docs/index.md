@@ -19,7 +19,7 @@ Repositório destinado a documentação dos modelos usados durante o processo de
 
 A aplicação na qual serão aplicados conceitos e práticas de Engenharia de Requisitos é a plataforma de publicação e leitura **MEDIUM**. Ela está acessível através de um site e também por meio de aplicação mobile android/ios.
 
-![logo medium](https://github.com/williamelias/Req-02-2019-medium/blob/master/images/medium-logo.png)
+![](https://github.com/williamelias/Req-02-2019-medium/blob/master/images/medium-logo.png)
 
 * **Fundador:** Evan Williams
 * **Data de lançamento:** 15 de Agosto,2012
