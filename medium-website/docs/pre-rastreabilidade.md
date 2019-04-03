@@ -34,7 +34,7 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 - Versão 1  
 
-![versão 1_1](https://github.com/williamelias/Req-01-2019-medium/blob/pre-rastreabilidade/richpictures/rich_ver1_guilherme.jpg)
+![versão 1_1](https://github.com/williamelias/Req-01-2019-medium/blob/master/richpictures/rich_ver1_guilherme.jpg)
 
 - Versão 2
 

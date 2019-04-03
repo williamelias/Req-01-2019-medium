@@ -5,6 +5,5 @@ nav:
         - Definição: pre-rastreabilidade.md
         - 5W2H: 5w2h.md
         - Richpicture: richpicture.md
-        - Argumentação: richpicture.md
-
+        - Argumentação: argumentacao.md
 theme: readthedocs
