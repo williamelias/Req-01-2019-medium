@@ -8,8 +8,7 @@ navigation:
   - title: Pré-rastreabilidade
     url: pre-rastreabilidade
     - title: Richpicture
-    url: richpicture
+      url: richpicture
     - title: Argumentação
-    url: argumentacao
-
+      url: argumentacao
     
