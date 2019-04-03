@@ -1,37 +1,45 @@
-## Welcome to GitHub Pages
+# Visão Geral
 
-You can use the [editor on GitHub](https://github.com/williamelias/Req-01-2019-medium/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Repositório destinado a documentação dos modelos usados durante o processo de Engenharia de Requisitos, dentro do escopo da disciplina de Engenharia de Requisitos da **Universidade de Brasília**.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+***
+## Engenharia de Requisitos
 
-### Markdown
+É a área da engenharia de software preocupada com os requisitos de software,e se dá por meio da coleta de requisitos, análise, modelagem e documentação dos mesmos.De uma forma mais direta, ela ocorre - não necessariamente de forma sequencial - por meio das seguintes etapas:
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+* [Pré-rastreabilidade](https://github.com/williamelias/Req-01-2019-medium/wiki/Pr%C3%A9-rastreabilidade)
+* Elicitação de requisitos
+* Modelagem
+* Análise
+* Pós-rastreabilidade
 
-```markdown
-Syntax highlighted code block
+***
 
-# Header 1
-## Header 2
-### Header 3
+## Dados da aplicação escolhida
 
-- Bulleted
-- List
+A aplicação na qual serão aplicados conceitos e práticas de Engenharia de Requisitos é a plataforma de publicação e leitura **MEDIUM**. Ela está acessível através de um site e também por meio de aplicação mobile android/ios.
 
-1. Numbered
-2. List
+![logo medium](https://github.com/williamelias/Req-02-2019-medium/blob/master/images/medium-logo.png)
 
-**Bold** and _Italic_ and `Code` text
+* **Fundador:** Evan Williams
+* **Data de lançamento:** 15 de Agosto,2012
+* **Site Oficial:** [Medium](https://medium.com/) 
+* **Proprietário:** MEDIUM corporation
+* **Principais Concorrentes:**
+  1. **Com foco em publicação textual/blog:** Wordpress, squarespace
+  2. **Com foco na leitura:** Tumblr
 
-[Link](url) and ![Image](src)
-```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+***
 
-### Jekyll Themes
+# Integrantes
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/williamelias/Req-01-2019-medium/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+|  | Nome |
+| --- | --- |
+| <img width="100" alt="luis" src="https://avatars0.githubusercontent.com/u/16181794?s=400&v=4"> | Aline Laureano |
+| <img width="100" alt="luis" src="https://avatars3.githubusercontent.com/u/37154573?s=400&v=4"> | Gabriel Filipe |
+| <img width="100" alt="luis" src="https://avatars0.githubusercontent.com/u/32804970?s=400&v=4"> | Guilherme Marques |
+| <img width="100" alt="luis" src="https://avatars3.githubusercontent.com/u/37872798?s=400&v=4"> | Luis Cláudio |
+| <img width="100" alt="luis" src="https://avatars1.githubusercontent.com/u/37380789?s=400&v=4"> | Matheus Blanco |
+| <img width="100" alt="luis" src="https://avatars3.githubusercontent.com/u/32720946?s=400&v=4"> | Pedro Rodrigues|
+| <img width="100" alt="luis" src="https://avatars2.githubusercontent.com/u/26363750?s=400&v=4"> | William Elias |
