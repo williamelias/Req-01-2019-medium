@@ -1,0 +1,10 @@
+site_name: MEDIUM-Requisitos(2019) 
+nav:
+    - Home: index.md
+    - Pré-rastreabilidade:
+        - Definição: pre-rastreabilidade.md
+        - 5W2H: 5w2h.md
+        - Richpicture: richpicture.md
+        - Argumentação: richpicture.md
+
+theme: readthedocs
