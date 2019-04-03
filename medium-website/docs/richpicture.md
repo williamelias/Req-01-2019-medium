@@ -48,9 +48,13 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ![RichPicture na visão de Escritor, Modelo 2](https://github.com/williamelias/Req-01-2019-medium/blob/pre-rastreabilidade/richpictures/RichPicture(2)_MatheusSallesBlanco.jpg)
 
-- Versão Final
+- Versão 3
 
-![RichPicture na visão do Escritor, Modelo Final](https://github.com/williamelias/Req-01-2019-medium/blob/pre-rastreabilidade/richpictures/RichPicture(3)_MatheusSallesBlanco.jpg)
+![RichPicture na visão do Escritor, Modelo 3](https://github.com/williamelias/Req-01-2019-medium/blob/pre-rastreabilidade/richpictures/RichPicture(3)_MatheusSallesBlanco.jpg)
+
+- Versão 4
+
+![RichPicture na visão do Escritor, Modelo Final](https://github.com/williamelias/Req-01-2019-medium/blob/pre-rastreabilidade/richpictures/RichPicture(4)_MatheusSallesBlanco.png)
 
 **Modelos 2**
 
