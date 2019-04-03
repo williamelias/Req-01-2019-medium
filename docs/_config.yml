@@ -1,5 +1,7 @@
 theme: jekyll-theme-minimal
 description: Repositório destinado a documentação dos modelos usados durante o processo de Engenharia de Requisitos, dentro do escopo da disciplina de Engenharia de Requisitos da Universidade de Brasília.
+logo: ../images/medium-logo.png
+show_downloads: false
 navigation:
   - title: Home
     url: index
