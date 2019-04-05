@@ -7,3 +7,4 @@ nav:
         - Richpicture: richpicture.md
         - Argumentação: argumentacao.md
 theme: readthedocs
+extra_css: [extra.css]
