@@ -6,5 +6,6 @@ nav:
         - 5W2H: 5w2h.md
         - Richpicture: richpicture.md
         - Argumentação: argumentacao.md
+    - Atas de reunião: atas-reuniao.md
 theme: readthedocs
 extra_css: [extra.css]
