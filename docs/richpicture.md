@@ -60,9 +60,13 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
   
 ![Import Story Pedro, Modelo 1](pre-rastreabilidade/richpictures/RichPicture(1)_Import-story_PedroRodrigues.jpg)
 
-- Versão Final
+- Versão 2
 
 ![Import Story Pedro, Modelo 2](pre-rastreabilidade/richpictures/RichPicture(2)_Import-story_PedroRodrigues.jpg)
+
+- Versão Final
+
+![Import Story Pedro, Modelo 3](pre-rastreabilidade/richpictures/richPicture-Escritor-Import-Story(v3).jpg)
 
 **Modelo 3**
 
@@ -70,8 +74,12 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ![New Story Pedro, Modelo 1](pre-rastreabilidade/richpictures/RichPicture(1)_New-Story_PedroRodrigues.jpg)
 
-- Versão Final
+- Versão 2
 
 ![New Story Pedro, Modelo 2](pre-rastreabilidade/richpictures/RichPicture(2)_New-Story_PedroRodrigues.jpg)
+
+- Versão Final
+
+![New Story Pedro, Modelo 3](pre-rastreabilidade/richpictures/richPicture-Escritor-New-Story(v3).jpg)
 
 
