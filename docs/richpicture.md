@@ -9,9 +9,8 @@ Auxilia na identificação de processos, atores envolvidos, e o relacionamento d
 Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do autor e o ponto de vista do leitor.
 
 ### Ponto de vista do Leitor
-
+***
 **Modelo 1**
-
 - Versão 1  
 
 ![versão 1_1](pre-rastreabilidade/richpictures/rich_ver1_guilherme.jpg)
@@ -40,7 +39,7 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ### Ponto de vista do Escritor
 
-**Modelo 1**
+###Modelo 
 
 - Versão 1  
 
@@ -50,9 +49,14 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ![RichPicture na visão de Escritor, Modelo 2](pre-rastreabilidade/richpictures/RichPicture(2)_MatheusSallesBlanco.jpg)
 
-- Versão Final
+- Versão 3
 
 ![RichPicture na visão do Escritor, Modelo Final](pre-rastreabilidade/richpictures/RichPicture(3)_MatheusSallesBlanco.jpg)
+
+- Versão final
+
+![RichPicture na visão do Escritor, Modelo Final](pre-rastreabilidade/richpictures/richpicture-final-escritor.jpg)
+
 
 **Modelos 2**
 
