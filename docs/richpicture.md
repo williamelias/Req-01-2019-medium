@@ -25,7 +25,7 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 - Versão Final
 
-![versão4_1](pre_rastreabilidade/richpictures/rich_medium_ver4.png)
+![versão4_1](pre-rastreabilidade/richpictures/rich_medium_ver4.png)
 
 **Modelo 2**
 
