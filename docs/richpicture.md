@@ -19,9 +19,13 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ![versão 2_1](pre-rastreabilidade/richpictures/rich_ver2_guilherme.jpg)
 
-- Versão final
+- Versão 3
 
 ![versão3_1](pre-rastreabilidade/richpictures/rich_picture_GuilhermeMarques.png)
+
+- Versão Final
+
+![versão4_1](pre_rastreabilidade/richpictures/rich_medium_ver4.png)
 
 **Modelo 2**
 
