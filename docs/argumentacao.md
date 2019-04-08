@@ -98,3 +98,25 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 **Esquemático (versão 3)**:
 ![Conteúdo](pre-rastreabilidade/argumentations/Diagrama3(v3).png)
 
+***
+
+### Argumentação 4 - Forma de publicação
+**Proposições**
+
+* **p1** ​O escritor pode criar um blog dentro da plataforma do Medium. 
+* **p2** ​O Blog possui muitas vantagens para o escritor.
+* **p3** ​O escritor pode ter um domínio próprio no site.
+* **p4** Publicações avulsas geram menos trabalho ao escritor.
+* **p5**​ Outros escritores podem publicar artigos num mesmo domínio.
+* **p6** Gera uma comunidade saudável de escritores.
+* **p7** Uma comunidade de escritores gera competitividade e menos reconhecimento individual.
+
+***
+**Rascunho**
+
+![conteúdo](pre-rastreabilidade/argumentations/argumentacao(v1)_plataforma_PedroRodrigues.jpg) 
+
+***
+**Esquemático (versão 2)**:
+
+![conteúdo](pre-rastreabilidade/argumentations/argumentacao(v2)_plataforma_PedroRodrigues.jpg)
