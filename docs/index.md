@@ -7,6 +7,7 @@
 |   30/03/2019   | William Elias Alves  | Inserção da tabela de integrantes e descrição da aplicação |0.2|
 |   31/03/2019   | William Elias Alves  | Alteração da logo do MEDIUM             | 0.3  |
 |   03/04/2019   | William Elias Alves  | Inserção do texto no mkdocs         |  0.4 |  
+| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento     |  0.5 |  
 
 
 # Visão Geral
