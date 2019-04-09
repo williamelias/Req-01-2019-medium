@@ -17,3 +17,11 @@ O presente documento foi concebido por meio da aplicação das técnicas de stor
 ## Login e cadastro
 
 ![login/cadastro](storybords/storybord-login.png)
+
+## Tutorial e seguir escritor
+
+![tutorial/seguir escritor](storybords/storytelling_gabriel.jpg)
+
+## Bookmarking
+
+![bookmarking](storytelling_bookmarking.png)
