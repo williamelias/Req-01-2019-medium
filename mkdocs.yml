@@ -1,6 +1,7 @@
 site_name: MEDIUM-Requisitos(2019) 
 nav:
     - Home: index.md
+    - Baseline: baseline.md
     - Pré-rastreabilidade:
         - Definição: pre-rastreabilidade/pre-rastreabilidade.md
         - 5W2H:  pre-rastreabilidade/5w2h.md
