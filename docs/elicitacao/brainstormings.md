@@ -89,6 +89,7 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 **Quais são os requisitos para a experiência de escritor?**
 
 | Membro     | Sugestão |
+|------------|----------|
 | Matheus    |possibilidade de escrever no blog ou fora do blog|
 | Matheus    |pegar textos de outras plataformas|
 |matheus     | ver quem deu clap em suas publicações|	
