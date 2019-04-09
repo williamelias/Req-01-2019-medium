@@ -7,7 +7,7 @@
 | 08/04/2019     | William Elias Alves  | Inserção da tababela de versionamento        |  0.4 |  
 
 
-![argumentação](images/argumentacao.jpg)
+![argumentação](../images/argumentacao.jpg)
 **fonte**: https://baudelivrosonline.files.wordpress.com/2016/07/argumento.jpg?w=676
 ***
 
@@ -43,17 +43,17 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 
 **Rascunho:**
 
-![aspectos gerais rascunho](pre-rastreabilidade/argumentations/rascunho1.jpg) 
+![aspectos gerais rascunho](argumentations/rascunho1.jpg) 
 
 ***
 **Esquemático (Versão 2)**
 
-![aspectos gerais](pre-rastreabilidade/argumentations/Argumentacao_2(v2).jpg)
+![aspectos gerais](argumentations/Argumentacao_2(v2).jpg)
 
 ***
 
 **Esquemático (Versão 3)**:
-![visão geral](pre-rastreabilidade/argumentations/Diagrama1(v3).png)
+![visão geral](argumentations/Diagrama1(v3).png)
 
 
 ***
@@ -72,17 +72,17 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 
 **Rascunho:**
 
-![leitores](pre-rastreabilidade/argumentations/rascunho3.jpg) 
+![leitores](argumentations/rascunho3.jpg) 
 
 ***
 
 **Esquemático (Versão 2)**:
-![Conteúdo](pre-rastreabilidade/argumentations/Argumentacao_1(v2).jpg)
+![Conteúdo](argumentations/Argumentacao_1(v2).jpg)
 
 ***
 
 **Esquemático (Versão 3)**:
-![Conteúdo](pre-rastreabilidade/argumentations/Diagrama2(v3).png)
+![Conteúdo](argumentations/Diagrama2(v3).png)
 
 ***
 
@@ -97,15 +97,15 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 ***
 **Rascunho**
 
-![conteúdo](pre-rastreabilidade/argumentations/rascunho2.jpg) 
+![conteúdo](argumentations/rascunho2.jpg) 
 
 ***
 **Esquemático (versão 2)**:
 
-![conteúdo](pre-rastreabilidade/argumentations/Argumentacao_3(v2).jpg)
+![conteúdo](argumentations/Argumentacao_3(v2).jpg)
 ***
 **Esquemático (versão 3)**:
-![Conteúdo](pre-rastreabilidade/argumentations/Diagrama3(v3).png)
+![Conteúdo](argumentations/Diagrama3(v3).png)
 
 ***
 
@@ -123,9 +123,9 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 ***
 **Rascunho**
 
-![conteúdo](pre-rastreabilidade/argumentations/argumentacao(v1)_plataforma_PedroRodrigues.jpg) 
+![conteúdo](argumentations/argumentacao(v1)_plataforma_PedroRodrigues.jpg) 
 
 ***
 **Esquemático (versão 2)**:
 
-![conteúdo](pre-rastreabilidade/argumentations/argumentacao(v2)_plataforma_PedroRodrigues.jpg)
+![conteúdo](argumentations/argumentacao(v2)_plataforma_PedroRodrigues.jpg)

@@ -19,7 +19,7 @@ Repositório destinado a documentação dos modelos usados durante o processo de
 
 É a área da engenharia de software preocupada com os requisitos de software,e se dá por meio da coleta de requisitos, análise, modelagem e documentação dos mesmos.De uma forma mais direta, ela ocorre - não necessariamente de forma sequencial - por meio das seguintes etapas:
 
-* [Pré-rastreabilidade](pre-rastreabilidade.md)
+* [Pré-rastreabilidade](pre-rastreabilidade/pre-rastreabilidade.md)
 * Elicitação de requisitos
 * Modelagem
 * Análise

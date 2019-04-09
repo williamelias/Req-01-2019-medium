@@ -2,10 +2,16 @@ site_name: MEDIUM-Requisitos(2019)
 nav:
     - Home: index.md
     - Pré-rastreabilidade:
-        - Definição: pre-rastreabilidade.md
-        - 5W2H: 5w2h.md
-        - Richpicture: richpicture.md
-        - Argumentação: argumentacao.md
+        - Definição: pre-rastreabilidade/pre-rastreabilidade.md
+        - 5W2H:  pre-rastreabilidade/5w2h.md
+        - Richpicture:  pre-rastreabilidade/richpicture.md
+        - Argumentação:  pre-rastreabilidade/argumentacao.md
+    - Elicitação de requisitos:
+        - visão geral: elicitacao/visaogeral.md
+        - Brainstormings: elicitacao/brainstormings.md
+        - Introspecções: elicitacao/introspeccao.md
+        - Storytelling: elicitacao/storytelling_storybords.md
+        - Priorização: elicitacao/priorizacao.md
     - Atas de reunião: atas-reuniao.md
 theme: readthedocs
 extra_css: [extra.css]
