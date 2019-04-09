@@ -1,3 +1,8 @@
+## Versionamento de edições
+| Data           | autor                | Descrição                               |Versão|
+|----------------|----------------------|-----------------------------------------|------|
+| 30/03/2019     | Matheus Blanco e Pedro Rodrigues | Adição de texto base e richpictures v.1| 0.1  |
+| 03/04/2019     | William Elias Alves  | Inserção do texto no mkdocs             |  0.2 |  
 
 # RichPictures
 

@@ -1,3 +1,14 @@
+
+
+## Versionamento de edições
+| Data           | autor                | Descrição                           |Versão|
+|----------------|----------------------|-------------------------------------|------|
+|   26/03/2019   | William Elias Alves  | Inserção da visão geral da aplicação | 0.1  |
+|   30/03/2019   | William Elias Alves  | Inserção da tabela de integrantes e descrição da aplicação |0.2|
+|   31/03/2019   | William Elias Alves  | Alteração da logo do MEDIUM             | 0.3  |
+|   03/04/2019   | William Elias Alves  | Inserção do texto no mkdocs         |  0.4 |  
+
+
 # Visão Geral
 
 Repositório destinado a documentação dos modelos usados durante o processo de Engenharia de Requisitos, dentro do escopo da disciplina de Engenharia de Requisitos da **Universidade de Brasília**.

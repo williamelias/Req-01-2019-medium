@@ -1,3 +1,11 @@
+## Versionamento de edições
+| Data           | autor                | Descrição                           |Versão|
+|----------------|----------------------|-------------------------------------|------|
+|   26/03/2019   | William Elias Alves  | Inserção do texto base | 0.1  |
+|   30/03/2019   | William Elias Alves  | Adição dos modelos de argumentações | 0.2  |
+|   03/04/2019   | William Elias Alves  | Inserção do conteúdo no mkdocs | 0.3  |
+
+
 ![argumentação](images/argumentacao.jpg)
 **fonte**: https://baudelivrosonline.files.wordpress.com/2016/07/argumento.jpg?w=676
 ***

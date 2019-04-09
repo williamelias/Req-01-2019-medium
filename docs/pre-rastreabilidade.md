@@ -1,3 +1,11 @@
+
+## Versionamento de edições
+| Data           | autor                | Descrição                           |Versão|
+|----------------|----------------------|-------------------------------------|------|
+| 30/03/2019     | Aline Laureano       | Inserção de texto base              |  0.1 |
+| 03/04/2019     | William Elias Alves  | Inserção de texto no mkdocs         |  0.2 |  
+
+
 # Definição
 
 A rastreabilidade dos requisitos pode ser definida como a capacidade de rastrear o requisito de um projeto, relacionando-o a outros elementos em que ele está vinculado. Ela pode ser estabelecida em duas direções: 
