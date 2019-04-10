@@ -8,7 +8,6 @@ nav:
         - Richpicture:  pre-rastreabilidade/richpicture.md
         - Argumentação:  pre-rastreabilidade/argumentacao.md
     - Elicitação de requisitos:
-        - visão geral: elicitacao/visaogeral.md
         - Brainstormings: elicitacao/brainstormings.md
         - Introspecções: elicitacao/introspeccao.md
         - Storytelling: elicitacao/storytelling_storybords.md

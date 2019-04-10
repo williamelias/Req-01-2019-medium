@@ -2,11 +2,14 @@
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
 |  09/04/2019    | Luís Cláudio T. Lima |Adição de texto base e introspecções | 0.1  |
-|  10/04/2019    | William Elias        | Adição do relato da introspecção de login v.2| 0.2|
-
+|  10/04/2019    | William Elias        |Adição do relato da introspecção de login v.2| 0.2|
+|  10/04/2019    | Aline Laureano       |Adição do relato da introspecção do comportamento do usuário na Página Inicial da aplicação | 0.3 |
+|  10/04/2019    | Aline Laureano       |Adição do relato da introspecção da utilização da página do Marcador | 0.4 |
+|  10/04/2019    | Aline Laureano       |Adição do relato da introspecção da Exploraração de tópicos | 0.5 |
+|  10/04/2019    | Matheus Blanco       |Adição do relato da introspecção do Usuário no processo de criação de uma nova _Story_ | 0.6 |
 
 ## Definição
-Introspecção é uma técnica que cosiste em entender quais propriedades o sistema deve possuir para que seja um sucesso. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.
+Introspecção é uma técnica que consiste em entender quais propriedades o sistema deve possuir para que ele seja um sucesso. A introspecção deve ser usada como uma forma de imaginar o caminho que um usuário ou qualquer outro stakeholder fará no sistema. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.
 
 ***
 ## Introspecções Desenvolvidas
@@ -29,6 +32,40 @@ Abaixo estão citadas funcionalidades que devam estar presentes na página inici
 * Ter um botão de redirecionamento à categorias como: “ Politics”;
 * Ter um botão de redirecionamento à categorias como: “Design”;
 * Ter um botão de redirecionamento à categorias como:  “Human Parts”;
+* Ter um botão de redirecionamento à categorias como: “Collections”;
+* Ter um botão de redirecionamento à informações técnicas (código) do software;
+* Ter um botão de redirecionamento à uma página dedicada aos criadores do Medium;
+* Vizualizar tempo média de leitura de cada artigo;
+* Ter um botão de redirecionamento à página de vagas de trabalho disponíveis no Medium;
+* Ter um botão de redirecionamento ao termo de política e privacidade;
+* Ter um botão “More” para outros assuntos diversos;
+* Ter um botão de redirecionamento à “OneZero” para assuntos relacionados à tendências futurísticas;
+* Ter um botão “Home” para voltar à página inicial;
+* Ter um campo de busca para o usuário encontrar o que deseja;
+* Dar ao usuário a possibilidade de dar “Upgrade” em sua conta;
+* Possibilitar que o usuário possa acessar o seu perfil;
+* Possibilitar que o usuário possa receber notificações do sistema;
+* Ter um botão de redirecionamento à notificações;
+* Possibilitar que o usuário possa salvar artigos em sua coleção para que leia futuramente;
+* Possibilitar que o usuário possa ver a data de publicação do artigo;
+* Possibilitar que o usuário solicite ver artigos com temas relacionados aos artigos expostos na página principal;
+
+######[Relato de introspecção 1 - V2.0]
+
+**Relator(es): Aline e Gabriel**
+
+i. **Design intuitivo:** permite ao usuário navegar pela home page conseguindo entender o significado de todas as áreas mostradas no site.
+
+ii. **Variedade de artigos:** apresenta ao usuário o acesso a uma variedade de artigos expostos na home page com a informação do tempo médio de leitura que cada artigo leva além de mostrar a data de publicação dos artigos mais a possibilidade de permitir que o usuário veja artigos com temas relacionados aos artigos expostos na página principal.
+Sistema de Categorias: permite ao usuário não logado visualizar conteúdo relacionado a um tema específico como: “Culture”, “Tech”, “Health”, “Startups”, “Politcs”, “Design”, “Human Parts” e “Collections”.
+
+iii. **Campo de buscas:** permite ao usuário encontrar o que ele deseja.
+
+iv. **Botões de redirecionamento -** para que o usuário seja redirecionado para páginas como: página de vagas de trabalho disponíveis no Medium, página dedicada aos autores do Medium, página do termo de política de privacidade, botão “More” para acessar artigos de mais assuntos diversos, botão “OneZero” para o acesso à assuntos com tendências futuristas, botão “Home” que redireciona o Medium para a sua Homepage;
+
+v. **Coleção de artigos:** caso o usuário esteja logado, permite que ele salve artigos em sua coleção;
+
+vi. **Notificações:** permite que o usuário tenha acesso às notificações do sistema e que ele possa acessar essas notificações através de um botão;
 
 ***
 ### Relato de introspecção 2: Comportamento do usuário no ato de se logar ou se cadastrar na aplicação.
@@ -42,7 +79,7 @@ Abaixo estão citadas funcionalidades que devam estar presentes na página inici
 * Ter a disposição o login via integração com a conta do  Facebook.
 * Ter a disposição o login via integração com a conta da  Twitter.
 * Ter a disposição o login via integração com a conta do linkedin.
-* Ter a opção de manter conectado. 
+* Ter a opção de manter conectado.
 * Ter os campos para login via e-mail e senha.
 * Ter os campos para login via nome de usuário e senha.
 * Ao realizar um login com sucesso ser redirecionado à página principal da aplicação.
@@ -54,25 +91,31 @@ Se houver inconsistência nos dados de login.
 
 * Ter um botão ou área, facilmente identificável para o cadastro.
 * Inserir o email, nome, sobrenome, senha e telefone para o cadastro.
-* A senha deverá ter no mínimo 8 caracteres alfanuméricos. 
+* A senha deverá ter no mínimo 8 caracteres alfanuméricos.
 * O nome de usuário não deve ser o mesmo do nome(comum).
 * Ter a confirmação de cadastro com sucesso.
 * Ter a resposta visual de dados inseridos inválidos.
-***
-**V2.0**
+* Ter a resposta visual quando os dados inseridos forem repetidos, quando for feita uma busca no banco de dados
+* Inserir áreas de interesses, em relação às publicações disponíveis
+* Ao realizar um cadastro com sucesso, ser redirecionado à página principal já logado
+
+######[Relato de introspecção 2 - V2.0]
 
 **Relator: William Elias Alves**
 
 **Usuário não cadastrado**: Usuário com acesso a área comum, no processo de criação de um novo cadastro.
 
 i - Consegue facilmente encontrar a área de cadastro, sendo possível somente com o cadastro via integração com o Google ou Facebook;
+
 ii - Ao realizar cadastro com sucesso, já logado, o usuário é redirecionado a uma página de escolha de seus interesses, em relação às publicações disponíveis no banco de dados .
 
 
 **Usuário não logado**:  Usuário cadastrado na aplicação, no processo de logar com suas credenciais.
 
 i - Consegue facilmente identificar a área de acesso ao login, conseguindo se conectar via integração de redes sociais (Facebook e Twitter), integração com sua conta do Google ou inserindo seu e-mail cadastrado;
+
 ii - A disposição está a possibilidade de se manter conectado;
+
 iii - Ao realizar um login com sucesso ser redirecionado à página principal da aplicação, essa página estará customizada com seus interesses escolhidos depois de se cadastrar na plataforma.
 
 ***
@@ -99,6 +142,26 @@ Ao meu entender, para que o Medium possa prover uma experiência efetiva para um
 * Possibilidade de adicionar imagens, gráficos, links, código no corpo do texto, de maneira a estarem diferenciáveis e de fácil visualização;
 * Poder adicionar tags na descrição de seu texto, para que o mesmo seja agrupado com outros que tratem do mesmo * assunto de maneira a facilitar sua visibilidade;
 * Possibilidade de customização de link, para que a identificação do texto por leitores próximos ao escritor seja facilitada;
+* Possibilidade de se realizar a revisão e visualização da prévia da história;
+* Possibilidade de ajustar e escolher um horário de publicação para a história.
+
+######[Relato de introspecção 3 - V2.0]
+
+**Relator: Matheus Blanco**
+
+**Criação de New Story:** Usuário logado, com o intuito de criar uma nova história para publicar.
+
+i - Deve clicar no ícone de perfil no canto direito de sua tela para ver as opções existentes;
+
+ii - Consegue facilmente achar a opção de New Story;
+
+iii - Aparece uma tela limpa com campos para se escrever título e corpo do texto. A tela é de fácil utilização;
+
+iv - O usuário então facilmente encontra o botão verde de publicação;
+
+v - É mostrada uma tela com uma prévia da história, um campo para se adicionar tags e um botão que permitiria que curadores recomendar a história para os leitores do publicador.
+
+vi - O usuário encontra outro botão verde com os dizeres "Publish now", e o aperta para publicar a história.
 
 ***
 
@@ -118,37 +181,46 @@ Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presente
 * Fácil recuperação de um artigo salvo
 * Registro do ponto em que o artigo salvo foi fechado
 
-***
+######[Relato de introspecção 4 - V2.0]
 
+**Relator(es): Aline e Guilherme**
+
+i. **Botão de Marcador ou Bookmark:** apresenta-se como um botão com um ícone auto-explicativo que se mantém visível ao longo do corpo do texto e permite a diferenciação clara entre artigos salvos e não salvos além de apresentar um feedback de cada operação realizada com esse botão;
+
+ii. **Listagem de artigos salvos:** para um usuário logado, apresenta uma lista de todos os arquivos salvos por ele para uma fácil recuperação do artigo e também registra o ponto em que cada artigo salvo foi fechado;
+
+***
 ### Relato de introspecção 5: Exploraração de  Tópicos
 
 **Relator: Luís Cláudio**
 
 Funcionalidades que devam estar presentes na página para que o Medium possa prover um experiência efetiva na exploração da variedade de tópicos e assuntos que o mesmo possui:
 
-* Design intuitivo;	
+* Design intuitivo;
 * Página que contenha a todas as categorias de artigos do site;
-* Todas 	as categorias de artigos sendo cobertas pelos títulos:	
-    - Arts & Entertainment	
-    - Industry	
-    - Innovation & Tech	
-    - Life	
+* Todas 	as categorias de artigos sendo cobertas pelos títulos:
+    - Arts & Entertainment
+    - Industry
+    - Innovation & Tech
+    - Life
     - Society
 
-***
+######[Relato de introspecção 5 - V2.0]
 
+**Relator(es): Aline e Luís**
+
+i. **Design intuitivo -** apresenta-se como uma página que permite uma fácil navegação e que contenha todas as categorias do site - classificadas em títulos como: “Arts & Entertainment”, “Industry”, “Innovation & Tech”, “Life” e “Society”.
+
+***
 ### Relato de introspecção 6: Customização de Interesses
 
 **Relator: Pedro Rodrigues**
 
-* Deve ser capaz de seguir Blogs. 
-* Deve gerar uma zona de conforto de conteúdos ao leitor. 
-* Deve mostrar assuntos em tendência ultimamente. 
-* Deve mostrar uma lista dos Blogs e escritores já seguidos pelo leitor. 
-* Deve ser capaz de deixar de seguir Blogs e escritores. 
-* Deve ser capaz de seguir categorias. 
-* Deve ser capaz de seguir Blogs listados em categorias específicas. 
-* Deve mostrar escritores sugeridos para os interesses do leitor. 
-
-
-
+* Deve ser capaz de seguir Blogs.
+* Deve gerar uma zona de conforto de conteúdos ao leitor.
+* Deve mostrar assuntos em tendência ultimamente.
+* Deve mostrar uma lista dos Blogs e escritores já seguidos pelo leitor.
+* Deve ser capaz de deixar de seguir Blogs e escritores.
+* Deve ser capaz de seguir categorias.
+* Deve ser capaz de seguir Blogs listados em categorias específicas.
+* Deve mostrar escritores sugeridos para os interesses do leitor.
