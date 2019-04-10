@@ -1,7 +1,9 @@
 ## Versionamento de edições
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|   09/04/2019   |   william elias alves| Inserção do texto base e primeira versão dos storytellings e  storybords| 0.1  |
+|   09/04/2019   |  william elias alves | Inserção do texto base e primeira versão dos storytellings e                                              storybords                          | 0.1  |
+|   09/04/2019   |  Gabriel Filipe Manso Araujo | Inserção de storytellings e storyboards | 0.2  |
+
 
 # Descrição 
 Por meio da aplicação de algumas técnicas de elicitação de requisitos os foi decidido que cada integrante do grupo focasse em uma área da plataforma MEDIUM. Mediante a utilização da técnica de storytelling, foram concebidos modelos de storybords.
