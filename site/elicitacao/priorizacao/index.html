@@ -1,258 +1,831 @@
-## Versionamento de edições
-| Data           | autor                | Descrição                           |Versão|
-|----------------|----------------------|-------------------------------------|------|
-|09/04/2019|Pedro Rodrigues|Adiciona o Moscow|0.1|
-|09/04/2019|Guilherme Marques|Adiciona a Lista de Dependência|0.2|
-|09/04/2019|William Elias |Adicionando tabela FTF v.1|0.3|
-|10/04/2019|William Elias |Modificando texto do requisito R004 |0.4|
+<!DOCTYPE html>
+<!--[if IE 8]><html class="no-js lt-ie9" lang="en" > <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" lang="en" > <!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  
+  <link rel="shortcut icon" href="../../img/favicon.ico">
+  <title>Priorização - MEDIUM-Requisitos(2019)</title>
+  <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
-# Lista de requisitos elicitados
+  <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../css/theme_extra.css" type="text/css" />
+  <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css">
+  <link href="../../extra.css" rel="stylesheet">
+  
+  <script>
+    // Current page data
+    var mkdocs_page_name = "Prioriza\u00e7\u00e3o";
+    var mkdocs_page_input_path = "elicitacao/priorizacao.md";
+    var mkdocs_page_url = null;
+  </script>
+  
+  <script src="../../js/jquery-2.1.1.min.js" defer></script>
+  <script src="../../js/modernizr-2.8.3.min.js" defer></script>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script> 
+  
+</head>
 
-**Descrição:** Requisitos elicitados mediante a aplicação das técnicas de _Brainstorming_, introspecção, mapas mentais, storytelling e storybords.
+<body class="wy-body-for-nav" role="document">
 
-|   ID |            Requisito                                               | 
-|------|--------------------------------------------------------------------| 
-| R001 | Responsividade                                                     | 
-| R002 | Portabilidade mobile ios                                           | 
-| R003 | Portabilidade mobile android                                       | 
-| R004 | Pesquisar artigos por nome                                         | 
-| R005 | Visualizar data de publicação dos artigos                          | 
-| R006 | Política de privacidade                                            | 
-| R007 | Paleta de cores monocromáticas no site                             | 
-| R008 | Acessar a área de membro                                           | 
-| R009 | Visualizar artigos populares                                       | 
-| R010 | Criar nova 'serie'                                                 | 
-| R011 | Inserir título                                                     | 
-| R012 | inserir conteúdo                                                   | 
-| R013 | Inserir nova página de conteúdo                                    | 
-| R014 | inserir imagem                                                     | 
-| R015 | Editar serie                                                       | 
-| R016 | Deletar serie                                                      | 
-| R017 | Ver status                                                         | 
-| R018 | Escrever 'new story'                                               | 
-| R019 | visualizar rascunhos                                               | 
-| R020 | Visualizar stories publicadas                                      | 
-| R021 | Importar 'story'                                                   | 
-| R022 | Editar story                                                       | 
-| R023 | Deletar story                                                      | 
-| R024 | Aplaudir um texto lido                                             | 
-| R025 | Compartilhar texto lido no Facebook ou  Instagram                  | 
-| R026 | Comentar no corpo do texto                                         | 
-| R027 | receber notificações de textos publicados por autores seguidos     | 
-| R028 | Seguir escritores                                                  | 
-| R029 | Seguir usuários                                                    | 
-| R030 | Escutar podcasts                                                   | 
-| R031 | Selecionar tema de artigos                                         | 
-| R032 | Visualizar textos publicados por um escritor em seu perfil         | 
-| R033 | Ter recomendações de leituras conforme histórico de leitura        | 
-| R034 | Ver os artigos favoritados                                         | 
-| R035 | Ver os artigos curtidos                                            | 
-| R036 | Visualizar perfis de outros usuários                               | 
-| R037 | Favoritar publicação                                               | 
-| R038 | Visualizar comentários da publicação                               | 
-| R039 | Reportar publicação                                                | 
-| R040 | Bloquear usuário                                                   | 
-| R041 | Editar perfil de usuário                                           | 
-| R042 | Salvar/cancelar edição                                             | 
-| R043 | Visualizar autores seguidos                                        | 
-| R044 | Visualizar seguidores                                              | 
-| R045 | Visualizar 'claps'                                                 | 
-| R046 | visualizar próprio perfil                                          | 
-| R047 | Visualizar claps em suas publicações                               | 
-| R048 | Ver seus seguidores                                                | 
-| R049 | Visualizar estatisticas em gráfico                                 | 
-| R050 | aprender mais sobre estatíticas                                    | 
-| R051 | Visualizar marcações                                               | 
-| R052 | Ler artigos marcados                                               | 
-| R053 | Visualizar autores seguidos                                        | 
-| R054 | Criar publicação                                                   | 
-| R055 | visualizar rascunhos                                               | 
-| R056 | Visualizar pessoas que foram seguidas por você                     | 
-| R057 | Visualizar Publicações seguidas                                    | 
-| R058 | selecionar/remover tópicos de interesse                            | 
-| R059 | Deixar de seguir usuários                                          | 
-| R060 | Deixar de seguir publicações                                       | 
-| R061 | Ativar/desativar modo noturno                                      | 
-| R062 | Automatizar modo noturno                                           | 
-| R063 | Editar email                                                       | 
-| R064 | salvar/cancelar edição de e-mail                                   | 
-| R065 | Selecionar périodo de  sugestão de artigos                         | 
-| R066 | Desativar sugestão de artigos                                      | 
-| R067 | Ativar/desativar boletim informativo                               | 
-| R068 | Selecionar tema do boletim informativo                             | 
-| R069 | Ativar/desativar recomendações de stories                          | 
-| R070 | Ativar/desativar notificação por e-mail                            | 
-| R071 | Ativar/desativar notificação social                                | 
-| R072 | Selecionar privacidade de menções                                  | 
-| R073 | Desativar menções                                                  | 
-| R074 | Conectar com redes sociais (faceboo/twitter)                       | 
-| R075 | Conectar com Google                                                | 
-| R076 | Mostrar links para facebook e twitter na página de perfil          | 
-| R077 | editar nome de usuário                                             | 
-| R078 | Permitir/bloquear leitura de notas privadas em seus stories        | 
-| R079 | Visualizar usuários bloqueados                                     | 
-| R080 | Gerenciar usuários bloqueados                                      | 
-| R081 | Fazer download de suas informações                                 | 
-| R082 | Deslogar de outras sessões                                         | 
-| R083 | Desativar sua conta                                                | 
-| R084 | Deletar sua conta                                                  | 
-| R085 | Ativar/desativar notificação de novas funcionalidades da aplicação | 
-| R086 | Gerenciar atualizações de seus escritores                          | 
-| R087 | Receber e-mail quando receber clap                                 | 
-| R088 | Tutorial das áreas da aplicação                                    | 
-| R089 | Acessar glossário MEDIUM                                           | 
-| R090 | Responder questionário de satisfação                               | 
-| R091 | Pesquisar tópico de ajuda                                          | 
-| R092 | Abrir sidebar que inicia interface do chatbot                      | 
-| R093 | Fechar sidebar do chatbot                                          | 
-| R094 | Enviar dúvida para o chatbot                                       | 
-| R095 | Clicar em sugestões de dúvidas comuns                              | 
-| R096 | Acessar configurações do chatbot                                   | 
-| R097 | Ativar/desativar o som de recebimento de mensagens de resposta     | 
-| R098 | Enviar transcript do chatbot via e-mail                            | 
-| R099 | Baixar transcript pelo navegador                                   | 
-| R100 | Escolher plano                                                     | 
-| R101 | Inserir forma de pagamento                                         | 
-| R102 | Retirar limites de histórias                                       | 
-| R103 | Login via redes sociais (facebook ou twitter)                      | 
-| R104 | Login via Google                                                   | 
-| R105 | Login via E-mail                                                   | 
-| R106 | Cadastrar com Google                                               | 
-| R107 | Cadastrar com Facebook                                             | 
+  <div class="wy-grid-for-nav">
 
- ***
-# Moscow
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+      <div class="wy-side-nav-search">
+        <a href="../.." class="icon icon-home"> MEDIUM-Requisitos(2019)</a>
+        <div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
 
-ID | Funcionalidade conforme a área | Prioridade 
-------- | ------- | -------
-x | **Aplicação** | x
-R001 | Responsividade | Must 
-R002 | Portabilidade mobile ios | Could
-R003 | Portabilidade mobile android | Could
-R004 | Pesquisar artigos por nome | Should
-R005 | Visualizar data de publicação dos artigos | Could
-R006 | Política de privacidade | Must
-R007 | Paleta de cores monocromáticas no site | Should
-R008 | Acessar a área de membro | Must
-R009 | Visualizar artigos populares | Must
-x | **Séries** | x
-R010 | Criar nova 'serie' | Must
-R011 | Inserir título | Must
-R012 | Inserir conteúdo | Must
-R013 | Inserir nova página de conteúdo | Should
-R014 | Inserir imagem | Should
-R015 | Editar série | Should
-R016 | Deletar série | Must
-R017 | Ver status | Should
-x | **Story** | x
-R018 | Escrever 'new story' | Must
-R019 | Visualizar rascunhos | Should
-R020 | Visualizar stories publicadas | Must
-R021 | Importar 'story' | Would
-R022 | Editar story | Should
-R023 | Deletar story | Must
-x | **Leitor/Ouvinte** | x
-R024 | Aplaudir um texto lido | Could
-R025 | Compartilhar texto lido no Facebook ou Instagram | Could
-R026 | Comentar no corpo do texto | Could
-R027 | Receber notificações de textos publicados por autores seguidos | Should
-R028 | Seguir escritores | Should
-R029 | Seguir usuários | Should
-R030 | Escutar podcasts | Should
-R031 | Selecionar tema de artigos | Must
-R032 | Visualizar textos publicados por um escritor em seu perfil | Should
-R033 | Ter recomendações de leituras conforme histórico de leitura | Should
-R034 | Ver os artigos favoritados | Should
-R035 | Ver os artigos curtidos | Should
-R036 | Visualizar perfis de outros usuários | Could
-R037 | Favoritar publicação | Should
-R038 | Visualizar comentários da publicação | Should
-R039 | Reportar publicação | Should
-R040 | Bloquear usuário | Should
-x | **Perfil** | x
-R041 | Editar perfil de usuário | Must
-R042 | Salvar/cancelar edição | Should
-R043 | Visualizar autores seguidos | Should
-R044 | Visualizar seguidores | Should
-R045 | Visualizar 'claps' | Could
-R046 | Visualizar próprio perfil | Must
-R047 | Visualizar claps em suas publicações | Would
-R048 | Ver seus seguidores | Could
-x | **Stats** | x
-R049 | Visualizar estatisticas em gráfico | Would
-R050 | Aprender mais sobre estatíticas | Would
-x | **Bookmarks** | x
-R051 | Visualizar marcações | Could
-R052 | Ler artigos marcados | Should
-x | **Publications** | x
-R053 | Visualizar autores seguidos | Could 
-R054 | Criar publicação | Must
-R055 | Visualizar rascunhos | Should
-x | **Customize your interests** | x
-R056 | Visualizar pessoas que foram seguidas por você | Should
-R057 | Visualizar Publicações seguidas | Should
-R058 | Selecionar/remover tópicos de interesse | Could
-R059 | Deixar de seguir usuários | Should
-R060 | Deixar de seguir publicações | Must
-x | **Configurações** | x
-R061 | Ativar/desativar modo noturno | Would 
-R062 | Automatizar modo noturno | Would
-R063 | Enviar e-mail quando tiver o texto destacado | Would
-R064 | Salvar/cancelar edição de e-mail | Must
-R065 | Selecionar périodo de sugestão de artigos diária | Could
-R066 | Desativar sugestão de artigos | Should
-R067 | Ativar/desativar boletim informativo | Should 
-R068 | Selecionar tema do informativo | Could
-R069 | Ativar/desativar recomendações de stories | Could
-R070 | Ativar/desativar notificação por e-mail | Must
-R071 | Ativar/desativar notificação social | Must
-R072 | Selecionar privacidade de menções | Should
-R073 | Desativar menções | Should
-R074 | Conectar com redes sociais (Facebook/Twitter) | Could
-R075 | Conectar com Google | Could
-R076 | Mostrar links para Facebook e Twitter na página de perfil | Could 
-R077 | Editar nome de usuário | Could
-R078 | Permitir/bloquear leitura de notas privadas em seus stories | Should
-R079 | Visualizar usuários bloqueados | Could
-R080 | Gerenciar usuários bloqueados | Could
-R081 | Fazer download de suas informações | Could
-R082 | Deslogar de outras sessões | Must
-R083 | Desativar sua conta | Must
-R084 | Deletar sua conta | Must
-R085 | Ativar/desativar notificação de novas funcionalidades da aplicação | Must
-R086 | Gerenciar atualizações de seus escritores | Could
-R087 | Enviar e-mail quando receber clap | Would
-x | **Help Page** | x
-R088 | Tutorial das áreas da aplicação | Must
-R089 | Acessar glossário MEDIUM | Should
-R090 | Responder questionário de satisfação | Could
-R091 | Pesquisar tópico de ajuda | Should
-x | **Medium ChatBot** | x
-R092 | Abrir sidebar do chatbot | Should
-R093 | Fechar sidebar do chatbot | Should
-R094 | Enviar dúvida para o chatbot | Must
-R095 | Clicar em sugestões de dúvidas comuns | Should
-R096 | Acessar configurações do chatbot | Should
-R097 | Ativar/desativar o som de recebimento de mensagens de resposta | Must
-R098 | Enviar transcript do chatbot via e-mail | Could
-R099 | Baixar transcript pelo navegador | Should
-x | **Medium Membership** | x
-R100 | Escolher plano | Should
-R101 | Inserir como forma de pagamento | Must
-R102 | Retirar limites de histórias | Must
-x | **Login/Cadastro** | x
-R103 | Login via redes sociais (Facebook ou Twitter) | Could
-R104 | Login via Google | Could
-R105 | Login via E-mail | Should
-R106 | Cadastrar com Google | Could
-R107 | Cadastrar com Facebook |Could
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+	<ul class="current">
+	  
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../..">Home</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../baseline/">Baseline</a>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Pré-rastreabilidade</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../../pre-rastreabilidade/pre-rastreabilidade/">Definição</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../pre-rastreabilidade/5w2h/">5W2H</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../pre-rastreabilidade/richpicture/">Richpicture</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../../pre-rastreabilidade/argumentacao/">Argumentação</a>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <span class="caption-text">Elicitação de requisitos</span>
+    <ul class="subnav">
+                <li class="">
+                    
+    <a class="" href="../visaogeral/">visão geral</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../brainstormings/">Brainstormings</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../introspeccao/">Introspecções</a>
+                </li>
+                <li class="">
+                    
+    <a class="" href="../storytelling_storybords/">Storytelling</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Priorização</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
+    
 
-***
+    <li class="toctree-l3"><a href="#moscow">Moscow</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#lista-de-dependencias">Lista de dependências</a></li>
+        
+        </ul>
+    
 
-## Lista de dependências
+    <li class="toctree-l3"><a href="#first-thing-first">First Thing First</a></li>
+    
 
+    </ul>
+                </li>
+    </ul>
+	    </li>
+          
+            <li class="toctree-l1">
+		
+    <a class="" href="../../atas-reuniao/">Atas de reunião</a>
+	    </li>
+          
+        </ul>
+      </div>
+      &nbsp;
+    </nav>
 
-**Descrição:** Para que seja aplicada a técnica de priorização _First Things Firts_ (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" role="navigation" aria-label="top navigation">
+        <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+        <a href="../..">MEDIUM-Requisitos(2019)</a>
+      </nav>
+
+      
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../..">Docs</a> &raquo;</li>
+    
+      
+        
+          <li>Elicitação de requisitos &raquo;</li>
+        
+      
+    
+    <li>Priorização</li>
+    <li class="wy-breadcrumbs-aside">
+      
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main">
+            <div class="section">
+              
+                <h2 id="versionamento-de-edicoes">Versionamento de edições</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>autor</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>09/04/2019</td>
+<td>Pedro Rodrigues</td>
+<td>Adiciona o Moscow</td>
+<td>0.1</td>
+</tr>
+<tr>
+<td>09/04/2019</td>
+<td>Guilherme Marques</td>
+<td>Adiciona a Lista de Dependência</td>
+<td>0.2</td>
+</tr>
+<tr>
+<td>09/04/2019</td>
+<td>William Elias</td>
+<td>Adicionando tabela FTF v.1</td>
+<td>0.3</td>
+</tr>
+<tr>
+<td>10/04/2019</td>
+<td>William Elias</td>
+<td>Modificando texto do requisito R004</td>
+<td>0.4</td>
+</tr>
+</tbody>
+</table>
+<h1 id="moscow">Moscow</h1>
+<table>
+<thead>
+<tr>
+<th>ID</th>
+<th>Funcionalidade conforme a área</th>
+<th>Prioridade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x</td>
+<td><strong>Aplicação</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R001</td>
+<td>Responsividade</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R002</td>
+<td>Portabilidade mobile ios</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R003</td>
+<td>Portabilidade mobile android</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R004</td>
+<td>Pesquisar artigos por nome</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R005</td>
+<td>Visualizar data de publicação dos artigos</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R006</td>
+<td>Política de privacidade</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R007</td>
+<td>Paleta de cores monocromáticas no site</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R008</td>
+<td>Acessar a área de membro</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R009</td>
+<td>Visualizar artigos populares</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Séries</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R010</td>
+<td>Criar nova 'serie'</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R011</td>
+<td>Inserir título</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R012</td>
+<td>Inserir conteúdo</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R013</td>
+<td>Inserir nova página de conteúdo</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R014</td>
+<td>Inserir imagem</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R015</td>
+<td>Editar série</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R016</td>
+<td>Deletar série</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R017</td>
+<td>Ver status</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Story</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R018</td>
+<td>Escrever 'new story'</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R019</td>
+<td>Visualizar rascunhos</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R020</td>
+<td>Visualizar stories publicadas</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R021</td>
+<td>Importar 'story'</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>R022</td>
+<td>Editar story</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R023</td>
+<td>Deletar story</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Leitor/Ouvinte</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R024</td>
+<td>Aplaudir um texto lido</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R025</td>
+<td>Compartilhar texto lido no Facebook ou Instagram</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R026</td>
+<td>Comentar no corpo do texto</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R027</td>
+<td>Receber notificações de textos publicados por autores seguidos</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R028</td>
+<td>Seguir escritores</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R029</td>
+<td>Seguir usuários</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R030</td>
+<td>Escutar podcasts</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R031</td>
+<td>Selecionar tema de artigos</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R032</td>
+<td>Visualizar textos publicados por um escritor em seu perfil</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R033</td>
+<td>Ter recomendações de leituras conforme histórico de leitura</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R034</td>
+<td>Ver os artigos favoritados</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R035</td>
+<td>Ver os artigos curtidos</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R036</td>
+<td>Visualizar perfis de outros usuários</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R037</td>
+<td>Favoritar publicação</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R038</td>
+<td>Visualizar comentários da publicação</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R039</td>
+<td>Reportar publicação</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R040</td>
+<td>Bloquear usuário</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Perfil</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R041</td>
+<td>Editar perfil de usuário</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R042</td>
+<td>Salvar/cancelar edição</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R043</td>
+<td>Visualizar autores seguidos</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R044</td>
+<td>Visualizar seguidores</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R045</td>
+<td>Visualizar 'claps'</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R046</td>
+<td>Visualizar próprio perfil</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R047</td>
+<td>Visualizar claps em suas publicações</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>R048</td>
+<td>Ver seus seguidores</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Stats</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R049</td>
+<td>Visualizar estatisticas em gráfico</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>R050</td>
+<td>Aprender mais sobre estatíticas</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Bookmarks</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R051</td>
+<td>Visualizar marcações</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R052</td>
+<td>Ler artigos marcados</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Publications</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R053</td>
+<td>Visualizar autores seguidos</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R054</td>
+<td>Criar publicação</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R055</td>
+<td>Visualizar rascunhos</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Customize your interests</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R056</td>
+<td>Visualizar pessoas que foram seguidas por você</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R057</td>
+<td>Visualizar Publicações seguidas</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R058</td>
+<td>Selecionar/remover tópicos de interesse</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R059</td>
+<td>Deixar de seguir usuários</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R060</td>
+<td>Deixar de seguir publicações</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Configurações</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R061</td>
+<td>Ativar/desativar modo noturno</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>R062</td>
+<td>Automatizar modo noturno</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>R063</td>
+<td>Enviar e-mail quando tiver o texto destacado</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>R064</td>
+<td>Salvar/cancelar edição de e-mail</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R065</td>
+<td>Selecionar périodo de sugestão de artigos diária</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R066</td>
+<td>Desativar sugestão de artigos</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R067</td>
+<td>Ativar/desativar boletim informativo</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R068</td>
+<td>Selecionar tema do informativo</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R069</td>
+<td>Ativar/desativar recomendações de stories</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R070</td>
+<td>Ativar/desativar notificação por e-mail</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R071</td>
+<td>Ativar/desativar notificação social</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R072</td>
+<td>Selecionar privacidade de menções</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R073</td>
+<td>Desativar menções</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R074</td>
+<td>Conectar com redes sociais (Facebook/Twitter)</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R075</td>
+<td>Conectar com Google</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R076</td>
+<td>Mostrar links para Facebook e Twitter na página de perfil</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R077</td>
+<td>Editar nome de usuário</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R078</td>
+<td>Permitir/bloquear leitura de notas privadas em seus stories</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R079</td>
+<td>Visualizar usuários bloqueados</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R080</td>
+<td>Gerenciar usuários bloqueados</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R081</td>
+<td>Fazer download de suas informações</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R082</td>
+<td>Deslogar de outras sessões</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R083</td>
+<td>Desativar sua conta</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R084</td>
+<td>Deletar sua conta</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R085</td>
+<td>Ativar/desativar notificação de novas funcionalidades da aplicação</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R086</td>
+<td>Gerenciar atualizações de seus escritores</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R087</td>
+<td>Enviar e-mail quando receber clap</td>
+<td>Would</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Help Page</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R088</td>
+<td>Tutorial das áreas da aplicação</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R089</td>
+<td>Acessar glossário MEDIUM</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R090</td>
+<td>Responder questionário de satisfação</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R091</td>
+<td>Pesquisar tópico de ajuda</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Medium ChatBot</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R092</td>
+<td>Abrir sidebar do chatbot</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R093</td>
+<td>Fechar sidebar do chatbot</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R094</td>
+<td>Enviar dúvida para o chatbot</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R095</td>
+<td>Clicar em sugestões de dúvidas comuns</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R096</td>
+<td>Acessar configurações do chatbot</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R097</td>
+<td>Ativar/desativar o som de recebimento de mensagens de resposta</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R098</td>
+<td>Enviar transcript do chatbot via e-mail</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R099</td>
+<td>Baixar transcript pelo navegador</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Medium Membership</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R100</td>
+<td>Escolher plano</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R101</td>
+<td>Inserir como forma de pagamento</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>R102</td>
+<td>Retirar limites de histórias</td>
+<td>Must</td>
+</tr>
+<tr>
+<td>x</td>
+<td><strong>Login/Cadastro</strong></td>
+<td>x</td>
+</tr>
+<tr>
+<td>R103</td>
+<td>Login via redes sociais (Facebook ou Twitter)</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R104</td>
+<td>Login via Google</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R105</td>
+<td>Login via E-mail</td>
+<td>Should</td>
+</tr>
+<tr>
+<td>R106</td>
+<td>Cadastrar com Google</td>
+<td>Could</td>
+</tr>
+<tr>
+<td>R107</td>
+<td>Cadastrar com Facebook</td>
+<td>Could</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>Descrição:</strong> Para que seja aplicada a técnica de priorização <em>First Things Firts</em> (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.</p>
+<h2 id="lista-de-dependencias">Lista de dependências</h2>
+<!-- <?xml version="1.0" encoding="UTF-8"?> -->
 
 <table>
         <thead>
@@ -990,11 +1563,9 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
    </table>
-   
-***
 
-# First Thing First
-
+<hr />
+<h1 id="first-thing-first">First Thing First</h1>
 <table class="waffle" cellspacing="0" cellpadding="0">
       <thead>
          <tr>
@@ -1781,3 +2352,52 @@ R107 | Cadastrar com Facebook |Could
       </tr>
     </tbody>
   </table>
+              
+            </div>
+          </div>
+          <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../atas-reuniao/" class="btn btn-neutral float-right" title="Atas de reunião">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../storytelling_storybords/" class="btn btn-neutral" title="Storytelling"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
+  
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+    
+  </div>
+
+  Built with <a href="http://www.mkdocs.org">MkDocs</a> using a <a href="https://github.com/snide/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+      
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" style="cursor: pointer">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      
+      
+        <span><a href="../storytelling_storybords/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../atas-reuniao/" style="color: #fcfcfc">Next &raquo;</a></span>
+      
+    </span>
+</div>
+    <script>var base_url = '../..';</script>
+    <script src="../../js/theme.js" defer></script>
+      <script src="../../search/main.js" defer></script>
+
+</body>
+</html>
