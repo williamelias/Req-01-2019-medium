@@ -137,7 +137,7 @@ Funcionalidades que devam estar presentes na página para que o Medium possa pro
 
 ***
 
-### Relato de introspecção 2: Customização de Interesses
+### Relato de introspecção 6: Customização de Interesses
 
 **Relator: Pedro Rodrigues**
 

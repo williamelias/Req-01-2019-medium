@@ -4,9 +4,7 @@
 |09/04/2019|Pedro Rodrigues|Adiciona o Moscow|0.1|
 |09/04/2019|Guilherme Marques|Adiciona a Lista de Dependência|0.2|
 |09/04/2019|William Elias |Adicionando tabela FTF v.1|0.3|
-
-
-# Lista de requisitos
+|10/04/2019|William Elias |Modificando texto do requisito R004 |0.4|
 
 # Moscow
 
@@ -16,7 +14,7 @@ x | **Aplicação** | x
 R001 | Responsividade | Must 
 R002 | Portabilidade mobile ios | Could
 R003 | Portabilidade mobile android | Could
-R004 | Pesquisar de artigos | Should
+R004 | Pesquisar artigos por nome | Should
 R005 | Visualizar data de publicação dos artigos | Could
 R006 | Política de privacidade | Must
 R007 | Paleta de cores monocromáticas no site | Should
@@ -134,22 +132,27 @@ R105 | Login via E-mail | Should
 R106 | Cadastrar com Google | Could
 R107 | Cadastrar com Facebook |Could
 
+***
+
+**Descrição:** Para que seja aplicada a técnica de priorização _First Things Firts_ (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.
+
 ## Lista de dependências
 
 <!-- <?xml version="1.0" encoding="UTF-8"?> -->
 <table>
-          <!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+        <thead>
+         <tr>
+               <th></th>
+               <th>Funcionalidade conforme a área</th>
+               <th>Estado</th>
+               <th>Justificativa</th>
+         </tr>
+        </thead>
        <tr>
-              <td></td>
-              <td>Funcionalidade conforme a área</td>
-              <td>Estado</td>
-              <td>Justificativa</td>
-          </tr>
-       <tr>
-              <td>ID</td>
-              <td>Series</td>
-              <td></td>
-              <td></td>
+              <th>ID</th>
+              <th>Series</th>
+              <th></th>
+              <th></th>
           </tr>
        <tr>
               <td>R001</td>
@@ -200,8 +203,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de 'Criar nova serie'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Stories</td>
+              <th>ID</th>
+              <th>Stories</th>
               <td></td>
               <td></td>
           </tr>
@@ -242,8 +245,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de 'Escrever new storie'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Leitor/Ouvinte</td>
+              <th>ID</th>
+              <th>Leitor/Ouvinte</th>
               <td></td>
               <td></td>
           </tr>
@@ -350,8 +353,8 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Perfil</td>
+              <th>ID</th>
+              <th>Perfil</th>
               <td></td>
               <td></td>
           </tr>
@@ -404,8 +407,8 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Stats</td>
+              <th>ID</th>
+              <th>Stats</th>
               <td></td>
               <td></td>
           </tr>
@@ -440,8 +443,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de "Adicionar texto aos favoritos"</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Publications</td>
+              <th>ID</th>
+              <th>Publications</th>
               <td></td>
               <td></td>
           </tr>
@@ -464,8 +467,8 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Customize your interests</td>
+              <th>ID</th>
+              <th>Customize your interests</th>
               <td></td>
               <td></td>
           </tr>
@@ -500,8 +503,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de "seguir autores"</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Configurações</td>
+              <th>ID</th>
+              <th>Configurações</th>
               <td></td>
               <td></td>
           </tr>
@@ -668,8 +671,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de 'criar storie'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Help Page</td>
+              <th>ID</th>
+              <th>Help Page</th>
               <td></td>
               <td></td>
           </tr>
@@ -698,8 +701,8 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Medium ChatBot</td>
+              <th>ID</th>
+              <th>Medium ChatBot</th>
               <td></td>
               <td></td>
           </tr>
@@ -752,8 +755,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de 'abrir sidebar do chatbot'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Medium Membership</td>
+              <th>ID</th>
+              <th>Medium Membership</th>
               <td></td>
               <td></td>
           </tr>
@@ -776,8 +779,8 @@ R107 | Cadastrar com Facebook |Could
               <td>Depende de 'Inserir forma de pagamento'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Login/Cadastro</td>
+              <th>ID</th>
+              <th>Login/Cadastro</th>
               <td></td>
               <td></td>
           </tr>
@@ -812,8 +815,8 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Aplicação(visão geral)</td>
+              <th>ID</th>
+              <th>Aplicação(visão geral)</th>
               <td></td>
               <td></td>
           </tr>
@@ -872,6 +875,8 @@ R107 | Cadastrar com Facebook |Could
               <td></td>
           </tr>
    </table>
+   
+***
 
 # First Thing First
 
