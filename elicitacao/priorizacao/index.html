@@ -110,9 +110,6 @@
     <li class="toctree-l3"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
     
 
-    <li class="toctree-l3"><a href="#lista-de-requisitos">Lista de requisitos</a></li>
-    
-
     <li class="toctree-l3"><a href="#moscow">Moscow</a></li>
     
         <ul>
@@ -200,9 +197,14 @@
 <td>Adicionando tabela FTF v.1</td>
 <td>0.3</td>
 </tr>
+<tr>
+<td>10/04/2019</td>
+<td>William Elias</td>
+<td>Modificando texto do requisito R004</td>
+<td>0.4</td>
+</tr>
 </tbody>
 </table>
-<h1 id="lista-de-requisitos">Lista de requisitos</h1>
 <h1 id="moscow">Moscow</h1>
 <table>
 <thead>
@@ -235,7 +237,7 @@
 </tr>
 <tr>
 <td>R004</td>
-<td>Pesquisar de artigos</td>
+<td>Pesquisar artigos por nome</td>
 <td>Should</td>
 </tr>
 <tr>
@@ -820,22 +822,25 @@
 </tr>
 </tbody>
 </table>
+<hr />
+<p><strong>Descrição:</strong> Para que seja aplicada a técnica de priorização <em>First Things Firts</em> (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.</p>
 <h2 id="lista-de-dependencias">Lista de dependências</h2>
 <!-- <?xml version="1.0" encoding="UTF-8"?> -->
 
 <table>
-          <!--Created with XmlGrid Free Online XML Editor (http://xmlgrid.net)-->
+        <thead>
+         <tr>
+               <th></th>
+               <th>Funcionalidade conforme a área</th>
+               <th>Estado</th>
+               <th>Justificativa</th>
+         </tr>
+        </thead>
        <tr>
-              <td></td>
-              <td>Funcionalidade conforme a área</td>
-              <td>Estado</td>
-              <td>Justificativa</td>
-          </tr>
-       <tr>
-              <td>ID</td>
-              <td>Series</td>
-              <td></td>
-              <td></td>
+              <th>ID</th>
+              <th>Series</th>
+              <th></th>
+              <th></th>
           </tr>
        <tr>
               <td>R001</td>
@@ -886,8 +891,8 @@
               <td>Depende de 'Criar nova serie'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Stories</td>
+              <th>ID</th>
+              <th>Stories</th>
               <td></td>
               <td></td>
           </tr>
@@ -928,8 +933,8 @@
               <td>Depende de 'Escrever new storie'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Leitor/Ouvinte</td>
+              <th>ID</th>
+              <th>Leitor/Ouvinte</th>
               <td></td>
               <td></td>
           </tr>
@@ -1036,8 +1041,8 @@
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Perfil</td>
+              <th>ID</th>
+              <th>Perfil</th>
               <td></td>
               <td></td>
           </tr>
@@ -1090,8 +1095,8 @@
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Stats</td>
+              <th>ID</th>
+              <th>Stats</th>
               <td></td>
               <td></td>
           </tr>
@@ -1126,8 +1131,8 @@
               <td>Depende de "Adicionar texto aos favoritos"</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Publications</td>
+              <th>ID</th>
+              <th>Publications</th>
               <td></td>
               <td></td>
           </tr>
@@ -1150,8 +1155,8 @@
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Customize your interests</td>
+              <th>ID</th>
+              <th>Customize your interests</th>
               <td></td>
               <td></td>
           </tr>
@@ -1186,8 +1191,8 @@
               <td>Depende de "seguir autores"</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Configurações</td>
+              <th>ID</th>
+              <th>Configurações</th>
               <td></td>
               <td></td>
           </tr>
@@ -1354,8 +1359,8 @@
               <td>Depende de 'criar storie'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Help Page</td>
+              <th>ID</th>
+              <th>Help Page</th>
               <td></td>
               <td></td>
           </tr>
@@ -1384,8 +1389,8 @@
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Medium ChatBot</td>
+              <th>ID</th>
+              <th>Medium ChatBot</th>
               <td></td>
               <td></td>
           </tr>
@@ -1438,8 +1443,8 @@
               <td>Depende de 'abrir sidebar do chatbot'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Medium Membership</td>
+              <th>ID</th>
+              <th>Medium Membership</th>
               <td></td>
               <td></td>
           </tr>
@@ -1462,8 +1467,8 @@
               <td>Depende de 'Inserir forma de pagamento'</td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Login/Cadastro</td>
+              <th>ID</th>
+              <th>Login/Cadastro</th>
               <td></td>
               <td></td>
           </tr>
@@ -1498,8 +1503,8 @@
               <td></td>
           </tr>
        <tr>
-              <td>ID</td>
-              <td>Aplicação(visão geral)</td>
+              <th>ID</th>
+              <th>Aplicação(visão geral)</th>
               <td></td>
               <td></td>
           </tr>
@@ -1559,6 +1564,7 @@
           </tr>
    </table>
 
+<hr />
 <h1 id="first-thing-first">First Thing First</h1>
 <table class="waffle" cellspacing="0" cellpadding="0">
       <thead>
