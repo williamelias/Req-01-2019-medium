@@ -102,6 +102,28 @@
     <li class="toctree-l3"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
     
 
+    <li class="toctree-l3"><a href="#definicao">Definição</a></li>
+    
+
+    <li class="toctree-l3"><a href="#introspeccoes-desenvolvidas">Introspecções Desenvolvidas</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#introspeccao-1-pagina-inicial">Introspecção 1 - Página inicial</a></li>
+        
+            <li><a class="toctree-l4" href="#introspeccao-2-login-e-cadastro">Introspecção 2 - Login e Cadastro</a></li>
+        
+            <li><a class="toctree-l4" href="#introspeccao-3-new-story">Introspecção 3 - New Story</a></li>
+        
+            <li><a class="toctree-l4" href="#introspeccao-4-marcador">Introspecção 4 - Marcador</a></li>
+        
+            <li><a class="toctree-l4" href="#introspeccao-5-explorar-topicos">Introspecção 5 - Explorar Tópicos</a></li>
+        
+            <li><a class="toctree-l4" href="#introspeccao-6-customizar-interesses">Introspecção 6 - Customizar Interesses</a></li>
+        
+        </ul>
+    
+
     </ul>
                 </li>
                 <li class="">
@@ -168,13 +190,137 @@
 </thead>
 <tbody>
 <tr>
-<td></td>
-<td></td>
-<td></td>
-<td></td>
+<td>09/04/2019</td>
+<td>Luís Cláudio T. Lima</td>
+<td>Adição de texto base e introspecções</td>
+<td>0.1</td>
 </tr>
 </tbody>
 </table>
+<hr />
+<h2 id="definicao">Definição</h2>
+<p>Introspecção é uma técnica que cosiste em entender quais propriedades o sistema deve possuir para que seja um sucesso. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.</p>
+<hr />
+<h2 id="introspeccoes-desenvolvidas">Introspecções Desenvolvidas</h2>
+<h3 id="introspeccao-1-pagina-inicial">Introspecção 1 - Página inicial</h3>
+<p>Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco na experiência de leitores no software. As referências de funcionamento do Medium foram tiradas de experiência própria.</p>
+<p>O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,mais sérios. </p>
+<p>Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. </p>
+<p>Abaixo estão citadas funcionalidades que devam estar presentes na página inicial do Medium:</p>
+<ul>
+<li>Design intuitivo;</li>
+<li>Página inicial com variedade de artigos;</li>
+<li>Página inicial com categorias de artigos expostas;</li>
+<li>Ter um botão de redirecionamento à categorias como: “Culture”;</li>
+<li>Ter um botão de redirecionamento à categorias como: “Tech “;</li>
+<li>Ter um botão de redirecionamento à categorias como: “Health”;</li>
+<li>Ter um botão de redirecionamento à central de ajuda ao usuário;</li>
+<li>Ter um botão de redirecionamento à categorias como: “Self”;</li>
+<li>Ter um botão de redirecionamento à categorias como: “ Startups”;</li>
+<li>Ter um botão de redirecionamento à categorias como: “ Politics”;</li>
+<li>Ter um botão de redirecionamento à categorias como: “Design”;</li>
+<li>Ter um botão de redirecionamento à categorias como:  “Human Parts”;</li>
+</ul>
+<hr />
+<h3 id="introspeccao-2-login-e-cadastro">Introspecção 2 - Login e Cadastro</h3>
+<p>Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco no login/cadastro da aplicação.. As referências de funcionamento do Medium foram tiradas de experiência própria.</p>
+<p>O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,sérios.</p>
+<p>Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. </p>
+<p>Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presentes na área de login e cadastro de usuários.</p>
+<h4 id="loginlogout">Login/logout:</h4>
+<ul>
+<li>Ter um botão ou área, facilmente identificável, para o login.</li>
+<li>Ter a disposição o login via integração com a conta da  Google.</li>
+<li>Ter a disposição o login via integração com a conta do  Facebook.</li>
+<li>Ter a disposição o login via integração com a conta da  Twitter.</li>
+<li>Ter a disposição o login via integração com a conta do linkedin.</li>
+<li>Ter a opção de manter conectado. </li>
+<li>Ter os campos para login via e-mail e senha.</li>
+<li>Ter os campos para login via nome de usuário e senha.</li>
+<li>Ao realizar um login com sucesso ser redirecionado à página principal da aplicação.
+ter um campo de recuperar senha.</li>
+<li>Ao solicitar a recuperação de senha receber e-mail com link de recuperação de senha.
+Se houver inconsistência nos dados de login.</li>
+</ul>
+<h4 id="cadastro">Cadastro:</h4>
+<ul>
+<li>Ter um botão ou área, facilmente identificável para o cadastro.</li>
+<li>Inserir o email, nome, sobrenome, senha e telefone para o cadastro.</li>
+<li>A senha deverá ter no mínimo 8 caracteres alfanuméricos. </li>
+<li>O nome de usuário não deve ser o mesmo do nome(comum).</li>
+<li>Ter a confirmação de cadastro com sucesso.</li>
+<li>Ter a resposta visual de dados inseridos inválidos.</li>
+</ul>
+<hr />
+<h3 id="introspeccao-3-new-story">Introspecção 3 - New Story</h3>
+<p>Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco no escritor. As referências de funcionamento do Medium foram tiradas de experiência própria a partir da utilização da plataforma com foco no usuário escritor.</p>
+<p>O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,sérios. </p>
+<p>Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. </p>
+<p>Ao meu entender, para que o Medium possa prover uma experiência efetiva para um escritor, necessita dos seguintes requisitos.</p>
+<ul>
+<li>Design intuitivo e fácil de se usar;</li>
+<li>Possibilidade de diferenciar um texto por categorias;</li>
+<li>Possibilidade do escritor criar uma série de textos;</li>
+<li>Possibilidade de criar um espaço próprio, dentro do site, para publicações;</li>
+<li>Possibilidade de receber feedbacks de um leitor;</li>
+<li>Sugestões de texto que interessem o escritor, de maneira a dar mais aprendizado ao mesmo;</li>
+<li>Possibilidade de importar um texto de sites externos ao medium;</li>
+<li>Poder tornar o texto público ou privado para apenas um número definido de leitores;</li>
+<li>Poder enviar e compartilhar seu texto sem a necessidade de um agente terceiro para fazê-lo;</li>
+<li>Utilização de tecnologias de bancos de dados adequadas para guardar as informações e texto;</li>
+<li>Arquitetura boa o suficiente para que o site possa publicar os textos com facilidade;</li>
+<li>Botão acessível para a criação de uma New Story;</li>
+<li>Design de escrita simples e prático de se usar;</li>
+<li>Possibilidade de adicionar imagens, gráficos, links, código no corpo do texto, de maneira a estarem diferenciáveis e de fácil visualização;</li>
+<li>Poder adicionar tags na descrição de seu texto, para que o mesmo seja agrupado com outros que tratem do mesmo * assunto de maneira a facilitar sua visibilidade;</li>
+<li>Possibilidade de customização de link, para que a identificação do texto por leitores próximos ao escritor seja facilitada;</li>
+</ul>
+<hr />
+<h3 id="introspeccao-4-marcador">Introspecção 4 - Marcador</h3>
+<p>Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco na marcação de um artigo para uma leitura posterior.. As referências de funcionamento do Medium foram tiradas de experiência própria.</p>
+<p>O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,sérios. </p>
+<p>Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. </p>
+<p>Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presentes para salvar um artigo.</p>
+<h4 id="bookmark">Bookmark:</h4>
+<ul>
+<li>Botão visível ao longo do corpo do texto</li>
+<li>Ícone auto-explicativo da função</li>
+<li>Diferenciação clara de uma rtigo salvo e um não salvo</li>
+<li>Feedback de sucesso da operação</li>
+<li>Listagem de artigos salvos na minha conta</li>
+<li>Fácil recuperação de um artigo salvo</li>
+<li>Registro do ponto em que o artigo salvo foi fechado</li>
+</ul>
+<hr />
+<h3 id="introspeccao-5-explorar-topicos">Introspecção 5 - Explorar Tópicos</h3>
+<p>Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco no leitor. As referências de funcionamento do Medium foram tiradas de experiência própria a partir da utilização da plataforma com foco no usuário leitor.</p>
+<p>O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,mais sérios.</p>
+<p>Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra.</p>
+<p>Funcionalidades que devam estar presentes na página para que o Medium possa prover um experiência efetiva na exploração da variedade de tópicos e assuntos que o mesmo possui:</p>
+<ul>
+<li>Design intuitivo; </li>
+<li>Página que contenha a todas as categorias de artigos do site;</li>
+<li>Todas     as categorias de artigos sendo cobertas pelos títulos:  <ul>
+<li>Arts &amp; Entertainment  </li>
+<li>Industry  </li>
+<li>Innovation &amp; Tech </li>
+<li>Life  </li>
+<li>Society</li>
+</ul>
+</li>
+</ul>
+<hr />
+<h3 id="introspeccao-6-customizar-interesses">Introspecção 6 - Customizar Interesses</h3>
+<ul>
+<li>Deve ser capaz de seguir Blogs. </li>
+<li>Deve gerar uma zona de conforto de conteúdos ao leitor. </li>
+<li>Deve mostrar assuntos em tendência ultimamente. </li>
+<li>Deve mostrar uma lista dos Blogs e escritores já seguidos pelo leitor. </li>
+<li>Deve ser capaz de deixar de seguir Blogs e escritores. </li>
+<li>Deve ser capaz de seguir categorias. </li>
+<li>Deve ser capaz de seguir Blogs listados em categorias específicas. </li>
+<li>Deve mostrar escritores sugeridos para os interesses do leitor. </li>
+</ul>
               
             </div>
           </div>

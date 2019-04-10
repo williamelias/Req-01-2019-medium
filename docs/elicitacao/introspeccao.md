@@ -2,22 +2,18 @@
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
 |  09/04/2019    | Luís Cláudio T. Lima |Adição de texto base e introspecções | 0.1  |
+|  10/04/2019    | William Elias        | Adição do relato da introspecção de login v.2| 0.2|
 
-***
 
 ## Definição
 Introspecção é uma técnica que cosiste em entender quais propriedades o sistema deve possuir para que seja um sucesso. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.
 
 ***
-
 ## Introspecções Desenvolvidas
-###Introspecção 1 - Página inicial
+***
+### Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação
 
-Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco na experiência de leitores no software. As referências de funcionamento do Medium foram tiradas de experiência própria.
-
-O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,mais sérios. 
-
-Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. 
+**Relator: Gabriel Filipe**
 
 Abaixo estão citadas funcionalidades que devam estar presentes na página inicial do Medium:
 
@@ -35,18 +31,12 @@ Abaixo estão citadas funcionalidades que devam estar presentes na página inici
 * Ter um botão de redirecionamento à categorias como:  “Human Parts”;
 
 ***
+### Relato de introspecção 2: Comportamento do usuário no ato de se logar ou se cadastrar na aplicação.
 
-### Introspecção 2 - Login e Cadastro
+**Relator: William Elias Alves**
 
-Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco no login/cadastro da aplicação.. As referências de funcionamento do Medium foram tiradas de experiência própria.
-	
-O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,sérios.
+**Login**
 
-Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. 
-
-Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presentes na área de login e cadastro de usuários.
-
-#### Login/logout:
 * Ter um botão ou área, facilmente identificável, para o login.
 * Ter a disposição o login via integração com a conta da  Google.
 * Ter a disposição o login via integração com a conta do  Facebook.
@@ -59,22 +49,37 @@ Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presente
 ter um campo de recuperar senha.
 * Ao solicitar a recuperação de senha receber e-mail com link de recuperação de senha.
 Se houver inconsistência nos dados de login.
-#### Cadastro:
+
+**Cadastro:**
+
 * Ter um botão ou área, facilmente identificável para o cadastro.
 * Inserir o email, nome, sobrenome, senha e telefone para o cadastro.
 * A senha deverá ter no mínimo 8 caracteres alfanuméricos. 
 * O nome de usuário não deve ser o mesmo do nome(comum).
 * Ter a confirmação de cadastro com sucesso.
 * Ter a resposta visual de dados inseridos inválidos.
+***
+**V2.0**
+
+**Relator: William Elias Alves**
+
+**Usuário não cadastrado**: Usuário com acesso a área comum, no processo de criação de um novo cadastro.
+
+i - Consegue facilmente encontrar a área de cadastro, sendo possível somente com o cadastro via integração com o Google ou Facebook;
+ii - Ao realizar cadastro com sucesso, já logado, o usuário é redirecionado a uma página de escolha de seus interesses, em relação às publicações disponíveis no banco de dados .
+
+
+**Usuário não logado**:  Usuário cadastrado na aplicação, no processo de logar com suas credenciais.
+
+i - Consegue facilmente identificar a área de acesso ao login, conseguindo se conectar via integração de redes sociais (Facebook e Twitter), integração com sua conta do Google ou inserindo seu e-mail cadastrado;
+ii - A disposição está a possibilidade de se manter conectado;
+iii - Ao realizar um login com sucesso ser redirecionado à página principal da aplicação, essa página estará customizada com seus interesses escolhidos depois de se cadastrar na plataforma.
 
 ***
 
-### Introspecção 3 - New Story
-Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco no escritor. As referências de funcionamento do Medium foram tiradas de experiência própria a partir da utilização da plataforma com foco no usuário escritor.
+### Relato de introspecção 3: Usuário no processo de criação de uma nova _Story_
 
-O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,sérios. 
-
-Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. 
+**Relator: Matheus Blanco**
 
 Ao meu entender, para que o Medium possa prover uma experiência efetiva para um escritor, necessita dos seguintes requisitos.
 
@@ -97,13 +102,9 @@ Ao meu entender, para que o Medium possa prover uma experiência efetiva para um
 
 ***
 
-### Introspecção 4 - Marcador
-	
-Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco na marcação de um artigo para uma leitura posterior.. As referências de funcionamento do Medium foram tiradas de experiência própria.
+### Relato de introspecção 4: Utilização da página de Marcador
 
-O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,sérios. 
-
-Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra. 
+**Relator: Guilherme**
 
 Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presentes para salvar um artigo.
 
@@ -119,13 +120,9 @@ Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presente
 
 ***
 
-### Introspecção 5 - Explorar Tópicos
+### Relato de introspecção 5: Exploraração de  Tópicos
 
-Técnica de introspecção, utilizada para a elicitação de requisitos do Medium com foco no leitor. As referências de funcionamento do Medium foram tiradas de experiência própria a partir da utilização da plataforma com foco no usuário leitor.
-
-O Medium é um site de compartilhamento de textos e assuntos. Também funciona como uma rede social, entretanto, diferentemente de sites como Tumblr, Facebook e Twitter, o Medium tem um foco em assuntos mais técnicos e, geralmente,mais sérios.
-
-Existem duas maneira principais, não-oficializadas, de se utilizar do Medium. Um usuário do Medium pode ser tanto leitor quanto escritor. As funcionalidades pertencentes a cada vertente de utilização não se divergem de maneira significativa, entretanto, podem exigir requisitos diferentes uma da outra.
+**Relator: Luís Cláudio**
 
 Funcionalidades que devam estar presentes na página para que o Medium possa prover um experiência efetiva na exploração da variedade de tópicos e assuntos que o mesmo possui:
 
@@ -140,7 +137,9 @@ Funcionalidades que devam estar presentes na página para que o Medium possa pro
 
 ***
 
-### Introspecção 6 - Customizar Interesses
+### Relato de introspecção 2: Customização de Interesses
+
+**Relator: Pedro Rodrigues**
 
 * Deve ser capaz de seguir Blogs. 
 * Deve gerar uma zona de conforto de conteúdos ao leitor. 
