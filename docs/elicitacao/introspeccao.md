@@ -6,7 +6,8 @@
 |  10/04/2019    | Aline Laureano       |Adição do relato da introspecção do comportamento do usuário na Página Inicial da aplicação | 0.3 |
 |  10/04/2019    | Aline Laureano       |Adição do relato da introspecção da utilização da página do Marcador | 0.4 |
 |  10/04/2019    | Aline Laureano       |Adição do relato da introspecção da Exploraração de tópicos | 0.5 |
-|  10/04/2019    | Matheus Blanco       |Adição do relato da introspecção do Usuário no processo de criação de uma nova _Story_ | 0.6 |
+|  10/04/2019    | Matheus Salles Blanco       |Adição do relato da introspecção do Usuário no processo de criação de uma nova _Story_ | 0.6 |
+|  10/04/2019    | Matheus Salles Blanco       |Adição de requisitos elicitados em cada técnica | 0.7 |
 
 ## Definição
 Introspecção é uma técnica que consiste em entender quais propriedades o sistema deve possuir para que ele seja um sucesso. A introspecção deve ser usada como uma forma de imaginar o caminho que um usuário ou qualquer outro stakeholder fará no sistema. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.
@@ -66,6 +67,14 @@ iv. **Botões de redirecionamento -** para que o usuário seja redirecionado par
 v. **Coleção de artigos:** caso o usuário esteja logado, permite que ele salve artigos em sua coleção;
 
 vi. **Notificações:** permite que o usuário tenha acesso às notificações do sistema e que ele possa acessar essas notificações através de um botão;
+
+**Requisitos Elicitados**
+
+| ID | Requisitos Elicitados desta técnica |
+| ------ | ----------------------------- |
+|R005|Visualizar data de publicação dos artigos|
+|R006|Política de privacidade|
+
 
 ***
 ### Relato de introspecção 2: Comportamento do usuário no ato de se logar ou se cadastrar na aplicação.
@@ -163,6 +172,18 @@ v - É mostrada uma tela com uma prévia da história, um campo para se adiciona
 
 vi - O usuário encontra outro botão verde com os dizeres "Publish now", e o aperta para publicar a história.
 
+**Requisitos Elicitados**
+
+| ID | Requisitos Elicitados desta técnica |
+| ------ | ----------------------------- |
+|R010| Criar nova 'série'|
+|R012| Inserir  conteúdo|
+|R013|Editar série|
+|R014|Deletar série|
+|R021|Importar 'story'
+|R022|Editar story|
+|R023|Deletar story|
+
 ***
 
 ### Relato de introspecção 4: Utilização da página de Marcador
@@ -188,6 +209,13 @@ Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presente
 i. **Botão de Marcador ou Bookmark:** apresenta-se como um botão com um ícone auto-explicativo que se mantém visível ao longo do corpo do texto e permite a diferenciação clara entre artigos salvos e não salvos além de apresentar um feedback de cada operação realizada com esse botão;
 
 ii. **Listagem de artigos salvos:** para um usuário logado, apresenta uma lista de todos os arquivos salvos por ele para uma fácil recuperação do artigo e também registra o ponto em que cada artigo salvo foi fechado;
+
+**Requisitos Elicitados**
+
+| ID | Requisitos Elicitados desta técnica |
+| ------ | ----------------------------- |
+|R034|Ver os artigos favoritados|
+|R035|Ver os artigos curtidos|
 
 ***
 ### Relato de introspecção 5: Exploraração de  Tópicos
