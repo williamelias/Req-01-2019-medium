@@ -66,60 +66,61 @@
 | R051 | Visualizar marcações                                               | Storyboard - Bookmarking |
 | R052 | Ler artigos marcados                                               | Storyboard - Bookmarking |
 | R053 | Visualizar autores seguidos                                        | Storyboard - Bookmarking |
-| R054 | Criar publicação                                                   | Storytelling - Escritor - New Story
+| R054 | Criar publicação                                                   | Storytelling - Escritor - New Story |
+| R054 | Criar publicação                                                   | Storytelling - Escritor - New Story|
 | R055 | visualizar rascunhos                                               | StoryTelling - Escritor - New Story|
 | R056 | Visualizar pessoas que foram seguidas por você                     | StoryTelling - Escritor - New Story|
 | R057 | Visualizar Publicações seguidas                                    | Relato de Introspecção 6|
 | R058 | selecionar/remover tópicos de interesse                            | Relato de Introspecção 6|
 | R059 | Deixar de seguir usuários                                          | Relato de Introspecção 6|
 | R060 | Deixar de seguir publicações                                       | Relato de Introspecção 3|
-| R061 | Ativar/desativar modo noturno                                      | |
-| R062 | Automatizar modo noturno                                           | |
-| R063 | Editar email                                                       | |
-| R064 | salvar/cancelar edição de e-mail                                   | |
-| R065 | Selecionar périodo de  sugestão de artigos                         | |
-| R066 | Desativar sugestão de artigos                                      | |
-| R067 | Ativar/desativar boletim informativo                               | |
-| R068 | Selecionar tema do boletim informativo                             | |
-| R069 | Ativar/desativar recomendações de stories                          | |
-| R070 | Ativar/desativar notificação por e-mail                            | |
-| R071 | Ativar/desativar notificação social                                | |
-| R072 | Selecionar privacidade de menções                                  | |
-| R073 | Desativar menções                                                  | |
-| R074 | Conectar com redes sociais (facebook/twitter)                       | |
-| R075 | Conectar com Google                                                | |
-| R076 | Mostrar links para facebook e twitter na página de perfil          | |
-| R077 | editar nome de usuário                                             | |
-| R078 | Permitir/bloquear leitura de notas privadas em seus stories        | |
-| R079 | Visualizar usuários bloqueados                                     | |
-| R080 | Gerenciar usuários bloqueados                                      | |
-| R081 | Fazer download de suas informações                                 | |
-| R082 | Deslogar de outras sessões                                         | |
-| R083 | Desativar sua conta                                                | |
-| R084 | Deletar sua conta                                                  | |
-| R085 | Ativar/desativar notificação de novas funcionalidades da aplicação | |
-| R086 | Gerenciar atualizações de seus escritores                          | |
-| R087 | Receber e-mail quando receber clap                                 | |
-| R088 | Tutorial das áreas da aplicação                                    | |
-| R089 | Acessar glossário MEDIUM                                           | |
-| R090 | Responder questionário de satisfação                               | |
-| R091 | Pesquisar tópico de ajuda                                          | |
-| R092 | Abrir sidebar que inicia interface do chatbot                      | Observação - Fluxo - William |
-| R093 | Fechar sidebar do chatbot                                          | Observação - Fluxo - William |
-| R094 | Enviar dúvida para o chatbot                                       | |
-| R095 | Clicar em sugestões de dúvidas comuns                              | |
-| R096 | Acessar configurações do chatbot                                   | |
-| R097 | Ativar/desativar o som de recebimento de mensagens de resposta     | |
-| R098 | Enviar transcript do chatbot via e-mail                            | |
-| R099 | Baixar transcript pelo navegador                                   | |
-| R100 | Escolher plano                                                     | |
-| R101 | Inserir forma de pagamento                                         | |
-| R102 | Retirar limites de histórias                                       | |
-| R103 | Login via redes sociais (facebook ou twitter)                      | Relato de introspecção 2 |
-| R104 | Login via Google                                                   | Relato de introspecção 2 |
-| R105 | Login via E-mail                                                   | Relato de introspecção 2 |
-| R106 | Cadastrar com Google                                               | Relato de introspecção 2 |
-| R107 | Cadastrar com Facebook                                             | Relato de introspecção 2 |
+| R061 | Ativar/desativar modo noturno                                      | Observação configurações & Storytelling Configurações|
+| R062 | Automatizar modo noturno                                           | Observação configurações & Storytelling Configurações|
+| R063 | Editar email                                                       | Observação configurações & Storytelling Configurações|
+| R064 | salvar/cancelar edição de e-mail                                   | Observação configurações & Storytelling Configurações|
+| R065 | Selecionar périodo de  sugestão de artigos                         | Observação configurações & Storytelling Configurações|
+| R066 | Desativar sugestão de artigos                                      | Observação configurações & Storytelling Configurações|
+| R067 | Ativar/desativar boletim informativo                               | Observação configurações & Storytelling Configurações|
+| R068 | Selecionar tema do boletim informativo                             | Observação configurações & Storytelling Configurações|
+| R069 | Ativar/desativar recomendações de stories                          | Observação configurações & Storytelling Configurações|
+| R070 | Ativar/desativar notificação por e-mail                            | Observação configurações & Storytelling Configurações|
+| R071 | Ativar/desativar notificação social                                | Observação configurações & Storytelling Configurações|
+| R072 | Selecionar privacidade de menções                                  | Observação configurações & Storytelling Configurações|
+| R073 | Desativar menções                                                  | Observação configurações & Storytelling Configurações|
+| R074 | Conectar com redes sociais (facebook/twitter)                       | Observação configurações & Storytelling Configurações|
+| R075 | Conectar com Google                                                | Observação configurações & Storytelling Configurações|
+| R076 | Mostrar links para facebook e twitter na página de perfil          | Observação configurações & Storytelling Configurações|
+| R077 | editar nome de usuário                                             | Observação configurações & Storytelling Configurações|
+| R078 | Permitir/bloquear leitura de notas privadas em seus stories        | Observação configurações & Storytelling Configurações|
+| R079 | Visualizar usuários bloqueados                                     | Observação configurações & Storytelling Configurações|
+| R080 | Gerenciar usuários bloqueados                                      | Observação configurações & Storytelling Configurações|
+| R081 | Fazer download de suas informações                                 | Observação configurações & Storytelling Configurações|
+| R082 | Deslogar de outras sessões                                         | Observação configurações & Storytelling Configurações|
+| R083 | Desativar sua conta                                                | Observação configurações & Storytelling Configurações|
+| R084 | Deletar sua conta                                                  | Observação configurações & Storytelling Configurações|
+| R085 | Ativar/desativar notificação de novas funcionalidades da aplicação | Observação configurações & Storytelling Configurações|
+| R086 | Gerenciar atualizações de seus escritores                          | Observação configurações & Storytelling Configurações|
+| R087 | Receber e-mail quando receber clap                                 | Observação configurações & Storytelling Configurações|
+| R088 | Tutorial das áreas da aplicação                                    | Observação configurações & Storytelling Configurações|
+| R089 | Acessar glossário MEDIUM                                           | Observação configurações & Storytelling Configurações|
+| R090 | Responder questionário de satisfação                               | Observação Página de Ajuda|
+| R091 | Pesquisar tópico de ajuda                                          | Observação Página de Ajuda|
+| R092 | Abrir sidebar que inicia interface do chatbot                      | Observação Página de Ajuda|
+| R093 | Fechar sidebar do chatbot                                          | Observação Página de Ajuda|
+| R094 | Enviar dúvida para o chatbot                                       | Observação Página de Ajuda|
+| R095 | Clicar em sugestões de dúvidas comuns                              | Observação Página de Ajuda|
+| R096 | Acessar configurações do chatbot                                   | Observação Página de Ajuda|
+| R097 | Ativar/desativar o som de recebimento de mensagens de resposta     | Observação Página de Ajuda|
+| R098 | Enviar transcript do chatbot via e-mail                            | Observação Página de Ajuda|
+| R099 | Baixar transcript pelo navegador                                   | Observação Página de Ajuda|
+| R100 | Escolher plano                                                     | Observação Membership|
+| R101 | Inserir forma de pagamento                                         | Observação Membership|
+| R102 | Retirar limites de histórias                                       | Observação Membership|
+| R103 | Login via redes sociais (facebook ou twitter)                      | Relato de Introspecção 2|
+| R104 | Login via Google                                                   | Relato de Introspecção 2|
+| R105 | Login via E-mail                                                   | Relato de Introspecção 2|
+| R106 | Cadastrar com Google                                               | Relato de Introspecção 2|
+| R107 | Cadastrar com Facebook                                             | Relato de Introspecção 2|
 
  ***
 # Moscow
