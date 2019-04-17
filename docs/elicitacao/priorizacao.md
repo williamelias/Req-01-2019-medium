@@ -67,12 +67,12 @@
 | R052 | Ler artigos marcados                                               | Storyboard - Bookmarking |
 | R053 | Visualizar autores seguidos                                        | Storyboard - Bookmarking |
 | R054 | Criar publicação                                                   | Storytelling - Escritor - New Story
-| R055 | visualizar rascunhos                                               | |
-| R056 | Visualizar pessoas que foram seguidas por você                     | |
-| R057 | Visualizar Publicações seguidas                                    | |
-| R058 | selecionar/remover tópicos de interesse                            | |
-| R059 | Deixar de seguir usuários                                          | |
-| R060 | Deixar de seguir publicações                                       | |
+| R055 | visualizar rascunhos                                               | StoryTelling - Escritor - New Story|
+| R056 | Visualizar pessoas que foram seguidas por você                     | StoryTelling - Escritor - New Story|
+| R057 | Visualizar Publicações seguidas                                    | Relato de Introspecção 6|
+| R058 | selecionar/remover tópicos de interesse                            | Relato de Introspecção 6|
+| R059 | Deixar de seguir usuários                                          | Relato de Introspecção 6|
+| R060 | Deixar de seguir publicações                                       | Relato de Introspecção 3|
 | R061 | Ativar/desativar modo noturno                                      | |
 | R062 | Automatizar modo noturno                                           | |
 | R063 | Editar email                                                       | |
@@ -86,7 +86,7 @@
 | R071 | Ativar/desativar notificação social                                | |
 | R072 | Selecionar privacidade de menções                                  | |
 | R073 | Desativar menções                                                  | |
-| R074 | Conectar com redes sociais (faceboo/twitter)                       | |
+| R074 | Conectar com redes sociais (facebook/twitter)                       | |
 | R075 | Conectar com Google                                                | |
 | R076 | Mostrar links para facebook e twitter na página de perfil          | |
 | R077 | editar nome de usuário                                             | |
@@ -104,8 +104,8 @@
 | R089 | Acessar glossário MEDIUM                                           | |
 | R090 | Responder questionário de satisfação                               | |
 | R091 | Pesquisar tópico de ajuda                                          | |
-| R092 | Abrir sidebar que inicia interface do chatbot                      | |
-| R093 | Fechar sidebar do chatbot                                          | |
+| R092 | Abrir sidebar que inicia interface do chatbot                      | Observação - Fluxo - William |
+| R093 | Fechar sidebar do chatbot                                          | Observação - Fluxo - William |
 | R094 | Enviar dúvida para o chatbot                                       | |
 | R095 | Clicar em sugestões de dúvidas comuns                              | |
 | R096 | Acessar configurações do chatbot                                   | |
@@ -115,11 +115,11 @@
 | R100 | Escolher plano                                                     | |
 | R101 | Inserir forma de pagamento                                         | |
 | R102 | Retirar limites de histórias                                       | |
-| R103 | Login via redes sociais (facebook ou twitter)                      | |
-| R104 | Login via Google                                                   | |
-| R105 | Login via E-mail                                                   | |
-| R106 | Cadastrar com Google                                               | |
-| R107 | Cadastrar com Facebook                                             | |
+| R103 | Login via redes sociais (facebook ou twitter)                      | Relato de introspecção 2 |
+| R104 | Login via Google                                                   | Relato de introspecção 2 |
+| R105 | Login via E-mail                                                   | Relato de introspecção 2 |
+| R106 | Cadastrar com Google                                               | Relato de introspecção 2 |
+| R107 | Cadastrar com Facebook                                             | Relato de introspecção 2 |
 
  ***
 # Moscow
