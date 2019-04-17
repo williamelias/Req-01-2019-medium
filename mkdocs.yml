@@ -10,7 +10,8 @@ nav:
     - Elicitação de requisitos:
         - Brainstormings: elicitacao/brainstormings.md
         - Introspecções: elicitacao/introspeccao.md
-        - Storytelling: elicitacao/storytelling_storybords.md
+        - Storytelling: elicitacao/storytelling.md
+        - StoryBord: elicitacao/storybords.md
         - Priorização: elicitacao/priorizacao.md
     - Atas de reunião: atas-reuniao.md
 theme: readthedocs

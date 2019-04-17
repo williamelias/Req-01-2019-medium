@@ -8,6 +8,7 @@
 |   31/03/2019   | William Elias Alves  | Alteração da logo do MEDIUM             | 0.3  |
 |   03/04/2019   | William Elias Alves  | Inserção do texto no mkdocs         |  0.4 |  
 | 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento     |  0.5 |  
+| 17/04/2019     | William Elias Alves  | Adição do link para elicitação de requisitos    |  0.6 |  
 
 
 # Visão Geral
@@ -20,7 +21,7 @@ Repositório destinado a documentação dos modelos usados durante o processo de
 É a área da engenharia de software preocupada com os requisitos de software,e se dá por meio da coleta de requisitos, análise, modelagem e documentação dos mesmos.De uma forma mais direta, ela ocorre - não necessariamente de forma sequencial - por meio das seguintes etapas:
 
 * [Pré-rastreabilidade](pre-rastreabilidade/pre-rastreabilidade.md)
-* Elicitação de requisitos
+* [Elicitação de requisitos](elicitacao/brainstormings.md)
 * Modelagem
 * Análise
 * Pós-rastreabilidade
