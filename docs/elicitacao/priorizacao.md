@@ -6,6 +6,7 @@
 |09/04/2019|William Elias |Adicionando tabela FTF v.1|0.3|
 |10/04/2019|William Elias |Modificando texto do requisito R004 |0.4|
 |15/04/2019|Matheus Salles Blanco | Adicionando o Rastro na tabela de Lista de requisitos eliticitados | 0.5 |
+|15/04/2019|Matheus Salles Blanco e Pedro Rodrigues| Adicionando o Rastro na tabela de Lista de requisitos eliticitados | 0.6 |
 
 # Lista de requisitos elicitados
 
