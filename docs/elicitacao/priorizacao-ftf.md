@@ -2,7 +2,7 @@
 
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|17/04/2019|William Elias |Adicionando tabela dos dependências v.1|0.1|
+|17/04/2019|William Elias |Adicionando tabela do ftf v.1|0.1|
 
 # First Thing First
 

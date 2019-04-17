@@ -2,7 +2,7 @@
 
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|17/04/2019|William Elias |Adicionando tabela dos dependências v.1|0.1|
+|17/04/2019|William Elias |Adicionando tabela das dependências v.1|0.1|
 
 ## Lista de dependências
 
