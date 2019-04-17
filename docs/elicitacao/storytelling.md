@@ -4,7 +4,8 @@
 |   09/04/2019   |  william elias alves | Inserção do texto base e primeira versão dos storytellings| 0.1|
 |   09/04/2019   |  Gabriel Filipe Manso Araujo | Inserção de novos storytellings | 0.2  |
 |   15/04/2019   |   Matheus Salles Blanco| Adição dos requisitos elicitados em cada técnica| 0.3  |
-|   16/04/2019   |   William Elias Alves| Correção do link de acesso ao storytelling 'explorar tópicos' e adicão do link para storybords| 0.3  |
+|   16/04/2019   |   William Elias Alves| Correção do link de acesso ao storytelling 'explorar tópicos' e adicão do link para storybords| 0.4  |
+| 17/04/2019| William Elias Alves| Inserção da nova storytelling de configuração da aplicação e adição do rastro da mesma| 0.5|
 
 
 ##Descrição 
@@ -83,3 +84,47 @@ Assim que chegou em casa Gustavo ligou seu PC e entrou em tal site vendo uma var
 | ID | Requisitos Elicitados desta técnica |
 | ------ | ----------------------------- |
 |R004|Pesquisar artigos por nome|
+
+## Usuário, Configurando a aplicação
+
+Maria é uma usuária ávida da aplicação Medium, tanto em sua plataforma mobile quanto em sua plataforma web. Em todo seu tempo vago ela para e lê um artigo ou ouve um podcast. Em uma dessas leituras, Maria decide visualizar quais são as principais formas de configuração e personalização que a aplicação disponibiliza, tanto para ela, quanto para questões gerais do próprio site ou aplicativo.
+Ao acessar a página de ‘settings’ se depara com diversas guias, essas guias tinham os seguintes enfoques: 
+Configurações de email;
+Conecções;
+Conta;
+Membro (pago);
+Seguraça.
+
+Ao acessar a guia de configuração geral e e-mails, Maria percebeu que é possível...[LER MAIS](storytellings/Storytelling- configurando aplicação.docx)
+
+**Requisitos Elicitados**
+
+| ID | Requisitos Elicitados desta técnica |
+| ------ | ----------------------------- |
+|R061|Ativar/desativar modo noturno|
+|R062|Automatizar modo noturno|
+|R063|Editar email|
+|R064|salvar/cancelar edição de e-mail|
+|R065|Selecionar périodo de  sugestão de artigos |
+|R066|Desativar sugestão de artigos|
+|R067|Ativar/desativar boletim informativo|
+|R068|Selecionar tema do boletim informativo|
+|R069|Ativar/desativar recomendações de stories|
+|R070|Ativar/desativar notificação por e-mail|
+|R071|Ativar/desativar notificação social|
+|R072|Selecionar privacidade de menções|
+|R073|Desativar menções|
+|R074|Conectar com redes sociais (faceboo/twitter)|
+|R075|Conectar com Google|
+|R076|Mostrar links para facebook e twitter na página de perfil|
+|R077|editar nome de usuário|
+|R078|Permitir/bloquear leitura de notas privadas em seus stories|
+|R079|Visualizar usuários bloqueados|
+|R080|Gerenciar usuários bloqueados|
+|R081|Fazer download de suas informações|
+|R082|Deslogar de outras sessões |
+|R083|Desativar sua conta|
+|R084|Deletar sua conta|
+|R085|Ativar/desativar notificação de novas funcionalidades da aplicação|
+|R086|Gerenciar atualizações de seus escritores|
+|R087|Receber e-mail quando receber clap|

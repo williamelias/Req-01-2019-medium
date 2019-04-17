@@ -12,7 +12,11 @@ nav:
         - Introspecções: elicitacao/introspeccao.md
         - Storytelling: elicitacao/storytelling.md
         - StoryBord: elicitacao/storybords.md
-        - Priorização: elicitacao/priorizacao.md
+        - Lista de requisitos: elicitacao/lista-req.md
+        - Priorização-Moscow: elicitacao/priorizacao-moscow.md
+        - Priorização-Lista de Dependências: elicitacao/priorizacao-dependencias.md
+        - Priorização-FTF: elicitacao/priorizacao-ftf.md
+        
     - Atas de reunião: atas-reuniao.md
 theme: readthedocs
 extra_css: [extra.css]
