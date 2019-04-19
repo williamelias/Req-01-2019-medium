@@ -16,6 +16,9 @@ nav:
         - Priorização-Moscow: elicitacao/priorizacao-moscow.md
         - Priorização-Lista de Dependências: elicitacao/priorizacao-dependencias.md
         - Priorização-FTF: elicitacao/priorizacao-ftf.md
+    - Modelagem:
+        - Cenários: modelagem/cenarios.md
+        - Léxicos:  modelagem/lexicos.md
         
     - Atas de reunião: atas-reuniao.md
 theme: readthedocs
