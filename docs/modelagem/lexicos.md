@@ -1,8 +1,9 @@
 ## Versionamento de edições
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|   19/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.0  |
-| 20/04/2019| Matheus Salles Blanco | Adição de alguns léxicos e cenários | 1.0|
+|   19/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.1  |
+| 20/04/2019| Matheus Salles Blanco | Adição de alguns léxicos e cenários | 0.2|
+| 21/04/2019| William elias alves| Adição de alguns cenários | 0.3|
 
 ### Léxicos
 
@@ -20,6 +21,8 @@
 | ------- | ------- |
 |Rastro| Storytelling - Editar Perfil|
 
+***
+
 #### Claps
 
 **Claps - V1.0**
@@ -33,6 +36,8 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| RichPicture - Visão do Leitor|
+
+***
 
 #### Share
 
@@ -48,6 +53,8 @@
 | ------- | ------- |
 |Rastro| RichPicture - Visão do Leitor|
 
+***
+
 #### Edit
 
 **Edit - V1.0**
@@ -62,6 +69,8 @@
 | ------- | ------- |
 |Rastro| Storytelling - Editar Perfil|
 
+***
+
 #### Feed
 
 **Feed - V1.0**
@@ -72,6 +81,8 @@
 | ------- | ------- |
 |Rastro| RichPicture - Visão do Leitor|
 
+***
+
 #### Homepage
 
 **Homepage - V1.0**
@@ -81,6 +92,8 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| RichPicture - Visão do Leitor|
+
+***
 
 #### Membership
 
@@ -96,6 +109,8 @@
 | ------- | ------- |
 |Rastro|Storytelling - Premium e Assinatura|
 
+***
+
 #### Profile
 
 **Profile - V1.0**
@@ -109,6 +124,8 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Storytelling - Editar Perfil|
+
+***
 
 #### Premium
 
@@ -124,6 +141,8 @@
 | ------- | ------- |
 |Rastro|Storytelling - Premium e Assinatura|
 
+***
+
 #### Followers
 
 **Followers - V1.0**
@@ -138,6 +157,8 @@
 | ------- | ------- |
 |Rastro|Storytelling - Premium e Assinatura|
 
+***
+
 #### Unlimited
 
 **Unlimited - V1.0**
@@ -151,3 +172,89 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro|Storytelling - Premium e Assinatura|
+
+***
+
+#### Account
+
+**Account - V1.0**
+
+![account V1.0](lexicos/account.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro|Storytelling - Usuário, configurando aplicação|
+
+***
+
+#### Connections
+
+**connections - V1.0**
+
+![connections V1.0](lexicos/connections.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro|Storytelling - Usuário, configurando aplicação|
+
+***
+
+#### Digest
+
+**Digest - V1.0**
+
+![digest V1.0](lexicos/digest.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro|Storytelling - Usuário, configurando aplicação|
+
+***
+
+#### Medium
+
+**Medium - V1.0**
+
+![medium V1.0](lexicos/medium.png)
+
+***
+
+#### Newsletter
+
+**Newsletter - V1.0**
+
+![newsletter ](lexicos/newsletter.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro|Storytelling - Usuário, configurando aplicação|
+
+***
+
+#### Not user
+
+**not user - V1.0**
+
+![notuser ](lexicos/notuser.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro|Storytelling - Cadastro e login|
+
+***
+
+#### Series
+
+**Series - V1.0**
+
+![series ](lexicos/series.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro|Storytelling - New serie|
+
+#### Stats
+
+**stats - V1.0**
+
+![stats ](lexicos/stats.png)
