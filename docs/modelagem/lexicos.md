@@ -4,6 +4,7 @@
 |   19/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.1  |
 | 20/04/2019| Matheus Salles Blanco | Adição de alguns léxicos e cenários | 0.2|
 | 21/04/2019| William elias alves| Adição de alguns cenários | 0.3|
+| 21/04/2019| Pedro Rodrigues Pereira| Adição de alguns léxicos | 0.4|
 
 ### Léxicos
 
@@ -253,8 +254,76 @@
 | ------- | ------- |
 |Rastro|Storytelling - New serie|
 
+***
+
 #### Stats
 
 **stats - V1.0**
 
 ![stats ](lexicos/stats.png)
+
+***
+
+### Storie
+
+**storie - V1.0**
+
+![storie](lexicos/storie.png)
+
+***
+
+### Content
+
+**content - V1.0**
+
+![content](lexicos/content.png)
+
+***
+
+### Bookmark
+
+**bookmark - V1.0**
+
+![bookmark](lexicos/bookmark.png)
+
+***
+
+### Suggestion
+
+**suggestion - V1.0**
+
+![suggestion](lexicos/suggestion.png)
+
+***
+
+### Reward
+
+**reward - V1.0**
+
+![reward](lexicos/reward.png)
+
+***
+
+### Mention
+
+**mention - V1.0**
+
+![mention](lexicos/mention.png)
+
+***
+
+### Response
+
+**response - V1.0**
+
+![response](lexicos/response.png)
+
+***
+
+### Night mode
+
+**night mode - V1.0**
+
+![night mode](lexicos/night_mode.png)
+
+***
