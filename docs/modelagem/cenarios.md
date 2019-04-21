@@ -4,6 +4,7 @@
 |   19/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.1  |
 | 20/04/2019| Matheus Salles Blanco | Adição de alguns cenários | 0.2|
 | 21/04/2019| William Elias Alves | Adição de alguns cenários | 0.3|
+| 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
 
 ### Cenários
 
@@ -144,3 +145,53 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Storytelling - Usuário, Configurando a aplicação|
+
+***
+
+### Criar um novo Storie
+
+**Criar um novo storie - V1.0**
+
+![criar um storie](cenarios/criar_um_storie.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - New story|
+
+***
+
+### Criar um novo Bookmark
+
+**Criar um novo bookmark - V1.0**
+
+![criar um bookmark](cenarios/criar_um_bookmark.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| StoryBoard - Bookmark|
+
+***
+
+### Importar um storie
+
+**Importar um storie - V1.0**
+
+![importar um storie](cenarios/importar_um_storie.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Import Story|
+
+***
+
+### Responder um storie
+
+**Responder um storie - V1.0**
+
+![responder um storie](cenarios/responder_um_storie.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - New Story|
+
+***
