@@ -5,6 +5,7 @@
 | 20/04/2019| Matheus Salles Blanco | Adição de alguns cenários | 0.2|
 | 21/04/2019| William Elias Alves | Adição de alguns cenários | 0.3|
 | 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
+|   19/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
 
 ### Cenários
 
@@ -193,5 +194,53 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Richpicture - New Story|
+
+***
+
+### Seguir usuário
+
+**Seguir Usuário - V1.0**
+
+![seguir um usuário](cenarios/seguir_usuario.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Deixar de seguir usuário
+
+**Deixar de seguir usuário - V1.0**
+
+![deixar de seguir um usuário](cenarios/deixar_de_seguir_usuario.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Pesquisa por usuário
+
+**Pesquisa por usuário - V1.0**
+
+![pesquisa por usuário](cenarios/pesquisa_por_usuario.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Pesquisa por artigo
+
+**Pesquisa por artigo - V1.0**
+
+![pesquisa por artigo](cenarios/pesquisa_por_artigo.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
 
 ***
