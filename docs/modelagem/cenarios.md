@@ -6,6 +6,7 @@
 | 21/04/2019| William Elias Alves | Adição de alguns cenários | 0.3|
 | 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
 |   22/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
+|   22/04/2019   | Aline Laureano de Araujo Vilela | Adição de alguns cenários | 0.6  |
 
 ### Cenários
 
@@ -242,5 +243,13 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Ver vagas de emprego disponíveis
+
+**Ver vagas de emprego disponíveis - V1.0**
+
+![Ver vagas de emprego disponíveis](cenarios/cenario_ver_empregos.png)
 
 ***

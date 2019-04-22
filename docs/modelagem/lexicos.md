@@ -384,3 +384,11 @@
 ![tag](lexicos/tag.png)
 
 ***
+
+### Carrers
+
+**Carrers - V1.0**
+
+![carrers](lexicos/lexico_carrers.png)
+
+***
