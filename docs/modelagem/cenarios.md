@@ -5,7 +5,7 @@
 | 20/04/2019| Matheus Salles Blanco | Adição de alguns cenários | 0.2|
 | 21/04/2019| William Elias Alves | Adição de alguns cenários | 0.3|
 | 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
-|   19/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
+|   22/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
 
 ### Cenários
 
@@ -225,7 +225,7 @@
 
 **Pesquisa por usuário - V1.0**
 
-![pesquisa por usuário](cenarios/pesquisa_por_usuario.png)
+![pesquisa por usuário](cenarios/pesquisar_por_usuario.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -237,7 +237,7 @@
 
 **Pesquisa por artigo - V1.0**
 
-![pesquisa por artigo](cenarios/pesquisa_por_artigo.png)
+![pesquisa por artigo](cenarios/pesquisar_por_artigo.png)
 
 | Rastro | Origem |
 | ------- | ------- |

@@ -5,6 +5,7 @@
 | 20/04/2019| Matheus Salles Blanco | Adição de alguns léxicos e cenários | 0.2|
 | 21/04/2019| William elias alves| Adição de alguns cenários | 0.3|
 | 21/04/2019| Pedro Rodrigues Pereira| Adição de alguns léxicos | 0.4|
+| 22/04/2019| Gabriel Filipe Manso | Adição de alguns léxicos | 0.5|
 
 ### Léxicos
 
@@ -325,5 +326,61 @@
 **night mode - V1.0**
 
 ![night mode](lexicos/night_mode.png)
+
+***
+
+### About
+
+**about - V1.0**
+
+![about](lexicos/about.png)
+
+***
+
+### Following
+
+**Following - V1.0**
+
+![following](lexicos/following.png)
+
+***
+
+### More
+
+**more - V1.0**
+
+![more](lexicos/more.png)
+
+***
+
+### People
+
+**people - V1.0**
+
+![people](lexicos/people.png)
+
+***
+
+### Search
+
+**search - V1.0**
+
+![search](lexicos/search.png)
+
+***
+
+### Status
+
+**status - V1.0**
+
+![status](lexicos/status.png)
+
+***
+
+### Tag
+
+**tag - V1.0**
+
+![tag](lexicos/tag.png)
 
 ***
