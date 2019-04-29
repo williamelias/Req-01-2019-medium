@@ -258,6 +258,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 #### Series (Matheus Blanco)
 
+**Versão 1.0**
+
+![Especificação Serie](../images/esp2_001.png)
+![Especificação Serie](../images/esp2_002.png)
+
+**Versão 2.0**
 
 **UC01-Acessar menu lateral**
 
@@ -357,3 +363,9 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja editar o rascunho criado**<br/>1-Usuário visualiza a página com os rascunhos<br/>2-Usuário seleciona um rascunho a ser editado<br/>3-Usuário edita o rascunho<br/>4-Usuário pode sair da página recente para salvar o rascunho recém editado.|
 
 ***
+
+**Rastro:**
+
+||
+|--|
+|Caso de Uso retirado do Léxico 'Series'|
