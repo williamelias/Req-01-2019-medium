@@ -255,3 +255,105 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica em 'access'|
 
 ***
+
+#### Series (Matheus Blanco)
+
+
+**UC01-Acessar menu lateral**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por disponibilizar um DropDown de opções para o usuário.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar logado|
+|**Pós-condições**|Usuário visualizará as opções |
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja acessar o menu lateral**<br/>1-Usuário clica no ícone de perfil|
+
+***
+
+**UC02-Visualizar Series**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por disponibilizar uma página que mostra as series criadas como rascunho ou publicadas.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve possuir rascunhos e/ou series publicados|
+|**Pós-condições**|Usuário poderá criar series, publicar rascunhos ou visualizar os publicados |
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário acessa a página de Series**<br/>1-Usuário clica no botão series no menu lateral; <br/>2-Usuário visualiza rascunhos criados.|
+|**Fluxo alternativo**|**[FA01] UC04 - Visualizar published**; <br/>**[FA02] UC05 - Criar series**|
+
+***
+
+**UC03-Visualizar Drafts**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário acesse e reveja os rascunhos de series criados anteriormente.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve ter acessado a página de series e ter rascunhos salvos|
+|**Pós-condições**|Usuário visualizará as opções |
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja abrir as series rascunhadas**<br/>1-Usuário seleciona uma serie criada <br/>2-Usuário lê a serie criada|
+|**Fluxo alternativo**|**[FA01] UC08 - Editar rascunho**|
+
+***
+
+**UC04-Visualizar Published**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário acesse e reveja as series publicadas anteriormente.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve ter acessado a página de series e series publicadas|
+|**Pós-condições**|Usuário visualizará as opções de series publicadas |
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja abrir as series publicadas**<br/>1-Usuário seleciona uma serie publicada <br/>2-Usuário lê a serie criada|
+
+***
+
+**UC05-Criar series**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário crie uma nova serie.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve ter acessado a página de series|
+|**Pós-condições**|Usuário poderá rascunhar e publicar a história criada |
+|**Fluxo principal**|** [FP01] O fluxo se inicia quando o usuário deseja criar uma nova serie**<br/>1-Usuário aperta o botão de Create Series**<br/>2-Usuário cria a serie, incluindo texto, imagens|
+|**Fluxo alternativo**|**[FA01] UC07 - Publicar serie**<br/>**[FA02] UC06 - enviar previa para app de celular**|
+
+***
+
+**UC06-Enviar previa para celular**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário envie a prévia do rascunho para ser visualizada no aplicativo de celular.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve ter criado e salvo o rascunho de uma serie|
+|**Pós-condições**|Usuário poderá visualizar a serie no celular|
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja mandar a serie para o aplicativo de celular**<br/>1-Usuário aperta o botão de Send preview to phone<br/>2-Usuário visualiza serie no celular|
+
+***
+
+**UC07-Publicar serie**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário publique sua serie.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve ter criado e salvo o rascunho de uma serie|
+|**Pós-condições**|Usuário poderá visualizar a serie publicada|
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja publicar a serie para que outros usuários a vejam**<br/>1-Usuário aperta o botão de publicar<br/>2-Usuário visualiza a serie publicada no computador|
+
+***
+
+**UC08-Editar rascunho**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário faça edições no rascunho criado.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve ter criado e salvo o rascunho de uma serie|
+|**Pós-condições**|Usuário poderá melhorar o rascunho e posteriormente, publicá-lo|
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja editar o rascunho criado**<br/>1-Usuário visualiza a página com os rascunhos<br/>2-Usuário seleciona um rascunho a ser editado<br/>3-Usuário edita o rascunho<br/>4-Usuário pode sair da página recente para salvar o rascunho recém editado.|
+
+***
