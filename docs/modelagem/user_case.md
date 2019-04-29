@@ -4,6 +4,7 @@
 |   28/04/2019   | William Elias Alves  | Criação da página | 0.1  |
 |   28/04/2019   | William Elias Alves  | Inserção dos casos de uso cadastro, login, membership| 0.2  |
 |   28/04/2019   | William Elias Alves  | Inserção dos casos de uso cadastro, login, membership versão 2.0| 0.3  |
+|28/04/2019| William Elias Alves  | Inserção dos casos de uso de stories| 0.4  |
 
 #Definição
 
@@ -51,35 +52,6 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 ![cadastro V2.0](UC/UC-william-Cadastro_v2.jpg)
 ***
 
-#### Criação de serie
-**Criação de série - V1.0**
-
-***
-
-#### Compartilhamento de publicação
-**compartilhamento de publicação - V1.0**
-
-***
-
-#### Comentário em publicação
-**Comentário em publicação - V1.0**
-
-***
-
-#### Leitura de storie
-**Membership - V1.0**
-
-***
-
-#### Visualização de series
-**Membership - V1.0**
-
-***
-
-#### Exclusão/deleção de conta
-**Membership - V1.0**
-
-***
-
-#### Customização de interesses
-**Membership - V1.0**
+#### UC stories
+**UC Stories - V1.0**
+![storie V1.0](UC/UC-Stories_aline.jpg)
