@@ -19,6 +19,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ![área V1.0](UC/UC-william-areacomum.jpg)
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Brainstorming 2 |
+|Rastro| Introspecção 1 |
+
+
 ***
 
 ***
@@ -31,6 +37,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ![acesso V2.0](UC/UC-william-AcessoaoMediumMembership_v2.jpg)
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro | Cenário Premium |
+
 ***
 
 #### Login
@@ -41,6 +51,13 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 **Login - V2.0** (william elias alves)
 
 ![login V2.0](UC/UC-william-Login_v2.jpg)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro | Brainstorming 1 |
+|Rastro | Introspecção Login |
+|Rastro | Storyboard Login |
+
 ***
 
 #### Cadastro de usuário 
@@ -51,11 +68,23 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 **Cadastro de usuário - V2.0**(william elias alves)
 
 ![cadastro V2.0](UC/UC-william-Cadastro_v2.jpg)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro | Brainstorming 1 |
+|Rastro | Introspecção Cadastro |
+|Rastro | Storyboard Cadastro |
+
 ***
 
 #### UC stories
 **UC Stories - V1.0**
 ![storie V1.0](UC/UC-Stories_aline.jpg)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro | Brainstorming 1 |
+|Rastro | Introspecção Stories |
 
 #### UC Series
 **UC Series - V1.0**
@@ -66,12 +95,26 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ![Serie V2.0](UC/UC-blanco-visualizar-series-2.png)
 
+| Rastro | Origem |
+| ------- | ------- |
+| Rastro | Brainstorming 1 |
+| Rastro | Introspecção Series |
+
 #### UC Bookmark
 **UC Bookmark - V1.0**
 
 ![Bookmark V1.0](UC/UC_guilherme_bookmarks.png)
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storyboard |
+|Rastro| Introspecção Bookmark |
+
 #### UC Configurar perfil
 **UC Configurar perfil - V1.0**
 
 ![Config V1.0](UC/UC_guilherme_config.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Brainstorming 2 |
