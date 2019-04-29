@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../img/favicon.ico">
-  <title>Especificacoes - MEDIUM-Requisitos(2019)</title>
+  <title>Especificações - MEDIUM-Requisitos(2019)</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../css/theme.css" type="text/css" />
@@ -18,7 +18,7 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Especificacoes";
+    var mkdocs_page_name = "Especifica\u00e7\u00f5es";
     var mkdocs_page_input_path = "modelagem/especificacoes.md";
     var mkdocs_page_url = null;
   </script>
@@ -137,6 +137,28 @@
                     
     <a class="" href="../user_case/">Casos de uso</a>
                 </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Especificações</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
+    
+
+    <li class="toctree-l3"><a href="#definicao">Definição</a></li>
+    
+
+    <li class="toctree-l3"><a href="#especificacoes">Especificações</a></li>
+    
+        <ul>
+        
+            <li><a class="toctree-l4" href="#area-comum">Área comum</a></li>
+        
+        </ul>
+    
+
+    </ul>
+                </li>
     </ul>
 	    </li>
           
@@ -166,8 +188,12 @@
     <li><a href="../..">Docs</a> &raquo;</li>
     
       
+        
+          <li>Modelagem &raquo;</li>
+        
+      
     
-    <li>Especificacoes</li>
+    <li>Especificações</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -204,10 +230,440 @@
 </table>
 <h1 id="definicao">Definição</h1>
 <p>Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão mais clara a respeito da concepção de casos de uso. Os casos de uso facilitam na obtenção de uma visão geral a respeito de dada funcionalidade de uma aplicação e poderá ser usada beneficamente por desenvolvedores, pois ela contém aspectos relevantes referentes a relacionamentos entre entidades.</p>
+<hr />
+<h1 id="especificacoes">Especificações</h1>
+<hr />
+<h4 id="area-comum">Área comum</h4>
+<p><strong>UC01-Efetuar Cadastro</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por realizar cadastro na aplicação.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Visitante se tornará Usuário<br/>Usuário estará logado na aplicação <br/>Usuário terá acesso às funcionalidades da aplicação</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja realizar o cadastro na    aplicação:</strong><br/> 1-Visitante clica em 'Sign in' <br/>2-Visitante clica em 'create one'<br/>3-Visitante escolhe entre as opções de integração via redes sociais <br>4-Visitante escolhe tópicos de interesse <br/>5-Visitante é redirecionada a página principal da aplicação já logado</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] Possibilidade de integração via E-mail:</strong><br/>No passo 3 do fluxo   principal, há a opção de login via E-mail</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 3 há a verificação de  conexão com a internet <br><strong> [FE02] Erro no serviço de integração de contas</strong><br/>No passo 3, a integração com as redes sociais deve retornar status 200</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC02-Efetuar Login</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por realizar login na aplicação.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet<br/>Usuário deve ter um cadastro ativo</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário estará logado na aplicação <br/>Usuário terá acesso às funcionalidades da aplicação</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja realizar o login na    aplicação:</strong><br/> 1-Usuário clica em 'Sign in' <br/>2-Usuário escolhe entre as opções de integração via redes sociais <br/>3-Usuário é redirecionada a página principal da aplicação já logado</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] Possibilidade de integração via E-mail:</strong><br/>No passo 2 do fluxo   principal, há a opção de login via E-mail</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet <br><strong> [FE02] Erro no serviço de integração de contas</strong><br/>No passo 2, a integração com as redes sociais deve retornar status 200</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC03-Pesquisar artigo</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por realizar pesquisa de artigos na plataforma Medium.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário/Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário/Visitante recebera um artigo para leitura</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário pesquisar um artigo na  aplicação</strong><br/> 1-Usuário/Visitante clica no ícone da lupa<br/>2-Usuário/Visitante insere o termo a ser pesquisado <br>3-Usuário/Visitante recebe como resultado um ou mais artigos para leitura</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] Selecionar podcast:</strong><br/>No passo 3 do fluxo   principal, há a opção de selecionar um podcast a ser escutado</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet <br><strong> [FE02] Nenhum resultado</strong><br/>No passo 3, pode haver um erro de digitação ou a não existência de artigos/podcasts para o termo inserido</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC04-Escutar podcast</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável pela possibilidade de escutar um podcast.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário/Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário/Visitante recebera terá escutado um podcast</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário seleciona um podcast a ouvir</strong><br> 1-Usuário/Visitante clica no podcast escolhido<br/>2-Usuário/Visitante visualiza um reprodutor de mídia<br>3-Usuário/visitante clica em reproduzir</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] Voltar para página principal:</strong><br/>No passo 2 o usuário pode retornar a página principal da aplicação para selecionar outro podcast</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet <br><strong> [FE02] Reprodutor com problemas</strong><br/>No passo 3, pode haver um erro de no reprodutor usado pela plataforma</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC05-Ler artigo</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a leitura de um artigona plataforma Medium.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário/Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário/Visitante terá lido um artigo</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário selecionar um artigo para   leitura</strong><br/> 1-Usuário/Visitante clica no artigo escolhido<br/>2-Usuário/Visitante visualiza a página com conteúdo do artigo</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC06-Visualizar artigos populares</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável exibir artigos populares.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário/Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário/Visitante visualizará os artigos populares na barra lateral direita da página princiapal da aplicação</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário acessa a área principal da  aplicação</strong><br/> 1-Usuário/Visitante clica no ícone do Medium<br/>2-Usuário/Visitante visualiza os artigos populares na lateral direita do site</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC07-Visualizar artigos por categoria</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável pela exibição de artigos por categoria.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário/Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário/Visitante recebera uma lista de arigos para leitura, dada uma categoria</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário Acessa a página principal da aplicação</strong><br/>1-Usuário/Visitante clica no ícone do Medium<br/>2-Usuário/Visitante visualiza a barra de categorias na área superior do site<br>3-Usuário/Visitante escolhe uma categoria<br>4-Usuário clica na categoria desejada<br>5-Usuário visualiza um lista de artigos</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet <br><strong> [FE02] Nenhum resultado</strong><br/>No passo 5, pode ser que não exista artigos/podcasts para o termo clicado</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC08-Acessar área de ajuda</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por exibir a área de ajuda da plataforma Medium.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Visitante e Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário/Visitante deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário/Visitante recebera várias instruções de utilização da plataforma</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia em qualquer página do site</strong><br/> 1-Usuário/Visitante clica em 'Help'<br/>2-Usuário/Visitante Seleciona o tópico de ajuda desejado <br>3-Usuário/Visitante recebe instruções sobre dado assunto</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] Acessar pela foto do perfil:</strong><br/>O passo 1 pode ser substituido por acessar a página de ajuda por meio da foto do perfil de usuário</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC09-Editar Perfil</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a edição do perfil de usuário Medium.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet<br>Usuário deve estar logado</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá editado seus informações básicas</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário clica em 'profile'</strong><br/> 1-Usuário clica em sua foto de usuário<br/>2-Usuário clica em 'profile'<br>3-Usuário clica em edit 'profile' <br> 4-Usuário altera seu nome no campo de texto<br>5-Usuário clica em sua foto de perfil  <br>6-Usuário seleciona uma foto para o perfil de seu dispositivo<br>7-Usuário clica em 'save'</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] Cancelar edição:</strong><br/>No passo 7 do fluxo principal, há a opção de cancelar edição</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet <br><strong> [FE02] Erro de leitura de imagem</strong><br/>No passo 6, pode haver um erro de na leitura ou corrompimento da imagem 'upada'</td>
+</tr>
+</tbody>
+</table>
+<p><strong>UC10-Configurar preferências</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por exibir configurações da aplicação na plataforma web.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet<br>Usuário deve estar logado</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá configurado alguns aspectos da aplicação</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário clica na foto de seu perfil</strong><br/> 1-Usuário clica em sua foto de perfil<br/>2-Usuário clica em 'settings'<br>3-Usuário visualiza opções de configurações de e-mail, conexões, conta, membership e seguraça<br>4-Usuário modifica o que achar necessário</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet <br>**</td>
+</tr>
+</tbody>
+</table>
+<p><strong>UC11-Tornar-se membership</strong>(william elias alves)</p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por exibir a área de membership.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário se tornará membership</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'</strong><br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>6-Usuário clica em 'start membership'</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 2 há a verificação de  conexão com a internet</td>
+</tr>
+</tbody>
+</table>
               
             </div>
           </div>
           <footer>
+  
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+      
+        <a href="../../atas-reuniao/" class="btn btn-neutral float-right" title="Atas de reunião">Next <span class="icon icon-circle-arrow-right"></span></a>
+      
+      
+        <a href="../user_case/" class="btn btn-neutral" title="Casos de uso"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+    </div>
   
 
   <hr/>
@@ -231,6 +687,10 @@
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
+        <span><a href="../user_case/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+      
+      
+        <span style="margin-left: 15px"><a href="../../atas-reuniao/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
