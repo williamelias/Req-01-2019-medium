@@ -3,6 +3,7 @@
 |----------------|----------------------|-------------------------------------|------|
 |   29/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.0  |
 |   29/04/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificações| 0.1  |
+|   29/04/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificações| 0.2  |
 
 #Documento de Especificação Suplementar
 
@@ -45,4 +46,6 @@ Para atender de maneira dinâmica a variedade de tamanhos de tela que se encontr
 ## Detecção de Idioma
 No contexto do app a aplicação possuí a troca de idioma automático para o idioma padrão do dispositivo, possibilitando uma maior inclusão de usuários. Já no website temos a insuficiência deste recurso.
 
+## Previsão de Tempo de Leitura
+O MEDIUM apresenta um algoritmo que estima a quantidade de tempo necessário para a leitura para cada artigo, como: 5 min read. Este tempo é mostrado para o usuário na prévia do artigo.
 ***
