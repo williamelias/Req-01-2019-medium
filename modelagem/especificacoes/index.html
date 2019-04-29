@@ -158,6 +158,8 @@
         
             <li><a class="toctree-l4" href="#series-matheus-blanco">Series (Matheus Blanco)</a></li>
         
+            <li><a class="toctree-l4" href="#uc-stories-aline-laureano">UC Stories (Aline Laureano)</a></li>
+        
         </ul>
     
 
@@ -1189,19 +1191,399 @@
 </tbody>
 </table>
 <hr />
-<p><strong>Rastro:</strong></p>
+<h4 id="uc-stories-aline-laureano">UC Stories (Aline Laureano)</h4>
+<p><strong>UC01 - Acessar menu lateral do usuário</strong></p>
 <table>
 <thead>
 <tr>
+<th></th>
 <th></th>
 </tr>
 </thead>
 <tbody>
 <tr>
-<td>Caso de Uso retirado do Léxico 'Series'</td>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por mostrar todas as ações que somente um usuário com login efetuado pode fazer.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário visualizará as funcionalidades disponíveis para um usuário com o login efetuado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja visualizar as funcionalidades disponíveis para um usuário com o login efetuado:</strong><br/> 1-Usuário clica na sua foto de perfil localizida no superior esquerdo da página. <br/>2-É mostrado ao usuário logado um menu lateral com as funcionalidades disponíveis para ele. <br/></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
 </tr>
 </tbody>
 </table>
+<hr />
+<p><strong>UC02-Visualizar Stories</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por mostrar uma aŕea com todos os rascunhos e publicações de stories de um usuário.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário visualizará a área de Stories.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01]O fluxo se inicia quando o usuário deseja visualizar a área com todas as suas publicações e rascunhos:</strong><br/>1-[UC01] Usuário acessa o menu lateral.<br>2-Usuário clica na opção "Stories". <br>3-O usuário visualizará a área de Stories.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC03-Visualizar Drafts</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por mostrar todos os Drafts de um usuário.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário visualizará os seus Drafts.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos os Drafts feitos por ele:</strong><br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O sistema retorna para a visualização do usuário todos os Drafts feitos pelo usuário.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC04-Visualizar Publicações.<br> [FA02] UC05- Importar uma Story.<br> [FA03] UC06-Escrever uma nova Story.<br></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC04-Visualizar Publicações</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por mostrar todos as Publicações de um usuário.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário visualizará as suas Publicações.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos as publicações feitas por ele:</strong><br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Publishes" localizada ao lado da opção "Drafts". <br/>3-O sistema retorna para a visualização do usuário todos as publicações feitas pelo usuário.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC03-Visualizar Drafts.<br> [FA02] UC05- Importar uma Story.<br> [FA03] UC06-Escrever uma nova Story.<br></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC05-Importar uma Story.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por permitir que um usuário publique uma story já publicada em qualquer outro site.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário publicará uma story já publicada em qualquer outro site.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja publicar uma story já existente em qualquer outro site:</strong><br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Import a story" localizada ao lado da opção "Write a story". <br/>3-O sistema solicita o link da story que o usuário quer publicar. <br>4-O usuário insere o link e clica no botão "import". <br>5-O usuário edita a story importada. <br> 6-O usuário clica na opção "Ready to publish?". <br>7-O sistema redireciona o usuário para uma página com a prévia da publicação importada. <br>8-O usuário clica na opção "Publish now". <br>9-O sistema retorna uma mensagem de publicação realizada com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC03-Visualizar Drafts.<br> [FA02] UC04-Visualizar publicações.<br> [FA03] UC06-Escrever uma nova Story.<br></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC06-Escrever uma nova Story.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por permitir que um usuário crie uma nova story.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá a sua nova story publicada.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja publicar uma nova story:</strong><br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Write a story" localizada ao lado da opção "Import a story". <br/>3-O sistema redireciona o usuário para uma página de criação da nova story. <br>4-O usuário insere o conteúdo da nova story e clica no botão "Ready to publish?".<br>5-O sistema redireciona o usuário para uma página com a prévia da nova publicação. <br>6-O usuário clica na opção "Publish now". <br>7-O sistema retorna uma mensagem de publicação realizada com sucesso.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC03-Visualizar Drafts.<br> [FA02] UC04-Visualizar publicações.<br> [FA03] UC05-Importar uma Story.<br></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC07-Editar Draft.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por permitir que um usuário edite um draft.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá o seu draft editado.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja editar um draft:</strong><br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer editar. <br/>3-O usuário clica na opção "Edit draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página de edição do draft. <br>5-O usuário insere as alterações no conteúdo do draft e sai da página de edição sem salvar o rascunho.<br>6-O sistema irá salvar as edições feitas no rascunho.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC08-Excluir Draft.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC08-Excluir Draft.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por permitir que um usuário exclua um draft.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá o seu draft excluído.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja excluir um draft:</strong><br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer excluir. <br>3-O usuário clica na opção "Delete draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão do draft. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de drafts sem o draft excluído.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC07-Editar Draft.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC09-Editar Publicação.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por permitir que um usuário edite uma publicação.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá a sua publicação editada.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja editar uma publicação:</strong><br/> 1-[US04] Usuário visualiza a área de Publicações. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer editar. <br/>3-O usuário clica na opção "Edit story" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página de edição da story. <br>5-O usuário insere as alterações no conteúdo da story e clica no botão "Save and publish".<br>6-O sistema redireciona o usuário para a página da story com as alterações feitas.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC08-Excluir Publicação.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC10-Excluir Publicação.</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por permitir que um usuário exclua uma publicação.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá a sua publicação excluída.</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja excluir uma story:</strong><br/>  1-[US04] Usuário visualiza a área de Publicações.  <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer excluir. <br>3-O usuário clica na opção "Delete story" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão da story. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de publicações sem a story excluída.</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td>[FA01] UC09-Editar Publicação.</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
               
             </div>
           </div>
