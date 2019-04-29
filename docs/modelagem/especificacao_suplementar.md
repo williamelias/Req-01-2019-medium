@@ -2,6 +2,7 @@
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
 |   29/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.0  |
+|   29/04/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificações| 0.1  |
 
 #Documento de Especificação Suplementar
 
