@@ -12,7 +12,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 #Especificações
 ***
 
-#### Área comum
+#### Área comum(william elias alves)
 
 **UC01-Efetuar Cadastro**
 
@@ -28,7 +28,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC02-Efetuar Login**(william elias alves)
+**UC02-Efetuar Login**
 
 |||
 |---|---|
@@ -42,7 +42,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC03-Pesquisar artigo**(william elias alves)
+**UC03-Pesquisar artigo**
 
 |||
 |---|---|
@@ -56,7 +56,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC04-Escutar podcast**(william elias alves)
+**UC04-Escutar podcast**
 
 |||
 |---|---|
@@ -70,7 +70,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC05-Ler artigo**(william elias alves)
+**UC05-Ler artigo**
 
 |||
 |---|---|
@@ -83,7 +83,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC06-Visualizar artigos populares**(william elias alves)
+**UC06-Visualizar artigos populares**
 
 |||
 |---|---|
@@ -96,7 +96,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC07-Visualizar artigos por categoria**(william elias alves)
+**UC07-Visualizar artigos por categoria**
 
 |||
 |---|---|
@@ -109,7 +109,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC08-Acessar área de ajuda**(william elias alves)
+**UC08-Acessar área de ajuda**
 
 |||
 |---|---|
@@ -123,7 +123,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC09-Editar Perfil**(william elias alves)
+**UC09-Editar Perfil**
 
 |||
 |---|---|
@@ -136,7 +136,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Erro de leitura de imagem**<br/>No passo 6, pode haver um erro de na leitura ou corrompimento da imagem 'upada'|
 
 
-**UC10-Configurar preferências**(william elias alves)
+**UC10-Configurar preferências**
 
 |||
 |---|---|
@@ -148,7 +148,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>**|
 
 
-**UC11-Tornar-se membership**(william elias alves)
+**UC11-Tornar-se membership**
 
 |||
 |---|---|
@@ -160,7 +160,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
 
 
-#### Acesso ao Medium Membership
+#### Acesso ao Medium Membership(william elias alves)
 
 **UC01-Selecionar plano**
 
@@ -253,6 +253,5 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário visualizará a área de membership|
 |**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica em 'access'|
-
 
 ***
