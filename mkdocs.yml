@@ -19,7 +19,8 @@ nav:
     - Modelagem:
         - Cenários: modelagem/cenarios.md
         - Léxicos:  modelagem/lexicos.md
-        
+        - Casos de uso:  modelagem/user_case.md
+
     - Atas de reunião: atas-reuniao.md
 theme: readthedocs
 extra_css: [extra.css]
