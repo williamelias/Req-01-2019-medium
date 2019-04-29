@@ -158,3 +158,101 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pós-condições**|Usuário se tornará membership|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>6-Usuário clica em 'start membership'|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
+
+
+#### Acesso ao Medium Membership
+
+**UC01-Selecionar plano**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por possibilitar a seleção de planos.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário terá escolhido um plano de pagamento|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado|
+|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 3 há a verificação de  conexão com a internet|
+
+***
+
+**UC02-Selecionar $5/Mês**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por possibilitar a seleção do plano mensal.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pós-condições**|Usuário terá selecionado o plano mensal|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano mensal|
+|**Fluxo alternativo**|** [FA01] **UC03-Selecionar $50/Ano** **|
+
+
+***
+**UC03-Selecionar $50/Ano**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por possibilitar a seleção do plano anual.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pós-condições**|Usuário terá selecionado o plano mensal|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano anual|
+|**Fluxo alternativo**|** [FA01] **UC02-Selecionar $5/Mês** **|
+
+***
+
+**UC04-Selecionar Método de pagamento**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por possibilitar a seleção do método de pagamento.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pós-condições**|Usuário terá selecionado o método de pagamento|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um método de pagamento**<br/> 1-Usuário clica na área 'payment'<br>2-Usuário clica em 'credit card'|
+|**Fluxo alternativo**|** [FA01] **UC05-Pagar via PayPal**|
+
+***
+
+
+**UC05-Pagar via PayPal**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por possibilitar a seleção do método de pagamento como PayPal.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pós-condições**|Usuário terá selecionado o método de pagamento|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Paypal**<br/>1-Usuário clica em 'Payments' <br/>2-Usuário clica em PayPal<br>3-Usuário visualiza um modal de inserção de dados do PayPal<br>4-Usuário insere seus dados de login no PayPal|
+|**Fluxo alternativo**|** [FA01] **UC06-Pagar via cartão de crédito**|
+|**Fluxo de exceção**|** [FE01] Dados PaylPal inválidos**<br/>No passo 4 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
+
+***
+
+**UC06-Pagar via cartão de crédito**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável disponibilizar o método de pagamento como Cartão de crédito.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pós-condições**|Usuário terá escolhido o método de pagamento como cartão de crédito|
+|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Cartão de crédito**<br/>1-Usuário insere o número do cartão<br>2-Usuário insere a data de expiração do cartão<br>3-Usuário insere o código de segurança do cartão||
+|**Fluxo alternativo**|** [FA01] UC05-Pagar via PayPal**|
+|**Fluxo de exceção**|** [FE01] Dados do cartão de crédito inválidos**<br/>No passo 1,2 e 3 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
+
+***
+
+
+**UC07-Acessar área de membro vip**
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável disponibilizar o método de pagamento como Cartão de crédito.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pós-condições**|Usuário visualizará a área de membership|
+|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica em 'access'|
+
+
+***
