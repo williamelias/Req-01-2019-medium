@@ -4,6 +4,9 @@
 |   19/04/2019   | Gabriel Filipe Manso Araujo  | Criação da página | 0.1  |
 | 20/04/2019| Matheus Salles Blanco | Adição de alguns cenários | 0.2|
 | 21/04/2019| William Elias Alves | Adição de alguns cenários | 0.3|
+| 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
+|   22/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
+|   22/04/2019   | Aline Laureano de Araujo Vilela | Adição de alguns cenários | 0.6  |
 
 ### Cenários
 
@@ -144,3 +147,109 @@
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Storytelling - Usuário, Configurando a aplicação|
+
+***
+
+### Criar um novo Storie
+
+**Criar um novo storie - V1.0**
+
+![criar um storie](cenarios/criar_um_storie.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - New story|
+
+***
+
+### Criar um novo Bookmark
+
+**Criar um novo bookmark - V1.0**
+
+![criar um bookmark](cenarios/criar_um_bookmark.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| StoryBoard - Bookmark|
+
+***
+
+### Importar um storie
+
+**Importar um storie - V1.0**
+
+![importar um storie](cenarios/importar_um_storie.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Import Story|
+
+***
+
+### Responder um storie
+
+**Responder um storie - V1.0**
+
+![responder um storie](cenarios/responder_um_storie.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - New Story|
+
+***
+
+### Seguir usuário
+
+**Seguir Usuário - V1.0**
+
+![seguir um usuário](cenarios/seguir_usuario.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Deixar de seguir usuário
+
+**Deixar de seguir usuário - V1.0**
+
+![deixar de seguir um usuário](cenarios/deixar_de_seguir_usuario.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Pesquisa por usuário
+
+**Pesquisa por usuário - V1.0**
+
+![pesquisa por usuário](cenarios/pesquisar_por_usuario.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Pesquisa por artigo
+
+**Pesquisa por artigo - V1.0**
+
+![pesquisa por artigo](cenarios/pesquisar_por_artigo.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Richpicture - Ponto de vista do Leitor|
+
+***
+
+### Ver vagas de emprego disponíveis
+
+**Ver vagas de emprego disponíveis - V1.0**
+
+![Ver vagas de emprego disponíveis](cenarios/cenario_ver_empregos.png)
+
+***
