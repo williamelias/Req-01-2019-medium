@@ -154,6 +154,8 @@
         
             <li><a class="toctree-l4" href="#area-comum">Área comum</a></li>
         
+            <li><a class="toctree-l4" href="#acesso-ao-medium-membership">Acesso ao Medium Membership</a></li>
+        
         </ul>
     
 
@@ -651,6 +653,263 @@
 </tr>
 </tbody>
 </table>
+<h4 id="acesso-ao-medium-membership">Acesso ao Medium Membership</h4>
+<p><strong>UC01-Selecionar plano</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a seleção de planos.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet<br>Usuário deve estar logado</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá escolhido um plano de pagamento</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano</strong><br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Verificação de conexão à internet</strong><br/>No passo 3 há a verificação de  conexão com a internet</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC02-Selecionar $5/Mês</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a seleção do plano mensal.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá selecionado o plano mensal</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano</strong><br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano mensal</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] </strong>UC03-Selecionar $50/Ano<strong> </strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC03-Selecionar $50/Ano</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a seleção do plano anual.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá selecionado o plano mensal</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano</strong><br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano anual</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] </strong>UC02-Selecionar $5/Mês<strong> </strong></td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC04-Selecionar Método de pagamento</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a seleção do método de pagamento.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá selecionado o método de pagamento</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja selecionar um método de pagamento</strong><br/> 1-Usuário clica na área 'payment'<br>2-Usuário clica em 'credit card'</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] </strong>UC05-Pagar via PayPal**</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC05-Pagar via PayPal</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável por possibilitar a seleção do método de pagamento como PayPal.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá selecionado o método de pagamento</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01] Este fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Paypal</strong><br/>1-Usuário clica em 'Payments' <br/>2-Usuário clica em PayPal<br>3-Usuário visualiza um modal de inserção de dados do PayPal<br>4-Usuário insere seus dados de login no PayPal</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] </strong>UC06-Pagar via cartão de crédito**</td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Dados PaylPal inválidos</strong><br/>No passo 4 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC06-Pagar via cartão de crédito</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável disponibilizar o método de pagamento como Cartão de crédito.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário terá escolhido o método de pagamento como cartão de crédito</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01]O fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Cartão de crédito</strong><br/>1-Usuário insere o número do cartão<br>2-Usuário insere a data de expiração do cartão<br>3-Usuário insere o código de segurança do cartão</td>
+</tr>
+<tr>
+<td><strong>Fluxo alternativo</strong></td>
+<td><strong> [FA01] UC05-Pagar via PayPal</strong></td>
+</tr>
+<tr>
+<td><strong>Fluxo de exceção</strong></td>
+<td><strong> [FE01] Dados do cartão de crédito inválidos</strong><br/>No passo 1,2 e 3 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<p><strong>UC07-Acessar área de membro vip</strong></p>
+<table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Descrição</strong></td>
+<td>Funcionalidade responsável disponibilizar o método de pagamento como Cartão de crédito.</td>
+</tr>
+<tr>
+<td><strong>Atores</strong></td>
+<td>Usuário</td>
+</tr>
+<tr>
+<td><strong>Pré-condições</strong></td>
+<td>Usuário deve estar conectado à internet</td>
+</tr>
+<tr>
+<td><strong>Pós-condições</strong></td>
+<td>Usuário visualizará a área de membership</td>
+</tr>
+<tr>
+<td><strong>Fluxo principal</strong></td>
+<td><strong> [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership</strong><br/>1-Usuário clica em 'access'</td>
+</tr>
+</tbody>
+</table>
+<hr />
               
             </div>
           </div>
