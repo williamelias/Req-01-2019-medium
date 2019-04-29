@@ -5,6 +5,7 @@
 |   28/04/2019   | William Elias Alves  | Inserção dos casos de uso cadastro, login, membership| 0.2  |
 |   28/04/2019   | William Elias Alves  | Inserção dos casos de uso cadastro, login, membership versão 2.0| 0.3  |
 |28/04/2019| William Elias Alves  | Inserção dos casos de uso de stories| 0.4  |
+|29/04/2019| Matheus Salles Blanco  | Inserção dos casos de uso de series e edição de perfil e bookmark| 0.4  |
 
 #Definição
 
@@ -55,3 +56,22 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 #### UC stories
 **UC Stories - V1.0**
 ![storie V1.0](UC/UC-Stories_aline.jpg)
+
+#### UC Series
+**UC Series - V1.0**
+
+![Serie V1.0](UC/UC-blanco-visualizar-series.png)
+
+**UC Series - V2.0**
+
+![Serie V2.0](UC/UC-blanco-visualizar-series-2.png)
+
+#### UC Bookmark
+**UC Bookmark - V1.0**
+
+![Bookmark V1.0](UC/UC_guilherme_bookmarks.png)
+
+#### UC Configurar perfil
+**UC Configurar perfil - V1.0**
+
+![Config V1.0](UC/UC_guilherme_config.png)
