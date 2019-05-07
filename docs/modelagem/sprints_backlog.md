@@ -5,17 +5,17 @@
 |   07/04/2019   | William Elias Alves  | Inserção do backlog das sprints 1 e 2 | 0.1  |
 
 
-#Definição
+##Definição
 
 Com o auxílio do desenvolvimento do backlog do produto, ficou possível obter uma visão mais clara a respeito da concepção das histórias de usuário e funcionamento da aplicação. Com isso, se tornou possível por meio da priorização e pontuação, construir o backlog de sprints.
 São tidos como uma lista dos afazeres e transparência das ações durante dado período (normalmente padronizado como 2 duas semanas).
 
-#Objetivo
+##Objetivo
 
 Com a concepção do backlog de algumas sprints fica possível visualizar e até projetar o andamento do desenvolvimento da aplicação e facilitar a concepção de um produto que agregue valor a cada sprint.
 
 ***
-#Sprint 1
+##Sprint 1
 
 **Duração**: Duas semanas
 
@@ -181,7 +181,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 
 
 ***
-#Sprint 2
+##Sprint 2
 
 **Duração**: Duas semanas
 
