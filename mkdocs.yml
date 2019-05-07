@@ -1,4 +1,4 @@
-site_name: MEDIUM-Requisitos(2019) 
+site_name: MEDIUM 
 nav:
     - Home: index.md
     - Baseline: baseline.md
@@ -7,7 +7,7 @@ nav:
         - 5W2H:  pre-rastreabilidade/5w2h.md
         - Richpicture:  pre-rastreabilidade/richpicture.md
         - Argumentação:  pre-rastreabilidade/argumentacao.md
-    - Elicitação de requisitos:
+    - Elicitação:
         - Brainstormings: elicitacao/brainstormings.md
         - Introspecções: elicitacao/introspeccao.md
         - Storytelling: elicitacao/storytelling.md
@@ -22,6 +22,7 @@ nav:
         - Casos de uso:  modelagem/user_case.md
         - Especificações: modelagem/especificacoes.md
         - Especificação Suplementar: modelagem/especificacao_suplementar.md
-    - Atas de reunião: atas-reuniao.md
-theme: readthedocs
-extra_css: [extra.css]
+        - Backlog do Produto: modelagem/product_backlog.md
+        - Backlog das Sprints: modelagem/sprints_backlog.md
+    - Atas: atas-reuniao.md
+theme: journal
