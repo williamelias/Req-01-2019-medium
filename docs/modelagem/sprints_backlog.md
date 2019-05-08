@@ -462,7 +462,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
     </table>
 
 
-##US023 – Desativar conta
+###US023 – Desativar conta
 
 **Eu, como usuário, desejo desativar a minha conta do Medium e remover o seu conteúdo momentaneamente. Desejo que ao realizar o login novamente ela seja restaurada junto com seu conteúdo.**
 
@@ -472,7 +472,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 * A conta deve ser restaurada juntamente com seu conteúdo ao realizado o login novamente.
 * Caso ocorra uma falha no processo de desativação, o usuário deve receber um feedback visual.
 
-##US024 – Deletar conta
+###US024 – Deletar conta
 
 **Eu, como usuário, desejo deletar a minha conta do Medium e remover o seu conteúdo definitivamente.**
 
@@ -482,7 +482,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 * Caso ocorra uma falha no processo de deletar conta, o usuário deve receber um feedback visual.
 * O usuário não deverá ser capaz de realizar o login novamente com a mesma conta
 
-##US026 – Seguir usuários
+###US026 – Seguir usuários
 
 **Eu, como usuário, desejo seguir outros usuários e ser capaz de ver mais facilmente os textos por eles publicados e que os interessam.**
 
@@ -492,7 +492,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 * O usuário deve ser capaz de ver uma lista de todos os usuários que segue em seu perfil.
 * O usuário deve ser capaz de acessar rapidamente o perfil dos usuários que segue.
 
-##US64 – Importar ‘storie’
+###US64 – Importar ‘storie’
 
 **Eu, como usuário escritor, desejo aproveitar uma história já publicada por min em outro lugar para editá-la e/ou publicá-la nas minhas histórias Medium**
 
@@ -717,3 +717,177 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 
 * O usuário pode ativar e/ou desativar o recebimento de notificações por e-mail;
 * Após ativar e/ou desativar o recebimento de notificações por e-mail, o usuário recebe um feedback visual mostrando a ação efetuada por ele;
+
+
+***
+
+##Sprint 5
+
+**Duração**: Duas semanas
+
+**Término**: Sprint 6
+
+**Total de pontos**: 26
+
+ <table>
+    <tbody>
+            <tr>
+                <td>
+                    <p><span>ID</span></p>
+                </td>
+                <td>
+                    <p><span>Tema</span></p>
+                </td>
+                <td>
+                    <p><span>Épico</span></p>
+                </td>
+                <td>
+                    <p><span>História de usuário</span></p>
+                </td>
+                <td>
+                    <p><span>Pontos</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US010</span></p>
+                    <p class="c9 c17"><span></span></p>
+                </td>
+                <td>
+                    <p><span>Configuração</span></p>
+                </td>
+                <td>
+                    <p class="c9 c17"><span></span></p>
+                </td>
+                <td>
+                    <p><span>Ativar/desativar notificação social</span></p>
+                </td>
+                <td>
+                    <p><span>5</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US040</span></p>
+                    <p class="c9 c17"><span></span></p>
+                </td>
+                <td>
+                    <p><span>Login</span></p>
+                </td>
+                <td>
+                    <p class="c9 c17"><span></span></p>
+                </td>
+                <td>
+                    <p><span>Login via twitter</span></p>
+                </td>
+                <td>
+                    <p><span>5</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US025</span></p>
+                </td>
+                <td>
+                    <p><span>Interação</span></p>
+                </td>
+                <td>
+                    <p class="c9 c17"><span></span></p>
+                </td>
+                <td>
+                    <p><span>Seguir escritores</span></p>
+                </td>
+                <td>
+                    <p><span>3</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US029</span></p>
+                </td>
+                <td>
+                    <p><span>Interação</span></p>
+                </td>
+                <td>
+                    <p><span></span></p>
+                </td>
+                <td>
+                    <p><span>Visualizar perfis de outros</span></p>
+                </td>
+                <td>
+                    <p><span>5</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US071</span></p>
+                </td>
+                <td>
+                    <p><span>Interação</span></p>
+                </td>
+                <td>
+                    <p><span></span></p>
+                </td>
+                <td>
+                    <p><span>Visualizar storie</span></p>
+                </td>
+                <td>
+                    <p><span>8</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+###US010 – Ativar/desativar notificação social
+
+**Eu, como usuário, desejo receber ou não notificações de medias sociais.**
+
+**Critérios de aceitação:**
+
+* O usuário poderá, por meio de checkbox selecionar o status para recebimento de notificação em suas redes socias.
+
+###US040 – Login via twitter
+
+**Eu, como usuário, desejo me conectar a minha conta via integração com o Twitter.**
+
+**Critérios de aceitação:**
+
+* Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
+* Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
+
+
+###US025 – Seguir escritor
+
+**Eu, como usuário, desejo receber notificações das histórias deles.**
+
+**Critérios de aceitação:**
+
+* O usuário, ao ler um dado texto, deve ser capaz de visualizar informações básicas do escritor;
+* O usuário deve ser capaz de visualizar um ícone para seguir o escritor;
+* O usuário deve ser capaz de deixar de seguir o escritor.
+
+###US029 – Visualizar perfis de outros usuários
+
+**Eu, como usuário, desejo ver seus históricos de leitura/Escolher segui-los ou não/Achar novos assuntos de interesse.**
+
+**Critérios de aceitação:**
+
+* O usuário deve conseguir clicar na foto de perfil de outro usuário e ser redirecionado a página de dados do mesmo;
+* O usuário poderá ver os seguintes dados:
+  * Nome
+  * foto de perfil
+  * claps
+
+###US071 – Visualizar storie
+
+**Eu, como usuário, desejo ler um texto na íntegra e realizar outras ações posteriores relacionadas ao mesmo.**
+
+**Critérios de aceitação:**
+
+* O usuário deverá ser capaz de clicar no título do artigo e ser redirecionado a página de conteúdo do mesmo;
+* O usuário terá como possíveis ações:
+  * comentar trecho do texto lido
+  * aplaudir texto lido
+  * dar clap no texto lido
+  * seguir escritor responsável pelo texto lido
+* O usuário deve ser capaz de sair da página de leitura se for de seu querer
