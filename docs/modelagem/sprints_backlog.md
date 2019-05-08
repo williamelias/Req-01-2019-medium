@@ -1,8 +1,8 @@
 ## Versionamento de edições
-| Data           | autor                | Descrição                           |Versão|
-|----------------|----------------------|-------------------------------------|------|
-|   07/04/2019   | William Elias Alves  | Criação da página | 0.1  |
-|   07/04/2019   | William Elias Alves  | Inserção do backlog das sprints 1 e 2 | 0.1  |
+| Data       | autor               | Descrição                             | Versão |
+|------------|---------------------|---------------------------------------|--------|
+| 07/04/2019 | William Elias Alves | Criação da página                     | 0.1    |
+| 07/04/2019 | William Elias Alves | Inserção do backlog das sprints 1 e 2 | 0.1    |
 
 
 ##Definição
@@ -360,3 +360,360 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 * Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual;
 * O usuário deve ser redirecionado à página de autorização do Google para confirmação da integração;
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de configurações do Medium.
+
+***
+
+##Sprint 3
+
+**Duração**: Duas semanas
+
+**Término**: Sprint 4
+
+**Total de pontos**: 21
+
+ <table>
+    <tbody>
+            <tr>
+                <td>
+                    <p><span>ID</span></p>
+                </td>
+                <td>
+                    <p><span>Tema</span></p>
+                </td>
+                <td>
+                    <p><span>Épico</span></p>
+                </td>
+                <td>
+                    <p><span>História de usuário</span></p>
+                </td>
+                <td>
+                    <p><span>Pontos</span></p>
+                </td>
+            </tr>
+             <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US023</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Configura&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Conta</span></p>
+                </td>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Desativar conta</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US024</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Configura&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Conta</span></p>
+                </td>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Deletar conta</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+            <tr class="c13">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US026</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Intera&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c23 c9">Seguir usu&aacute;rios</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">3</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US064</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Storie</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c9 c28">Importar &#39;storie&#39;</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">8</span></p>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+
+##US023 – Desativar conta
+
+**Eu, como usuário, desejo desativar a minha conta do Medium e remover o seu conteúdo momentaneamente. Desejo que ao realizar o login novamente ela seja restaurada junto com seu conteúdo.**
+
+**Critérios de aceitação:**
+
+* O usuário deve ser capaz de desativar sua conta e seu conteúdo;
+* A conta deve ser restaurada juntamente com seu conteúdo ao realizado o login novamente.
+* Caso ocorra uma falha no processo de desativação, o usuário deve receber um feedback visual.
+
+##US024 – Deletar conta
+
+**Eu, como usuário, desejo deletar a minha conta do Medium e remover o seu conteúdo definitivamente.**
+
+**Critérios de aceitação:**
+
+* O usuário deve ser capaz de deletar sua conta completamente junto com seu conteúdo;
+* Caso ocorra uma falha no processo de deletar conta, o usuário deve receber um feedback visual.
+* O usuário não deverá ser capaz de realizar o login novamente com a mesma conta
+
+##US026 – Seguir usuários
+
+**Eu, como usuário, desejo seguir outros usuários e ser capaz de ver mais facilmente os textos por eles publicados e que os interessam.**
+
+**Critérios de aceitação:**
+
+* O usuário deve ser capaz de seguir outros usuários.
+* O usuário deve ser capaz de ver uma lista de todos os usuários que segue em seu perfil.
+* O usuário deve ser capaz de acessar rapidamente o perfil dos usuários que segue.
+
+##US64 – Importar ‘storie’
+
+**Eu, como usuário escritor, desejo aproveitar uma história já publicada por min em outro lugar para editá-la e/ou publicá-la nas minhas histórias Medium**
+
+**Critérios de aceitação:**
+
+* O usuário escritor deve possuir um link válido do site onde consta o post original que deseja importar para o Medium.
+* O usuário escrito deve ser capaz de importar o texto de outro site em suas histórias no Medium.
+* Caso ocorra alguma falha no processo de importação, o usuário deve receber um feedback visual.
+
+***
+
+##Sprint 4
+
+**Duração**: Duas semanas
+
+**Término**: Sprint 6
+
+**Total de pontos**: 27
+
+ <table>
+    <tbody>
+            <tr>
+                <td>
+                    <p><span>ID</span></p>
+                </td>
+                <td>
+                    <p><span>Tema</span></p>
+                </td>
+                <td>
+                    <p><span>Épico</span></p>
+                </td>
+                <td>
+                    <p><span>História de usuário</span></p>
+                </td>
+                <td>
+                    <p><span>Pontos</span></p>
+                </td>
+            </tr>
+             <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US007</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Conex&otilde;es</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Conectar com twitter</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US042</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Login</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">integra&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Login via E-mail</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US056</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Perfil</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Visualizar pr&oacute;prio perfil</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">3</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US057</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Perfil</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Editar nome de usu&aacute;rio</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">1</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US031</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Intera&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c9 c23">Visualizar coment&aacute;rios da storie</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">3</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US032</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Intera&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c23 c9">Reportar storie</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+            <tr class="c13">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US019</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Configura&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">notifica&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c23 c9">Ativar/desativar notifica&ccedil;&atilde;o por e-mail</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+    </table>
+
+
+###US007 –  Conectar com twitter
+
+**Eu, como usuário, desejo conectar a minha conta do Medium com o Twitter, para que eu possa realizar uma integração com o Twitter, adicionando uma nova forma de login.**
+
+**Critérios de aceitação:**
+
+* O usuário deve ser capaz de clicar em botão que abra uma janela para que ele efetue o login na sua conta do Twitter;
+* Após o login no Twitter ter sido efetuado, o sistema deverá pegar os dados da conta do Twitter do usuário e vincular com do usuário no Medium;
+* Após o login no Twitter ter sido efetuado, o usuário deverá ser redirecionado para a página de configurações;
+* Após o login no Twitter ter sido efetuado, o usuário deverá ter um feedback visual que mostra a conexão do Twitter com a conta do Medium;
+
+
+###US042 –  Login via E-mail
+
+**Eu, como usuário, desejo efetuar o login com o E-mail, para que eu possa me conectar a conta do Medium usando o E-mail em que eu cadastrei na minha nela.**
+
+**Critérios de aceitação:**
+
+* Caso ocorra uma falha no processo de login, o usuário deve receber um feedback visual.
+* Caso o login seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
+
+###US056 –  Visualizar próprio perfil
+
+**Eu, como usuário, desejo ter acesso a todos os dados do meu perfil no Medium, para que eu possa visualizar os dados dele.**
+
+**Critérios de aceitação:**
+
+* O usuário tem como acessar uma página com dados do seu perfil;
+* Na página de perfil, o sistema retorna todos os dados do perfil do usuário;
+
+###US057 –  Editar nome de usuário
+
+**Eu, como usuário, desejo editar o meu nome de usuário no Medium, para que eu possa alterar o meu nome de usuário.**
+
+**Critérios de aceitação:**
+
+* O usuário tem como editar o seu nome de usuário no Medium;
+* Após a edição, o usuário é redirecionado para a sua página de perfil e consegue ver a edição no seu nome de usuário;
+
+###US031 –  Visualizar comentários da storie
+
+**Eu, como usuário, desejo visualizar os comentários de uma storie, para que eu possa ler todos os comentários feitos em uma storie.**
+
+**Critérios de aceitação:**
+
+* O usuário tem como visualizar todos comentários feitos em uma storie;
+
+###US032 –  Reportar storie
+
+**Eu, como usuário, desejo poder reportar uma storie, para que eu possa denunciar uma storie que considerei ofensiva e contribuir positivamente para a saúde mental da comunidade em questão.**
+
+**Critérios de aceitação:**
+
+* O usuário deve poder visualizar um ícone para iniciar o processo de reportar uma storie;
+* Após reportar uma storie, o usuário recebe um feedback visual mostrando que a storie foi reportada;
+
+###US019 –  Ativar/desativar notificação por e-mail
+
+**Eu, como usuário, desejo poder ativar e/ou desativar o recebimento de notificações por e-mail, para que eu possa selecionar entre receber ou não notificações por e-mail.**
+
+**Critérios de aceitação:**
+
+* O usuário pode ativar e/ou desativar o recebimento de notificações por e-mail;
+* Após ativar e/ou desativar o recebimento de notificações por e-mail, o usuário recebe um feedback visual mostrando a ação efetuada por ele;

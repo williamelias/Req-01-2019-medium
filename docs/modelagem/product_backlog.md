@@ -567,7 +567,7 @@ Foram especificados os requisitos da lista FTF e esses foram pontuados em uma re
         <td>Should</td>
       </tr>
       <tr>
-        <td rowspan="8">Storie</td>
+        <td rowspan="9">Storie</td>
         <td>063</td>
         <td>
           <div>Usuário Escritor</div>
@@ -640,12 +640,22 @@ Foram especificados os requisitos da lista FTF e esses foram pontuados em uma re
         <td>Must</td>
       </tr>
       <tr>
+        <td>071</td>
+        <td>
+          <div>Usuário</div>
+        </td>
+        <td>Visualizar storie</td>
+        <td>receber ou não notificações de medias sociais.</td>
+        <td>8</td>
+        <td>Must</td>
+      </tr>
+      <tr>
         <td>Total</td>
         <td>13</td>
         <td>2</td>
         <td></td>
         <td></td>
-        <td>456</td>
+        <td>464</td>
         <td></td>
       </tr>
     </tbody>
