@@ -2,7 +2,8 @@
 | Data       | autor               | Descrição                             | Versão |
 |------------|---------------------|---------------------------------------|--------|
 | 07/04/2019 | William Elias Alves | Criação da página                     | 0.1    |
-| 07/04/2019 | William Elias Alves | Inserção do backlog das sprints 1 e 2 | 0.1    |
+| 07/04/2019 | William Elias Alves | Inserção do backlog das sprints 1 e 2 | 0.2    |
+| 07/04/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
 
 
 ##Definição
@@ -16,6 +17,8 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 
 ***
 ##Sprint 1
+
+**Autor**: william
 
 **Duração**: Duas semanas
 
@@ -182,6 +185,8 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 
 ***
 ##Sprint 2
+
+**Autor**: Matheus
 
 **Duração**: Duas semanas
 
@@ -365,6 +370,8 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 
 ##Sprint 3
 
+**Autor**: Luís
+
 **Duração**: Duas semanas
 
 **Término**: Sprint 4
@@ -505,6 +512,8 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 ***
 
 ##Sprint 4
+
+**Autor**: Aline
 
 **Duração**: Duas semanas
 
@@ -722,6 +731,8 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 ***
 
 ##Sprint 5
+
+**Autores**: Aline e william
 
 **Duração**: Duas semanas
 
