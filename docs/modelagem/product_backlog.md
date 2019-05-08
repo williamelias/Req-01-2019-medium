@@ -2,6 +2,7 @@
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
 |   07/05/2019   | William Elias Alves  | Criação da página | 0.1  |
+|   07/05/2019   | Matheus Blanco  | Adição de rastro relativo aos temas | 0.2  |
 
 ##Definição
 
@@ -660,3 +661,13 @@ Foram especificados os requisitos da lista FTF e esses foram pontuados em uma re
       </tr>
     </tbody>
   </table>
+
+
+| Rastro de Tema | Origem |
+| ------- | ------- |
+| Geral | Priorização First Things First / Brainstorming |
+| Configuração | Storytelling - Configurar Aplicação |
+| Editar perfil | Storyboard - Editar Perfil |
+| Storie | Storytelling - Escrever 'New Storie' |
+| Cadastro | Storyboard - Cadastro e Login |
+| Login | Storyboard - Cadastro e Login |

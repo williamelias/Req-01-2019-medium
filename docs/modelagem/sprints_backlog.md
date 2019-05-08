@@ -1,10 +1,10 @@
 ## Versionamento de edições
 | Data       | autor               | Descrição                             | Versão |
 |------------|---------------------|---------------------------------------|--------|
-| 07/04/2019 | William Elias Alves | Criação da página                     | 0.1    |
-| 07/04/2019 | William Elias Alves | Inserção do backlog das sprints 1 e 2 | 0.2    |
-| 07/04/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
-
+| 07/05/2019 | William Elias Alves | Criação da página                     | 0.1    |
+| 07/05/2019 | William Elias Alves | Inserção do backlog das sprints 1 e 2 | 0.2    |
+| 07/05/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
+| 07/05/2019 | Matheus Blanco | Adição de rastro relativo aos temas | 0.4    |
 
 ##Definição
 
@@ -902,3 +902,13 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
   * dar clap no texto lido
   * seguir escritor responsável pelo texto lido
 * O usuário deve ser capaz de sair da página de leitura se for de seu querer
+
+
+| Rastro de Tema | Origem |
+| ------- | ------- |
+| Geral | Priorização First Things First / Brainstorming |
+| Configuração | Storytelling - Configurar Aplicação |
+| Editar perfil | Storyboard - Editar Perfil |
+| Storie | Storytelling - Escrever 'New Storie' |
+| Cadastro | Storyboard - Cadastro e Login |
+| Login | Storyboard - Cadastro e Login |
