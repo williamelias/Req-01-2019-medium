@@ -15,7 +15,7 @@ Por meio da estruturação dos requisitos e separação dos mesmos de acordo com
 
 ##Resultados
 
-Foram especificados os requisitos da lista FTF e esses foram pontuados em uma reunião com os membros da equipe. No total foram pegos 70 funcionalidades, dentre elas 6 não funcionais e se somou
+Foram especificados os requisitos da lista FTF e esses foram pontuados em uma reunião com os membros da equipe. No total foram pegos 71 funcionalidades, dentre elas 6 não funcionais.
 
 ***
 ##Backlog do produto
@@ -24,13 +24,13 @@ Foram especificados os requisitos da lista FTF e esses foram pontuados em uma re
 <table>
     <tbody>
       <tr>
-        <td>Tema</td>
-        <td>ID</td>
-        <td>Eu, como</td>
-        <td>Desejo</td>
-        <td>Para que eu possa</td>
-        <td>Pontos</td>
-        <td>MoSCoW</td>
+        <th>Tema</th>
+        <th>ID</th>
+        <th>Eu, como</th>
+        <th>Desejo</th>
+        <th>Para que eu possa</th>
+        <th>Pontos</th>
+        <th>MoSCoW</th>
       </tr>
       <tr>
         <td rowspan="3">Ajuda</td>

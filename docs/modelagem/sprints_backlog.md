@@ -1,10 +1,10 @@
 ## Versionamento de edições
-| Data       | autor               | Descrição                             | Versão |
-|------------|---------------------|---------------------------------------|--------|
-| 07/05/2019 | William Elias Alves | Criação da página                     | 0.1    |
-| 07/05/2019 | William Elias Alves | Inserção do backlog das sprints 1 e 2 | 0.2    |
+| Data       | autor                               | Descrição                               | Versão |
+|------------|-------------------------------------|-----------------------------------------|--------|
+| 07/05/2019 | William Elias Alves                 | Criação da página                       | 0.1    |
+| 07/05/2019 | William Elias Alves                 | Inserção do backlog das sprints 1 e 2   | 0.2    |
 | 07/05/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
-| 07/05/2019 | Matheus Blanco | Adição de rastro relativo aos temas | 0.4    |
+| 07/05/2019 | Matheus Blanco                      | Adição de rastro relativo aos temas     | 0.4    |
 
 ##Definição
 
@@ -14,6 +14,11 @@ São tidos como uma lista dos afazeres e transparência das ações durante dado
 ##Objetivo
 
 Com a concepção do backlog de algumas sprints fica possível visualizar e até projetar o andamento do desenvolvimento da aplicação e facilitar a concepção de um produto que agregue valor a cada sprint.
+
+
+##Resultados
+
+Foram especificados 5 sprints contentendo no total 26 histórias de usuários, sendo cada uma possui seus próprios critérios de aceitção.
 
 ***
 ##Sprint 1
@@ -197,20 +202,20 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
  <table>
     <tbody>
             <tr>
-                <td>
-                    <p><span>ID</span></p>
+               <td>
+                    <p><span><b>ID</b> </span></p>
                 </td>
                 <td>
-                    <p><span>Tema</span></p>
+                    <p><span><b>Tema</b></span></p>
                 </td>
                 <td>
-                    <p><span>Épico</span></p>
+                    <p><span><b>Épico</b></span></p>
                 </td>
                 <td>
-                    <p><span>História de usuário</span></p>
+                    <p><span><b>História de usuário</b></span></p>
                 </td>
                 <td>
-                    <p><span>Pontos</span></p>
+                    <p><span><b>Pontos</b></span></p>
                 </td>
             </tr>
             <tr>
@@ -382,19 +387,19 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
     <tbody>
             <tr>
                 <td>
-                    <p><span>ID</span></p>
+                    <p><span><b>ID</b> </span></p>
                 </td>
                 <td>
-                    <p><span>Tema</span></p>
+                    <p><span><b>Tema</b></span></p>
                 </td>
                 <td>
-                    <p><span>Épico</span></p>
+                    <p><span><b>Épico</b></span></p>
                 </td>
                 <td>
-                    <p><span>História de usuário</span></p>
+                    <p><span><b>História de usuário</b></span></p>
                 </td>
                 <td>
-                    <p><span>Pontos</span></p>
+                    <p><span><b>Pontos</b></span></p>
                 </td>
             </tr>
              <tr class="c11">
@@ -525,19 +530,19 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
     <tbody>
             <tr>
                 <td>
-                    <p><span>ID</span></p>
+                    <p><span><b>ID</b> </span></p>
                 </td>
                 <td>
-                    <p><span>Tema</span></p>
+                    <p><span><b>Tema</b></span></p>
                 </td>
                 <td>
-                    <p><span>Épico</span></p>
+                    <p><span><b>Épico</b></span></p>
                 </td>
                 <td>
-                    <p><span>História de usuário</span></p>
+                    <p><span><b>História de usuário</b></span></p>
                 </td>
                 <td>
-                    <p><span>Pontos</span></p>
+                    <p><span><b>Pontos</b></span></p>
                 </td>
             </tr>
              <tr class="c11">
@@ -743,20 +748,20 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
  <table>
     <tbody>
             <tr>
-                <td>
-                    <p><span>ID</span></p>
+               <td>
+                    <p><span><b>ID</b> </span></p>
                 </td>
                 <td>
-                    <p><span>Tema</span></p>
+                    <p><span><b>Tema</b></span></p>
                 </td>
                 <td>
-                    <p><span>Épico</span></p>
+                    <p><span><b>Épico</b></span></p>
                 </td>
                 <td>
-                    <p><span>História de usuário</span></p>
+                    <p><span><b>História de usuário</b></span></p>
                 </td>
                 <td>
-                    <p><span>Pontos</span></p>
+                    <p><span><b>Pontos</b></span></p>
                 </td>
             </tr>
             <tr>
@@ -904,11 +909,11 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 * O usuário deve ser capaz de sair da página de leitura se for de seu querer
 
 
-| Rastro de Tema | Origem |
-| ------- | ------- |
-| Geral | Priorização First Things First / Brainstorming |
-| Configuração | Storytelling - Configurar Aplicação |
-| Editar perfil | Storyboard - Editar Perfil |
-| Storie | Storytelling - Escrever 'New Storie' |
-| Cadastro | Storyboard - Cadastro e Login |
-| Login | Storyboard - Cadastro e Login |
+| Rastro de Tema | Origem                                         |
+|----------------|------------------------------------------------|
+| Geral          | Priorização First Things First / Brainstorming |
+| Configuração   | Storytelling - Configurar Aplicação            |
+| Editar perfil  | Storyboard - Editar Perfil                     |
+| Storie         | Storytelling - Escrever 'New Storie'           |
+| Cadastro       | Storyboard - Cadastro e Login                  |
+| Login          | Storyboard - Cadastro e Login                  |
