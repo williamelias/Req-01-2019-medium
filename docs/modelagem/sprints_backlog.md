@@ -768,7 +768,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
                     <p><span>Configuração</span></p>
                 </td>
                 <td>
-                    <p class="c9 c17"><span></span></p>
+                    <p class="c9 c17"><span>notificação</span></p>
                 </td>
                 <td>
                     <p><span>Ativar/desativar notificação social</span></p>
@@ -786,7 +786,7 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
                     <p><span>Login</span></p>
                 </td>
                 <td>
-                    <p class="c9 c17"><span></span></p>
+                    <p class="c9 c17"><span>Integração via API</span></p>
                 </td>
                 <td>
                     <p><span>Login via twitter</span></p>
