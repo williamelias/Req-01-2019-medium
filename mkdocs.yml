@@ -24,5 +24,7 @@ nav:
         - Especificação Suplementar: modelagem/especificacao_suplementar.md
         - Backlog do Produto: modelagem/product_backlog.md
         - Backlog das Sprints: modelagem/sprints_backlog.md
+        - NFR: modelagem/nfrs.md
+        - I*: modelagem/i*.md
     - Atas: atas-reuniao.md
 theme: journal
