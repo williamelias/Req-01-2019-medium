@@ -9,6 +9,8 @@
 |   29/05/2019   | Pedro Rodrigues  | Adição modelo relacional, nfr de usabilidade | 0.6  |
 |   29/05/2019   | Aline Laureano  | Adição dos nfrs de performance | 0.7  |
 |   29/05/2019   | Luis Claudio T. Lima  | Adição dos nfrs de confiabilidade | 0.8  |
+|   29/05/2019   | Gabriel Filipe  | Adição dos nfrs de iteroperabilidade | 0.8  |
+
 
 ## Definição
 
