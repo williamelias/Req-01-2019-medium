@@ -63,27 +63,27 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 
 **Responsável**: Matheus Salles Blanco
 
-**Modelo Relacional(V1.0)**
+**Modelo Analítico(V1.0)**
 
 ![modelo 1 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-1-.png)
 
-**Modelo Analítico(V1.0)**
+**Modelo Relacional(V1.0)**
 
 ![modelo 1 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-1-.png)
 
-**Modelo Relacional(V2.0)**
+**Modelo Analítico(V2.0)**
 
 ![modelo 2 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-2-.png)
 
-**Modelo Analítico(V2.0)**
+**Modelo Relacional(V2.0)**
 
 ![modelo 2 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-2-.png)
 
-**Modelo Relacional(V3.0)**
+**Modelo Analítico(V3.0)**
 
 ![modelo 3 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-3-.png)
 
-**Modelo Analítico(V3.0)**
+**Modelo Relacional(V3.0)**
 
 ![modelo 3 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-3-.png)
 
@@ -91,11 +91,11 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 
 **Responsável**: Pedro Rodrigues Pereira
 
-**Modelo Relacional(V1.0)**
+**Modelo Analítico(V1.0)**
 
 ![modelo 1 r relacional](nfrs/relacional_nfr_pedro_usabilidade.jpg)
 
-**Modelo Analítico(V1.0)**
+**Modelo Relacional(V1.0)**
 
 ![modelo 1 a usabilidade](nfrs/nfr_pedro_usabilidade.jpg)
 
