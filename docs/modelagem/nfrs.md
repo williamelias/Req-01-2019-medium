@@ -5,6 +5,8 @@
 |   27/05/2019   | William Elias Alves  | Adição da definição, objetivo e resultados | 0.2  |
 |   27/05/2019   | William Elias Alves  | Adição dos nfrs de controle de conteúdo | 0.3  |
 |   28/05/2019   | Matheus Blanco  | Adição dos nfrs de manutenibilidade | 0.4  |
+|   28/05/2019   | Pedro Rodrigues  | Adição dos nfrs de usabilidade | 0.5  |
+
 
 ## Definição
 
@@ -81,4 +83,12 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 **Modelo Analítico(V3.0)**
 
 ![modelo 3 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-3-.png)
+
+#### Usabilidade
+
+**Responsável**: Pedro Rodrigues Pereira
+
+**Modelo Relacional(V1.0)**
+
+![modelo 1 r usabilidade](nfrs/nfr_pedro_usabilidade.jpg)
 

@@ -3,6 +3,8 @@
 |----------------|----------------------|-------------------------------------|------|
 |   27/05/2019   | William Elias Alves  | Adição dos I* de publicações| 0.1  |
 |   27/05/2019   | Matheus Blanco  | Adição dos I* de stories e definição e objetivos e resultados| 0.2  |
+|   28/05/2019   | Pedro Rodrigues | Adição dos I* de customizar interesses | 0.3  |
+
 
 ## Definição
 
@@ -91,3 +93,22 @@ Versão 2.0
 ![user](i*/stories_blanco_SR-2.png)
 
 ***
+
+#### Customizar interesses
+
+**Responsável:** Pedro Rodrigues
+
+**Modelo SD**
+
+Versão 1.0
+
+![customizar_insteresses_SD](i*/customizar_interesses_pedro_SD.jpg)
+
+***
+
+**Modelo SR**
+
+Versão 1.0
+
+![customizar_insteresses_SR](i*/customizar_interesses_pedro_SR.png)
+
