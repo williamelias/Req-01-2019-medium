@@ -48,18 +48,6 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 
 ### Requisitos não funcionais :
 
-#### Controle de Qualidade
-
-**Responsável**: William Elias Alves
-
-**Modelo Relacional(V1.0)**
-
-![modelo r controle de conteúdo](nfrs/publicacao_relacao.jpg)
-
-**Modelo Analítico(V1.0)**
-
-![modelo r controle de conteúdo](nfrs/publicacao_analise.jpg)
-
 #### Manutenibilidade
 
 **Responsável**: Matheus Salles Blanco
@@ -87,6 +75,19 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 **Modelo Relacional(V3.0)**
 
 ![modelo 3 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-3-.png)
+
+
+#### Controle de Qualidade
+
+**Responsável**: William Elias Alves
+
+**Modelo Relacional(V1.0)**
+
+![modelo r controle de conteúdo](nfrs/publicacao_relacao.jpg)
+
+**Modelo Analítico(V1.0)**
+
+![modelo r controle de conteúdo](nfrs/publicacao_analise.jpg)
 
 #### Usabilidade
 
