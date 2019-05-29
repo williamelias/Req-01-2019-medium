@@ -4,6 +4,7 @@
 |   27/05/2019   | William Elias Alves  | Adição dos I* de publicações| 0.1  |
 |   27/05/2019   | Matheus Blanco  | Adição dos I* de stories e definição e objetivos e resultados| 0.2  |
 |   28/05/2019   | Pedro Rodrigues | Adição dos I* de customizar interesses | 0.3  |
+|   29/05/2019   | Aline Laureano | Adição dos I* de Perfil do Usuário | 0.4  |
 
 
 ## Definição
@@ -112,3 +113,37 @@ Versão 1.0
 
 ![customizar_insteresses_SR](i*/customizar_interesses_pedro_SR.png)
 
+***
+
+#### Perfil do Usuário
+
+**Responsável:** Aline Laureano
+
+**Modelo SD**
+
+Versão 1.0
+
+![perfil SD versão 1](i*/perfil_aline_SD-1.png)
+
+Versão 2.0
+
+![perfil SD versão 2](i*/perfil_aline_SD-2.png)
+
+***
+
+**Modelo SR**
+
+*Usuário* -
+Versão 1.0
+
+![Usuário SR](i*/perfil_aline_SR-usuário.png)
+
+*Medium* -
+Versão 1.0
+
+![Medium SR](i*/perfil_aline_SR-medium.png)
+
+*Usuário e Medium* -
+Versão 1.0
+
+![Usuário e Medium SR](i*/perfil_aline_SR-GERAL.png)

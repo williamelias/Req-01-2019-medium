@@ -7,6 +7,7 @@
 |   28/05/2019   | Matheus Blanco  | Adição dos nfrs de manutenibilidade | 0.4  |
 |   28/05/2019   | Pedro Rodrigues  | Adição dos nfrs de usabilidade | 0.5  |
 |   29/05/2019   | Pedro Rodrigues  | Adição modelo relacional, nfr de usabilidade | 0.6  |
+|   29/05/2019   | Aline Laureano  | Adição dos nfrs de performance | 0.7  |
 
 
 
@@ -99,3 +100,19 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 
 ![modelo 1 a usabilidade](nfrs/nfr_pedro_usabilidade.jpg)
 
+#### Performance
+
+**Responsável**: Aline Laureano de A. Vilela
+
+**Modelo Relacional(V1.0)**
+
+![modelo nfr para performance versão 1](nfrs/nfr_aline_performance-modelo_V1.png)
+
+**Modelo Relacional(V2.0)**
+
+![modelo nfr para performance versão 2](nfrs/nfr_aline_performance-modelo_V2.png)
+
+
+**Modelo Analítico(V1.0)**
+
+![modelo nfr analítico para performance](nfrs/nfr_aline_performance-analise.png)
