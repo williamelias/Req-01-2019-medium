@@ -147,3 +147,27 @@ Versão 1.0
 Versão 1.0
 
 ![Usuário e Medium SR](i*/perfil_aline_SR-GERAL.png)
+
+#### Pesquisar conteúdo
+
+**Responsável:** Gabriel Filipe
+
+**Modelo SD**
+
+Versão 1.0
+
+![Pesquisar V1 SD](i*/pesquisar_gabriel_v1.png)
+
+Versão 2.0
+
+![Pesquisar V2 SD](i*/pesquisar_gabriel_v2.png)
+
+**Modelo SR**
+
+Versão 1.0
+
+![Pesquisar V1 SR](i*/pesquisar_gabriel_sr_v1.png)
+
+Versão 2.0
+
+![Pesquisar V2 SR](i*/pesquisar_gabriel_sr_v2.png)

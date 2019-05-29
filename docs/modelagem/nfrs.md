@@ -126,3 +126,31 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 **Modelo Analítico(V1.0)**
 
 ![modelo nfr analítico para confiabilidade](nfrs/analise_nfr_confiabilidade-LuisClaudio.png)
+
+#### Iteroperabilidade
+
+**Responsável**: Gabriel Filipe Manso Araujo
+
+**Modelo Analítico(V1.0)**
+
+![modelo 1 r iteroperabilidade](nfrs/nfr_gabriel_iteroperabilidade_v1.png)
+
+**Modelo Analítico(V2.0)**
+
+![modelo 2 r iteroperabilidade](nfrs/nfr_gabriel_iteroperabilidade_v2.png)
+
+**Modelo Relacional(V1.0)**
+
+![modelo 1 a iteroperabilidade](nfrs/nfr_gabriel_iteroperabilidade_semobs.png)
+
+#### Segurança
+
+**Responsável**: Guilherme Marques
+
+**Modelo Analítico(V1.0)**
+
+![modelo 1 r relacional](nfrs/nfr_guilherme_seguranca_2_analise.png)
+
+**Modelo Relacional(V2.0)**
+
+![modelo 1 a usabilidade](nfrs/nfr_guilherme_seguranca_2.png)
