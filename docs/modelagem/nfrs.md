@@ -8,9 +8,7 @@
 |   28/05/2019   | Pedro Rodrigues  | Adição dos nfrs de usabilidade | 0.5  |
 |   29/05/2019   | Pedro Rodrigues  | Adição modelo relacional, nfr de usabilidade | 0.6  |
 |   29/05/2019   | Aline Laureano  | Adição dos nfrs de performance | 0.7  |
-
-
-
+|   29/05/2019   | Luis Claudio T. Lima  | Adição dos nfrs de confiabilidade | 0.8  |
 
 ## Definição
 
@@ -116,3 +114,15 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 **Modelo Analítico(V1.0)**
 
 ![modelo nfr analítico para performance](nfrs/nfr_aline_performance-analise.png)
+
+#### Confiabilidade
+
+**Responsável**: Luis Claudio Telles Lima
+
+**Modelo Relacional(V1.0)**
+
+![modelo nfr para confiabilidade versão 1](nfrs/nfr_confiabilidade-LuisClaudio.png)
+
+**Modelo Analítico(V1.0)**
+
+![modelo nfr analítico para confiabilidade](nfrs/analise_nfr_confiabilidade-LuisClaudio.png)
