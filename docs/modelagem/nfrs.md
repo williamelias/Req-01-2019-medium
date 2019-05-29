@@ -56,21 +56,21 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 
 ![modelo 1 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-1-.png)
 
-**Modelo Relacional(V1.0)**
-
-![modelo 1 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-1-.png)
-
 **Modelo Analítico(V2.0)**
 
 ![modelo 2 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-2-.png)
 
-**Modelo Relacional(V2.0)**
-
-![modelo 2 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-2-.png)
-
 **Modelo Analítico(V3.0)**
 
 ![modelo 3 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-3-.png)
+
+**Modelo Relacional(V1.0)**
+
+![modelo 1 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-1-.png)
+
+**Modelo Relacional(V2.0)**
+
+![modelo 2 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-2-.png)
 
 **Modelo Relacional(V3.0)**
 
@@ -84,6 +84,10 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 **Modelo Relacional(V1.0)**
 
 ![modelo r controle de conteúdo](nfrs/publicacao_relacao.jpg)
+
+**Modelo Relacional(V2.0)**
+
+![modelo r controle de conteúdo](nfrs/v2_controle_de_conteudo.jpg)
 
 **Modelo Analítico(V1.0)**
 
