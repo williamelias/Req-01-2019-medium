@@ -6,6 +6,9 @@
 |   27/05/2019   | William Elias Alves  | Adição dos nfrs de controle de conteúdo | 0.3  |
 |   28/05/2019   | Matheus Blanco  | Adição dos nfrs de manutenibilidade | 0.4  |
 |   28/05/2019   | Pedro Rodrigues  | Adição dos nfrs de usabilidade | 0.5  |
+|   29/05/2019   | Pedro Rodrigues  | Adição modelo relacional, nfr de usabilidade | 0.6  |
+
+
 
 
 ## Definição
@@ -90,5 +93,9 @@ Para conseguirmos organizar as categorias de requisitos não funcionais factíve
 
 **Modelo Relacional(V1.0)**
 
-![modelo 1 r usabilidade](nfrs/nfr_pedro_usabilidade.jpg)
+![modelo 1 r relacional](nfrs/relacional_nfr_pedro_usabilidade.jpg)
+
+**Modelo Analítico(V1.0)**
+
+![modelo 1 a usabilidade](nfrs/nfr_pedro_usabilidade.jpg)
 
