@@ -5,6 +5,8 @@
 |   27/05/2019   | Matheus Blanco  | Adição dos I* de stories e definição e objetivos e resultados| 0.2  |
 |   28/05/2019   | Pedro Rodrigues | Adição dos I* de customizar interesses | 0.3  |
 |   29/05/2019   | Aline Laureano | Adição dos I* de Perfil do Usuário | 0.4  |
+|   29/05/2019   | Gabriel Filipe  | Adição dos nfrs de iteroperabilidade | 0.5  |
+
 
 
 ## Definição
