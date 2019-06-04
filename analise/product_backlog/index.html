@@ -1,0 +1,2216 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Inspeção Backlog do produto - MEDIUM</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">MEDIUM</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../../baseline/">Baseline</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pré-rastreabilidade <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/pre-rastreabilidade/">Definição</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/5w2h/">5W2H</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/richpicture/">Richpicture</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/argumentacao/">Argumentação</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elicitação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../elicitacao/brainstormings/">Brainstormings</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/introspeccao/">Introspecções</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/storytelling/">Storytelling</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/storybords/">StoryBord</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/lista-req/">Lista de requisitos</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-moscow/">Priorização-Moscow</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-dependencias/">Priorização-Lista de Dependências</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-ftf/">Priorização-FTF</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../modelagem/cenarios/">Cenários</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/lexicos/">Léxicos</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/user_case/">Casos de uso</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/especificacoes/">Especificações</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/especificacao_suplementar/">Especificação Suplementar</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/product_backlog/">Backlog do Produto</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/sprints_backlog/">Backlog das Sprints</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/nfrs/">NFR</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/i*/">I*</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown active">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Análise <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li class="active">
+    <a href="./">Inspeção Backlog do produto</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../atas-reuniao/">Atas</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                            <li >
+                                <a rel="next" href="../../modelagem/i*/">
+                                    <i class="fa fa-arrow-left"></i> Previous
+                                </a>
+                            </li>
+                            <li >
+                                <a rel="prev" href="../../atas-reuniao/">
+                                    Next <i class="fa fa-arrow-right"></i>
+                                </a>
+                            </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#objetivos">Objetivos</a></li>
+            <li><a href="#metodologia">Metodologia</a></li>
+            <li><a href="#criterios-de-aceitacao">Critérios de aceitação</a></li>
+            <li><a href="#tabela-de-avaliacao-do-backlog-v1">Tabela de avaliação do Backlog v1</a></li>
+            <li><a href="#analise-dos-resultados">Análise dos resultados</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="versionamento-de-edicoes">Versionamento de edições</h2>
+<table>
+<thead>
+<tr>
+<th>Data</th>
+<th>autor</th>
+<th>Descrição</th>
+<th>Versão</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>04/06/2019</td>
+<td>william elias alves</td>
+<td>adição de introdução e objetivos</td>
+<td>0.1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="introducao">Introdução</h3>
+<p>Verificação é uma análise de modelos cuja uma tarefa pode ser desempenhado por pessoas como por softwares. Tem como objetivo assegurar que o sistema produzido atenda às especificações estabelecidas.</p>
+<h3 id="objetivos">Objetivos</h3>
+<p>Para a realização da verificação, foi utilizado o método de inspeção de Fagan. Esse tipo de abordagem atua na verificação de artefatos de elicitação e sem uma estrutura própria, ou produzidos por Engenheiros de Software/Requisitos, o que o configura, nesse caso, como uma lista de requisitos.</p>
+<h3 id="metodologia">Metodologia</h3>
+<p>Para a realização da análise do Backlog do produto com ênfase na verificação, foi escolhida a técnica de inspeção.
+Os passos a serem realizados para inspeção são os seguintes:</p>
+<ul>
+<li><strong>Definição dos critérios de aceitação</strong>: Para que haja um padrão estabelecido de como o conteúdo do backlog do produto deva se parecer;</li>
+<li><strong>Análise geral das USs</strong></li>
+</ul>
+<h3 id="criterios-de-aceitacao">Critérios de aceitação</h3>
+<p>Para que a US seja verificada por meio de inspeção, será necessário responder as seguintes perguntas, com sim ou não:</p>
+<p>1- A US está atrelada a um tema?</p>
+<p>2- O ator está bem definido?</p>
+<p>3- A escrita está clara e em padrão formal?</p>
+<p>4- A US está pontuada?</p>
+<p>5- A US está priorizada?</p>
+<p>6- A US apresenta um épico?</p>
+<p>7- A US poderia tem uma pertence a alguma sprint?</p>
+<p>8- A US apresenta um rastro claro de sua origem?</p>
+<p>9 - A "ação" e a “descrição da ação”  estão definidas na US?</p>
+<h3 id="tabela-de-avaliacao-do-backlog-v1">Tabela de avaliação do Backlog v1</h3>
+<p>Responsável: William Elias</p>
+<hr />
+<hr />
+<p><table>
+<tbody></p>
+<tr>
+
+<td><br>Backlog do Produto</b></td>
+
+<td colspan="9"><h4>Satisfação dos Critérios<h4></td>
+
+<td> </td>
+
+</tr>
+
+<tr>
+
+<td>ID</td>
+
+<td>1</td>
+
+<td>2</td>
+
+<td>3</td>
+
+<td>4</td>
+
+<td>5</td>
+
+<td>6</td>
+
+<td>7</td>
+
+<td>8</td>
+
+<td>9</td>
+
+<td > </td>
+
+</tr>
+
+<tr>
+
+<td>001</td>
+
+<td ">sim</td>
+
+<td ">sim</td>
+
+<td class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">002</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">003</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">004</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">005</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">006</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">007</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">008</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">009</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">010</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">011</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">012</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">013</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">014</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">015</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">016</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">017</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">018</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">019</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">020</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">021</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">022</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">023</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">024</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">025</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">026</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">027</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">028</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">029</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">030</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">031</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">032</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">033</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">034</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">035</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  "> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">036</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  "> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  "> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">037</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">038</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">039</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce91"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">040</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce91"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">041</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce91"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">042</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">043</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">044</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">045</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">046</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">047</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">048</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">049</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">050</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">051</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">052</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  "> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  "> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">053</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">054</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">055</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">056</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">057</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">058</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">059</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">060</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">061</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">062</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">063</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">064</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">065</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  "> </td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">066</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">067</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">068</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">069</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">070</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+<tr class="ro2">
+
+<td  ">071</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  class="ce90"> </td>
+
+<td  ">sim</td>
+
+<td  > </td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+<hr />
+<h3 id="analise-dos-resultados">Análise dos resultados</h3></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
