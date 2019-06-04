@@ -26,5 +26,7 @@ nav:
         - Backlog das Sprints: modelagem/sprints_backlog.md
         - NFR: modelagem/nfrs.md
         - I*: modelagem/i*.md
+    - Análise:
+        - Inspeção Backlog do produto: analise/product_backlog.md
     - Atas: atas-reuniao.md
 theme: journal
