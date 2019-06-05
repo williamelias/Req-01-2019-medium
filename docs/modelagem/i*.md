@@ -183,3 +183,7 @@ Versão 2.0
 Versão 1.0
 
 ![Configuracao V1 SD](i*/configuracao_LuisClaudio_SD-1.png)
+
+**Modelo SR**
+
+![Configuracao V1 SR](i*/configuracao_LuisClaudio_SR-1.png)
