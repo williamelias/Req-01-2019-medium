@@ -1,24 +1,30 @@
 ## Versionamento de edições
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|   07/05/2019   | William Elias Alves  | Criação da página | 0.1  |
-|   07/05/2019   | Matheus Blanco  | Adição de rastro relativo aos temas | 0.2  |
+|   07/05/2019   | William Elias Alves  | Criação da página | 0.0  |
+|   07/05/2019   | Matheus Blanco  | Adição de rastro relativo aos temas | 0.1  |
+|   04/06/2019   | Gabriel Filipe Manso Araujo  | Adição de rastros | 0.2  |
+|   05/06/2019   | Gabriel Filipe Manso Araujo  | Validação e melhoria das definições | 0.3  |
 
-##Definição
+## Definição
 
-O backlog do produto é uma parte essencial para especificação e clareamento dos requisitos já elicitados. É bastante importante pois traz uma visão transparente a respeito da definição de cada e modo de aplicação de cada funcionalidade da aplicação conforme a área a qual ela pertence. Ela é facilmente entendida por todos os stakeholders e serve de base para a parte de programação da aplicação, e é principalmente usada juntamente com metodologias ágeis.
+O Product Backlog, ou Backlog do Produto, é uma lista de funcionalidades desejadas de um produto, ou seja, os requisitos que um cliente espera receber ao final do projeto, descrito com sua própria linguagem. O ponto central do Scrum é a criação do Product Backlog, é nele que o projeto começa.
 
-##Objetivo
+Diferente do modelo tradicional de gestão de projetos, onde precisamos fechar o escopo para poder começar a executar, no Scrum acredita-se que o início do projeto não é o melhor momento para isso. Afinal nesse ponto ainda não conhecemos suficiente o projeto e precisamos avançar um pouco mais em algumas hipóteses antes de ter tanta “certeza”.
 
-Por meio da estruturação dos requisitos e separação dos mesmos de acordo com temas, buscamos facilitar a visualização das funcionalidades da aplicação para a parte do cliente e dos desenvolvedores que estarão envolvidos. Além de especificar um nível a mais por meio da criação de histórias de usuário e agragação de pontuação e moskow.
+O Backlog do Produto se mostra como uma parte essencial para especificação e clareamento dos requisitos já elicitados. É bastante importante por trazer uma visão mais transparente do software assim como de suas funcionalidades. Ele é facilmente entendido pelos stakeholders e é principalmente usada juntamente com metodologias ágeis.
+
+## Objetivo
+
+Por meio da estruturação dos requisitos e separação dos mesmos de acordo com temas, buscamos facilitar a visualização das funcionalidades da aplicação para o cliente e os desenvolvedores envolvidos. Além de ir um pouco mais além por meio da criação de histórias de usuário e agragação de pontuação e __MoSCoW__.
 
 
-##Resultados
+## Resultados
 
-Foram especificados os requisitos da lista FTF e esses foram pontuados em uma reunião com os membros da equipe. No total foram pegos 71 funcionalidades, dentre elas 6 não funcionais.
+Foram especificados os requisitos com base no mapeamento prévio utilizando o First Things First (FTF) e esses foram pontuados por meio de uma reunião realizadas com os membros da equipe. No total foram determinadas 71 funcionalidades, sendo 6 não funcionais.
 
 ***
-##Backlog do produto
+## Backlog do produto
 ***
 
 <table>
@@ -666,9 +672,9 @@ Foram especificados os requisitos da lista FTF e esses foram pontuados em uma re
 
 | Rastro de Tema | Origem |
 | ------- | ------- |
-| Geral | Priorização First Things First / Brainstorming |
-| Configuração | Storytelling - Configurar Aplicação |
-| Editar perfil | Storyboard - Editar Perfil |
-| Storie | Storytelling - Escrever 'New Storie' |
-| Cadastro | Storyboard - Cadastro e Login |
-| Login | Storyboard - Cadastro e Login |
+| Geral | [Priorização First Things First](priorizacao-ftf.md) / Brainstorming |
+| Configuração | [Storytelling](storytelling.md) - Configurar Aplicação |
+| Editar perfil | [Storyboard](storyboards.md) - Editar Perfil |
+| Storie | [Storytelling](storytelling.md) - Escrever 'New Storie' |
+| Cadastro | [Storyboard](storyboards.md) - Cadastro e Login |
+| Login | [Storyboard](storyboards.md) - Cadastro e Login |

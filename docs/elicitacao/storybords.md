@@ -6,13 +6,24 @@
 |   15/04/2019   |   Matheus Salles Blanco| Adição dos requisitos elicitados em cada técnica| 0.3  |
 |   17/04/2019   |   William Elias Alves| Inserção de storybords nessa página avulsa| 0.4  |
 |   17/04/2019   |   William Elias Alves| Inserção do rastro de elicitação para login e customização| 0.4  |
+|   05/06/2019   |   Gabriel Filie Manso Araujo | Validação e aprimoramento de descrições | 0.5  |
+
 
 
 ## Descrição 
-Por meio da aplicação de algumas técnicas de elicitação de requisitos os foi decidido que cada integrante do grupo focasse em uma área da plataforma MEDIUM. Mediante a utilização da técnica de [storytelling](storytelling.md), foram concebidos modelos de storybords.
-##Escopo
 
-O presente documento foi concebido por meio da aplicação das técnicas de storytelling e storybord com as seguintes ênfases: customização de interesses de um usuário, edição de perfil, login e cadastro na aplicação, criação de uma nova _storie_ e exploração de tópicos de leitura.
+Storyboards são uma forma prática e eficiente de desenhar, comunicar e discutir como um produto de software pode ser realizado ou modificado. Todas as pessoas, independente de sua área de atuação, podem visualizar e sugerir mudanças enquanto ainda é simples e barato realizá-las. E agora, os storyboards podem inclusive ajudar na homologação e teste de forma automatizada antes da entrega.
+
+Por meio da aplicação das técnicas de elicitação de requisitos, foi decidido que cada integrante do grupo focasse em uma área específica da plataforma MEDIUM e, mediante a utilização da técnica de [storytelling](storytelling.md), desenvolvessem diversos modelos de storyboards.
+
+## Escopo
+
+Os seguintes storyboards tiveram como ênfases: 
+
+* Customização de interesses de um usuário;
+* Login e cadastro na aplicação;
+* Como seguir um usuário escritor e encontrar tutoriais;
+* Bookmarking;
 
 ***
 #Storyboards
