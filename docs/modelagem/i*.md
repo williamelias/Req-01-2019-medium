@@ -5,9 +5,8 @@
 |   27/05/2019   | Matheus Blanco  | Adição dos I* de stories e definição e objetivos e resultados| 0.2  |
 |   28/05/2019   | Pedro Rodrigues | Adição dos I* de customizar interesses | 0.3  |
 |   29/05/2019   | Aline Laureano | Adição dos I* de Perfil do Usuário | 0.4  |
-|   29/05/2019   | Gabriel Filipe  | Adição dos I• de iteroperabilidade | 0.5  |
-
-
+|   29/05/2019   | Gabriel Filipe  | Adição dos I* de iteroperabilidade | 0.5  |
+|   06/05/2019   | Luis Claudio T. Lima  | Adição dos I* de configuração | 0.6  |
 
 ## Definição
 
@@ -26,6 +25,7 @@ Foram modelados I*s nos modelos SD e SR com os seguintes enfoques:
 * Publicações;
 * Customização de interesses;
 * Perfil;
+* Configurações;
 
 
 ***
