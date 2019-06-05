@@ -6,7 +6,6 @@
 |   29/04/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificações| 0.2  |
 |   04/06/2019   | Gabriel Filipe Manso Araujo  | Verificação e modificações em definições| 0.3  |
 
-
 # Documento de Especificação Suplementar
 
 ## Finalidade
