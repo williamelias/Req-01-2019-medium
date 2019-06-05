@@ -173,3 +173,13 @@ Versão 1.0
 Versão 2.0
 
 ![Pesquisar V2 SR](i*/pesquisar_gabriel_sr_v2.png)
+
+#### Configurações
+
+**Responsável:** Luís Cláudio T. Lima
+
+**Modelo SD**
+
+Versão 1.0
+
+![Configuracao V1 SD](i*/configuracao_LuisClaudio_SD-1.png)
