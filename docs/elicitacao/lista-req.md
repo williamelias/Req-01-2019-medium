@@ -6,7 +6,7 @@
 
 # Lista de requisitos elicitados
 
-**Descrição:** Requisitos elicitados mediante a aplicação das técnicas de [_Brainstorming_](brainstormings.md), [introspecção](introspeccao.md), [mapas mentais](brainstormings.md), [storytelling](storytelling.md) e [storybords](storybords.md).
+**Descrição:** Requisitos elicitados mediante a aplicação das técnicas de [_Brainstorming_](brainstormings.md), [introspecção](introspeccao.md), [mapas mentais](brainstormings.md), [storytelling](storytelling.md) e [storyboards](storyboards.md).
 
 |   ID |            Requisito                                               | Rastro |
 |------|--------------------------------------------------------------------| ------ |

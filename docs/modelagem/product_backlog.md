@@ -672,9 +672,9 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
 
 | Rastro de Tema | Origem |
 | ------- | ------- |
-| Geral | [Priorização First Things First](priorizacao-ftf.md) / Brainstorming |
-| Configuração | [Storytelling](storytelling.md) - Configurar Aplicação |
-| Editar perfil | [Storyboard](storyboards.md) - Editar Perfil |
-| Storie | [Storytelling](storytelling.md) - Escrever 'New Storie' |
-| Cadastro | [Storyboard](storyboards.md) - Cadastro e Login |
-| Login | [Storyboard](storyboards.md) - Cadastro e Login |
+| Geral | [Priorização First Things First](../elicitacao/priorizacao-ftf.md) / Brainstorming |
+| Configuração | [Storytelling](../elicitacao/storytelling.md) - Configurar Aplicação |
+| Editar perfil | [Storyboard](../elicitacao/storyboards.md) - Editar Perfil |
+| Storie | [Storytelling](../elicitacao/storytelling.md) - Escrever 'New Storie' |
+| Cadastro | [Storyboard](../elicitacao/storyboards.md) - Cadastro e Login |
+| Login | [Storyboard](../elicitacao/storyboards.md) - Cadastro e Login |

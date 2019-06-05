@@ -1,7 +1,7 @@
 ## Versionamento de edições
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|   09/04/2019   |  william elias alves | Inserção do texto base dos storybords| 0.1  |
+|   09/04/2019   |  William Elias Alves | Inserção do texto base dos storyboards| 0.1  |
 |   09/04/2019   |  Gabriel Filipe Manso Araujo | Inserção de novos storyboards | 0.2  |
 |   15/04/2019   |   Matheus Salles Blanco| Adição dos requisitos elicitados em cada técnica| 0.3  |
 |   17/04/2019   |   William Elias Alves| Inserção de storybords nessa página avulsa| 0.4  |
@@ -30,7 +30,7 @@ Os seguintes storyboards tiveram como ênfases:
 
 ## Customização de interesses
 
-![custumização de interesses](storybords/storyBoard_Customizar-seus-interesses_PedroRodrigues.jpg)
+![custumização de interesses](storyboards/storyBoard_Customizar-seus-interesses_PedroRodrigues.jpg)
 
 
 **Requisitos Elicitados**
@@ -45,7 +45,7 @@ Os seguintes storyboards tiveram como ênfases:
 
 ## Login e cadastro
 
-![login/cadastro](storybords/storybord-login.png)
+![login/cadastro](storyboards/storyboard-login.png)
 
 **Requisitos Elicitados**
 
@@ -59,7 +59,7 @@ Os seguintes storyboards tiveram como ênfases:
 
 ## Tutorial e seguir escritor
 
-![tutorial/seguir escritor](storybords/storytelling_gabriel.jpg)
+![tutorial/seguir escritor](storyboards/storytelling_gabriel.jpg)
 **Requisitos Elicitados**
 
 | ID | Requisitos Elicitados desta técnica |
@@ -68,7 +68,7 @@ Os seguintes storyboards tiveram como ênfases:
 
 ## Bookmarking
 
-![bookmarking](storybords/storytelling_bookmarking.png)
+![bookmarking](storyboards/storytelling_bookmarking.png)
 **Requisitos Elicitados**
 
 | ID | Requisitos Elicitados desta técnica |
