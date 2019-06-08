@@ -3,6 +3,7 @@
 |----------------|----------------------|-------------------------------------|------|
 |   28/04/2019   | William Elias Alves  | Criação da página | 0.1  |
 |   28/04/2019   | William Elias Alves  | Inserção das especificações| 0.2  |
+|   08/06/2019   | Luís Cláudio T. Lima | Correção da numeração das UC's| 0.3  |
 
 #Definição
 
@@ -286,7 +287,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve possuir rascunhos e/ou series publicados|
 |**Pós-condições**|Usuário poderá criar series, publicar rascunhos ou visualizar os publicados |
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário acessa a página de Series**<br/>1-Usuário clica no botão series no menu lateral; <br/>2-Usuário visualiza rascunhos criados.|
-|**Fluxo alternativo**|**[FA01] UC04 - Visualizar published**; <br/>**[FA02] UC05 - Criar series**|
+|**Fluxo alternativo**|**[FA01] UC22 - Visualizar published**; <br/>**[FA02] UC23 - Criar series**|
 
 ***
 
@@ -299,7 +300,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve ter acessado a página de series e ter rascunhos salvos|
 |**Pós-condições**|Usuário visualizará as opções |
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja abrir as series rascunhadas**<br/>1-Usuário seleciona uma serie criada <br/>2-Usuário lê a serie criada|
-|**Fluxo alternativo**|**[FA01] UC08 - Editar rascunho**|
+|**Fluxo alternativo**|**[FA01] UC26 - Editar rascunho**|
 
 ***
 
@@ -315,7 +316,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC23-Criar series**
+**UC23 - Criar series**
 
 |||
 |---|---|
@@ -324,11 +325,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve ter acessado a página de series|
 |**Pós-condições**|Usuário poderá rascunhar e publicar a história criada |
 |**Fluxo principal**|** [FP01] O fluxo se inicia quando o usuário deseja criar uma nova serie**<br/>1-Usuário aperta o botão de Create Series**<br/>2-Usuário cria a serie, incluindo texto, imagens|
-|**Fluxo alternativo**|**[FA01] UC07 - Publicar serie**<br/>**[FA02] UC06 - enviar previa para app de celular**|
+|**Fluxo alternativo**|**[FA01] UC25 - Publicar serie**<br/>**[FA02] UC24 - Enviar prévia para app de celular**|
 
 ***
 
-**UC24-Enviar previa para celular**
+**UC24 - Enviar prévia para app de celular**
 
 |||
 |---|---|
@@ -386,7 +387,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário visualizará a área de Stories.|
-|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja visualizar a área com todas as suas publicações e rascunhos:**<br/>1-[UC01] Usuário acessa o menu lateral.<br>2-Usuário clica na opção "Stories". <br>3-O usuário visualizará a área de Stories.||
+|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja visualizar a área com todas as suas publicações e rascunhos:**<br/>1-[UC27] Acessar menu lateral do usuário.<br>2-Usuário clica na opção "Stories". <br>3-O usuário visualizará a área de Stories.||
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
@@ -414,7 +415,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário visualizará as suas Publicações.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos as publicações feitas por ele:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Publishes" localizada ao lado da opção "Drafts". <br/>3-O sistema retorna para a visualização do usuário todos as publicações feitas pelo usuário. |
-|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC31- Importar uma Story.<br> [FA03] UC32-Escrever uma nova Story.<br>|
+|**Fluxo alternativo**|[FA01] UC29-Visualizar Drafts.<br> [FA02] UC31- Importar uma Story.<br> [FA03] UC32-Escrever uma nova Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
@@ -428,7 +429,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário publicará uma story já publicada em qualquer outro site.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma story já existente em qualquer outro site:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Import a story" localizada ao lado da opção "Write a story". <br/>3-O sistema solicita o link da story que o usuário quer publicar. <br>4-O usuário insere o link e clica no botão "import". <br>5-O usuário edita a story importada. <br> 6-O usuário clica na opção "Ready to publish?". <br>7-O sistema redireciona o usuário para uma página com a prévia da publicação importada. <br>8-O usuário clica na opção "Publish now". <br>9-O sistema retorna uma mensagem de publicação realizada com sucesso.|
-|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC32-Escrever uma nova Story.<br>|
+|**Fluxo alternativo**|[FA01] UC29-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC32-Escrever uma nova Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
@@ -442,7 +443,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua nova story publicada.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma nova story:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Write a story" localizada ao lado da opção "Import a story". <br/>3-O sistema redireciona o usuário para uma página de criação da nova story. <br>4-O usuário insere o conteúdo da nova story e clica no botão "Ready to publish?".<br>5-O sistema redireciona o usuário para uma página com a prévia da nova publicação. <br>6-O usuário clica na opção "Publish now". <br>7-O sistema retorna uma mensagem de publicação realizada com sucesso.|
-|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC31-Importar uma Story.<br>|
+|**Fluxo alternativo**|[FA01] UC29-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC31-Importar uma Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
