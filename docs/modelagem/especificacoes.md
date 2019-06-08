@@ -162,7 +162,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 #### Acesso ao Medium Membership(william elias alves)
 
-**UC01-Selecionar plano**
+**UC12-Selecionar plano**
 
 |||
 |---|---|
@@ -175,7 +175,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC02-Selecionar $5/Mês**
+**UC13-Selecionar $5/Mês**
 
 |||
 |---|---|
@@ -184,11 +184,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário terá selecionado o plano mensal|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano mensal|
-|**Fluxo alternativo**|** [FA01] **UC03-Selecionar $50/Ano** **|
+|**Fluxo alternativo**|** [FA01] **UC14-Selecionar $50/Ano** **|
 
 
 ***
-**UC03-Selecionar $50/Ano**
+**UC14-Selecionar $50/Ano**
 
 |||
 |---|---|
@@ -197,11 +197,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário terá selecionado o plano mensal|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano anual|
-|**Fluxo alternativo**|** [FA01] **UC02-Selecionar $5/Mês** **|
+|**Fluxo alternativo**|** [FA01] **UC13-Selecionar $5/Mês** **|
 
 ***
 
-**UC04-Selecionar Método de pagamento**
+**UC15-Selecionar Método de pagamento**
 
 |||
 |---|---|
@@ -210,12 +210,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário terá selecionado o método de pagamento|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um método de pagamento**<br/> 1-Usuário clica na área 'payment'<br>2-Usuário clica em 'credit card'|
-|**Fluxo alternativo**|** [FA01] **UC05-Pagar via PayPal**|
+|**Fluxo alternativo**|** [FA01] **UC16-Pagar via PayPal**|
 
 ***
 
 
-**UC05-Pagar via PayPal**
+**UC16-Pagar via PayPal**
 
 |||
 |---|---|
@@ -224,12 +224,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário terá selecionado o método de pagamento|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Paypal**<br/>1-Usuário clica em 'Payments' <br/>2-Usuário clica em PayPal<br>3-Usuário visualiza um modal de inserção de dados do PayPal<br>4-Usuário insere seus dados de login no PayPal|
-|**Fluxo alternativo**|** [FA01] **UC06-Pagar via cartão de crédito**|
+|**Fluxo alternativo**|** [FA01] **UC17-Pagar via cartão de crédito**|
 |**Fluxo de exceção**|** [FE01] Dados PaylPal inválidos**<br/>No passo 4 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
 
 ***
 
-**UC06-Pagar via cartão de crédito**
+**UC17-Pagar via cartão de crédito**
 
 |||
 |---|---|
@@ -238,13 +238,13 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário terá escolhido o método de pagamento como cartão de crédito|
 |**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Cartão de crédito**<br/>1-Usuário insere o número do cartão<br>2-Usuário insere a data de expiração do cartão<br>3-Usuário insere o código de segurança do cartão||
-|**Fluxo alternativo**|** [FA01] UC05-Pagar via PayPal**|
+|**Fluxo alternativo**|** [FA01] UC16-Pagar via PayPal**|
 |**Fluxo de exceção**|** [FE01] Dados do cartão de crédito inválidos**<br/>No passo 1,2 e 3 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
 
 ***
 
 
-**UC07-Acessar área de membro vip**
+**UC18-Acessar área de membro vip**
 
 |||
 |---|---|
@@ -265,7 +265,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 **Versão 2.0**
 
-**UC01-Acessar menu lateral**
+**UC19-Acessar menu lateral**
 
 |||
 |---|---|
@@ -277,7 +277,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC02-Visualizar Series**
+**UC20-Visualizar Series**
 
 |||
 |---|---|
@@ -290,7 +290,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC03-Visualizar Drafts**
+**UC21-Visualizar Drafts**
 
 |||
 |---|---|
@@ -303,7 +303,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC04-Visualizar Published**
+**UC22-Visualizar Published**
 
 |||
 |---|---|
@@ -315,7 +315,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC05-Criar series**
+**UC23-Criar series**
 
 |||
 |---|---|
@@ -328,7 +328,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC06-Enviar previa para celular**
+**UC24-Enviar previa para celular**
 
 |||
 |---|---|
@@ -340,7 +340,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC07-Publicar serie**
+**UC25-Publicar serie**
 
 |||
 |---|---|
@@ -352,7 +352,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC08-Editar rascunho**
+**UC26-Editar rascunho**
 
 |||
 |---|---|
@@ -365,7 +365,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 ***
 #### UC Stories (Aline Laureano)
 
-**UC01 - Acessar menu lateral do usuário**
+**UC27 - Acessar menu lateral do usuário**
 
 |||
 |---|---|
@@ -378,7 +378,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC02-Visualizar Stories**
+**UC28-Visualizar Stories**
 
 |||
 |---|---|
@@ -391,7 +391,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
-**UC03-Visualizar Drafts**
+**UC29-Visualizar Drafts**
 
 |||
 |---|---|
@@ -400,12 +400,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário visualizará os seus Drafts.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos os Drafts feitos por ele:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O sistema retorna para a visualização do usuário todos os Drafts feitos pelo usuário. |
-|**Fluxo alternativo**|[FA01] UC04-Visualizar Publicações.<br> [FA02] UC05- Importar uma Story.<br> [FA03] UC06-Escrever uma nova Story.<br>|
+|**Fluxo alternativo**|[FA01] UC30-Visualizar Publicações.<br> [FA02] UC31- Importar uma Story.<br> [FA03] UC32-Escrever uma nova Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC04-Visualizar Publicações**
+**UC30-Visualizar Publicações**
 
 |||
 |---|---|
@@ -414,12 +414,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário visualizará as suas Publicações.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos as publicações feitas por ele:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Publishes" localizada ao lado da opção "Drafts". <br/>3-O sistema retorna para a visualização do usuário todos as publicações feitas pelo usuário. |
-|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC05- Importar uma Story.<br> [FA03] UC06-Escrever uma nova Story.<br>|
+|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC31- Importar uma Story.<br> [FA03] UC32-Escrever uma nova Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC05-Importar uma Story.**
+**UC31-Importar uma Story.**
 
 |||
 |---|---|
@@ -428,12 +428,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário publicará uma story já publicada em qualquer outro site.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma story já existente em qualquer outro site:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Import a story" localizada ao lado da opção "Write a story". <br/>3-O sistema solicita o link da story que o usuário quer publicar. <br>4-O usuário insere o link e clica no botão "import". <br>5-O usuário edita a story importada. <br> 6-O usuário clica na opção "Ready to publish?". <br>7-O sistema redireciona o usuário para uma página com a prévia da publicação importada. <br>8-O usuário clica na opção "Publish now". <br>9-O sistema retorna uma mensagem de publicação realizada com sucesso.|
-|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC04-Visualizar publicações.<br> [FA03] UC06-Escrever uma nova Story.<br>|
+|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC32-Escrever uma nova Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC06-Escrever uma nova Story.**
+**UC32-Escrever uma nova Story.**
 
 |||
 |---|---|
@@ -442,12 +442,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua nova story publicada.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma nova story:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Write a story" localizada ao lado da opção "Import a story". <br/>3-O sistema redireciona o usuário para uma página de criação da nova story. <br>4-O usuário insere o conteúdo da nova story e clica no botão "Ready to publish?".<br>5-O sistema redireciona o usuário para uma página com a prévia da nova publicação. <br>6-O usuário clica na opção "Publish now". <br>7-O sistema retorna uma mensagem de publicação realizada com sucesso.|
-|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC04-Visualizar publicações.<br> [FA03] UC05-Importar uma Story.<br>|
+|**Fluxo alternativo**|[FA01] UC03-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC31-Importar uma Story.<br>|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC07-Editar Draft.**
+**UC33-Editar Draft.**
 
 |||
 |---|---|
@@ -456,12 +456,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá o seu draft editado.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja editar um draft:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer editar. <br/>3-O usuário clica na opção "Edit draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página de edição do draft. <br>5-O usuário insere as alterações no conteúdo do draft e sai da página de edição sem salvar o rascunho.<br>6-O sistema irá salvar as edições feitas no rascunho.|
-|**Fluxo alternativo**|[FA01] UC08-Excluir Draft.|
+|**Fluxo alternativo**|[FA01] UC34-Excluir Draft.|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC08-Excluir Draft.**
+**UC34-Excluir Draft.**
 
 |||
 |---|---|
@@ -470,12 +470,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá o seu draft excluído.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir um draft:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer excluir. <br>3-O usuário clica na opção "Delete draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão do draft. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de drafts sem o draft excluído.|
-|**Fluxo alternativo**|[FA01] UC07-Editar Draft.|
+|**Fluxo alternativo**|[FA01] UC33-Editar Draft.|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC09-Editar Publicação.**
+**UC35-Editar Publicação.**
 
 |||
 |---|---|
@@ -484,12 +484,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua publicação editada.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja editar uma publicação:**<br/> 1-[US04] Usuário visualiza a área de Publicações. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer editar. <br/>3-O usuário clica na opção "Edit story" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página de edição da story. <br>5-O usuário insere as alterações no conteúdo da story e clica no botão "Save and publish".<br>6-O sistema redireciona o usuário para a página da story com as alterações feitas.|
-|**Fluxo alternativo**|[FA01] UC08-Excluir Publicação.|
+|**Fluxo alternativo**|[FA01] UC36-Excluir Publicação.|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
 
-**UC10-Excluir Publicação.**
+**UC36-Excluir Publicação.**
 
 |||
 |---|---|
@@ -498,7 +498,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua publicação excluída.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir uma story:**<br/>  1-[US04] Usuário visualiza a área de Publicações.  <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer excluir. <br>3-O usuário clica na opção "Delete story" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão da story. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de publicações sem a story excluída.|
-|**Fluxo alternativo**|[FA01] UC09-Editar Publicação.|
+|**Fluxo alternativo**|[FA01] UC35-Editar Publicação.|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***

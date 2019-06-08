@@ -49,10 +49,10 @@ A aplicação na qual serão aplicados conceitos e práticas de Engenharia de Re
 
 |  | Nome |
 | --- | --- |
-| <img width="100" alt="luis" src="https://avatars0.githubusercontent.com/u/16181794?s=400&v=4"> | Aline Laureano |
-| <img width="100" alt="luis" src="https://avatars3.githubusercontent.com/u/37154573?s=400&v=4"> | Gabriel Filipe |
-| <img width="100" alt="luis" src="https://avatars0.githubusercontent.com/u/32804970?s=400&v=4"> | Guilherme Marques |
-| <img width="100" alt="luis" src="https://avatars3.githubusercontent.com/u/37872798?s=400&v=4"> | Luis Cláudio |
-| <img width="100" alt="luis" src="https://avatars1.githubusercontent.com/u/37380789?s=400&v=4"> | Matheus Blanco |
-| <img width="100" alt="luis" src="https://avatars3.githubusercontent.com/u/32720946?s=400&v=4"> | Pedro Rodrigues|
-| <img width="100" alt="luis" src="https://avatars2.githubusercontent.com/u/26363750?s=400&v=4"> | William Elias |
+| <img width="100" alt="nome" src="https://avatars0.githubusercontent.com/u/16181794?s=400&v=4"> | Aline Laureano |
+| <img width="100" alt="nome" src="https://avatars3.githubusercontent.com/u/37154573?s=400&v=4"> | Gabriel Filipe |
+| <img width="100" alt="nome" src="https://avatars0.githubusercontent.com/u/32804970?s=400&v=4"> | Guilherme Marques |
+| <img width="100" alt="nome" src="https://avatars3.githubusercontent.com/u/37872798?s=400&v=4"> | Luís Cláudio T. Lima |
+| <img width="100" alt="nome" src="https://avatars1.githubusercontent.com/u/37380789?s=400&v=4"> | Matheus Blanco |
+| <img width="100" alt="nome" src="https://avatars3.githubusercontent.com/u/32720946?s=400&v=4"> | Pedro Rodrigues|
+| <img width="100" alt="nome" src="https://avatars2.githubusercontent.com/u/26363750?s=400&v=4"> | William Elias |
