@@ -39,6 +39,8 @@ Para conseguirmos organizar as categorias de requisitos para os moldes I* e rela
 
 **Responsável:** William Elias Alves
 
+**Responsável: William elias**
+
 **Modelo SD**
 
 Versão 1.0

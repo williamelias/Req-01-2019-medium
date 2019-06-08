@@ -28,5 +28,8 @@ nav:
         - I*: modelagem/i*.md
     - Análise:
         - Inspeção Backlog do produto: analise/product_backlog.md
+        - Inspeção Cenários: analise/verificacao_cenarios.md
+        - Inspeção I*: analise/verificacao_istars.md
+
     - Atas: atas-reuniao.md
 theme: journal
