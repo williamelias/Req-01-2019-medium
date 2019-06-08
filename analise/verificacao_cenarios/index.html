@@ -1,0 +1,1607 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Verificacao cenarios - MEDIUM</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">MEDIUM</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../../baseline/">Baseline</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pré-rastreabilidade <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/pre-rastreabilidade/">Definição</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/5w2h/">5W2H</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/richpicture/">Richpicture</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/argumentacao/">Argumentação</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elicitação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../elicitacao/brainstormings/">Brainstormings</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/introspeccao/">Introspecções</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/storytelling/">Storytelling</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/storyboards/">StoryBoard</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/lista-req/">Lista de requisitos</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-moscow/">Priorização-Moscow</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-dependencias/">Priorização-Lista de Dependências</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-ftf/">Priorização-FTF</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../modelagem/cenarios/">Cenários</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/lexicos/">Léxicos</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/user_case/">Casos de uso</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/especificacoes/">Especificações</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/especificacao_suplementar/">Especificação Suplementar</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/product_backlog/">Backlog do Produto</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/sprints_backlog/">Backlog das Sprints</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/nfrs/">NFR</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/i*/">I*</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Análise <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../product_backlog/">Inspeção Backlog do produto</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../atas-reuniao/">Atas</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#verificacao-cenarios">Verificação Cenários</a></li>
+            <li><a href="#checklist">Checklist</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h2 id="verificacao-cenarios">Verificação Cenários</h2>
+<h3 id="checklist">Checklist</h3>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>Título sucinto e com linguagem com verbos no infinitivo para indicar ações</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>Objetivo sucinto e que demonstre a meta final do usuário ao realizar tal atividade</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>Contexto mostrar quais etapas o usuário já cumpriu antes de chegar àquele cenário. Opcionais: Local, tempo e condição</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>Listagem de todos os atores necessários para o cumprimento do cenário</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>Listagem de todos os recursos necessários. Exemplo: aparelho com acesso à internet, navegador com o site aberto e outros específicos para cada cenário</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>Listagem de possíveis exceções, plausíveis com o contexto do cenário</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>Linguagem coloquial, todos os passos na terceira pessoa e explicativos de maneira ao usuário entender de maneira simples e sucinta como realizar a tarefa</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>Existência considerável de referências a léxicos a partir de hyperlinks</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>Existência considerável de referências a sub-cenários a partir de hyperlinks</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>Existência de rastreabilidade no cenário</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>Cenários com uma qualidade geral boa, o que inclui boa linguagem, referências, categorias completas e explicativas e rastreabilidade</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-dar-claps-v20">Cenário Dar Claps V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-compartilhar-publicacao-v20">Cenário Compartilhar Publicação V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-leitura-de-texto-v20">Cenário Leitura de texto V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-editar-perfil-v20">Cenário Editar Perfil V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-premium-v20">Cenário Premium V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-cadastro-v10">Cenário Cadastro V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-login-v10">Cenário Login V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-comentar-publicacao-v10">Cenário Comentar Publicação V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-customizar-interesses-v10">Cenário Customizar interesses V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-configurar-notificacoes-de-e-mail-v10">Cenário Configurar notificações de e-mail V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-criar-um-novo-storie-v10">Cenário Criar um novo Storie V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-criar-um-novo-bookmark-v10">Cenário Criar um novo Bookmark V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-importar-um-storie-v10">Cenário Importar um Storie V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-responder-um-storie-v10">Cenário Responder um Storie V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-seguir-usuario-v10">Cenário Seguir Usuário V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-deixar-de-seguir-usuario-v10">Cenário Deixar de seguir Usuário V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-pesquisa-por-usuario-v10">Cenário Pesquisa por usuário V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-pesquisar-por-artigo-v10">Cenário Pesquisar por artigo V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[x]</td>
+</tr>
+</tbody>
+</table>
+<h4 id="cenario-ver-vagas-de-emprego-disponiveis-v10">Cenário Ver vagas de emprego disponíveis V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Título</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Objetivo</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Contexto</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Atores</td>
+<td>[]</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Recursos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Exceção</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Episódios</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Hyperlinks - léxicos</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Hyperlinks - sub-cenários</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[x]</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[]</td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>

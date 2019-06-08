@@ -1,0 +1,1567 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        
+        
+        <link rel="shortcut icon" href="../../img/favicon.ico">
+        <title>Verificação I* - MEDIUM</title>
+        <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
+        <link href="../../css/font-awesome.min.css" rel="stylesheet">
+        <link href="../../css/base.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/atelier-forest-light.min.css">
+        <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+            <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+        <![endif]-->
+
+        <script src="../../js/jquery-1.10.2.min.js" defer></script>
+        <script src="../../js/bootstrap-3.0.3.min.js" defer></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+        <script>hljs.initHighlightingOnLoad();</script> 
+    </head>
+
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top" role="navigation">
+            <div class="container">
+
+                <!-- Collapsed navigation -->
+                <div class="navbar-header">
+                    <!-- Expander button -->
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="../..">MEDIUM</a>
+                </div>
+
+                <!-- Expanded navigation -->
+                <div class="navbar-collapse collapse">
+                        <!-- Main navigation -->
+                        <ul class="nav navbar-nav">
+                            <li >
+                                <a href="../..">Home</a>
+                            </li>
+                            <li >
+                                <a href="../../baseline/">Baseline</a>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pré-rastreabilidade <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/pre-rastreabilidade/">Definição</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/5w2h/">5W2H</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/richpicture/">Richpicture</a>
+</li>
+                                    
+<li >
+    <a href="../../pre-rastreabilidade/argumentacao/">Argumentação</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Elicitação <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../elicitacao/brainstormings/">Brainstormings</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/introspeccao/">Introspecções</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/storytelling/">Storytelling</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/storyboards/">StoryBoard</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/lista-req/">Lista de requisitos</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-moscow/">Priorização-Moscow</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-dependencias/">Priorização-Lista de Dependências</a>
+</li>
+                                    
+<li >
+    <a href="../../elicitacao/priorizacao-ftf/">Priorização-FTF</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Modelagem <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../../modelagem/cenarios/">Cenários</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/lexicos/">Léxicos</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/user_case/">Casos de uso</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/especificacoes/">Especificações</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/especificacao_suplementar/">Especificação Suplementar</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/product_backlog/">Backlog do Produto</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/sprints_backlog/">Backlog das Sprints</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/nfrs/">NFR</a>
+</li>
+                                    
+<li >
+    <a href="../../modelagem/i*/">I*</a>
+</li>
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Análise <b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    
+<li >
+    <a href="../product_backlog/">Inspeção Backlog do produto</a>
+</li>
+                                </ul>
+                            </li>
+                            <li >
+                                <a href="../../atas-reuniao/">Atas</a>
+                            </li>
+                        </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="#" data-toggle="modal" data-target="#mkdocs_search_modal">
+                                <i class="fa fa-search"></i> Search
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+                <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
+    <ul class="nav bs-sidenav">
+        <li class="main active"><a href="#verificacao-i">Verificação I*</a></li>
+            <li><a href="#checklist-i-sd">Checklist I* SD</a></li>
+            <li><a href="#checklist-i-sr">Checklist I* SR</a></li>
+    </ul>
+</div></div>
+                <div class="col-md-9" role="main">
+
+<h1 id="verificacao-i">Verificação I*</h1>
+<h2 id="checklist-i-sd">Checklist I* SD</h2>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>Escolha apropriada dos atores existentes de acordo com o contexto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>Avaliação e representação apropriada das relações de dependências de cada balão , de acordo com o contexto</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>Apenas um item de relacionamento entre os atores, não podendo haver uma sequência de metas e Resources/tasks e resources/metas e tasks</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoal</td>
+<td>Metas escritas na voz passiva e condizentes com a operacionalização adequada ao contexto</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>Linguagem apropriada, no infinitivo, e sucintas para representar uma tarefa pequena e operacionalizável</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>Linguagem apropriada, utilizando-se de substantivos, de recursos exteriores e utiliźaveis na tarefa descrita</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>Linguagem apropriada, com utilização de substantivos, e softgoals apropriados com o contexto de requisito não funcional da situação do artefato</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência subjetiva</td>
+<td>Existência intrinseca de um processo sequêncial</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência objetiva</td>
+<td>Numeração da ordem dos balões existentes</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>Existência de rastreabilidade no artefato</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>Quantidade adequada ao contexto, sem o leitor ser capaz de notar imediatamente a falta de algum elemento de requisito faltante</td>
+</tr>
+</tbody>
+</table>
+<h2 id="checklist-i-sr">Checklist I* SR</h2>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Descrição</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>Escopo dos atores condizente com a realidade da situação</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>Avaliação e representação apropriada das relações dos itens, levando em consideração o seu impacto geral</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>Seguimento correto das relações e seus entendimentos de decomposição e sequenciamento</td>
+</tr>
+<tr>
+<td>4</td>
+<td>inicialização</td>
+<td>Inicialização do percurso a partir de um softgoal/requisito não funcional, terminando em sua operacionalização</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoal</td>
+<td>Metas escritas na voz passiva e condizentes com a operacionalização adequada ao contexto</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>Linguagem apropriada, utilizando-se de substantivos, de recursos exteriores e utiliźaveis na tarefa descrita</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>Linguagem apropriada, com utilização de substantivos, e softgoals apropriados com o contexto de requisito não funcional da situação do artefato</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência subjetiva</td>
+<td>Existência intrinseca de um processo sequêncial</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência objetiva</td>
+<td>Numeração da ordem dos balões existentes</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>Existência de rastreabilidade no artefato</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>Quantidade adequada ao contexto, sem o leitor ser capaz de notar imediatamente a falta de algum elemento de requisito faltante</td>
+</tr>
+</tbody>
+</table>
+<h3 id="publicacoes">Publicações</h3>
+<h4 id="i-publicacoes-sd-v20">I* Publicações SD V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>Atores condizentes com o contexto, correto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>[SIM]</td>
+<td>Dependências estão plausíveis de acordo com o contexto, correto</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>Inexistência de dois elementos numa mesma dependência, correto</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>Falta de linguagem no infinitivo</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>Linguagem correta e contexto adequado</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>condizível com requisito não funcional e linguagem correta</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência Subjetiva</td>
+<td>[NÃO]</td>
+<td>falta de ordem subjetiva</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-publicacoes-sr-usuario-v20">I* Publicações SR-Usuário V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>escopo de ator bem definido</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[NÃO]</td>
+<td>falta de impactos em certas relações</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>decomposição e sequenciamento adequados</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[SIM]</td>
+<td>inicia com um softogoal</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>Falta de linguagem no infinitivo</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>Linguagem correta e contexto adequado</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>condizível com requisito não funcional e linguagem correta</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-publicacoes-sr-medium-v20">I* Publicações SR-Medium V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>escopo de ator bem definido</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[SIM]</td>
+<td>impactos condizentes</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>falta de decomposição mas sequenciamento adequados</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[SIM]</td>
+<td>inicia com um softogoal</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>tarefas grandes demais para serem tasks</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[NÃO]</td>
+<td>inexistente</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>condizível com requisito não funcional e linguagem correta</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stories">Stories</h3>
+<h4 id="i-stories-sd-v20">I* Stories SD V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>Atores condizentes com o contexto, correto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>[SIM]</td>
+<td>Falta de uma dependência</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>Inexistência de dois elementos numa mesma dependência</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>[SIM]</td>
+<td>linguagem no correta e operações pequenas</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>[NÃO]</td>
+<td>resource de monetização confuso</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>condizível com requisito não funcional e linguagem correta</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>ordem subjetiva notável</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-stories-sr-v20">I* Stories SR V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[NÃO]</td>
+<td>apenas um ator definido</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[SIM]</td>
+<td>impactos demonstrados</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>decomposição e sequenciamento adequados</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[SIM]</td>
+<td>inicia com um softogoal</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[SIM]</td>
+<td>linguagem correta e adequados ao contexto</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[NÃO]</td>
+<td>resource de monetização confuso</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>condizível com requisito não funcional e linguagem correta</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h3 id="interesses">Interesses</h3>
+<h4 id="i-interesses-sd-v10">I* Interesses SD V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>Atores condizentes com o contexto, correto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>[SIM]</td>
+<td>dependências corretas ao contexto</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>Inexistência de dois elementos numa mesma dependência</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoals</td>
+<td>[NÃO]</td>
+<td>alguns hardgoals com linguagem ativa ao invés de passiva</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>linguagem fora do infinitivo</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>[NÃO]</td>
+<td>resources que poderiam ser softgoals</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>condizível com requisito não funcional e linguagem correta</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>ordem subjetiva notável</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-interesses-sr-v10">I* Interesses SR V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>ator e agente definidos</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[SIM]</td>
+<td>alguns impactos em certas ligação não foram demonstrados</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>decomposição e sequenciamento adequados</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[NÃO]</td>
+<td>não foi possível identificar se onde o SR começou, logo não se soube dizer se começa com o softgoal ou não</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[SIM]</td>
+<td>linguagem correta e adequados ao contexto</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>resource adequados ao contexto</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[NÃO]</td>
+<td>condizível com requisito não funcional mas linguagem parecendo mais com a de 'claims' em NFR</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto, entretanto está pequeno</td>
+</tr>
+</tbody>
+</table>
+<h3 id="perfil">Perfil</h3>
+<h4 id="i-perfil-sd-v20">I* Perfil SD V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>Atores condizentes com o contexto, correto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>[SIM]</td>
+<td>dependências corretas ao contexto</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>Inexistência de dois elementos numa mesma dependência</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e adequados, entretanto poucos hardgoals</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>[SIM]</td>
+<td>linguagem correta e adequados ao contexto</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>resources adequados ao contexto e com a linguagem correta</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>[NÃO]</td>
+<td>softgoal parecido com um hardgoal</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>ordem subjetiva notável, com exceção de alguns elementos fora de ordem, como o primeiro hardgoal</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[NÃO]</td>
+<td>I* com elementos adequados ao contexto, entretanto pequeno</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-perfil-sr-usuario-v10">I* Perfil SR-Usuário V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>ator  definidos para o primeiro SR</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[NÃO]</td>
+<td>falta de impactos demonstrados</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>decomposição e sequenciamento adequados, apesar de poucos</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[NÃO]</td>
+<td>não inicia com um softgoal</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis, apesar de poucos</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[SIM]</td>
+<td>linguagem correta e adequados ao contexto</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>resource adequados ao contexto</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[NÃO]</td>
+<td>inexistente</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[NÃO]</td>
+<td>muito pequeno</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-perfil-sr-medium-v10">I* Perfil SR-Medium V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>ator  definidos para o primeiro SR</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[SIM]</td>
+<td>um impacto não foi demonstrado</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[NÃO]</td>
+<td>falta de decomposição, mas sequenciamento adequados</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[SIM]</td>
+<td>inicializado com um softgoal</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta e operacionalizáveis, entretanto poucos</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[SIM]</td>
+<td>linguagem correta e adequados ao contexto</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>inexistente</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[NÃO]</td>
+<td>condizível com requisito não funcional</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[NÃO]</td>
+<td>muito pequeno</td>
+</tr>
+</tbody>
+</table>
+<h3 id="pesquisar-conteudo">Pesquisar Conteúdo</h3>
+<h4 id="i-pesquisar-conteudo-sd-v20">I* Pesquisar Conteúdo SD V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>Atores condizentes com o contexto, correto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>[SIM]</td>
+<td>dependências corretas ao contexto</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>Inexistência de dois elementos numa mesma dependência</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoals</td>
+<td>[NÃO]</td>
+<td>hardgoals com linguagem incorreta, sendo que apenas um deles está em voz passiva</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>linguagem invertida com hardgoals</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>[NÃO]</td>
+<td>resources parecidos com hardgoals/softgoals</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>softgoals adequados</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>ordem subjetiva notável, com exceção de alguns elementos fora de ordem, a partir da metade do fluxo</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-pesquisar-conteudo-sr-v20">I* Pesquisar conteúdo SR V2.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[NÃO]</td>
+<td>apenas um ator trabalhado no sr</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[NÃO]</td>
+<td>falta de impactos demonstrados</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[SIM]</td>
+<td>decomposição e sequenciamento adequados, apesar de poucos</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[SIM]</td>
+<td>inicia com um softgoal, entretanto o artefato indica tal de maneira um pouco confusa</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[NÃO]</td>
+<td>hardgoals possuem linguagem invertida com tasks</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>tasks possuem linguagem invertida com hardgoals</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>inexsistente</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[NÃO]</td>
+<td>softgoals adequados</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<h3 id="pesquisar-conteudo_1">Pesquisar Conteúdo</h3>
+<h4 id="i-configuracoes-sd-v10">I* Configurações SD V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[SIM]</td>
+<td>Atores condizentes com o contexto, correto</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Dependências</td>
+<td>[SIM]</td>
+<td>dependências corretas ao contexto</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[NÃo]</td>
+<td>Existência de dois elementos numa mesma dependência</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta, com exceção do último</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>tarefas que poderiam ser hardgoals</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>resources adequados, entretanto poderia ser decomposto</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Softgoals</td>
+<td>[NÃO]</td>
+<td>inexistente</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>ordem subjetiva notável, com exceção de alguns elementos fora de ordem</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td>I* com elementos adequados ao contexto</td>
+</tr>
+</tbody>
+</table>
+<h4 id="i-configuracoes-sr-v10">I* Configurações SR V1.0</h4>
+<table>
+<thead>
+<tr>
+<th>Código</th>
+<th>Item</th>
+<th>Cumprimento</th>
+<th>Parecer</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Atores</td>
+<td>[NÃO]</td>
+<td>apenas um ator trabalhado no sr</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Ligações</td>
+<td>[SIM]</td>
+<td>impactos demonstrados</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Relações</td>
+<td>[NÃO]</td>
+<td>decomposição não explícita</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Inicialização</td>
+<td>[SIM]</td>
+<td>inicia com um softgoal</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Hardgoals</td>
+<td>[SIM]</td>
+<td>hardgoals com linguagem correta, com exceção do último</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Tasks</td>
+<td>[NÃO]</td>
+<td>tarefas que poderiam ser hardgoals</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Resources</td>
+<td>[SIM]</td>
+<td>resources adequados, entretanto poderia ser decomposto</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Softgoals</td>
+<td>[SIM]</td>
+<td>adequado</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Sequência Subjetiva</td>
+<td>[SIM]</td>
+<td>sequência subjetiva identificável</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Sequência Objetiva</td>
+<td>[NÃO]</td>
+<td>falta de numeração</td>
+</tr>
+<tr>
+<td>11</td>
+<td>Rastreabilidade</td>
+<td>[NÃO]</td>
+<td>falta identificação de rastreabilidade</td>
+</tr>
+<tr>
+<td>12</td>
+<td>Qualidade</td>
+<td>[SIM]</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+        </div>
+
+        <footer class="col-md-12">
+            <hr>
+            <p>Documentation built with <a href="https://www.mkdocs.org/">MkDocs</a>.</p>
+        </footer>
+        <script>
+            var base_url = "../..",
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
+        </script>
+        <script src="../../js/base.js" defer></script>
+        <script src="../../search/main.js" defer></script>
+
+        <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="Search Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Search</h4>
+            </div>
+            <div class="modal-body">
+                <p>
+                    From here you can search these documents. Enter
+                    your search terms below.
+                </p>
+                <form role="form">
+                    <div class="form-group">
+                        <input type="text" class="form-control" placeholder="Search..." id="mkdocs-search-query" title="Type search term here">
+                    </div>
+                </form>
+                <div id="mkdocs-search-results"></div>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div><div class="modal" id="mkdocs_keyboard_modal" tabindex="-1" role="dialog" aria-labelledby="Keyboard Shortcuts Modal" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                <h4 class="modal-title" id="exampleModalLabel">Keyboard Shortcuts</h4>
+            </div>
+            <div class="modal-body">
+              <table class="table">
+                <thead>
+                  <tr>
+                    <th style="width: 20%;">Keys</th>
+                    <th>Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td class="help shortcut"><kbd>?</kbd></td>
+                    <td>Open this help</td>
+                  </tr>
+                  <tr>
+                    <td class="next shortcut"><kbd>n</kbd></td>
+                    <td>Next page</td>
+                  </tr>
+                  <tr>
+                    <td class="prev shortcut"><kbd>p</kbd></td>
+                    <td>Previous page</td>
+                  </tr>
+                  <tr>
+                    <td class="search shortcut"><kbd>s</kbd></td>
+                    <td>Search</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+            <div class="modal-footer">
+            </div>
+        </div>
+    </div>
+</div>
+
+    </body>
+</html>
