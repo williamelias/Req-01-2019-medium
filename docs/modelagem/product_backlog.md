@@ -40,7 +40,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
       </tr>
       <tr>
         <td rowspan="3">Ajuda</td>
-        <td>001</td>
+        <td><a id="US001">001</a></td>
         <td>Usuário</td>
         <td>Acessar glossário MEDIUM</td>
         <td>Visualizar a lista de palavras-chave da plataforma</td>
@@ -48,7 +48,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
         <td>Should</td>
       </tr>
       <tr>
-        <td>002</td>
+        <td><a id="US001">002</a></td>
         <td>Usuário</td>
         <td>Responder questionário de satisfação</td>
         <td>Contribuir para o feedback de alguns aspectos da área de ajuda do site</td>
@@ -56,7 +56,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
         <td>Should</td>
       </tr>
       <tr>
-        <td>003</td>
+        <td><a id="US003">003</a></td>
         <td>Usuário</td>
         <td>Pesquisar tópico de ajuda</td>
         <td>Encontrar com uma maior facilidade conteúdos específicos para o meu auxílio</td>
@@ -65,7 +65,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
       </tr>
       <tr>
         <td rowspan="2">Cadastro</td>
-        <td>004</td>
+        <td><a id="US004">004</a></td>
         <td>Visitante</td>
         <td>Realizar cadastro com Google</td>
         <td>Me tornar um usuário via integração com uma conta existente da Google</td>
@@ -107,7 +107,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
       </tr>
       <tr>
         <td rowspan="14">Configuração</td>
-        <td>009</td>
+        <td><a id="US009">009</a></td>
         <td>Usuário</td>
         <td>selecionar/remover tópicos de interesse</td>
         <td>Possuir tópicos de meu interesse para leitura</td>
@@ -123,7 +123,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
         <td>Must</td>
       </tr>
       <tr>
-        <td>011</td>
+        <td><a id="US011">011</a></td>
         <td>Usuário</td>
         <td>Ativar/desativar modo noturno</td>
         <td>Possuir um modo de leitura noturno, o qual facilita a leitura no escuro</td>
@@ -171,7 +171,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
         <td>Should</td>
       </tr>
       <tr>
-        <td>017</td>
+        <td><a id="US017">017</a></td>
         <td>Usuário</td>
         <td>Selecionar tema do boletim informativo</td>
         <td>Selecionar os temas para o boletim informativo </td>
@@ -179,7 +179,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
         <td>Could</td>
       </tr>
       <tr>
-        <td>018</td>
+        <td><a id="US018">018</a></td>
         <td>Usuário</td>
         <td>Ativar/desativar recomendações de stories</td>
         <td>Selecionar entre receber ou não recomendações de stories selecionados para o usuário
@@ -188,7 +188,7 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
         <td>Could</td>
       </tr>
       <tr>
-        <td>019</td>
+        <td><a id="US019">019</a></td>
         <td>Usuário</td>
         <td>Ativar/desativar notificação por e-mail</td>
         <td>Selecionar entre receber ou não notificações por e-mail </td>
