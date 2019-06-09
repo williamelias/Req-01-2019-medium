@@ -2106,7 +2106,16 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
     </tr>
 </table>
 
+***
 
+###Critérios
+
+Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações:
+
+* Alta qualidade: 7 ou 8 critérios satisfeitos;
+* Qualidade média: 4 a 6 critérios satisfeitos;
+* Baixa: 2 ou 3 critérios satisfeitos;
+* Inadequado: 0 ou 1 critérios satisfeitos.
 
 ***
 
@@ -2118,17 +2127,9 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
 
 ![](product_backlog/porcentagem.png)
 
-**Análise da qualidade**
+**Gráfico de análise**
 
-Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações:
-
-* Alta qualidade: 7 ou 8 critérios satisfeitos;
-* Qualidade média: 4 a 6 critérios satisfeitos;
-* Baixa: 2 ou 3 critérios satisfeitos;
-* Inadequado: 0 ou 1 critérios satisfeitos.
-
-
-***
+![](product_backlog/backlog_grafico.png)
 
 ###Refatoração das histórias de usuário
 
