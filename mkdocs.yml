@@ -31,6 +31,7 @@ nav:
         - Inspeção Cenários: analise/verificacao_cenarios.md
         - Inspeção I*: analise/verificacao_istars.md
         - Inspeção storytelling: analise/verificacao_storytelling.md
+        - Inspeção Especificações: analise/verificacao_especificacoes.md
 
     - Atas: atas-reuniao.md
 theme: journal
