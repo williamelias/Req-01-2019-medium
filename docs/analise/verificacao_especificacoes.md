@@ -3,6 +3,7 @@
 |------------|---------------------|----------------------------------|--------|
 | 08/06/2019 | Luís Cláudio T. Lima| adição da introdução e critérios | 0.1    |
 | 09/06/2019 | Luís Cláudio T. Lima| adição da tabela de avaliação das especificações | 0.2 |
+| 10/06/2019 | Matheus Blanco | Adição de parágrafo de validação | 0.3 |
 
 ## Introdução
 
@@ -648,5 +649,19 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
         <td></td>
         <td></td>
         <td></td>
-    </tr>                
+    </tr>
 </table>
+
+## Análise a partir de um segundo ponto de vista, feita por Matheus Blanco
+
+Em relação às questões de orientação para verificação das especificações, concordo com todas no plano geral. Pelo fato de ter aconselhado o autor da verificação em questão em relação ao tipo de questões apresentadas, estamos alinhados sobre quais  critérios deveriam ser apresentados.
+
+Em relação à individualidade das questões:
+- Na questão 3 não consegui identificar corretamente a 'funcionalidade' no contexto de pré-condição;
+- Questões 1, 2, 4, 7, 8 e 9 estou de acordo com o contexto;
+- Em relação à questão 5, também estou de acordo, entretanto acredito que está muito parecida com a 6. Considerando que a questão 5 aborda o fluxo principal, o critério de saber se os objetivos foram atingidos é coerente com o contexto de especificações. Quanto à questões 6, ao contrário de perguntar se os objetivos são atingidos poderia perguntar se o fluxo alternativo é capaz de fornecer novas rotas que levariam de volta ao fluxo principal em algum momento;
+- Além dessas, acredito que seria interessante uma ou duas perguntas a mais relativas à apresentação de fluxos de outras especificações, como etapas já anteriormente cumpridas.
+
+Também estou satisfeito com os resultados das verificações das especificações da Wiki. Pelo fato de, no geral, estar de acordo com as perguntas apresentadas e após validar as verificações realizadas, encontro-me de acordo com os resultados alcançados.
+
+Entretanto, sinto falta de pareceres em relação à concordância ou não de uma questão das especificações. Acredito que a existência de tal seria de tamanho engrandecimento e ajuda na validação e refatoração dos itens.
