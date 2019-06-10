@@ -40,7 +40,7 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
 
     4- A US está pontuada?
 
-    5- A US está priorizada?
+    5- A US está priorizada com Moscow?
 
     6- A US apresenta um épico?
 
@@ -2140,7 +2140,7 @@ Nessa tabela estão expressas as condições de conformidade com os critérios e
 
 ***
 
-###Critérios
+###Qualidade
 
 Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações:
 

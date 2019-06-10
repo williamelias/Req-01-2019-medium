@@ -36,6 +36,6 @@ nav:
         - Inspeção RichPicure: analise/verificacao_RichPicture.md
         - Inspeção 5W2H: analise/5w2h.md
         - Inspeção User Cases: analise/user_cases.md
-
+        - Inspeção StoryBoard: analise/verificacao_storybord.md
     - Atas: atas-reuniao.md
 theme: journal
