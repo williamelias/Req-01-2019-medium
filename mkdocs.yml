@@ -1,4 +1,4 @@
-site_name: MEDIUM 
+site_name: MEDIUM
 nav:
     - Home: index.md
     - Baseline: baseline.md
@@ -34,6 +34,8 @@ nav:
         - Inspeção Especificações: analise/verificacao_especificacoes.md
         - Inspeção NFR: analise/verificacao_NFR.md
         - Inspeção RichPicure: analise/verificacao_RichPicture.md
+        - Inspeção 5W2H: analise/5w2h.md
+        - Inspeção User Cases: analise/user_cases.md
 
     - Atas: atas-reuniao.md
 theme: journal
