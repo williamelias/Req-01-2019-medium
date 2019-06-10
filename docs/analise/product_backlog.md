@@ -2,6 +2,8 @@
 | Data       | autor               | Descrição                        | Versão |
 |------------|---------------------|----------------------------------|--------|
 | 04/06/2019 | william elias alves | adição de introdução e objetivos | 0.1    |
+| 04/06/2019 | william elias alves | adição de metodologia e resultados | 0.2    |
+| 05/06/2019 | william elias alves | adição de resultados e USs refatoradas | 0.3 |
 
 
 ###Introdução
@@ -27,7 +29,7 @@ Após todo processo criativo por trás da verificação por meio da inspeção, 
 * Foram refatorados somente as histórias de usuário que tinham como déficit os critérios 3 e 8 simutaneamente.
 
 ###Critérios de aceitação 
-Para que a US seja verificada por meio de inspeção, será necessário responder as seguintes perguntas, com sim ou não:
+Para que a US sejam verificadas por meio de inspeção, será necessário responder as seguintes perguntas, com sim ou não:
 
     1- A US está atrelada a um tema?
 
@@ -2104,7 +2106,16 @@ Para que a US seja verificada por meio de inspeção, será necessário responde
     </tr>
 </table>
 
+***
 
+###Critérios
+
+Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações:
+
+* Alta qualidade: 7 ou 8 critérios satisfeitos;
+* Qualidade média: 4 a 6 critérios satisfeitos;
+* Baixa: 2 ou 3 critérios satisfeitos;
+* Inadequado: 0 ou 1 critérios satisfeitos.
 
 ***
 
@@ -2116,17 +2127,9 @@ Para que a US seja verificada por meio de inspeção, será necessário responde
 
 ![](product_backlog/porcentagem.png)
 
-**Análise da qualidade**
+**Gráfico de análise**
 
-Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações:
-
-* Alta qualidade: 7 ou 8 critérios satisfeitos;
-* Qualidade média: 4 a 6 critérios satisfeitos;
-* Baixa: 2 ou 3 critérios satisfeitos;
-* Inadequado: 0 ou 1 critérios satisfeitos.
-
-
-***
+![](product_backlog/backlog_grafico.png)
 
 ###Refatoração das histórias de usuário
 
