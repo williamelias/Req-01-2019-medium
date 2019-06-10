@@ -33,6 +33,7 @@ nav:
         - Inspeção storytelling: analise/verificacao_storytelling.md
         - Inspeção Especificações: analise/verificacao_especificacoes.md
         - Inspeção NFR: analise/verificacao_NFR.md
+        - Inspeção RichPicure: analise/verificacao_RichPicture.md
 
     - Atas: atas-reuniao.md
 theme: journal

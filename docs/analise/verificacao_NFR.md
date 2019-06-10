@@ -23,7 +23,7 @@ Os passos a serem realizados para inspeção são os seguintes:
 ###Critérios de aceitação
 
 **Descrição:**
-Para que as *storytellings* sejam verificadas por meio de inspeção, será necessário responder as seguintes perguntas, com sim ou não:
+Para que as *NFR* sejam verificadas por meio de inspeção, será necessário responder as seguintes perguntas, com sim ou não:
 
     1- Os softgoals representam critérios de qualidade ?
 
