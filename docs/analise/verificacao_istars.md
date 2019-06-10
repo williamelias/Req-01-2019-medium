@@ -119,87 +119,87 @@
 ### Interesses
 #### I* Interesses SD V1.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [SIM] | Atores condizentes com o contexto, correto|
-| 2 | Dependências | [SIM] | dependências corretas ao contexto |
-| 3 | Relações | [SIM] | Inexistência de dois elementos numa mesma dependência |
-| 4 | Hardgoals | [NÃO] | alguns hardgoals com linguagem ativa ao invés de passiva|
-| 5 | Tasks | [NÃO] | linguagem fora do infinitivo |
-| 6 | Resources | [NÃO] | resources que poderiam ser softgoals |
-| 7 | Softgoals | [SIM] | condizível com requisito não funcional e linguagem correta |
-| 8 | Sequência Subjetiva| [SIM] | ordem subjetiva notável |
-| 9 | Sequência Objetiva | [NÃO] | falta de numeração|
-| 10 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
+| Código| Item | Cumprimento | Parecer | Erros consertados na versão seguinte?|
+|----------------|----------------------|-------------------------------------|-|---|
+| 1 | Atores | [SIM] | Atores condizentes com o contexto, correto|-|
+| 2 | Dependências | [SIM] | dependências corretas ao contexto |-|
+| 3 | Relações | [SIM] | Inexistência de dois elementos numa mesma dependência |-|
+| 4 | Hardgoals | [NÃO] | alguns hardgoals com linguagem ativa ao invés de passiva|SIM|
+| 5 | Tasks | [NÃO] | linguagem fora do infinitivo |SIM|
+| 6 | Resources | [NÃO] | resources que poderiam ser softgoals |SIM|
+| 7 | Softgoals | [SIM] | condizível com requisito não funcional e linguagem correta|-|
+| 8 | Sequência Subjetiva| [SIM] | ordem subjetiva notável |-|
+| 9 | Sequência Objetiva | [NÃO] | falta de numeração|SIM|
+| 10 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |NÃO|
 | 11 | Qualidade | [SIM] | I* com elementos adequados ao contexto |
 
 #### I* Interesses SR V1.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [SIM] | ator e agente definidos |
-| 2 | Ligações | [SIM] | alguns impactos em certas ligação não foram demonstrados |
-| 3 | Relações | [SIM] | decomposição e sequenciamento adequados |
-| 4 | Inicialização | [NÃO] | não foi possível identificar se onde o SR começou, logo não se soube dizer se começa com o softgoal ou não |
-| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta e operacionalizáveis |
-| 6 | Tasks | [SIM] | linguagem correta e adequados ao contexto |
-| 7 | Resources | [SIM] | resource adequados ao contexto |
-| 8 | Softgoals | [NÃO] |  condizível com requisito não funcional mas linguagem parecendo mais com a de 'claims' em NFR |
-| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |
-| 10 | Sequência Objetiva | [NÃO] | falta de numeração |
-| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
-| 12 | Qualidade | [SIM] | I* com elementos adequados ao contexto, entretanto está pequeno |
+| Código| Item | Cumprimento | Parecer | Erros consertados na versão seguinte?|
+|----------------|----------------------|-------------------------------------|---|-|
+| 1 | Atores | [SIM] | ator e agente definidos |-|
+| 2 | Ligações | [SIM] | alguns impactos em certas ligação não foram demonstrados |-|
+| 3 | Relações | [SIM] | decomposição e sequenciamento adequados |-|
+| 4 | Inicialização | [NÃO] | não foi possível identificar se onde o SR começou, logo não se soube dizer se começa com o softgoal ou não |SIM|
+| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta e operacionalizáveis |-|
+| 6 | Tasks | [SIM] | linguagem correta e adequados ao contexto |-|
+| 7 | Resources | [SIM] | resource adequados ao contexto |-|
+| 8 | Softgoals | [NÃO] |  condizível com requisito não funcional mas linguagem parecendo mais com a de 'claims' em NFR |SIM|
+| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |-|
+| 10 | Sequência Objetiva | [NÃO] | falta de numeração |SIM|
+| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |NÃO|
+| 12 | Qualidade | [SIM] | I* com elementos adequados ao contexto, entretanto está pequeno |-|
 
 ### Perfil
 #### I* Perfil SD V2.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [SIM] | Atores condizentes com o contexto, correto|
-| 2 | Dependências | [SIM] | dependências corretas ao contexto |
-| 3 | Relações | [SIM] | Inexistência de dois elementos numa mesma dependência |
-| 4 | Hardgoals | [SIM] | hardgoals com linguagem correta e adequados, entretanto poucos hardgoals |
-| 5 | Tasks | [SIM] | linguagem correta e adequados ao contexto |
-| 6 | Resources | [SIM] | resources adequados ao contexto e com a linguagem correta |
-| 7 | Softgoals | [NÃO] | softgoal parecido com um hardgoal |
-| 8 | Sequência Subjetiva| [SIM] | ordem subjetiva notável, com exceção de alguns elementos fora de ordem, como o primeiro hardgoal |
-| 9 | Sequência Objetiva | [NÃO] | falta de numeração|
-| 10 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
-| 11 | Qualidade | [NÃO] | I* com elementos adequados ao contexto, entretanto pequeno |
+| Código| Item | Cumprimento | Parecer | Erro consertado na versão seguinte?|
+|----------------|----------------------|-------------------------------------|---|---|
+| 1 | Atores | [SIM] | Atores condizentes com o contexto, correto| -|
+| 2 | Dependências | [SIM] | dependências corretas ao contexto |-|
+| 3 | Relações | [SIM] | Inexistência de dois elementos numa mesma dependência |-|
+| 4 | Hardgoals | [SIM] | hardgoals com linguagem correta e adequados, entretanto poucos hardgoals |-|
+| 5 | Tasks | [SIM] | linguagem correta e adequados ao contexto |-|
+| 6 | Resources | [SIM] | resources adequados ao contexto e com a linguagem correta |-|
+| 7 | Softgoals | [NÃO] | softgoal parecido com um hardgoal | SIM |
+| 8 | Sequência Subjetiva| [SIM] | ordem subjetiva notável, com exceção de alguns elementos fora de ordem, como o primeiro hardgoal |-|
+| 9 | Sequência Objetiva | [NÃO] | falta de numeração|SIM|
+| 10 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |SIM|
+| 11 | Qualidade | [NÃO] | I* com elementos adequados ao contexto, entretanto pequeno |SIM|
 
 #### I* Perfil SR-Usuário V1.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [SIM] | ator  definidos para o primeiro SR |
-| 2 | Ligações | [NÃO] | falta de impactos demonstrados |
-| 3 | Relações | [SIM] | decomposição e sequenciamento adequados, apesar de poucos |
-| 4 | Inicialização | [NÃO] | não inicia com um softgoal |
-| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta e operacionalizáveis, apesar de poucos |
-| 6 | Tasks | [SIM] | linguagem correta e adequados ao contexto |
-| 7 | Resources | [SIM] | resource adequados ao contexto |
-| 8 | Softgoals | [NÃO] |  inexistente |
-| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |
-| 10 | Sequência Objetiva | [NÃO] | falta de numeração |
-| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
-| 12 | Qualidade | [NÃO] | muito pequeno |
+| Código| Item | Cumprimento | Parecer | Erro consertado na versão seguinte?|
+|----------------|----------------------|-------------------------------------|---|---|
+| 1 | Atores | [SIM] | ator  definidos para o primeiro SR |-|
+| 2 | Ligações | [NÃO] | falta de impactos demonstrados |SIM|
+| 3 | Relações | [SIM] | decomposição e sequenciamento adequados, apesar de poucos |-|
+| 4 | Inicialização | [NÃO] | não inicia com um softgoal |SIM|
+| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta e operacionalizáveis, apesar de poucos |-|
+| 6 | Tasks | [SIM] | linguagem correta e adequados ao contexto |-|
+| 7 | Resources | [SIM] | resource adequados ao contexto |-|
+| 8 | Softgoals | [NÃO] |  inexistente |SIM|
+| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |-|
+| 10 | Sequência Objetiva | [NÃO] | falta de numeração |SIM|
+| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |SIM|
+| 12 | Qualidade | [NÃO] | muito pequeno |SIM|
 
 #### I* Perfil SR-Medium V1.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [SIM] | ator  definidos para o primeiro SR |
-| 2 | Ligações | [SIM] | um impacto não foi demonstrado |
-| 3 | Relações | [NÃO] | falta de decomposição, mas sequenciamento adequados |
-| 4 | Inicialização | [SIM] | inicializado com um softgoal |
-| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta e operacionalizáveis, entretanto poucos |
-| 6 | Tasks | [SIM] | linguagem correta e adequados ao contexto |
-| 7 | Resources | [SIM] | inexistente |
-| 8 | Softgoals | [NÃO] |  condizível com requisito não funcional |
-| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |
-| 10 | Sequência Objetiva | [NÃO] | falta de numeração |
-| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
-| 12 | Qualidade | [NÃO] | muito pequeno |
+| Código| Item | Cumprimento | Parecer | Erro consertado na versão seguinte?|
+|-------------|---|----------------------|-------------------------------------|---|
+| 1 | Atores | [SIM] | ator  definidos para o primeiro SR |-|
+| 2 | Ligações | [SIM] | um impacto não foi demonstrado |-|
+| 3 | Relações | [NÃO] | falta de decomposição, mas sequenciamento adequados |SIM|
+| 4 | Inicialização | [SIM] | inicializado com um softgoal |-|
+| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta e operacionalizáveis, entretanto poucos |-|
+| 6 | Tasks | [SIM] | linguagem correta e adequados ao contexto |-|
+| 7 | Resources | [SIM] | inexistente |-|
+| 8 | Softgoals | [NÃO] |  condizível com requisito não funcional |SIM|
+| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |-|
+| 10 | Sequência Objetiva | [NÃO] | falta de numeração |SIM|
+| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |SIM|
+| 12 | Qualidade | [NÃO] | muito pequeno |SIM|
 
 ### Pesquisar Conteúdo
 #### I* Pesquisar Conteúdo SD V2.0
@@ -235,37 +235,37 @@
 | 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
 | 12 | Qualidade | [SIM] |  |
 
-### Pesquisar Conteúdo
+### Configurações
 #### I* Configurações SD V1.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [SIM] | Atores condizentes com o contexto, correto|
-| 2 | Dependências | [SIM] | dependências corretas ao contexto |
-| 3 | Relações | [NÃo] | Existência de dois elementos numa mesma dependência |
-| 4 | Hardgoals | [SIM] | hardgoals com linguagem correta, com exceção do último |
-| 5 | Tasks | [NÃO] | tarefas que poderiam ser hardgoals |
-| 6 | Resources | [SIM] | resources adequados, entretanto poderia ser decomposto |
-| 7 | Softgoals | [NÃO] | inexistente |
-| 8 | Sequência Subjetiva| [SIM] | ordem subjetiva notável, com exceção de alguns elementos fora de ordem |
-| 9 | Sequência Objetiva | [NÃO] | falta de numeração|
-| 10 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
-| 11 | Qualidade | [SIM] | I* com elementos adequados ao contexto |
+| Código| Item | Cumprimento | Parecer | Erro consertado na versão seguinte? |
+|---|---|---|---|---|
+| 1 | Atores | [SIM] | Atores condizentes com o contexto, correto|-|
+| 2 | Dependências | [SIM] | dependências corretas ao contexto |-|
+| 3 | Relações | [NÃO] | Existência de dois elementos numa mesma dependência |SIM|SIM|
+| 4 | Hardgoals | [SIM] | hardgoals com linguagem correta, com exceção do último |-|
+| 5 | Tasks | [NÃO] | tarefas que poderiam ser hardgoals |SIM|
+| 6 | Resources | [SIM] | resources adequados, entretanto poderia ser decomposto |-|
+| 7 | Softgoals | [SIM] | adequado |-|
+| 8 | Sequência Subjetiva| [SIM] | ordem subjetiva notável, com exceção de alguns elementos fora de ordem |-|
+| 9 | Sequência Objetiva | [NÃO] | falta de numeração|SIM|
+| 10 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |NÃO|
+| 11 | Qualidade | [NÃO] | I* com apenas alguns elementos adequados ao contexto |SIM|
 
 #### I* Configurações SR V1.0
 
-| Código| Item | Cumprimento | Parecer |
-|----------------|----------------------|-------------------------------------|---|
-| 1 | Atores | [NÃO] | apenas um ator trabalhado no sr |
-| 2 | Ligações | [SIM] | impactos demonstrados |
-| 3 | Relações | [NÃO] | decomposição não explícita |
-| 4 | Inicialização | [SIM] | inicia com um softgoal |
-| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta, com exceção do último |
-| 6 | Tasks | [NÃO] | tarefas que poderiam ser hardgoals |
-| 7 | Resources | [SIM] | resources adequados, entretanto poderia ser decomposto |
-| 8 | Softgoals | [SIM] | adequado |
-| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |
-| 10 | Sequência Objetiva | [NÃO] | falta de numeração |
-| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |
-| 12 | Qualidade | [SIM] |  |
+| Código| Item | Cumprimento | Parecer | Erro Consertado na versão seguinte? |
+|----------------|----------------------|-------------------------------------|---|---|
+| 1 | Atores | [NÃO] | apenas um ator trabalhado no sr |SIM|
+| 2 | Ligações | [SIM] | impactos demonstrados |-|
+| 3 | Relações | [NÃO] | decomposição não explícita |SIM|
+| 4 | Inicialização | [SIM] | inicia com um softgoal |-|
+| 5 | Hardgoals | [SIM] | hardgoals com linguagem correta, com exceção do último |-|
+| 6 | Tasks | [NÃO] | tarefas que poderiam ser hardgoals |SIM|
+| 7 | Resources | [SIM] | resources adequados, entretanto poderia ser decomposto |-|
+| 8 | Softgoals | [SIM] | adequado |-|
+| 9 | Sequência Subjetiva| [SIM] | sequência subjetiva identificável |-|
+| 10 | Sequência Objetiva | [NÃO] | falta de numeração |SIM|
+| 11 | Rastreabilidade | [NÃO] | falta identificação de rastreabilidade |NÃO|
+| 12 | Qualidade | [SIM] |  |-|
 
