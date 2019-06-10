@@ -5,6 +5,7 @@
 |   29/04/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificações| 0.1  |
 |   29/04/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificações| 0.2  |
 |   04/06/2019   | Gabriel Filipe Manso Araujo  | Verificação e modificações em definições| 0.3  |
+|   10/06/2019   | Gabriel Filipe Manso Araujo  | Adição de Especificação| 0.4  |
 
 # Documento de Especificação Suplementar
 
@@ -20,13 +21,14 @@ Esta especificação apresenta os requisitos não funcionais para a aplicação 
 
 Os requisitos não funcionais aqui listados foram:
 
+* Portabilidade;
 * Funcionalidade;
+* Desempenho;
 * Usabilidade;
-* Confiabilidade;
-* Desempenho; 
-* Suportabilidade; 
-* Sistemas de Ajuda; 
-* Segurança e Protabilidade;
+
+    *  Responsividade;
+    * Detecção de Idioma;
+    * Previsão de Tempo de Leitura;
 
 Embora sejam anexados pelas categorias descritas acima, mantém-se as indexações padronizadas pela wiki, tornando mais fácil a visualização dele ao longo da documentação.
 
@@ -38,11 +40,17 @@ O MEDIUM é uma aplicação que está disponível em vários tipos de sistemas o
 
 *** 
 
-## Funcionalidades
+## Funcionalidade
 
 Acredita-se que todos os requisitos funcionais estão suficientemente modelados através de histórias de usuário descritas na [Baseline](../baseline.md).
 
 *** 
+
+## Desempenho
+
+O requisito de desempenho restringe a velocidade de operação de um sistema de software. O MEDIUM cumpre efetivamente com os requisitos ligados à velocidade, à disponibilidade, o tempo de resposta, o tempo de recuperação das várias de suas funções.
+
+***
 
 ## Usabilidade
 
@@ -50,7 +58,7 @@ Através dos Casos de Uso foi possível modelar alguns dos requisitos que o sist
 
 Aqui serão descritas as operacionalizações identificadas nos Casos de Uso, pois esse é o nível do diagrama que reflete a implementação pelos desenvolvedores do sistema.
 
-## Responsividade com Tamanho de Tela
+## Responsividade
 
 Para atender de maneira dinâmica a variedade de tamanhos de tela que se encontram hoje no mercado, é necessário que a estrutura CSS das telas seja construída de maneira a responder uniformemente a cada configuração dimensional.
 

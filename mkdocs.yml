@@ -32,6 +32,7 @@ nav:
         - Inspeção I*: analise/verificacao_istars.md
         - Inspeção storytelling: analise/verificacao_storytelling.md
         - Inspeção Especificações: analise/verificacao_especificacoes.md
+        - Inspeção Especificações Suplementares: analise/verificacao_especificacao_suplementar.md
         - Inspeção NFR: analise/verificacao_NFR.md
         - Inspeção RichPicure: analise/verificacao_RichPicture.md
         - Inspeção 5W2H: analise/5w2h.md
