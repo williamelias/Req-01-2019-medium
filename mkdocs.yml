@@ -32,6 +32,7 @@ nav:
         - Inspeção I*: analise/verificacao_istars.md
         - Inspeção storytelling: analise/verificacao_storytelling.md
         - Inspeção Especificações: analise/verificacao_especificacoes.md
+        - Inspeção NFR: analise/verificacao_NFR.md
 
     - Atas: atas-reuniao.md
 theme: journal
