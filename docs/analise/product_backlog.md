@@ -4,6 +4,7 @@
 | 04/06/2019 | william elias alves | adição de introdução e objetivos | 0.1    |
 | 04/06/2019 | william elias alves | adição de metodologia e resultados | 0.2    |
 | 05/06/2019 | william elias alves | adição de resultados e USs refatoradas | 0.3 |
+| 05/06/2019 | william elias alves | alteração do padrão de validação para "V" | 0.4 |
 
 
 ###Introdução
@@ -50,7 +51,38 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
 
 ###Tabela de avaliação do Backlog v1
 
-**Responsáveis:** William Elias e Luís Cláudio
+**Responsável:** William Elias
+
+**Segundo ponto de vista:** Luís Cláudio
+
+**Critério 3**
+
+Foram anotadas algumas considerações de discordância em relação a análise do critério 3.
+
+|ID|Considerações|
+|----|--------|
+|009|- A expressão "possuir topicos" não condiz com a devida justificativa para a ação|
+|011|- A expressão "possuir topicos" não condiz com a devida justificativa para a ação|
+|017|- Redundância na definição da ação e justificativa da mesma|
+|018|- Não há clareza na definição da justificativa e a expressão "Ativar/destivar" pode ser substituída|
+|019|- Não há clareza na definição da justificativa e a expressão "Ativar/destivar" pode ser substituída|
+|020|- Redundância na definição da ação e justificativa da mesma|
+|021|- Redundância na definição da ação e justificativa da mesma|
+|023|- A expressão "sua" é inadequada e deve ser substituída|
+|024|- A expressão "sua" é inadequada e deve ser substituída|
+|043|- A definição da ação não está clara|
+|044|- A definição da ação não está clara|
+|045|- A definição da ação não está clara|
+|068|- A expressão "seus" é inadequada e deve ser substituída por "meus"|
+|070|- Texto totalmente sem coesão e coerência|
+|071|- Texto totalmente sem coesão e coerência|
+
+
+
+
+
+
+Nessa tabela estão expressas as condições de conformidade com os critérios estabelecidos, para um critério tido como cumprido utilizou-se a letra "V" e para não cumprido um espaço vazio " ".
 
 <table>
     <tr>
@@ -105,17 +137,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>001</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -131,17 +163,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>002</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -157,19 +189,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>003</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -185,25 +217,25 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>004</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -217,25 +249,25 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>005</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -249,25 +281,25 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>006</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -281,23 +313,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>007</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -311,25 +343,25 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>008</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -343,17 +375,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>009</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -369,23 +401,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>010</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -399,17 +431,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>011</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -425,19 +457,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>012</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -453,19 +485,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>013</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -481,19 +513,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>014</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -509,19 +541,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>015</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -537,19 +569,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>016</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -565,17 +597,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>017</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -591,17 +623,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>018</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -617,23 +649,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>019</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -647,17 +679,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>020</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -673,17 +705,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>021</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -699,17 +731,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>022</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -725,23 +757,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>023</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -755,23 +787,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>024</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -785,23 +817,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>025</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -815,23 +847,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>026</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -845,19 +877,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>027</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -873,19 +905,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>028</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -901,23 +933,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>029</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -931,19 +963,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>030</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -959,23 +991,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>031</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -989,23 +1021,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>032</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1019,19 +1051,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>033</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1047,19 +1079,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>034</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1075,17 +1107,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>035</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1101,17 +1133,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>036</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1127,17 +1159,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>037</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1153,19 +1185,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>038</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1181,23 +1213,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>039</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1211,21 +1243,21 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>040</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
-        </td>
-        <td> </td>
-        <td>
-            <p>sim</p>
-        </td>
-        <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
+        </td>
+        <td>
+            <p>V</p>
+        </td>
+        <td> </td>
+        <td>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1239,23 +1271,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>041</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1269,25 +1301,25 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>042</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1301,17 +1333,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>043</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1327,17 +1359,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>044</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1353,19 +1385,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>045</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1381,19 +1413,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>046</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1409,19 +1441,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>047</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1437,19 +1469,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>048</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1465,19 +1497,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>049</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1493,19 +1525,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>050</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1521,17 +1553,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>051</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1547,17 +1579,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>052</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1573,17 +1605,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>053</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1599,17 +1631,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>054</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1625,25 +1657,25 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>055</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1657,23 +1689,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>056</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1687,23 +1719,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>057</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1717,19 +1749,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>058</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1745,23 +1777,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>059</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1775,19 +1807,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>060</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1803,23 +1835,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>061</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1833,19 +1865,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>062</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1861,21 +1893,21 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>063</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
-        </td>
-        <td> </td>
-        <td>
-            <p>sim</p>
-        </td>
-        <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
+        </td>
+        <td>
+            <p>V</p>
+        </td>
+        <td> </td>
+        <td>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1889,23 +1921,23 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>064</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1919,17 +1951,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>065</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1945,19 +1977,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>066</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -1973,19 +2005,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>067</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -2001,17 +2033,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>068</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -2027,19 +2059,19 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>069</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -2055,17 +2087,17 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>070</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -2081,21 +2113,21 @@ Para que a US sejam verificadas por meio de inspeção, será necessário respon
             <p>071</p>
         </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td>
-            <p>sim</p>
-        </td>
-        <td> </td>
-        <td>
-            <p>sim</p>
-        </td>
-        <td>
-            <p>sim</p>
+            <p>V</p>
         </td>
         <td> </td>
         <td>
-            <p>sim</p>
+            <p>V</p>
+        </td>
+        <td>
+            <p>V</p>
+        </td>
+        <td> </td>
+        <td>
+            <p>V</p>
         </td>
         <td> </td>
         <td> </td>
@@ -2139,34 +2171,34 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 
 | [US001](../../modelagem/product_backlog#US001)           |                                                                                                                        |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
-| **Texto Original:**                                      | Eu, como, usuário desejo acessar glossário MEDIUM para que eu possa visualizar a lista de palavras-chave da plataforma |
+| **Texto Original:**                                      | Eu, como usuário, desejo acessar glossário MEDIUM para que eu possa visualizar a lista de palavras-chave da plataforma |
 | (**Critério 3**)                                         |                                                                                                                        |
 | - Há falta de conectivos da linguagem padrão em questão; |                                                                                                                        |
  - A palavra 'plataforma' não explicitando do que se trata e pode ser substituída por 'aplicação Medium';
  - A palavra 'MEDIUM' totalmente em caixa alta pode ser substituída por 'Medium' para se adequar ao léxico a qual pertence.|
 |(**Critério 8**)|
 - Caso de Uso: Área comum.|
-|**Texto Refatorado**|Eu como usuário desejo acessar o glossário do Medium para que eu possa visualizar a lista de palavras-chave da aplicação Medium.|
+|**Texto Refatorado**|Eu, como usuário, desejo acessar o glossário do Medium para que eu possa visualizar a lista de palavras-chave da aplicação Medium.|
 
 ***
 ***
 
 | [US002](../../modelagem/product_backlog#US002)                                                                                                                      |                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **Texto Original:**                                                                                                                                                 | Eu, como, usuário desejo responder questionário de satisfação para que eu possa contribuir para o feedback de alguns aspectos da área de ajuda do site |
+| **Texto Original:**                                                                                                                                                 | Eu, como usuário, desejo responder questionário de satisfação para que eu possa contribuir para o feedback de alguns aspectos da área de ajuda do site |
 | (**Critério 3**)                                                                                                                                                    |                                                                                                                                                        |
 | - Há falta de conectivos da linguagem padrão em questão;                                                                                                            |                                                                                                                                                        |
 | - O feedback em questão não é necessariamente destinado a área de ajuda do site, podendo a expressão "área de ajuda do site" ser substituída por "aplicação Medium" |                                                                                                                                                        |
 | (**Critério 8**)                                                                                                                                                    |                                                                                                                                                        |
 | - Caso de Uso: Área comum.                                                                                                                                          |                                                                                                                                                        |
-| **Texto Refatorado**                                                                                                                                                | Eu como usuário desejo responder o questionário de satisfação para que eu possa contribuir para o feedback de alguns aspectos da aplicação Medium.     |
+| **Texto Refatorado**                                                                                                                                                | Eu, como usuário, desejo responder o questionário de satisfação para que eu possa contribuir para o feedback de alguns aspectos da aplicação Medium.     |
 
 ***
 ***
 
 | [US009](../../modelagem/product_backlog#US009)           |                                                                                                                               |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
-| **texto original:**                                      | Eu como usuário desejo selecionar/remover tópicos de interesse	para que eu possa possuir tópicos de meu interesse para leitura |
+| **texto original:**                                      | Eu, como usuário, desejo selecionar/remover tópicos de interesse para que eu possa possuir tópicos de meu interesse para leitura |
 | **Critério 3**                                           |                                                                                                                               |
 | - Há falta de conectivos da linguagem padrão em questão; |                                                                                                                               |
  - A expressão "selecionar/remover" pode ser substituida por "selecionar";
@@ -2176,7 +2208,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
  - Brainstorming 2;
  - Introspeção 5;
  - Storytelling: Usuário, Configurando a aplicação|
-|**Texto Refatorado**|Eu, como usuário, desejo selecionar alguns tópicos de meu interesse	para que eu possa gerenciar conteúdos que me serão sugeridos para leitura|
+|**Texto Refatorado**|Eu, como usuário, desejo selecionar alguns tópicos de meu interesse para que eu possa gerenciar conteúdos que me serão sugeridos para leitura|
 
 ***
 ***
@@ -2201,7 +2233,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 
 | [US017](../../modelagem/product_backlog#US017)           |                                                                                                                                |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
-| **texto original:**                                      | Eu como usuário desejo selecionar tema do boletim informativo para que eu possa selecionar os temas para o boletim informativo |
+| **texto original:**                                      | Eu, como usuário, desejo selecionar tema do boletim informativo para que eu possa selecionar os temas para o boletim informativo |
 | **Critério 3**                                           |                                                                                                                                |
 | - Há falta de conectivos da linguagem padrão em questão; |                                                                                                                                |
  - A expressão "possuir" pode ser substituída por "gerenciar".
@@ -2210,7 +2242,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
  - Brainstorming 2;
  - Introspeção 5;
  - Storytelling: Usuário, Configurando a aplicação|
-|**Texto Refatorado**|Eu como usuário desejo selecionar o tema do boletim informativo para que eu possa receber artigos novos de acordo com o tema escolhido|
+|**Texto Refatorado**|Eu, como usuário, desejo selecionar o tema do boletim informativo para que eu possa receber artigos novos de acordo com o tema escolhido|
 
 ***
 ***
