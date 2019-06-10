@@ -7,6 +7,7 @@
 |   29/05/2019   | Aline Laureano | Adição dos I* de Perfil do Usuário | 0.4  |
 |   29/05/2019   | Gabriel Filipe  | Adição dos I* de iteroperabilidade | 0.5  |
 |   06/05/2019   | Luis Claudio T. Lima  | Adição dos I* de configuração | 0.6  |
+| 10/06/2019|Matheus Blanco|Novas versões de I*|0.7|
 
 ## Definição
 
@@ -109,6 +110,11 @@ Versão 1.0
 
 ![customizar_insteresses_SD](i*/customizar_interesses_pedro_SD.jpg)
 
+Versão 2.0
+
+![customizar_insteresses_SD](../analise/istar/customizar_interesses_SD-2.png)
+
+
 ***
 
 **Modelo SR**
@@ -116,6 +122,10 @@ Versão 1.0
 Versão 1.0
 
 ![customizar_insteresses_SR](i*/customizar_interesses_pedro_SR.png)
+
+Versão 2.0
+
+![customizar_insteresses_SR](../analise/istar/customizar_interesses_SR-2.png)
 
 ***
 
@@ -132,6 +142,10 @@ Versão 1.0
 Versão 2.0
 
 ![perfil SD versão 2](i*/perfil_aline_SD-2.png)
+
+Versão 3.0
+
+![perfil SD versão 3](../analise/istar/perfil_aline_SD-3.png)
 
 ***
 
@@ -151,6 +165,10 @@ Versão 1.0
 Versão 1.0
 
 ![Usuário e Medium SR](i*/perfil_aline_SR-GERAL.png)
+
+Versão 2.0
+
+![perfil SR versão 3](../analise/istar/perfil_aline_SR-2.png)
 
 #### Pesquisar conteúdo
 
@@ -186,6 +204,17 @@ Versão 1.0
 
 ![Configuracao V1 SD](i*/configuracao_LuisClaudio_SD-1.png)
 
+Versão 2.0
+
+![Configuracao V2 SD](../analise/istar/configuracao_LuisClaudio_SD2.png)
+
+
 **Modelo SR**
 
+Versão 1.0
+
 ![Configuracao V1 SR](i*/configuracao_LuisClaudio_SR-1.png)
+
+Versão 2.0
+
+![Configuracao V2 SR](../analise/istar/configuracao_LuisClaudio_SR-2.png)
