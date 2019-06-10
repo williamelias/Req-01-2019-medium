@@ -50,7 +50,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Descrição**| Funcionalidade responsável por realizar pesquisa de artigos na plataforma Medium.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
-|**Pós-condições**|Usuário/Visitante recebera um artigo para leitura
+|**Pós-condições**|Usuário/Visitante receberá um artigo para leitura
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário pesquisar um artigo na  aplicação**<br/> 1-Usuário/Visitante clica no ícone da lupa<br/>2-Usuário/Visitante insere o termo a ser pesquisado <br>3-Usuário/Visitante recebe como resultado um ou mais artigos para leitura|
 |**Fluxo alternativo**|** [FA01] Selecionar podcast:**<br/>No passo 3 do fluxo   principal, há a opção de selecionar um podcast a ser escutado|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 3, pode haver um erro de digitação ou a não existência de artigos/podcasts para o termo inserido|
@@ -64,7 +64,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Descrição**| Funcionalidade responsável pela possibilidade de escutar um podcast.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
-|**Pós-condições**|Usuário/Visitante recebera terá escutado um podcast
+|**Pós-condições**|Usuário/Visitante receberá/terá escutado um podcast
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário seleciona um podcast a ouvir**<br> 1-Usuário/Visitante clica no podcast escolhido<br/>2-Usuário/Visitante visualiza um reprodutor de mídia<br>3-Usuário/visitante clica em reproduzir|
 |**Fluxo alternativo**|** [FA01] Voltar para página principal:**<br/>No passo 2 o usuário pode retornar a página principal da aplicação para selecionar outro podcast|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Reprodutor com problemas**<br/>No passo 3, pode haver um erro de no reprodutor usado pela plataforma|
@@ -104,7 +104,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Descrição**| Funcionalidade responsável pela exibição de artigos por categoria.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
-|**Pós-condições**|Usuário/Visitante recebera uma lista de arigos para leitura, dada uma categoria
+|**Pós-condições**|Usuário/Visitante receberá uma lista de artigos para leitura, dada uma categoria
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário Acessa a página principal da aplicação**<br/>1-Usuário/Visitante clica no ícone do Medium<br/>2-Usuário/Visitante visualiza a barra de categorias na área superior do site<br>3-Usuário/Visitante escolhe uma categoria<br>4-Usuário clica na categoria desejada<br>5-Usuário visualiza um lista de artigos|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 5, pode ser que não exista artigos/podcasts para o termo clicado|
 
