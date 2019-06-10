@@ -327,3 +327,246 @@ Para que as *RichPictures* sejam verificadas por meio de inspeção, será neces
     </tr>
     </tr>
 </table>
+
+###Tabela de avaliação
+
+####Responsável: Guilherme Marques
+
+<table>
+    <tr>
+        <td >
+            <p><b>RichPicture / Critérios</b></p>
+        </td>
+        <td >
+            <p><b>Autor</b></p>
+        </td>
+        <td>
+            <p>1</p>
+        </td>
+        <td>
+            <p>2</p>
+        </td>
+        <td>
+            <p>3</p>
+        </td>
+        <td>
+            <p>4</p>
+        </td>
+        <td>
+            <p>5</p>
+        </td>
+        <td>
+            <p>6</p>
+        </td>
+        <td>
+            <p>7</p>
+        </td>
+        <td>
+            <p>8</p>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <p>Ponto de Vista do Leitor</p>
+        </td>
+        <td  >
+            <p>Gabriel</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <p>Ponto de Vista do Escritor</p>
+        </td>
+        <td  >
+            <p>Matheus Blanco</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <p>Import Story</p>
+        </td>
+        <td  >
+            <p>Pedro Rodrigues</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <p>New story</p>
+        </td>
+        <td  >
+            <p>Pedro Rodrigues</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+    </tr>
+</table>
+
+
+###Tabela de Parecer
+
+####Responsável: Guilherme Marques
+
+<table>
+    <tr>
+        <td>
+            <p><b>RichPicture</b></p>
+        </td>
+        <td>
+            <p>Autor</p>
+        </td>
+        <td>
+        <td colspan="7">
+            <p>Parecer</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Ponto de vista do Leitor</p>
+        </td>
+        <td>
+            <p>Gabriel</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Os ícones não estão bem padronizados, alguns seguem um estilo sem lineart, outros são só desenhos etc. Alguns ícones não possuem legenda explicando o que representam.
+            Não existem legendas que expliquem o que as setas estão indicando.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Ponto de vista do Escritor</p>
+        </td>
+        <td>
+            <p>Matheus Blanco</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Não existem nomes nos ícones. As numerações, embora existam, estão um pouco confusas.
+            Só a pensamento no primeiro ícone.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Import Story</p>
+        </td>
+        <td>
+            <p>Pedro Rodrigues</p>
+        </td>
+        <td colspan="7">
+            <p>
+            O modelo está muito bom, faltando apenas fonte e o pensamento dos atores.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>New Story</p>
+        </td>
+        <td>
+            <p>Pedro Rodrigues</p>
+        </td>
+        <td colspan="7">
+            <p>
+            O modelo tem apenas algumas alterações com relação ao processo, basicamente aplica-se o parecer anterior.
+            </p>
+        </td>
+    </tr>
+    </tr>
+</table>
