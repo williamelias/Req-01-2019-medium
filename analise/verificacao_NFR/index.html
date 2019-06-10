@@ -8,7 +8,7 @@
         
         
         <link rel="shortcut icon" href="../../img/favicon.ico">
-        <title>Inspeção storytelling - MEDIUM</title>
+        <title>Inspeção NFR - MEDIUM</title>
         <link href="../../css/bootstrap-custom.min.css" rel="stylesheet">
         <link href="../../css/font-awesome.min.css" rel="stylesheet">
         <link href="../../css/base.css" rel="stylesheet">
@@ -167,16 +167,16 @@
     <a href="../verificacao_istars/">Inspeção I*</a>
 </li>
                                     
-<li class="active">
-    <a href="./">Inspeção storytelling</a>
+<li >
+    <a href="../verificacao_storytelling/">Inspeção storytelling</a>
 </li>
                                     
 <li >
     <a href="../verificacao_especificacoes/">Inspeção Especificações</a>
 </li>
                                     
-<li >
-    <a href="../verificacao_NFR/">Inspeção NFR</a>
+<li class="active">
+    <a href="./">Inspeção NFR</a>
 </li>
                                 </ul>
                             </li>
@@ -192,12 +192,12 @@
                             </a>
                         </li>
                             <li >
-                                <a rel="next" href="../verificacao_istars/">
+                                <a rel="next" href="../verificacao_especificacoes/">
                                     <i class="fa fa-arrow-left"></i> Previous
                                 </a>
                             </li>
                             <li >
-                                <a rel="prev" href="../verificacao_especificacoes/">
+                                <a rel="prev" href="../../atas-reuniao/">
                                     Next <i class="fa fa-arrow-right"></i>
                                 </a>
                             </li>
@@ -216,6 +216,7 @@
             <li><a href="#resultados">Resultados</a></li>
             <li><a href="#criterios-de-aceitacao">Critérios de aceitação</a></li>
             <li><a href="#tabela-de-avaliacao">Tabela de avaliação</a></li>
+            <li><a href="#tabela-de-parecer">Tabela de Parecer</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -244,55 +245,60 @@
 <td>0.2</td>
 </tr>
 <tr>
-<td>05/06/2019</td>
-<td>william elias alves</td>
+<td>09/06/2019</td>
+<td>Pedro Rodrigues Pereira</td>
 <td>adição da tabela de avaliação</td>
 <td>0.3</td>
 </tr>
 </tbody>
 </table>
 <h3 id="introducao">Introdução</h3>
-<p>Verificação é uma análise de modelos cuja uma tarefa pode ser desempenhado por pessoas como por softwares. Tem como objetivo assegurar que o sistema produzido atenda às especificações estabelecidas.</p>
+<p>Verificação é uma análise de modelos cuja uma tarefa pode ser desempenhado tanto por pessoas como por softwares. Tem como objetivo assegurar que o sistema produzido atenda às especificações estabelecidas.</p>
 <h3 id="objetivos">Objetivos</h3>
 <p>Para a realização da verificação, foi utilizado o método de inspeção de Fagan. Esse tipo de abordagem atua na verificação de artefatos de elicitação e sem uma estrutura própria, ou produzidos por Engenheiros de Software/Requisitos, o que o configura, nesse caso, como uma lista de requisitos.</p>
 <h3 id="metodologia">Metodologia</h3>
-<p>Para a realização da análise dos <em>storytellings</em> com ênfase na verificação, foi escolhida a técnica de inspeção.
+<p>Para a realização da análise dos <em>NFR</em> com ênfase na verificação, foi escolhida a técnica de inspeção.
 Os passos a serem realizados para inspeção são os seguintes:</p>
 <h3 id="resultados">Resultados</h3>
 <ul>
-<li>Foram verificadas 5 storytellings;</li>
+<li>Foram verificadas 7 modelos de NFR;</li>
 </ul>
 <h3 id="criterios-de-aceitacao">Critérios de aceitação</h3>
 <p><strong>Descrição:</strong>
 Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, será necessário responder as seguintes perguntas, com sim ou não:</p>
-<pre><code>1- O verbo principal do título da storytelling está configurado no tempo verbal gerúndio?
+<pre><code>1- Os softgoals representam critérios de qualidade ?
 
-2- A storytelling possui uma descrição ?
+2- Os softgoals condizem com o contexto ?
 
-3- O(s) ator(es) estão definidos na storytelling?
+3- Existem softgoals suficientes no diagrama para representar o contexto ?
 
-4- A storytelling está escrita de acordo com a norma padrão da lingua portuguesa?
+4- Existem níveis de softgoals suficientes antes de iniciar as operacionalizações?
 
-5- O título da storytelling é condizente com seu conteúdo?
+5- Os softgoals são decompostos em operacionalizações ?
 
-6- Os acontecimentos possuem ordem cronológica?
+6- A maioria das operacionalizações condizem com o contexto ?
 
-7- A storytelling possuí uma lista de requisitos elicitados a partir dela?
+7- Existem operacionalizações suficientes no diagrama para representar o contexto ?
+
+8- Existem claims suficientes para que se entenda o diagrama ?
+
+9- Existem claims que justifiquem goals contra intuitivas?
+
+10- As contribuições "and" e "or" estão corretamente representadas?
+
+11- Os impactos de softgoals e/ou operacionalizações entre "branches" diferentes foi representado?
+
+12- Os impactos foram corretamente propagados ?
+
+13- A maioria dos termos relevantes destes diagramas estão documentados em léxicos ?
 </code></pre>
 <hr />
 <h3 id="tabela-de-avaliacao">Tabela de avaliação</h3>
-<h4 id="responsavel-william-elias-alves">Responsável: William Elias Alves</h4>
+<h4 id="responsavel-pedro-rodrigues">Responsável: Pedro Rodrigues</h4>
 <table>
     <tr>
-        <td></td>
-        <td> </td>
-        <td colspan="7">
-            <p>Critérios</p>
-        </td>
-    </tr>
-    <tr>
         <td >
-            <p>Storytelling</p>
+            <p><b>NFR / Critérios</b></p>
         </td>
         <td>
             <p>1</p>
@@ -315,38 +321,78 @@ Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, ser
         <td>
             <p>7</p>
         </td>
-    </tr>
-    <tr>
-        <td >
-            <p>Usuário,Configurando a aplicação</p>
+        <td>
+            <p>8</p>
         </td>
-        <td  >
-            <p>V</p>
+        <td>
+            <p>9</p>
         </td>
-        <td  >
-            <p>V</p>
+        <td>
+            <p>10</p>
         </td>
-        <td  >
-            <p>V</p>
+        <td>
+            <p>11</p>
         </td>
-        <td  >
-            <p>V</p>
+        <td>
+            <p>12</p>
         </td>
-        <td  >
-            <p>V</p>
-        </td>
-        <td  >
-            <p>V</p>
-        </td>
-        <td  >
-            <p>V</p>
+        <td>
+            <p>13</p>
         </td>
     </tr>
     <tr>
         <td >
-            <p>Usuário,Explorar tópicos</p>
+            <p>Menutenabilidade</p>
         </td>
-        <td  > </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td >
+    </tr>
+    <tr>
+        <td >
+            <p>Controle de Qualidade</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
         <td  >
             <p>V</p>
         </td>
@@ -356,9 +402,75 @@ Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, ser
         <td  >
             <p>V</p>
         </td>
-        <td  > </td>
         <td  >
             <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+    <tr>
+        <td >
+            <p>Usabilidade</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
         </td>
         <td  >
             <p>V</p>
@@ -366,11 +478,7 @@ Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, ser
     </tr>
     <tr>
         <td >
-            <p>Login e cadastro</p>
-        </td>
-        <td  > </td>
-        <td  >
-            <p>V</p>
+            <p>Performance (Desempenho?)</p>
         </td>
         <td  >
             <p>V</p>
@@ -378,19 +486,105 @@ Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, ser
         <td  >
             <p>V</p>
         </td>
-        <td  > </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
         <td  >
             <p>V</p>
         </td>
         <td  >
             <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+     <tr>
+        <td >
+            <p>Confiabilidade</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        </td>
+        <td  >
+            <p>X</p>
         </td>
     </tr>
     <tr>
         <td >
-            <p>New story</p>
+            <p>Iteroperabilidade</p>
         </td>
-        <td  > </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
         <td  >
             <p>V</p>
         </td>
@@ -398,21 +592,41 @@ Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, ser
             <p>V</p>
         </td>
         <td  >
-            <p>V</p>
+            <p>X</p>
         </td>
-        <td  > </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
         <td  >
             <p>V</p>
         </td>
         <td  >
-            <p>V</p>
+            <p>X</p>
+        </td>
+        </td>
+        <td  >
+            <p>X</p>
         </td>
     </tr>
     <tr>
         <td >
-            <p>Editar perfil</p>
+            <p>Segurança</p>
         </td>
-        <td  > </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
         <td  >
             <p>V</p>
         </td>
@@ -422,13 +636,110 @@ Para que as <em>storytellings</em> sejam verificadas por meio de inspeção, ser
         <td  >
             <p>V</p>
         </td>
-        <td  > </td>
         <td  >
-            <p>V</p>
+            <p>X</p>
+        </td>
+        <td  >
+            <p>X</p>
         </td>
         <td  >
             <p>V</p>
         </td>
+        <td  >
+            <p>V</p>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+        </td>
+        <td  >
+            <p>X</p>
+        </td>
+    </tr>
+    </tr>
+</table>
+
+<h3 id="tabela-de-parecer">Tabela de Parecer</h3>
+<h4 id="responsavel-pedro-rodrigues_1">Responsável: Pedro Rodrigues</h4>
+<table>
+    <tr>
+        <td>
+            <p><b>NFR</b></p>
+        </td>
+        <td colspan="7">
+            <p>Parecer</p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Menutenabilidade</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Bom NFR em tamanho e quesitos para representar a manutenibilidade do software, porém os erros de notação o tornam bastante confuso. Após uma refatoração e correção de notação e representação de alguns claims e hardgoals, o modelo será excelente.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Controle de Qualidade</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Bom NFR em tamanho e quesitos para representar o controle de conteúdo, possui pequenos erros de definição de softgoal e hargoals, tempo verbal errado.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Usabilidade</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Bom NFR, pequeno porém bem diagramado, claro nas informações, ausência de mais softgoals. Uma correção de impactos é necessária.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Performance (Desempenho?)</p>
+        </td>
+        <td colspan="7">
+            <p>
+            NFR muito pequeno e mal diagramado, segue a notação padrão mas peca na quantidade de elementos, ausência de conteúdo, após refatoração e adição de mais quesitos, tende a ser um otimo NFR coerente.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Confiabilidade</p>
+        </td>
+        <td colspan="7">
+            <p>
+            NFR muito pequeno e com ausência clara de informações, ausência de softgoals mais significativos e ausência de destrinchamento dos hardgoals, uso de termos como "metodos alternativos" sem claims ou ampliação disso.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Iteroperabilidade</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Bom NFR, porém possui ligações confusas e erros de notação, o que torna a interpretação bem prejudicada. Necessita refatoração, mudança de significação dos softgoals, analise do contexto e correção de notação.
+            </p>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p>Segurança</p>
+        </td>
+        <td colspan="7">
+            <p>
+            Bom NFR, porém se torna confuso em alguns pontos, poderia possuir mais softgols que especificassem melhor o processo o qual o contexto trata, ausência de impactos co-relacionados e uso de setas bem retas, tornando o processo de leitura menos confortável.
+            </p>
+        </td>
+    </tr>
     </tr>
 </table></div>
         </div>
