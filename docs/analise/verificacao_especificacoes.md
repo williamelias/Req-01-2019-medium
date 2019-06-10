@@ -4,6 +4,7 @@
 | 08/06/2019 | Luís Cláudio T. Lima| adição da introdução e critérios | 0.1    |
 | 09/06/2019 | Luís Cláudio T. Lima| adição da tabela de avaliação das especificações | 0.2 |
 | 10/06/2019 | Matheus Blanco | Adição de parágrafo de validação | 0.3 |
+| 10/06/2019 | Luís Cláudio T. Lima | Atualizado definição e mudando padrão de verificação para "V"| 0.4 |
 
 ## Introdução
 
@@ -16,7 +17,7 @@ Para a realização da análise das especificações pela técnica de ispeção,
 
 ##Critérios de aceitação
 
-Para que os UCs sejam verificados por meio de inspeção, é necessário, para cada um, responder as perguntas com sim ou não:
+Para que os UCs sejam verificados por meio de inspeção, é necessário, marcar com V para os critérios considerados corretos e deixar em branco aqueles com erros, incoerências ou passiveis de possível refatoração:
 ~~~text
   1- A descrição está coerente, objetiva e de fácil entendimento?
 
@@ -42,7 +43,7 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
 
 ###Tabela de avaliação das especificações
 
-**Responsáveis:** Luís Cláudio T. Lima e Matheus Blanco
+**Responsável:** Luís Cláudio T. Lima  
 
 <table>
     <tr>
@@ -76,14 +77,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>01</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -92,14 +93,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>02</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -108,14 +109,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>03</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -125,13 +126,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>04</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -140,14 +141,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>05</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -156,14 +157,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>06</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -172,14 +173,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>07</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -188,14 +189,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>08</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -204,14 +205,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>09</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -220,14 +221,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>10</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -237,13 +238,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>11</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -252,14 +253,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>12</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -269,13 +270,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>13</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -285,13 +286,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>14</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -300,14 +301,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>15</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -317,13 +318,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>16</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -333,13 +334,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>17</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -348,14 +349,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>18</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -365,13 +366,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>19</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -380,14 +381,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>20</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -396,14 +397,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>21</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -412,14 +413,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>22</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -428,14 +429,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>23</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -444,14 +445,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>24</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -460,14 +461,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>25</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -476,14 +477,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>26</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -493,13 +494,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>27</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -508,14 +509,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr> 
     <tr>
         <td>28</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -525,13 +526,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>29</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -541,13 +542,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>30</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -556,14 +557,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>     
     <tr>
         <td>31</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -572,14 +573,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>32</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -589,13 +590,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>33</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -605,13 +606,13 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     <tr>
         <td>34</td>
         <td></td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -620,14 +621,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>35</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
@@ -636,14 +637,14 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, para c
     </tr>
     <tr>
         <td>36</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
-        <td>sim</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
+        <td>V</td>
         <td></td>
         <td></td>
-        <td>sim</td>
+        <td>V</td>
         <td></td>
         <td></td>
         <td></td>
