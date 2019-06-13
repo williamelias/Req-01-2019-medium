@@ -38,5 +38,9 @@ nav:
         - Inspeção 5W2H: analise/5w2h.md
         - Inspeção User Cases: analise/user_cases.md
         - Inspeção StoryBoard: analise/verificacao_storybord.md
+
+    - Pós-rastreabilidade:
+        - Forward To: pos-rastreabilidade/forward_to.md
+
     - Atas: atas-reuniao.md
 theme: journal
