@@ -1,7 +1,5 @@
 site_name: MEDIUM
 nav:
-    - Home: index.md
-    - Baseline: baseline.md
     - Pré-rastreabilidade:
         - Definição: pre-rastreabilidade/pre-rastreabilidade.md
         - 5W2H:  pre-rastreabilidade/5w2h.md
@@ -38,10 +36,9 @@ nav:
         - Inspeção 5W2H: analise/5w2h.md
         - Inspeção User Cases: analise/user_cases.md
         - Inspeção StoryBoard: analise/verificacao_storybord.md
-
     - Pós-rastreabilidade:
+        - Baseline: baseline.md
         - Forward To: pos-rastreabilidade/forward_to.md
         - Backward From: pos-rastreabilidade/backward_from.md
-
     - Atas: atas-reuniao.md
 theme: journal
