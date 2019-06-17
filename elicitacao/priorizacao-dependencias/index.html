@@ -88,10 +88,6 @@
 </li>
                                     
 <li >
-    <a href="../lista-req/">Lista de requisitos</a>
-</li>
-                                    
-<li >
     <a href="../priorizacao-moscow/">Priorização-Moscow</a>
 </li>
                                     
@@ -245,7 +241,8 @@
                 <div class="col-md-3"><div class="bs-sidebar hidden-print affix well" role="complementary">
     <ul class="nav bs-sidenav">
         <li class="main active"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
-        <li class="main "><a href="#lista-de-dependencias">Lista de dependências</a></li>
+            <li><a href="#introducao">Introdução</a></li>
+            <li><a href="#metodologia">Metodologia</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -265,12 +262,22 @@
 <td>17/04/2019</td>
 <td>William Elias</td>
 <td>Adicionando tabela das dependências v.1</td>
-<td>0.1</td>
+<td>1.0</td>
+</tr>
+<tr>
+<td>17/06/2019</td>
+<td>William Elias</td>
+<td>Adicionando introdução e metodologia</td>
+<td>2.0</td>
 </tr>
 </tbody>
 </table>
-<h2 id="lista-de-dependencias">Lista de dependências</h2>
-<p><strong>Descrição:</strong> Para que seja aplicada a técnica de priorização <em>First Things Firts</em> (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.</p>
+<h3 id="introducao">Introdução</h3>
+<p>Para que seja aplicada a técnica de priorização <em>First Things Firts</em> (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.</p>
+<h3 id="metodologia">Metodologia</h3>
+<p>Foram pegos os requitos da priorização de moscow e feita análise de cada relação com outro requisito, se o requisto possuir uma dependência é retirado.</p>
+<hr />
+<h4 id="lista-de-dependencias-versao-1">Lista de dependências (Versão 1)</h4>
 <table>
         <thead>
          <tr>
@@ -1015,7 +1022,7 @@
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"next": 78, "help": 191, "previous": 80, "search": 83};
+                shortcuts = {"search": 83, "previous": 80, "help": 191, "next": 78};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
