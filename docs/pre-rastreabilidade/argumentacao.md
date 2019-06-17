@@ -1,17 +1,18 @@
 ## Versionamento de edições
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|   26/03/2019   | William Elias Alves  | Inserção do texto base | 0.1  |
-|   30/03/2019   | William Elias Alves  | Adição dos modelos de argumentações | 0.2  |
-|   03/04/2019   | William Elias Alves  | Inserção do conteúdo no mkdocs | 0.3  |
-| 08/04/2019     | William Elias Alves  | Inserção da tababela de versionamento        |  0.4 |  
+|   26/03/2019   | William Elias Alves  | Inserção do texto base | 1.0  |
+|   30/03/2019   | William Elias Alves  | Adição dos modelos de argumentações | 1.1  |
+|   03/04/2019   | William Elias Alves  | Inserção do conteúdo no mkdocs | 1.2  |
+|   08/04/2019     | William Elias Alves  | Inserção da tababela de versionamento        |  2.0 |  
+|   17/06/2019     | William Elias Alves  | Inserção dos resultados      |  2.1 |  
 
 
 ![argumentação](../images/argumentacao.jpg)
 **fonte**: https://baudelivrosonline.files.wordpress.com/2016/07/argumento.jpg?w=676
 ***
 
-## Definição
+### Definição
 A argumentação é um processo no qual há a manipulação de pensamentos de forma organizada tendo como finalidade chegar a uma conclusão sobre dado assunto.
 
 Dentro da disciplina de Engenharia de requisitos os principais modelos e frameworks para se construir uma Argumentação são:
@@ -23,9 +24,16 @@ Dentro da disciplina de Engenharia de requisitos os principais modelos e framewo
 
 O modelo adotado para a representação da argumentação da plataforma MEDIUM foi o ACE.
 
-***
+### Resultados
 
-## Argumentações desenvolvidas
+Mediante a divisão de tarefas foram concebidas argumentações com os seguintes enfoques:
+
+* Aspectos gerais da aplicação
+* Público-alvo
+* Conteúdo
+* Forma de publicação
+
+***
 
 ### Argumentação 1 - Aspectos gerais
 
@@ -37,7 +45,6 @@ O modelo adotado para a representação da argumentação da plataforma MEDIUM f
 * **p4:** Mesmo com uma comunidade ativa, a plataforma não é tão conhecida por usuário comuns
 * **p5:** Uma plataforma de publicação não é responsável exclusiva por motivar um escritor a publicar seus textos
 * **p6:** Essa facilidade na busca por conteúdos é um ponto de vantagem na usabilidade geral da plataforma
-
 
 ***
 

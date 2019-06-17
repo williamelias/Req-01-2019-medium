@@ -4,7 +4,7 @@
 |----------------|----------------------|-------------------------------------|------|
 | 30/03/2019     | Aline Laureano       | Inserção de texto base              |  0.1 |
 | 03/04/2019     | William Elias Alves  | Inserção de texto no mkdocs         |  0.2 |  
-| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento |  0.3 |  
+| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento |  1.0 |  
 
 
 # Definição
