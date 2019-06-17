@@ -38,7 +38,8 @@ nav:
         - Inspeção StoryBoard: analise/verificacao_storybord.md
     - Pós-rastreabilidade:
         - Baseline: baseline.md
-        - Forward To: pos-rastreabilidade/forward_to.md
+        - Forward From: pos-rastreabilidade/forward_from.md
         - Backward From: pos-rastreabilidade/backward_from.md
+        - Telas das Funcionalidades: pos-rastreabilidade/telas_das_funcionalidades.md
     - Atas: atas-reuniao.md
 theme: journal

@@ -32,11 +32,11 @@ Repositório destinado a documentação dos modelos usados durante o processo de
 
 A aplicação na qual serão aplicados conceitos e práticas de Engenharia de Requisitos é a plataforma de publicação e leitura **MEDIUM**. Ela está acessível através de um site e também por meio de aplicação mobile android/ios.
 
-<img width="400" alt="luis" src="images/medium-logo.png"> 
+<img width="400" alt="Logo do Medium" src="images/medium-logo.png"> 
 
 * **Fundador:** Evan Williams
 * **Data de lançamento:** 15 de Agosto,2012
-* **Site Oficial:** [Medium](https://medium.com/) 
+* **Site Oficial:** [Medium](https://medium.com/)
 * **Proprietário:** MEDIUM corporation
 * **Principais Concorrentes:**
   1. **Com foco em publicação textual/blog:** Wordpress, squarespace
