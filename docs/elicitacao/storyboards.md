@@ -10,13 +10,13 @@
 
 
 
-## Descrição 
+### Descrição 
 
 Storyboards são uma forma prática e eficiente de desenhar, comunicar e discutir como um produto de software pode ser realizado ou modificado. Todas as pessoas, independente de sua área de atuação, podem visualizar e sugerir mudanças enquanto ainda é simples e barato realizá-las. E agora, os storyboards podem inclusive ajudar na homologação e teste de forma automatizada antes da entrega.
 
 Por meio da aplicação das técnicas de elicitação de requisitos, foi decidido que cada integrante do grupo focasse em uma área específica da plataforma MEDIUM e, mediante a utilização da técnica de [storytelling](storytelling.md), desenvolvessem diversos modelos de storyboards.
 
-## Escopo
+### Escopo
 
 Os seguintes storyboards tiveram como ênfases: 
 
@@ -26,9 +26,9 @@ Os seguintes storyboards tiveram como ênfases:
 * Bookmarking;
 
 ***
-#Storyboards
+###Storyboards
 
-## Customização de interesses
+##### Customização de interesses
 
 ![custumização de interesses](storyboards/storyBoard_Customizar-seus-interesses_PedroRodrigues.jpg)
 
@@ -43,7 +43,7 @@ Os seguintes storyboards tiveram como ênfases:
 |R060|Deixar de seguir publicações|
 
 
-## Login e cadastro
+#### Login e cadastro
 
 ![login/cadastro](storyboards/storyboard-login.png)
 
@@ -57,7 +57,7 @@ Os seguintes storyboards tiveram como ênfases:
 |R106|Cadastrar com Google|
 |R107|Cadastrar com Facebook|
 
-## Tutorial e seguir escritor
+#### Tutorial e seguir escritor
 
 ![tutorial/seguir escritor](storyboards/storytelling_gabriel.jpg)
 **Requisitos Elicitados**
@@ -66,7 +66,7 @@ Os seguintes storyboards tiveram como ênfases:
 | ------ | ----------------------------- |
 |R043|Visualizar autores seguidos|
 
-## Bookmarking
+#### Bookmarking
 
 ![bookmarking](storyboards/storytelling_bookmarking.png)
 **Requisitos Elicitados**

@@ -2,12 +2,20 @@
 
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
-|17/04/2019|William Elias |Adicionando tabela das dependências v.1|0.1|
+|17/04/2019|William Elias |Adicionando tabela das dependências v.1|1.0|
+|17/06/2019|William Elias |Adicionando introdução e metodologia|2.0|
 
-## Lista de dependências
+### Introdução
 
+Para que seja aplicada a técnica de priorização _First Things Firts_ (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.
 
-**Descrição:** Para que seja aplicada a técnica de priorização _First Things Firts_ (FTF) não se pode haver requisitos com dependências. Para que essa prerrogativa seja atendida, é necessário se criar uma planilha de dependências entre os requisitos com a finalidade de filtrar somente os requisitos que se encontram sem nenhum vínculo.
+### Metodologia
+
+Foram pegos os requitos da priorização de moscow e feita análise de cada relação com outro requisito, se o requisto possuir uma dependência é retirado.
+
+***
+
+#### Lista de dependências (Versão 1)
 
 <table>
         <thead>

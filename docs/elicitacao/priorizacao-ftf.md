@@ -3,10 +3,29 @@
 | Data           | autor                | Descrição                           |Versão|
 |----------------|----------------------|-------------------------------------|------|
 |17/04/2019|William Elias |Adicionando tabela do ftf v.1|0.1|
+|17/06/2019|William Elias |Adicionando metodologia e resultados|1.0|
 
-# First Thing First
+### Introdução
 
-**Descrição:** Para que seja aplicada a técnica de priorização _First Things Firts_ (FTF) não se pode haver requisitos com dependências. Para isso foi feita uma [lista de dependências](priorizacao-dependencias.md) que posteriormente facilitou a obtenção da tabela abaixo:
+A priorização de requisitos é um passo fundamental para a filtragem do que realmente é importante para a aplicação. Pois é na priorização que há a análise de funcionalidades e sua importância e impacto em relação a todo o sistema. 
+Com o FTF (First things First) podemos identificar a importância de funcionalidades soltas (sem um dependência com outra) e verificar seu impacto no processo de desenvolvimento ou impacto com o software já desenvolvido.
+
+### Metodologia
+
+Para que seja aplicada a técnica de priorização _First Things Firts_ (FTF) não se pode haver requisitos com dependências. Para isso foi feita uma [lista de dependências](priorizacao-dependencias.md) que posteriormente facilitou a obtenção da tabela abaixo:
+
+### Resultados
+
+Foram priorizados via FTF um total de 58 requisitos advindos da tabela de dependências, assim ficando explícito em cada requisito os seus :
+
+* Benefício 
+* Penalidade
+* Custo
+* Risco 
+* prioridade
+
+***
+#### Tabela de FTF (Versão 1.0) 
 
 <table class="waffle" cellspacing="0" cellpadding="0">
       <thead>
