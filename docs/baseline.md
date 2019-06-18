@@ -8,11 +8,11 @@
 ### Baseline dos requisitos levantados durante o semestre
 
 |   ID |            Requisito                                               | 
-|------|--------------------------------------------------------------------| 
+|------|-------------------------------------------------------------------| 
 | R001 | Responsividade                                                     | 
 | R002 | Portabilidade mobile ios                                           | 
 | R003 | Portabilidade mobile android                                       | 
-| R004 | Pesquisar artigos por nome                                         | 
+| R004 | Pesquisar artigos por nome                                         |
 | R005 | Visualizar data de publicação dos artigos                          | 
 | R006 | Política de privacidade                                            | 
 | R007 | Identidade Visual                             | 
