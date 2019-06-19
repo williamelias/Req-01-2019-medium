@@ -4,7 +4,7 @@
 |----------------|----------------------|-------------------------------------|------|
 |13/06/2019      | William elias alves  | adição da introdução e objetivos    | 1.0|
 |16/06/2019      | Aline Laureano  | Adição dos resultados   | 1.1|
-|17/06/2019      | Luís Cláudio T. Lima  | Adição de mais links para telas da respectiva funcionalidade   | 1.2|
+|17/06/2019      | Luís Cláudio T. Lima  | Adição de mais links para telas das respectivas funcionalidades   | 1.2|
 
 ### Introdução
 
@@ -41,7 +41,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 |  |	R026 |	Comentar no corpo do texto da 'story' |  |		
 |  |	R027 |	Escutar podcasts		|  |
 |Luís Cláudio|	R028 |	Seguir escritores		|<a href="../telas_das_funcionalidades/#imgR028">Tela(s) do R028</a>  |
-|Luís Cláudio|	R029 |	Seguir usuários		|  |
+||	R029 |	Seguir usuários		|  |
 |  |	R030 |	Receber notificações dos escritores seguidos		|  |
 |  |	R031 |	Selecionar tema de artigos para leitura		|  |
 | Aline |	R032 |	Visualizar textos publicados por um escritor em seu perfil		|  |
@@ -55,32 +55,32 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 | Luís Cláudio |	R040 |	Editar informações de perfil		| <a href="../telas_das_funcionalidades/#imgR040">Tela(s) do R040</a> |
 | Luís Cláudio |	R041 |	Salvar/cancelar edição de perfil		|<a href="../telas_das_funcionalidades/#imgR041">Tela(s) do R041</a>  |
 |  |	R042 |	Visualizar autores seguidos		|  |
-| Luís Cláudio |	R043 |	Visualizar seguidores		|  |
+|  |	R043 |	Visualizar seguidores		|  |
 |  |	R044 |	Visualizar 'claps' em 'stories'		|  |
-| Luís Cláudio |	R045 |	visualizar próprio perfil		|  |
+| Luís Cláudio |	R045 |	visualizar próprio perfil		|<a href="../telas_das_funcionalidades/#imgR045">Tela(s) do R045</a>  |
 |  |	R046 |	Visualizar estatisticas de leitura em gráfico		|  |
 |  |	R047 |	Visualizar marcações feitas		|  |
 | Luís Cláudio |	R048 |	Criar publicação		| <a href="../telas_das_funcionalidades/#imgR048">Tela(s) do R048</a> |
 |  |	R049 |	visualizar rascunho de publicação		|  |
-| Luís Cláudio |	R050 |	Editar publicação		|  |
-| Luís Cláudio |	R051 |	Deletar publicação		|  |
+| |	R050 |	Editar publicação		|  |
+| |	R051 |	Deletar publicação		|  |
 |  |	R052 |	Selecionar tópicos de interesse		|  |
 |  |	R053 |	Deixar de seguir usuários		|  |
 |  |	R054 |	Deixar de seguir publicações		|  |
-| Luís Cláudio |	R055 |	Ativar/desativar modo noturno		|  |
+|    |	R055 |	Ativar/desativar modo noturno		|  |
 | Luís Cláudio |	R057 |	Editar email padrão		|<a href="../telas_das_funcionalidades/#imgR057">Tela(s) do R057</a>  |
 |  |	R058 |	Selecionar périodo de sugestão de artigos		|  |
 |  |	R059 |	Desativar sugestão de artigos		|  |
-|  |	R060 |	Ativar/desativar boletim informativo|  |		
-|  |	R061 |	Selecionar tema do boletim informativo	|  |
-|  |	R062 |	Ativar/desativar recomendações de stories		|  |
-| Luís Cláudio |	R063 |	Ativar/desativar notificação por e-mail		|  |
-| Luís Cláudio |	R064 |	Ativar/desativar notificação social		|  |
-|  |	R066 |	Desativar menções de usuários		|  |
-| Luís Cláudio |	R067 |	Conectar com redes sociais		|  |
-| Luís Cláudio |	R068 |	Conectar com Google		|  |
-| Luís Cláudio |	R069 |	Mostrar links para facebook e twitter na página de perfil		|  |
-|  |	R073 |	Fazer download de meus dados do MEDIUM		|  |
+| Luís Cláudio |	R060 |	Ativar/desativar boletim informativo|<a href="../telas_das_funcionalidades/#imgR060">Tela(s) do R060</a>  |		
+|Luís Cláudio  |	R061 |	Selecionar tema do boletim informativo	|<a href="../telas_das_funcionalidades/#imgR061">Tela(s) do R061</a> |
+| Luís Cláudio |	R062 |	Ativar/desativar recomendações de stories		|<a href="../telas_das_funcionalidades/#imgR062">Tela(s) do R062</a>  |
+| Luís Cláudio |	R063 |	Ativar/desativar notificação por e-mail		|<a href="../telas_das_funcionalidades/#imgR063">Tela(s) do R063</a>  |
+| Luís Cláudio |	R064 |	Ativar/desativar notificação social		| <a href="../telas_das_funcionalidades/#imgR064">Tela(s) do R064</a> |
+| Luís Cláudio |	R066 |	Desativar menções de usuários		| <a href="../telas_das_funcionalidades/#imgR066">Tela(s) do R066</a> |
+| Luís Cláudio |	R067 |	Conectar com redes sociais		|<a href="../telas_das_funcionalidades/#imgR067">Tela(s) do R067</a>  |
+| Luís Cláudio |	R068 |	Conectar com Google		|<a href="../telas_das_funcionalidades/#imgR068">Tela(s) do R068</a>  |
+| Luís Cláudio |	R069 |	Mostrar links para facebook e twitter na página de perfil		| <a href="../telas_das_funcionalidades/#imgR069">Tela(s) do R069</a> |
+|Luís Cláudio  |	R073 |	Fazer download de meus dados do MEDIUM		|<a href="../telas_das_funcionalidades/#imgR073">Tela(s) do R073</a>  |
 |  |	R074 |	Deslogar de outras sessões		|  |
 | Luís Cláudio |	R075 |	Desativar conta		|<a href="../telas_das_funcionalidades/#imgR075">Tela(s) do R075</a>   |
 | Luís Cláudio |	R076 |	Deletar conta		| <a href="../telas_das_funcionalidades/#imgR076">Tela(s) do R076</a> |

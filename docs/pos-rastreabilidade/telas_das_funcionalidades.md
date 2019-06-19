@@ -97,6 +97,14 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 
 ***
 
+<span id="imgR045"></span>
+#### R045 - Visualizar próprio perfil
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R045.png)
+
+***
+
 <span id="imgR048"></span>
 #### R048 - Criar Publicação
 
@@ -109,6 +117,80 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 
 **Foto 1:**
 ![Tela de funcionalidade](fotos_das_telas/R057.png)
+
+***
+<span id="imgR060"></span>
+#### R060 - Ativar/desativar boletim informativo
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R060.png)
+
+***
+<span id="imgR061"></span>
+#### R061 - Selecionar tema do boletim informativo
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R061.png)
+
+***
+<span id="imgR062"></span>
+#### R062 - Ativar/desativar recomendações de stories
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R062.png)
+
+***
+<span id="imgR063"></span>
+#### R063 - Ativar/desativar notificações por email
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R063.png)
+
+***
+<span id="imgR064"></span>
+#### R064 - Ativar/desativar notificações sociais
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R064.png)
+
+***
+<span id="imgR066"></span>
+#### R066 - Desativar menções de usuários
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R066.png)
+
+***
+
+<span id="imgR067"></span>
+#### R067 - Conectar com redes sociais
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R067.png)
+
+***
+
+<span id="imgR068"></span>
+#### R068 - Conectar com Google
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R068.png)
+
+***
+
+<span id="imgR069"></span>
+#### R069 - Mostrar links para facebook e twitter na página de perfil
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R069.png)
+
+***
+
+<span id="imgR073"></span>
+#### R073 - Fazer download de meus dados do MEDIUM
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R073.png)
 
 ***
 
