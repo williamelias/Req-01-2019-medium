@@ -243,6 +243,47 @@
         <li class="main active"><a href="#versionamento-de-edicoes">Versionamento de edições</a></li>
             <li><a href="#introducao">Introdução</a></li>
             <li><a href="#metodologia">Metodologia</a></li>
+            <li><a href="#elos-funcionais">Elos Funcionais</a></li>
+            <li><a href="#ef1">EF1</a></li>
+            <li><a href="#ef2">EF2</a></li>
+            <li><a href="#ef3">EF3</a></li>
+            <li><a href="#ef4">EF4</a></li>
+            <li><a href="#ef5">EF5</a></li>
+            <li><a href="#ef6">EF6</a></li>
+            <li><a href="#ef7">EF7</a></li>
+            <li><a href="#ef8">EF8</a></li>
+            <li><a href="#ef9">EF9</a></li>
+            <li><a href="#ef10">EF10</a></li>
+            <li><a href="#ef11">EF11</a></li>
+            <li><a href="#ef12">EF12</a></li>
+            <li><a href="#ef13">EF13</a></li>
+            <li><a href="#ef14">EF14</a></li>
+            <li><a href="#ef15">EF15</a></li>
+            <li><a href="#ef16">EF16</a></li>
+            <li><a href="#ef17">EF17</a></li>
+            <li><a href="#ef18">EF18</a></li>
+            <li><a href="#ef19">EF19</a></li>
+            <li><a href="#ef20">EF20</a></li>
+            <li><a href="#ef21">EF21</a></li>
+            <li><a href="#ef22">EF22</a></li>
+            <li><a href="#ef23">EF23</a></li>
+            <li><a href="#ef24">EF24</a></li>
+            <li><a href="#ef25">EF25</a></li>
+            <li><a href="#ef26">EF26</a></li>
+            <li><a href="#ef27">EF27</a></li>
+            <li><a href="#ef28">EF28</a></li>
+            <li><a href="#ef29">EF29</a></li>
+            <li><a href="#ef30">EF30</a></li>
+            <li><a href="#ef31">EF31</a></li>
+            <li><a href="#ef32">EF32</a></li>
+            <li><a href="#ef33">EF33</a></li>
+            <li><a href="#ef34">EF34</a></li>
+            <li><a href="#ef35">EF35</a></li>
+            <li><a href="#ef36">EF36</a></li>
+            <li><a href="#ef37">EF37</a></li>
+            <li><a href="#ef38">EF38</a></li>
+            <li><a href="#ef39">EF39</a></li>
+            <li><a href="#ef40">EF40</a></li>
     </ul>
 </div></div>
                 <div class="col-md-9" role="main">
@@ -271,7 +312,652 @@
 <p>Com a rastreabilidade é possível ver todo o processo evolutivo referente aos requisitos e suas conseguências.
 Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimentos de requisitos e também temos a pós rastreabilidade que será tratada nesse tópico por meio da utilização de algumas técnicas inerentes a ela.</p>
 <h3 id="metodologia">Metodologia</h3>
-<p>Para a realização dessa tarefa, em um primeiro momento, fora refatorada a baseline e posteriormente o backlog do produto. Após esse processo de refatoração se tornou possível linkar os requisitos em relação a sua origem, levando em consideração todas as suas ocorrências.</p></div>
+<p>Para a realização dessa tarefa, em um primeiro momento, fora refatorada a baseline e posteriormente o backlog do produto. Após esse processo de refatoração se tornou possível linkar os requisitos em relação a sua origem, levando em consideração todas as suas ocorrências.</p>
+<h3 id="elos-funcionais">Elos Funcionais</h3>
+<p><strong>Legenda:</strong>
+- Representação/Representa = R
+- Alocação = A
+- Alocado e = AE</p>
+<h3 id="ef1">EF1</h3>
+<h4 id="categoria">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis">Elementos Rastreáveis</h4>
+<ul>
+<li>Pergunta: "Como você classificaria a interface do MEDIUM?"</li>
+<li>StoryBoard Tutorial e seguir escritor</li>
+<li>Cenário Pesquisa por artigo</li>
+<li>Léxico Storie</li>
+<li>UC Área comum </li>
+<li>UC03-Pesquisar artigo </li>
+<li>US 047 - Usuário: Pesquisar por nome de artigo</li>
+<li>i* Pesquisar conteúdo</li>
+</ul>
+<h4 id="elo">Elo</h4>
+<p><strong>R</strong>: Cenário Pesquisa por artigo <strong><em>R</em></strong> UC Área comum</p>
+<p><strong>R</strong>: Léxico Storie <strong><em>R</em></strong> Cenário Pesquisa por artigo</p>
+<p><strong>R</strong>: UC03-Pesquisar artigo <strong><em>R</em></strong> UC Área comum
+<strong>R</strong>: US 047 <strong><em>R</em></strong> UC03</p>
+<p><strong>A</strong> : Pergunta: "Como você classificaria a interface do MEDIUM?" <strong><em>AE</em></strong> UC Área comum</p>
+<p><strong>A</strong>: UC Área comum <strong><em>AE</em></strong> i* Pesquisar conteúdo</p>
+<h3 id="ef2">EF2</h3>
+<h4 id="categoria_1">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_1">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 4 "matheus: ter um registro dos seus textos em seu blog"    </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação </li>
+<li>Cenário Leitura de texto </li>
+<li>Léxico Storie</li>
+<li>i* Publicações</li>
+</ul>
+<h4 id="elo_1">Elo</h4>
+<p><strong>R</strong>: Brainstorming 4 <strong><em>R</em></strong> Introspecção 1</p>
+<p><strong>A</strong>: Cenário Leitura de texto <strong><em>AE</em></strong> Léxico Storie</p>
+<p><strong>R</strong>: Léxico Stories <strong><em>R</em></strong> i* Publicações</p>
+<p><strong>A</strong>: Brainstorming 4 <strong><em>A</em></strong> i* Publicações</p>
+<h3 id="ef3">EF3</h3>
+<h4 id="categoria_2">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_2">Elementos Rastreáveis</h4>
+<ul>
+<li>RichPicture "Ponto de vista do escritor" e "New Story"</li>
+<li>Pergunta: "Sobre quais tipos de assunto você escreve?"    </li>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Brainstorming 4 " Matheus: possibilidade de escrever no blog ou fora do blog"</li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Series </li>
+<li>UC Series </li>
+<li>UC23 - Criar series   </li>
+<li>US 059 - Usuário Escritor: Criar uma nova Serie</li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elo_2">Elo</h4>
+<p><strong>R</strong>: Pergunta: "Sobre quais tipos de assunto você escreve?" <strong><em>R</em></strong> RichPicture "Ponto de vista do escritor" e "NewStory"</p>
+<p><strong>R</strong>: Brainstorming 4 <strong><em>R</em></strong> StoryTelling - Escritor, New Story</p>
+<p><strong>R</strong>: Introspecção 3 <strong><em>R</em></strong> StoryTelling - Escritor, New Story</p>
+<p><strong>R</strong>: Cenário Criar um novo Storie <strong><em>R</em></strong> Brainstorming 4</p>
+<p><strong>A</strong>: Léxico Series <strong><em>AE</em></strong> UC Series</p>
+<p><strong>A</strong>: UC23 <strong><em>AE</em></strong> US 059</p>
+<h3 id="ef4">EF4</h3>
+<h4 id="categoria_3">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_3">Elementos Rastreáveis</h4>
+<ul>
+<li>Pergunta: "Qual o seu nível de satisfação com o conteúdo recomendado pelo MEDIUM à você?" </li>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Brainstorming 3 "Matheus: os usuários podem ver os textos publicados na página de um escritor, com foco nas publicações com as quais ele interagiu"   </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação </li>
+<li>Cenário Leitura de texto  </li>
+<li>Léxico Series </li>
+<li>UC Series </li>
+<li>UC20-Visualizar Series    </li>
+<li>US 071 - Usuário: Visualizar storie</li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elo_3">Elo</h4>
+<p><strong>R</strong>: StoryTelling  Escritor, New Story <strong>R</strong> Brainstorming 3</p>
+<p><strong>R</strong>: Cenário Leitura de texto <strong>R</strong> Brainstorming 3</p>
+<p><strong>R</strong>: Léxico Series <strong>R</strong> UC Series</p>
+<p><strong>A</strong>: UC Series <strong>AE</strong> UC20</p>
+<p><strong>A</strong>: UC20 <strong>AE</strong> US 071 </p>
+<p><strong>R</strong>: StoryTelling Escritor, New Story <strong>R</strong> i* Publicações</p>
+<h3 id="ef5">EF5</h3>
+<h4 id="categoria_4">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_4">Elementos Rastreáveis</h4>
+<ul>
+<li>RichPicture Ponto de vista do escritor</li>
+<li>StoryTelling - Escritor, New Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Series </li>
+<li>UC stories    </li>
+<li>UC23 - Criar series   </li>
+<li>US 061 - Usuário Escritor: Deletar uma Serie existente </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos">Elos</h4>
+<p><strong>R</strong>: Cenário Criar uma nova storie <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Series <strong>AE</strong> UC23</p>
+<p><strong>A</strong>: UC23 <strong>AE</strong> US 061</p>
+<p><strong>R</strong>: StoryTelling Escritor, New Story <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: RichPicture Ponto de vista do escritor <strong>R</strong> StoryTelling Escritor, New Story</p>
+<h3 id="ef6">EF6</h3>
+<h4 id="categoria_5">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_5">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryTelling - Escritor, New Story</li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story    </li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Series </li>
+<li>UC Series </li>
+<li>UC23 - Criar series   </li>
+<li>US 060 - Usuário Escritor: Editar uma Serie existente</li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_1">Elos</h4>
+<p><strong>R</strong>:  Introspecção 3 <strong><em>R</em></strong> StoryTelling - Escritor, New Story</p>
+<p><strong>R</strong>: Léxico Series <strong>R</strong> UC Series</p>
+<p><strong>A</strong>: UC23 <strong>AE</strong> US 060</p>
+<p><strong>A</strong>: UC23 <strong>AE</strong> UC Series</p>
+<p><strong>R</strong>: StoryTelling Escritor, New Story <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: Cenário Criar uma nova storie <strong>R</strong> Introspecção 3</p>
+<h3 id="ef7">EF7</h3>
+<h4 id="categoria_6">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_6">Elementos Rastreáveis</h4>
+<ul>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Series </li>
+<li>UC Series </li>
+<li>UC36-Excluir Publicação   </li>
+<li>US 061 - Usuário Escritor: Deletar uma Serie existente</li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_2">Elos</h4>
+<p><strong>R</strong>: Cenário Criar uma nova storie <strong>R</strong> Introspecção 3</p>
+<p><strong>A</strong>: UC23 <strong>AE</strong> US 060</p>
+<p><strong>R</strong>: Introspecção 3 <strong>R</strong> UC36</p>
+<p><strong>R</strong>: Léxico Series <strong>R</strong> UC Series</p>
+<p><strong>A</strong>: Introspecção 3 <strong>AE</strong> i* Publicações</p>
+<h3 id="ef8">EF8</h3>
+<h4 id="categoria_7">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_7">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Brainstorming 4 " Matheus: ver quem deu clap em suas publicações" </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação</li>
+<li>Léxico Status </li>
+<li>UC Área comum </li>
+<li>UC20-Visualizar Series    </li>
+<li>US 034 - Usuário: visualizar seguidores</li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_3">Elos</h4>
+<p><strong>A</strong>: StoryTelling - Escritor, New Story <strong>AE</strong> Brainstorming 4</p>
+<p><strong>A</strong>: UC20 <strong>AE</strong> UC Área comum</p>
+<p><strong>A</strong>: Léxico Status <strong>AE</strong> UC Área comum</p>
+<p><strong>A</strong>: Introspecção 1 <strong>AE</strong> UC Área comum</p>
+<p><strong>A</strong>: US 034 <strong>AE</strong> UC Área comum</p>
+<p><strong>R</strong>: US 034 <strong>R</strong> i* Publicações</p>
+<h3 id="ef9">EF9</h3>
+<h4 id="categoria_8">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_8">Elementos Rastreáveis</h4>
+<ul>
+<li>RichPicture "Ponto de vista do escritor/New Story"</li>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Brainstorming 4 " Matheus: possibilidade de escrever no blog ou fora do blog"</li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC32-Escrever uma nova Story. </li>
+<li>US 063 - Usuário Escritor: Escrever 'new storie' </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_4">Elos</h4>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
+<p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> US 063</p>
+<p><strong>R</strong>: Brainstorming 4 <strong>R</strong> UC32</p>
+<p><strong>A</strong>: Cenário Criar um novo stories <strong>AE</strong> Introspecção 3</p>
+<p><strong>R</strong>: RichPicture "Ponto de vista do escritor/New Story" <strong>R</strong> StoryTelling - Escritor, New Story</p>
+<p><strong>R</strong>: US 063 <strong>R</strong> i* Publicações</p>
+<h3 id="ef10">EF10</h3>
+<h4 id="categoria_9">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_9">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC32-Escrever uma nova Story. </li>
+<li>US 063 - Usuário Escritor: Escrever 'new storie' </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_5">Elos</h4>
+<p><strong>R</strong>: </p>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
+<p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> US 063</p>
+<p><strong>A</strong>: Cenário Criar um novo stories <strong>AE</strong> Introspecção 3</p>
+<p><strong>R</strong>: US 063 <strong>R</strong> i* Publicações</p>
+<h3 id="ef11">EF11</h3>
+<h4 id="categoria_10">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_10">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC32-Escrever uma nova Story. </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_6">Elos</h4>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
+<p><strong>A</strong>: Cenário Criar um novo stories <strong>AE</strong> Introspecção 3</p>
+<p><strong>A</strong>: Introspecção 3 <strong>AE</strong> i* Publicações</p>
+<p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> Introspecção 3</p>
+<p><strong>A</strong>: US 032 <strong>AE</strong> UC Stories</p>
+<h3 id="ef12">EF12</h3>
+<h4 id="categoria_11">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_11">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryBoard Tutorial e seguir escritor </li>
+<li>Brainstorming 3 "Matheus: os usuários podem ver os textos publicados na página de um escritor, com foco nas publicações com as quais ele interagiu"   </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação - Cenário Criar um novo Storie  </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC28-Visualizar Stories   </li>
+<li>US 071 - Usuário: Visualizar storie </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_7">Elos</h4>
+<p><strong>R</strong>: StoryBoard Tutorial <strong>R</strong> Introspecção 1</p>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> StoryBoard Tutorial</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: UC28 <strong>AE</strong> UC Stories</p>
+<p><strong>R</strong>: US 071 <strong>R</strong> UC28</p>
+<p><strong>R</strong>: US 071 <strong>R</strong> i* Publicações</p>
+<h3 id="ef13">EF13</h3>
+<h4 id="categoria_12">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_12">Elementos Rastreáveis</h4>
+<ul>
+<li>RichPicture "Ponto de vista do escritor/New Story"</li>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Brainstorming 4 " Matheus: possibilidade de escrever no blog ou fora do blog"</li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Importar um storie    </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC31-Importar uma Story   </li>
+<li>US 064 - Usuário Escritor: Importar 'storie'</li>
+<li>i* Publicações</li>
+</ul>
+<h4 id="elos_8">Elos</h4>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Importar um storie</p>
+<p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> US 064</p>
+<p><strong>R</strong>: Brainstorming 4 <strong>R</strong> UC31</p>
+<p><strong>A</strong>: Cenário Importar um storie <strong>AE</strong> Introspecção 3</p>
+<p><strong>R</strong>: RichPicture "Ponto de vista do escritor/New Story" <strong>R</strong> StoryTelling - Escritor, New Story</p>
+<p><strong>R</strong>: US 064 <strong>R</strong> i* Publicações</p>
+<h3 id="ef14">EF14</h3>
+<h4 id="categoria_13">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_13">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC35-Editar Publicação</li>
+<li>US 060 - Usuário Escritor: Editar uma Serie existente</li>
+<li>i* Publicações</li>
+</ul>
+<h4 id="elos_9">Elos</h4>
+<p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> US 064</p>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
+<p><strong>A</strong>: UC35 <strong>AE</strong> UC Stories</p>
+<p><strong>A</strong>: UC35 <strong>AE</strong> i* Publicações</p>
+<p><strong>R</strong>: US 060 <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> Introspecção 3</p>
+<h3 id="ef15">EF15</h3>
+<h4 id="categoria_14">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_14">Elementos Rastreáveis</h4>
+<ul>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Criar um novo Storie  </li>
+<li>Léxico Storie </li>
+<li>UC stories    </li>
+<li>UC36-Excluir Publicação   </li>
+<li>US 061 - Usuário Escritor: Deletar uma Serie existente</li>
+<li>i* Publicações</li>
+</ul>
+<h4 id="elos_10">Elos</h4>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
+<p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
+<p><strong>A</strong>: UC36 <strong>AE</strong> UC Stories</p>
+<p><strong>A</strong>: UC36 <strong>AE</strong> i* Publicações</p>
+<p><strong>R</strong>: UC36 <strong>R</strong> US 061</p>
+<p><strong>R</strong>: US 061 <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: Léxico Stories <strong>R</strong> Introspecção 3</p>
+<h3 id="ef16">EF16</h3>
+<h4 id="categoria_15">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_15">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryBoard Tutorial e seguir escritor </li>
+<li>Brainstorming 3 "matheus: o leitor poder gostar do texto" </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação</li>
+<li>Cenário Dar Claps </li>
+<li>Léxico Clap </li>
+<li>US 065 - Usuário: Aplaudir um texto lido</li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_11">Elos</h4>
+<p><strong>R</strong>: Léxico Clap <strong>R</strong> US 065</p>
+<p><strong>R</strong>: lexico clap <strong>R</strong> Cenário Dar Claps</p>
+<p><strong>R</strong>: introspecção 1 <strong>R</strong> StoryBoard Tutorial</p>
+<p><strong>A</strong>: US 065 <strong>AE</strong> i* Publicações</p>
+<p><strong>A</strong>: Cenário Dar Claps <strong>AE</strong>  Brainstorming 3</p>
+<h3 id="ef17">EF17</h3>
+<h4 id="categoria_16">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_16">Elementos Rastreáveis</h4>
+<ul>
+<li>RichPicture "Ponto de vista do leitor"</li>
+<li>StoryTelling - Escritor, New Story    </li>
+<li>Brainstorming 3 "matheus: compartilhar o texto"   </li>
+<li>Relato de introspecção 3: Usuário no processo de criação de uma nova Story</li>
+<li>Cenário Compartilhar publicação   </li>
+<li>Léxico Share      </li>
+<li>US 066 - Usuário: Compartilhar texto lido no Facebook ou Instagram    </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_12">Elos</h4>
+<p><strong>R</strong>: RichPicture "Ponto de vista do leitor" <strong>R</strong> StoryTelling Escritor</p>
+<p><strong>A</strong>: Lexico Share <strong>AE</strong> Cenário Compartilhar Publicação</p>
+<p><strong>R</strong>: RichPicture "Ponto de vista do leitor" <strong>R</strong> Introspecção 3</p>
+<p><strong>A</strong>: US 066 <strong>AE</strong> i* Publicações</p>
+<h3 id="ef18">EF18</h3>
+<h4 id="categoria_17">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_17">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 4 "Pedro: ver comentários de seus textos e responder os comentários de seus textos" </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação</li>
+<li>Cenário Comentar publicação   </li>
+<li>Léxico Response   </li>
+<li>US 067 - Usuário: Comentar no corpo do texto      </li>
+<li>I* Publicações</li>
+</ul>
+<h4 id="elos_13">Elos</h4>
+<p><strong>R</strong>: Brainstorming 4 <strong>R</strong> Introspecção 1</p>
+<p><strong>R</strong>: Cenário Comentar Publicação <strong>R</strong> US 067</p>
+<p><strong>A</strong>: Léxico Response <strong>AE</strong> Cenário Comentar Publicação</p>
+<p><strong>R</strong>: US 067 <strong>Rdo em</strong> i* Publicações</p>
+<h3 id="ef19">EF19</h3>
+<h4 id="categoria_18">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_18">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryBoard Tutorial e seguir escritor</li>
+<li>Brainstorming 3 "Gabriel: escutar podcasts"   </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação</li>
+<li>Cenário Leitura de texto  </li>
+<li>Léxico Storie </li>
+<li>UC Área comum </li>
+<li>UC04-Escutar podcast  </li>
+<li>US 069 - Usuário: Escutar publicação</li>
+</ul>
+<h4 id="elos_14">Elos</h4>
+<p><strong>R</strong>: lexico storie <strong>R</strong> UC Área comum</p>
+<p><strong>A</strong>: lexico storie <strong>AE</strong> Cenário Leitura de texto</p>
+<p><strong>R</strong>: UC Área Comum <strong>R</strong> UC04</p>
+<p><strong>R</strong>: UC04 <strong>R</strong> US 069</p>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> introspecção 1</p>
+<h3 id="ef20">EF20</h3>
+<h4 id="categoria_19">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_19">Elementos Rastreáveis</h4>
+<ul>
+<li>StoryBoard Tutorial e seguir escritor </li>
+<li>Brainstorming 3 "Matheus: seguir o escritor"  </li>
+<li>Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação</li>
+<li>Cenário Seguir usuário    </li>
+<li>Léxico Storie </li>
+<li>UC Área comum     </li>
+<li>US 025 - Usuário: Seguir escritores       </li>
+<li>i* Pesquisar conteúdo</li>
+</ul>
+<h4 id="elos_15">Elos:</h4>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> introspecção 1</p>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> StoryBoard Tutorial</p>
+<p><strong>A</strong>: lexico storie <strong>AE</strong> Cenário Seguir Usuário</p>
+<p><strong>R</strong>: US 025 <strong>R</strong> UC Área Comum</p>
+<h3 id="ef21">EF21</h3>
+<h4 id="categoria_20">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_20">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 3: "Gabriel: Seguir outros usuários"        </li>
+<li>Cenário Seguir usuário    </li>
+<li>Léxico Following      </li>
+<li>US 025 - Usuário: Seguir usuários     </li>
+<li>i* Pesquisar conteúdo</li>
+</ul>
+<h4 id="elos_16">Elos</h4>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> Cenário Seguir Usuário</p>
+<p><strong>A</strong>: lexico Following <strong>AE</strong> Cenário Seguir Usuário</p>
+<p><strong>R</strong> US 025 <strong>R</strong> Brainstorming 3</p>
+<p><strong>R</strong> Brainstorming 3 <strong>R</strong> i* Pesquisar Conteúdos</p>
+<h3 id="ef22">EF22</h3>
+<h4 id="categoria_21">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_21">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 3: "William: O leitor recebe as notificações de publicações de seus escritores favoritados"     </li>
+<li>Cenário Configurar notificações   </li>
+<li>Léxico Digest e Léxico Newsletter </li>
+<li>UC Configurar perfil  </li>
+<li>"UC10-Configurar preferências"    </li>
+<li>US 019 - Usuário: Ativar/desativar notificação por e-mail     </li>
+<li>NFR Controle de Qualidade </li>
+<li>i* Configurações</li>
+</ul>
+<h4 id="elos_17">Elos</h4>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> Léxico Digest e Newsletter</p>
+<p><strong>A</strong>: Léxico Digest e Newsletter <strong>AE</strong> Cenário Configurar notificação</p>
+<p><strong>A</strong>: NFR Controle de Qualidade <strong>AE</strong> i* Configurações</p>
+<p><strong>R</strong>: UC Configurar perfil <strong>R</strong> UC10</p>
+<p><strong>R</strong>: UC10 <strong>R</strong> US 019</p>
+<h3 id="ef23">EF23</h3>
+<h4 id="categoria_22">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_22">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 3: "Gabriel: Selecionar tema de artigos"        </li>
+<li>Cenário Pesquisa por artigo   </li>
+<li>Léxico Search e Léxico Tag    </li>
+<li>UC Área comum </li>
+<li>UC03 - Pesquisar artigo   </li>
+<li>i* Pesquisar conteúdo</li>
+</ul>
+<h4 id="elos_18">Elos</h4>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> Cenário Pesquisa por artigo</p>
+<p><strong>A</strong>: Léxico Search e Tag <strong>AE</strong> Cenário Pesquisa por artigo</p>
+<p><strong>R</strong>: UC Área comum <strong>R</strong> UC03</p>
+<p><strong>R</strong>: UC03 <strong>R</strong> i* Pesquisar Conteúdo</p>
+<h3 id="ef24">EF24</h3>
+<h4 id="categoria_23">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_23">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 3: "Matheus: os usuários podem ver os textos publicados na página de um escritor, com foco nas publicações com as quais ele interagiu"          </li>
+<li>Léxico Following      </li>
+<li>UC30 - Visualizar Publicações </li>
+<li>US 027 - Usuário: Visualizar textos publicados de um escritor em específico</li>
+<li>i* Pesquisar conteúdo</li>
+</ul>
+<h4 id="elos_19">Elos</h4>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> UC30</p>
+<p><strong>A</strong>: UC30 <strong>AE</strong> US 027</p>
+<p><strong>A</strong>: Léxico Following <strong>AE</strong> Brainstorming 3</p>
+<p><strong>R</strong>: US 027 <strong>R</strong> i* Pesquisar Conteúdo</p>
+<h3 id="ef25">EF25</h3>
+<h4 id="categoria_24">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_24">Elementos Rastreáveis</h4>
+<ul>
+<li>Relato de Introspecção 4: "ii. Listagem de artigos salvos: para um usuário logado, apresenta uma lista de todos os arquivos salvos por ele para uma fácil recuperação do artigo e também registra o ponto em que cada artigo salvo foi fechado;"  </li>
+<li>Cenário Criar um novo Bookmark    </li>
+<li>Léxico Bookmark   </li>
+<li>UC Bookmark       </li>
+<li>US 030 - Usuário: Favoritar Publicação</li>
+</ul>
+<h4 id="elos_20">Elos</h4>
+<p><strong>R</strong>: Introspecção 4 <strong>R</strong> UC Bookmark</p>
+<p><strong>A</strong>: Léxico Bookmark <strong>AE</strong> Cenário Criar um novo Bookmark</p>
+<p><strong>R</strong>: UC Bookmark <strong>R</strong> Introspecção 4</p>
+<p><strong>A</strong>: US 030 <strong>AE</strong> UC Bookmark</p>
+<h3 id="ef26">EF26</h3>
+<h4 id="categoria_25">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_25">Elementos Rastreáveis</h4>
+<ul>
+<li>Relato de Introspecção 4: "ii. Listagem de artigos salvos: para um usuário logado, apresenta uma lista de todos os arquivos salvos por ele para uma fácil recuperação do artigo e também registra o ponto em que cada artigo salvo foi fechado;"      </li>
+<li>UC Bookmark       </li>
+<li>US 030 - Usuário: Favoritar Publicação</li>
+</ul>
+<h4 id="elos_21">Elos</h4>
+<p><strong>R</strong>: Introspecção 4 <strong>R</strong> UC Bookmark</p>
+<p><strong>A</strong>: US 030 <strong>AE</strong> UC Bookmark</p>
+<p><strong>R</strong>: US 030 <strong>R</strong> Introspecção 4</p>
+<h3 id="ef27">EF27</h3>
+<h4 id="categoria_26">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_26">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 2: "William: visualizar os perfis de outros usuários"       </li>
+<li>Cenáro Seguir usuário </li>
+<li>Léxico Profile    </li>
+<li>UC03 - Pesquisar artigo   </li>
+<li>US 029 - Usuário: Visualizar perfis de outros usuários        </li>
+<li>i* Pesquisar conteúdo</li>
+</ul>
+<h4 id="elos_22">Elos</h4>
+<p><strong>R</strong>: Brainstorming 2 <strong>R</strong> Cenário Seguir usuário</p>
+<p><strong>A</strong>: Léxico Profile <strong>AE</strong> Cenário Seguir usuário</p>
+<p><strong>A</strong>: UC03 <strong>AE</strong> US 029</p>
+<p><strong>R</strong>: Brainstorming 2 <strong>R</strong> i* Pesquisar Conteúdo</p>
+<h3 id="ef28">EF28</h3>
+<h4 id="categoria_27">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_27">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 3: "Matheus: o leitor poder gostar do texto"    </li>
+<li>Relato de Introspecção 4: "ii. Listagem de artigos salvos: para um usuário logado, apresenta uma lista de todos os arquivos salvos por ele para uma fácil recuperação do artigo e também registra o ponto em que cada artigo salvo foi fechado;"  </li>
+<li>Cenário Criar um novo Bookmark    </li>
+<li>Léxico Bookmark   </li>
+<li>UC Bookmark       </li>
+<li>US 030 - Usuário: Favoritar Publicação</li>
+</ul>
+<h4 id="elos_23">Elos</h4>
+<p><strong>R</strong>: Brainstorming 3 <strong>R</strong> Introspecção 4</p>
+<p><strong>A</strong> Léxico Bookmark <strong>AE</strong> Cenário Criar um novo Bookmark</p>
+<p><strong>R</strong>: US 030 <strong>AE</strong> UC Bookmark</p>
+<p><strong>R</strong> Introspecção 4 <strong>R</strong> US 030</p>
+<h3 id="ef29">EF29</h3>
+<h4 id="categoria_28">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_28">Elementos Rastreáveis</h4>
+<ul>
+<li>Brainstorming 4: "Pedro: ver comentários de seus textos e responder os comentários de seus textos"        </li>
+<li>Cenário Comentar publicação   </li>
+<li>Léxico Response       </li>
+<li>UC30 - Visualizar Publicações </li>
+<li>US 031 - Usuário: Visualizar comentários da publicação        </li>
+<li>i* Stories</li>
+</ul>
+<h4 id="elos_24">Elos</h4>
+<p><strong>R</strong>: Brainstorming 4 <strong>R</strong> Cenário Comentar Publicação</p>
+<p><strong>A</strong>: Léxico Response <strong>AE</strong> Cenário Comentar Publicação</p>
+<p><strong>A</strong>: UC30 <strong>AE</strong> US 031</p>
+<p><strong>R</strong>:Cenário Comentar Publicação <strong>R</strong> i* Stories</p>
+<h3 id="ef30">EF30</h3>
+<h4 id="categoria_29">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_29">Elementos Rastreáveis</h4>
+<ul>
+<li>Storytelling - Editar Perfil                  </li>
+<li>UC Configurar perfil  </li>
+<li>"UC10-Configurar preferências"    </li>
+<li>US 032 - Usuário: Reportar publicação NFR Segurança   </li>
+<li>i* Configurações</li>
+</ul>
+<h4 id="elos_25">Elos</h4>
+<p><strong>R</strong>: Storytelling - Editar perfil <strong>R</strong> UC Configurar perfil</p>
+<p><strong>A</strong>: UC10 <strong>AE</strong> UC Configurar Perfil</p>
+<p><strong>R</strong>: UC10 <strong>R</strong> US 032</p>
+<p><strong>R</strong>: UC Configurar Perfil <strong>R</strong> i* Configurações</p>
+<h3 id="ef31">EF31</h3>
+<h4 id="categoria_30">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_30">Elementos Rastreáveis</h4>
+<ul>
+<li>Storytelling - Editar Perfil                  </li>
+<li>UC Configurar perfil  </li>
+<li>"UC10-Configurar preferências"    </li>
+<li>US 033 - Bloquear usuário </li>
+<li>NFR Segurança </li>
+<li>i* Configurações</li>
+</ul>
+<h4 id="elos_26">Elos</h4>
+<p><strong>R</strong>: Storytelling Editar Perfil <strong>R</strong> UC Configurar perfil</p>
+<p><strong>A</strong>: UC Configurar Perfil <strong>AE</strong> UC10</p>
+<p><strong>R</strong> US 033 <strong>R</strong> NFR Segurança</p>
+<p><strong>A</strong>: i* Configurações <strong>AE</strong> NFR Segurança</p>
+<h3 id="ef32">EF32</h3>
+<h4 id="categoria_31">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_31">Elementos Rastreáveis</h4>
+<h4 id="elos_27">Elos</h4>
+<h3 id="ef33">EF33</h3>
+<h4 id="categoria_32">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_32">Elementos Rastreáveis</h4>
+<h4 id="elos_28">Elos</h4>
+<h3 id="ef34">EF34</h3>
+<h4 id="categoria_33">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_33">Elementos Rastreáveis</h4>
+<h4 id="elos_29">Elos</h4>
+<h3 id="ef35">EF35</h3>
+<h4 id="categoria_34">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_34">Elementos Rastreáveis</h4>
+<h4 id="elos_30">Elos</h4>
+<h3 id="ef36">EF36</h3>
+<h4 id="categoria_35">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_35">Elementos Rastreáveis</h4>
+<h4 id="elos_31">Elos</h4>
+<h3 id="ef37">EF37</h3>
+<h4 id="categoria_36">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_36">Elementos Rastreáveis</h4>
+<h4 id="elos_32">Elos</h4>
+<h3 id="ef38">EF38</h3>
+<h4 id="categoria_37">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_37">Elementos Rastreáveis</h4>
+<h4 id="elos_33">Elos</h4>
+<h3 id="ef39">EF39</h3>
+<h4 id="categoria_38">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_38">Elementos Rastreáveis</h4>
+<h4 id="elos_34">Elos</h4>
+<h3 id="ef40">EF40</h3>
+<h4 id="categoria_39">Categoria</h4>
+<p>Desenvolvimento</p>
+<h4 id="elementos-rastreaveis_39">Elementos Rastreáveis</h4>
+<h4 id="elos_35">Elos</h4></div>
         </div>
 
         <footer class="col-md-12">
