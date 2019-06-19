@@ -4,6 +4,7 @@
 |----------------|----------------------|-------------------------------------|------|
 |16/06/2019      | Aline Laureano  | Adição da estrutura da página e de algumas fotos das telas.    | 1.0|
 |17/06/2019      | Luís Cláudio T. Lima | Adição de mais fotos de telas | 1.1|
+|19/06/2019      | Guilherme Marques Rosa| Adição de mais imagens de telas | 1.2 |
 
 
 
@@ -65,6 +66,30 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 
 ***
 
+<span id="imgR030"></span>
+#### R030 - Receber notificações dos escritores seguidos
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R030.png)
+
+***
+
+<span id="imgR036"></span>
+#### R036 - Favoritar publicação
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R036.png)
+
+***
+
+<span id="imgR037"></span>
+#### R037 - Visualizar comentários da publicação
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R037.png)
+
+***
+
 <span id="imgR038"></span>
 #### R038 - Reportar publicação
 
@@ -97,11 +122,27 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 
 ***
 
+<span id="imgR044"></span>
+#### R044 - Visualizar "Claps" em stories
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R044.png)
+
+***
+
 <span id="imgR045"></span>
 #### R045 - Visualizar próprio perfil
 
 **Foto 1:**
 ![Tela de funcionalidade](fotos_das_telas/R045.png)
+
+***
+
+<span id="imgR047"></span>
+#### R047 - Visualizar marcações feitas
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R047.png)
 
 ***
 
@@ -112,6 +153,39 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 ![Tela de funcionalidade](fotos_das_telas/R048.png)
 
 ***
+
+<span id="imgR049"></span>
+#### R049 - Visualizar rascunho de publicação
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R049.png)
+
+***
+
+<span id="imgR052"></span>
+#### R052 - Selecionar tópicos de interesse
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R052.png)
+
+***
+
+<span id="imgR053"></span>
+#### R053 - Deixar de seguir usuários
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R053.png)
+
+***
+
+<span id="imgR054"></span>
+#### R054 - Deixar de seguir publicações
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R054.png)
+
+***
+
 <span id="imgR057"></span>
 #### R057 - Editar email padrão
 
