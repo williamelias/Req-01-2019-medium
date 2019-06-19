@@ -2,6 +2,10 @@
 |Data      |        Autor            |           Descrição           |Versão|
 |----------|-------------------------|-------------------------------|------|
 |13/06/2019| Pedro Rodrigues Pereira | Adição da pagina e introdução | 1.0  |
+|18/06/2019| Matheus Blanco | Adição de Elos | 2.0  |
+|18/06/2019| Matheus Blanco | Adição de Elos | 3.0  |
+|19/06/2019| Matheus Blanco | Adição de Elos | 4.0  |
+
 
 ### Introdução
 
@@ -773,69 +777,175 @@ Desenvolvimento
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Editar Perfil: "Ao lado do seu nome nesta página de perfil, existia um botão chamado “Edit profile” e logo Carlos clicou sobre esse botão."			
+- Cenário Editar perfil	
+- Léxico Edit e Léxico Profile	
+- UC Área comum	
+- UC09 - Editar perfil	
+- US 043 - Usuário: Editar informações de perfil	
+- NFR Segurança	
+- i* Perfil
 #### Elos
+**R**: StoryTelling Editar **R** Cenário Editar Perfil
+
+**A**: Léxico Edit e Profile **AE** Cenário Editar Perfil
+
+**R**: US 043 **R** UC09
+
+**A**: UC09 **AE** UC Área Comum
+
+**A**: i* Perfl **AE** NFR Segurança
 
 ### EF33
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Editar Perfil: "Após ter editado tudo o que desejava, Carlos clicou no botão chamado “Save” e foi redirecionado para a página que apresentava os seus dados cadastrais, agora editados."
+- Cenário Editar perfil	-
+- Léxico Edit e Léxico Profile	
+- UC Área comum	UC09 - Editar perfil	
+- US 043 - Usuário: Editar informações de perfil	
+- NFR Segurança	
+- i* Perfil
 #### Elos
+**R**: StoryTelling Editar **R** Cenário Editar Perfil
+
+**A**: Léxico Edit e Profile **AE** Cenário Editar Perfil
+
+**A**: i* Perfl **AE** NFR Segurança
+
+**R**: US 043 **R** UC Área Comum
 
 ### EF34
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- StoryBoard - Tutorial e seguir escritor: "Realmente. E ainda consigo seguir o perfil de escritores dos tutoriais estando logado"			
+- Cenário Deixar de seguir usuário	
+- Léxico Following		
+- i* Pesquisar conteúdo
 #### Elos
+**R**: StoryBoard Tutorial **R** Cenário Deixar de Seguir usuário
+
+**A**: Léxico Following **AE** Cenário Deixar de Seguir usuário
+
+**R**: StoryBoard Tutorial **R** i* Pesquisar Conteúdo
+
+**A**: Léxico Following **AE** i* Pesquisar Conteúdo
 
 ### EF35
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Escritor New Story: "Medium, como é chamado o site, é uma plataforma pensada na troca de conhecimentos por seus usuários, a partir de textos técnicos, assuntos atuais, sociais, tecnológicos, psicológicos e até mesmo pesquisas"			
+- Léxico Followers	
+- US 032 - Usuário: Visualizar seguidores
 #### Elos
+**A**: StoryTelling Escritor **AE** Léxico Followers
+
+**R**: Léxico Followers **R** US 032
+
+**R**: StoryTelling **R** US 032
 
 ### EF36
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Escritor New Story: "Entretanto, ela estava satisfeita com os resultados, pois havia recebido um bom número de “claps”"			
+- Cenário Dar clap	
+- Léxico Clap		
+- UC30 - Visualizar Publicações	
+- US 057 - Usuário: Visualizar claps em suas publicações	
+- NFR Controle de Qualidade	
+- i* Stories
 #### Elos
+**R**: Cenário Dar Clap **R** Storytelling Escritor
+
+**A**: Léxico clap **AE** Cenário Dar Clap
+
+**A**: UC30 **AE** Storytelling Escritor
+
+**A**: UC30 **AE** US 057
+
+**R**: US 057 **R** NFR Controle de Qualidade
+
+**R**: NFR Controle de Qualidade **R** i* Stories
 
 ### EF37
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Editar Perfil: "Entre essas opções estava escrita a opção “Profile”, então Carlos clicou sobre essa opção e ao mesmo instante ele foi redirecionado para uma página que apresentava todos os seus dados cadastrais."			
+- Cenário Editar perfil	
+- Léxico Profile	
+- UC Área comum	
+- UC09 - Editar perfil	
+- US 044 - Usuário: Visualizar próprio perfil	
+- NFR Segurança	
+- i* Perfil
 #### Elos
+**R**: Storytelling Editar Perfil **R** Cenário Editar Perfil
 
+**A**: Léxico Profile **AE** Cenário Editar Perfil
+
+**R**: US 044 **R** UC Área comum
+
+**A**: UC09 **AE** UC Área comum
+
+**R**: i* Perfil **AE** NFR Segurança
 ### EF38
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Editar Perfil: "Ao começar a ganhar visibilidade em suas publicações, Carlos passou a receber comentários pedindo informações sobre a sua formação acadêmica, assim como o seu nome completo"					
+- US 048 - Usuário: Ver estatísticas de uma série
 #### Elos
+**R**: Storytelling - Editar Perfil **R** US 048
 
 ### EF39
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- StoryBoard - Bookmarking: "Nossa! O artigo é muito grande, acho que vou salvar para ler mais tarde"			
+- Cenário Criar um novo Bookmark	
+- Léxico Bookmark	
+- UC Bookmark
 #### Elos
+**R**: StoryBoard - Bookmarking **R** UC Bookmark
 
+**A**: Léxico Bookmark **R** Cenário Criar um novo Bookmark
+
+**R**: Cenário Criar um novo Bookmark **R** UC Bookmark
+
+**R**: StoryBoard - Bookmarking **R** Cenário Criar um novo Bookmark
 ### EF40
 
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-
+- Storytelling - Escritor New Story: "Natália percebeu que havia mais de uma maneira de se publicar um texto."			
+- Cenário Criar um storie	
+- Léxico Stories	
+- UC stories	
+- UC32 - Escrever uma nova Story	
+- US 058 - Usuário: Criar publicação		
+- I* Publicações
 #### Elos
+**R**: Storytelling Escritor **R** Cenário Criar um Storie
+
+**A**: Léxico Stories **AE** Cenário Criar um Storie
+
+**R**: US 058 **R** UC32
+
+**A**: UC32 **AE** UC Stories
+
+**R** US 058 **R** UC Stories
+
+**R** US 058 **R** i* Publicações
