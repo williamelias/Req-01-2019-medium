@@ -21,38 +21,13 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
 
 ***
 
-### Tabela Backward-from V1.0
+### Tabela Backward-from
 
-</style>
 <div class="ritz grid-container" dir="ltr">
   <table class="waffle" cellspacing="0" cellpadding="0">
     <tbody>
-      <tr style='height:20px;'>
-        <th id="0R0" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">1</div>
-        </th>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-        <td class="s0"></td>
-      </tr>
-      <tr style='height:22px;'>
-        <th id="0R1" style="height: 22px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 22px;">2</div>
-        </th>
-        <td class="s1" dir="ltr">ID</td>
+         <tr style='height:22px;'>
+            <td class="s1" dir="ltr">ID</td>
         <td class="s1" dir="ltr">Requisito</td>
         <td class="s1" dir="ltr">Tipo</td>
         <td class="s1" dir="ltr">RichPicture</td>
@@ -70,10 +45,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R2" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">3</div>
-        </th>
-        <td class="s3" dir="ltr">R001</td>
+               <td class="s3" dir="ltr">R001</td>
         <td class="s3" dir="ltr">Responsividade</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -91,10 +63,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R3" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">4</div>
-        </th>
-        <td class="s3" dir="ltr">R002</td>
+          <td class="s3" dir="ltr">R002</td>
         <td class="s3" dir="ltr">Portabilidade mobile ios</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do leitor<br>(Gabriel)<br><br>Import Story<br>(Pedro)</td>
@@ -112,10 +81,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R4" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">5</div>
-        </th>
-        <td class="s3" dir="ltr">R003</td>
+            <td class="s3" dir="ltr">R003</td>
         <td class="s3" dir="ltr">Portabilidade mobile android</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do leitor<br>(Gabriel)<br><br>Import Story<br>(Pedro)</td>
@@ -133,10 +99,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R5" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">6</div>
-        </th>
-        <td class="s3" dir="ltr">R004</td>
+               <td class="s3" dir="ltr">R004</td>
         <td class="s3" dir="ltr">Pesquisar artigos por nome</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -154,10 +117,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R6" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">7</div>
-        </th>
-        <td class="s3" dir="ltr">R005</td>
+              <td class="s3" dir="ltr">R005</td>
         <td class="s3" dir="ltr">Visualizar data de publicação dos artigos</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -175,10 +135,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R7" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">8</div>
-        </th>
-        <td class="s3" dir="ltr">R006</td>
+             <td class="s3" dir="ltr">R006</td>
         <td class="s3" dir="ltr">Política de privacidade</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -196,10 +153,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R8" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">9</div>
-        </th>
-        <td class="s3" dir="ltr">R007</td>
+             <td class="s3" dir="ltr">R007</td>
         <td class="s3" dir="ltr">Identidade Visual</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -217,10 +171,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R9" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">10</div>
-        </th>
-        <td class="s3" dir="ltr">R008</td>
+             <td class="s3" dir="ltr">R008</td>
         <td class="s3" dir="ltr">Alta disponibilidade</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -239,10 +190,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R10" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">11</div>
-        </th>
-        <td class="s3" dir="ltr">R009</td>
+            <td class="s3" dir="ltr">R009</td>
         <td class="s3" dir="ltr">Controle de Conteúdo</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -261,10 +209,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s4" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R11" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">12</div>
-        </th>
-        <td class="s3" dir="ltr">R010</td>
+              <td class="s3" dir="ltr">R010</td>
         <td class="s3" dir="ltr">Criar nova &#39;serie&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do escritor<br>(Matheus Blanco)<br><br>New Story<br>(Pedro)</td>
@@ -282,10 +227,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R12" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">13</div>
-        </th>
-        <td class="s3" dir="ltr">R011</td>
+             <td class="s3" dir="ltr">R011</td>
         <td class="s3" dir="ltr">Manutenibilidade</td>
         <td class="s3" dir="ltr">Não funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -303,10 +245,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R13" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">14</div>
-        </th>
-        <td class="s3" dir="ltr">R012</td>
+               <td class="s3" dir="ltr">R012</td>
         <td class="s3" dir="ltr">Visualizar &#39;serie&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -325,10 +264,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R14" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">15</div>
-        </th>
-        <td class="s3" dir="ltr">R013</td>
+              <td class="s3" dir="ltr">R013</td>
         <td class="s3" dir="ltr">Salvar &#39;serie&#39; como rascunho</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do escritor<br>(Matheus Blanco)</td>
@@ -346,10 +282,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R15" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">16</div>
-        </th>
-        <td class="s3" dir="ltr">R014</td>
+               <td class="s3" dir="ltr">R014</td>
         <td class="s3" dir="ltr">Editar &#39;serie&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -367,10 +300,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R16" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">17</div>
-        </th>
-        <td class="s3" dir="ltr">R015</td>
+             <td class="s3" dir="ltr">R015</td>
         <td class="s3" dir="ltr">Deletar &#39;serie&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -388,10 +318,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R17" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">18</div>
-        </th>
-        <td class="s3" dir="ltr">R016</td>
+         <td class="s3" dir="ltr">R016</td>
         <td class="s3" dir="ltr">Ver status</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -409,10 +336,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R18" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">19</div>
-        </th>
-        <td class="s3" dir="ltr">R017</td>
+              <td class="s3" dir="ltr">R017</td>
         <td class="s3" dir="ltr">Escrever &#39;new story&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do escritor<br>(Matheus Blanco)<br><br>New Story<br>(Pedro)</td>
@@ -430,10 +354,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R19" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">20</div>
-        </th>
-        <td class="s3" dir="ltr">R018</td>
+             <td class="s3" dir="ltr">R018</td>
         <td class="s3" dir="ltr">Salvar &#39;story&#39; como rascunho</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -451,10 +372,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R20" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">21</div>
-        </th>
-        <td class="s3" dir="ltr">R019</td>
+             <td class="s3" dir="ltr">R019</td>
         <td class="s3" dir="ltr">visualizar rascunhos das &#39;stories&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -472,10 +390,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R21" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">22</div>
-        </th>
-        <td class="s3" dir="ltr">R020</td>
+               <td class="s3" dir="ltr">R020</td>
         <td class="s3" dir="ltr">Visualizar stories publicadas</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -494,10 +409,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R22" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">23</div>
-        </th>
-        <td class="s3" dir="ltr">R021</td>
+              <td class="s3" dir="ltr">R021</td>
         <td class="s3" dir="ltr">Importar &#39;story&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do escritor<br>(Matheus Blanco)<br><br>Import Story<br>(Pedro)</td>
@@ -516,10 +428,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R23" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">24</div>
-        </th>
-        <td class="s3" dir="ltr">R022</td>
+             <td class="s3" dir="ltr">R022</td>
         <td class="s3" dir="ltr">Editar story</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -537,10 +446,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R24" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">25</div>
-        </th>
-        <td class="s3" dir="ltr">R023</td>
+             <td class="s3" dir="ltr">R023</td>
         <td class="s3" dir="ltr">Deletar story</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -558,10 +464,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R25" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">26</div>
-        </th>
-        <td class="s3" dir="ltr">R024</td>
+           <td class="s3" dir="ltr">R024</td>
         <td class="s3" dir="ltr">Aplaudir um texto lido</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -580,10 +483,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R26" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">27</div>
-        </th>
-        <td class="s3" dir="ltr">R025</td>
+              <td class="s3" dir="ltr">R025</td>
         <td class="s3" dir="ltr">Compartilhar texto lido nas redes sociais</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do leitor<br>(Guilherme)<br><br>Ponto de vista do leitor<br>(Gabriel)
@@ -602,10 +502,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R27" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">28</div>
-        </th>
-        <td class="s3" dir="ltr">R026</td>
+             <td class="s3" dir="ltr">R026</td>
         <td class="s3" dir="ltr">Comentar no corpo do texto da &#39;story&#39;</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">-</td>
@@ -623,10 +520,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R28" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">29</div>
-        </th>
-        <td class="s3" dir="ltr">R027</td>
+               <td class="s3" dir="ltr">R027</td>
         <td class="s3" dir="ltr">Escutar podcasts</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3" dir="ltr">Ponto de vista do leitor<br>(Gabriel)</td>
@@ -644,10 +538,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R29" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">30</div>
-        </th>
-        <td class="s3" dir="ltr">R028</td>
+             <td class="s3" dir="ltr">R028</td>
         <td class="s3" dir="ltr">Seguir escritores</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -665,10 +556,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R30" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">31</div>
-        </th>
-        <td class="s3" dir="ltr">R029</td>
+               <td class="s3" dir="ltr">R029</td>
         <td class="s3" dir="ltr">Seguir usuários</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -686,10 +574,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R31" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">32</div>
-        </th>
-        <td class="s3" dir="ltr">R030</td>
+               <td class="s3" dir="ltr">R030</td>
         <td class="s3" dir="ltr">Receber notificações dos escritores seguidos</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -707,10 +592,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R32" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">33</div>
-        </th>
-        <td class="s3" dir="ltr">R031</td>
+               <td class="s3" dir="ltr">R031</td>
         <td class="s3" dir="ltr">Selecionar tema de artigos para leitura</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -729,10 +611,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R33" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">34</div>
-        </th>
-        <td class="s3" dir="ltr">R032</td>
+             <td class="s3" dir="ltr">R032</td>
         <td class="s3" dir="ltr">Visualizar textos publicados por um escritor em seu perfil</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -750,10 +629,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R34" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">35</div>
-        </th>
-        <td class="s3" dir="ltr">R033</td>
+               <td class="s3" dir="ltr">R033</td>
         <td class="s3" dir="ltr">Visualizar os artigos favoritados</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -771,10 +647,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R35" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">36</div>
-        </th>
-        <td class="s3" dir="ltr">R034</td>
+               <td class="s3" dir="ltr">R034</td>
         <td class="s3" dir="ltr">Visualizar os artigos curtidos (?)</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -792,10 +665,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R36" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">37</div>
-        </th>
-        <td class="s3" dir="ltr">R035</td>
+             <td class="s3" dir="ltr">R035</td>
         <td class="s3" dir="ltr">Visualizar perfis de outros usuários</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -813,10 +683,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R37" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">38</div>
-        </th>
-        <td class="s3" dir="ltr">R036</td>
+               <td class="s3" dir="ltr">R036</td>
         <td class="s3" dir="ltr">Favoritar publicação para leitura posterior</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -834,10 +701,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R38" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">39</div>
-        </th>
-        <td class="s3" dir="ltr">R037</td>
+              <td class="s3" dir="ltr">R037</td>
         <td class="s3" dir="ltr">Visualizar comentários da publicação</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -855,10 +719,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R39" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">40</div>
-        </th>
-        <td class="s3" dir="ltr">R038</td>
+                <td class="s3" dir="ltr">R038</td>
         <td class="s3" dir="ltr">Reportar publicação</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -876,10 +737,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R40" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">41</div>
-        </th>
-        <td class="s3" dir="ltr">R039</td>
+               <td class="s3" dir="ltr">R039</td>
         <td class="s3" dir="ltr">Reportar usuário</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -897,10 +755,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R41" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">42</div>
-        </th>
-        <td class="s3" dir="ltr">R040</td>
+              <td class="s3" dir="ltr">R040</td>
         <td class="s3" dir="ltr">Editar informações de perfil</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -918,10 +773,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s5"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R42" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">43</div>
-        </th>
-        <td class="s3" dir="ltr">R041</td>
+              <td class="s3" dir="ltr">R041</td>
         <td class="s3" dir="ltr">Salvar/cancelar edição de perfil</td>
         <td class="s3" dir="ltr">Funcional</td>
         <td class="s3"></td>
@@ -11601,10 +11453,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s0"></td>
       </tr>
       <tr style='height:22px;'>
-        <th id="0R1" style="height: 22px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 22px;">2</div>
-        </th>
-        <td class="s1" dir="ltr">ID</td>
+            <td class="s1" dir="ltr">ID</td>
         <td class="s1" dir="ltr">Requisito</td>
         <td class="s1" dir="ltr">Tipo</td>
         <td class="s1" dir="ltr">Elo</td>
@@ -11622,10 +11471,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s1" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R2" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">3</div>
-        </th>
-        <td class="s2" dir="ltr">R001</td>
+               <td class="s2" dir="ltr">R001</td>
         <td class="s2" dir="ltr">Responsividade</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11643,10 +11489,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R3" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">4</div>
-        </th>
-        <td class="s2" dir="ltr">R002</td>
+          <td class="s2" dir="ltr">R002</td>
         <td class="s2" dir="ltr">Portabilidade mobile ios</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11664,10 +11507,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R4" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">5</div>
-        </th>
-        <td class="s2" dir="ltr">R003</td>
+            <td class="s2" dir="ltr">R003</td>
         <td class="s2" dir="ltr">Portabilidade mobile android</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11685,10 +11525,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R5" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">6</div>
-        </th>
-        <td class="s2" dir="ltr">R004</td>
+               <td class="s2" dir="ltr">R004</td>
         <td class="s2" dir="ltr">Pesquisar artigos por nome</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s2" dir="ltr">EF1</td>
@@ -11727,10 +11564,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R7" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">8</div>
-        </th>
-        <td class="s2" dir="ltr">R006</td>
+             <td class="s2" dir="ltr">R006</td>
         <td class="s2" dir="ltr">Política de privacidade</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11748,10 +11582,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R8" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">9</div>
-        </th>
-        <td class="s2" dir="ltr">R007</td>
+             <td class="s2" dir="ltr">R007</td>
         <td class="s2" dir="ltr">Identidade Visual</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11769,10 +11600,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R9" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">10</div>
-        </th>
-        <td class="s2" dir="ltr">R008</td>
+             <td class="s2" dir="ltr">R008</td>
         <td class="s2" dir="ltr">Alta disponibilidade</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11791,10 +11619,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R10" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">11</div>
-        </th>
-        <td class="s2" dir="ltr">R009</td>
+            <td class="s2" dir="ltr">R009</td>
         <td class="s2" dir="ltr">Controle de Conteúdo</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s2" dir="ltr"></td>
@@ -11813,10 +11638,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R11" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">12</div>
-        </th>
-        <td class="s2" dir="ltr">R010</td>
+              <td class="s2" dir="ltr">R010</td>
         <td class="s2" dir="ltr">Criar nova &#39;serie&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF3</td>
@@ -11834,10 +11656,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R12" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">13</div>
-        </th>
-        <td class="s2" dir="ltr">R011</td>
+             <td class="s2" dir="ltr">R011</td>
         <td class="s2" dir="ltr">Manutenibilidade</td>
         <td class="s2" dir="ltr">Não funcional</td>
         <td class="s3"></td>
@@ -11855,10 +11674,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R13" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">14</div>
-        </th>
-        <td class="s2" dir="ltr">R012</td>
+               <td class="s2" dir="ltr">R012</td>
         <td class="s2" dir="ltr">Visualizar &#39;serie&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF4</td>
@@ -11877,10 +11693,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R14" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">15</div>
-        </th>
-        <td class="s2" dir="ltr">R013</td>
+              <td class="s2" dir="ltr">R013</td>
         <td class="s2" dir="ltr">Salvar &#39;serie&#39; como rascunho</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF5</td>
@@ -11898,10 +11711,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R15" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">16</div>
-        </th>
-        <td class="s2" dir="ltr">R014</td>
+               <td class="s2" dir="ltr">R014</td>
         <td class="s2" dir="ltr">Editar &#39;serie&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF6</td>
@@ -11919,10 +11729,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R16" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">17</div>
-        </th>
-        <td class="s2" dir="ltr">R015</td>
+             <td class="s2" dir="ltr">R015</td>
         <td class="s2" dir="ltr">Deletar &#39;serie&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF7</td>
@@ -11940,10 +11747,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R17" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">18</div>
-        </th>
-        <td class="s2" dir="ltr">R016</td>
+         <td class="s2" dir="ltr">R016</td>
         <td class="s2" dir="ltr">Ver status</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF8</td>
@@ -11961,10 +11765,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R18" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">19</div>
-        </th>
-        <td class="s2" dir="ltr">R017</td>
+              <td class="s2" dir="ltr">R017</td>
         <td class="s2" dir="ltr">Escrever &#39;new story&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF9</td>
@@ -11982,10 +11783,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R19" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">20</div>
-        </th>
-        <td class="s2" dir="ltr">R018</td>
+             <td class="s2" dir="ltr">R018</td>
         <td class="s2" dir="ltr">Salvar &#39;story&#39; como rascunho</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF10</td>
@@ -12003,10 +11801,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R20" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">21</div>
-        </th>
-        <td class="s2" dir="ltr">R019</td>
+             <td class="s2" dir="ltr">R019</td>
         <td class="s2" dir="ltr">visualizar rascunhos das &#39;stories&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF11</td>
@@ -12024,10 +11819,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R21" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">22</div>
-        </th>
-        <td class="s2" dir="ltr">R020</td>
+               <td class="s2" dir="ltr">R020</td>
         <td class="s2" dir="ltr">Visualizar stories publicadas</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF12</td>
@@ -12046,10 +11838,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R22" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">23</div>
-        </th>
-        <td class="s2" dir="ltr">R021</td>
+              <td class="s2" dir="ltr">R021</td>
         <td class="s2" dir="ltr">Importar &#39;story&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF13</td>
@@ -12068,10 +11857,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R23" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">24</div>
-        </th>
-        <td class="s2" dir="ltr">R022</td>
+             <td class="s2" dir="ltr">R022</td>
         <td class="s2" dir="ltr">Editar story</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF14</td>
@@ -12089,10 +11875,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R24" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">25</div>
-        </th>
-        <td class="s2" dir="ltr">R023</td>
+             <td class="s2" dir="ltr">R023</td>
         <td class="s2" dir="ltr">Deletar story</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF15</td>
@@ -12110,10 +11893,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R25" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">26</div>
-        </th>
-        <td class="s2" dir="ltr">R024</td>
+           <td class="s2" dir="ltr">R024</td>
         <td class="s2" dir="ltr">Aplaudir um texto lido</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF16</td>
@@ -12132,10 +11912,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R26" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">27</div>
-        </th>
-        <td class="s2" dir="ltr">R025</td>
+              <td class="s2" dir="ltr">R025</td>
         <td class="s2" dir="ltr">Compartilhar texto lido nas redes sociais</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF17</td>
@@ -12154,10 +11931,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R27" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">28</div>
-        </th>
-        <td class="s2" dir="ltr">R026</td>
+             <td class="s2" dir="ltr">R026</td>
         <td class="s2" dir="ltr">Comentar no corpo do texto da &#39;story&#39;</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF18</td>
@@ -12175,10 +11949,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R28" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">29</div>
-        </th>
-        <td class="s2" dir="ltr">R027</td>
+               <td class="s2" dir="ltr">R027</td>
         <td class="s2" dir="ltr">Escutar podcasts</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF19</td>
@@ -12196,10 +11967,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R29" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">30</div>
-        </th>
-        <td class="s2" dir="ltr">R028</td>
+             <td class="s2" dir="ltr">R028</td>
         <td class="s2" dir="ltr">Seguir escritores</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF20</td>
@@ -12217,10 +11985,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R30" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">31</div>
-        </th>
-        <td class="s2" dir="ltr">R029</td>
+               <td class="s2" dir="ltr">R029</td>
         <td class="s2" dir="ltr">Seguir usuários</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF21</td>
@@ -12238,10 +12003,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R31" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">32</div>
-        </th>
-        <td class="s2" dir="ltr">R030</td>
+               <td class="s2" dir="ltr">R030</td>
         <td class="s2" dir="ltr">Receber notificações dos escritores seguidos</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF22</td>
@@ -12259,10 +12021,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R32" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">33</div>
-        </th>
-        <td class="s2" dir="ltr">R031</td>
+               <td class="s2" dir="ltr">R031</td>
         <td class="s2" dir="ltr">Selecionar tema de artigos para leitura</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF23</td>
@@ -12281,10 +12040,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R33" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">34</div>
-        </th>
-        <td class="s2" dir="ltr">R032</td>
+             <td class="s2" dir="ltr">R032</td>
         <td class="s2" dir="ltr">Visualizar textos publicados por um escritor em seu perfil</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF24</td>
@@ -12302,10 +12058,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R34" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">35</div>
-        </th>
-        <td class="s2" dir="ltr">R033</td>
+               <td class="s2" dir="ltr">R033</td>
         <td class="s2" dir="ltr">Visualizar os artigos favoritados</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF25</td>
@@ -12323,10 +12076,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R35" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">36</div>
-        </th>
-        <td class="s2" dir="ltr">R034</td>
+               <td class="s2" dir="ltr">R034</td>
         <td class="s2" dir="ltr">Visualizar os artigos curtidos (?)</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF26</td>
@@ -12344,10 +12094,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R36" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">37</div>
-        </th>
-        <td class="s2" dir="ltr">R035</td>
+             <td class="s2" dir="ltr">R035</td>
         <td class="s2" dir="ltr">Visualizar perfis de outros usuários</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF27</td>
@@ -12365,10 +12112,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R37" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">38</div>
-        </th>
-        <td class="s2" dir="ltr">R036</td>
+               <td class="s2" dir="ltr">R036</td>
         <td class="s2" dir="ltr">Favoritar publicação para leitura posterior</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF28</td>
@@ -12386,10 +12130,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R38" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">39</div>
-        </th>
-        <td class="s2" dir="ltr">R037</td>
+              <td class="s2" dir="ltr">R037</td>
         <td class="s2" dir="ltr">Visualizar comentários da publicação</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF29</td>
@@ -12407,10 +12148,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R39" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">40</div>
-        </th>
-        <td class="s2" dir="ltr">R038</td>
+                <td class="s2" dir="ltr">R038</td>
         <td class="s2" dir="ltr">Reportar publicação</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF30</td>
@@ -12428,10 +12166,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R40" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">41</div>
-        </th>
-        <td class="s2" dir="ltr">R039</td>
+               <td class="s2" dir="ltr">R039</td>
         <td class="s2" dir="ltr">Reportar usuário</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF31</td>
@@ -12449,10 +12184,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R41" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">42</div>
-        </th>
-        <td class="s2" dir="ltr">R040</td>
+              <td class="s2" dir="ltr">R040</td>
         <td class="s2" dir="ltr">Editar informações de perfil</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF32</td>
@@ -12470,10 +12202,7 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
         <td class="s2" dir="ltr"></td>
       </tr>
       <tr style='height:20px;'>
-        <th id="0R42" style="height: 20px;" class="row-headers-background">
-          <div class="row-header-wrapper" style="line-height: 20px;">43</div>
-        </th>
-        <td class="s2" dir="ltr">R041</td>
+              <td class="s2" dir="ltr">R041</td>
         <td class="s2" dir="ltr">Salvar/cancelar edição de perfil</td>
         <td class="s2" dir="ltr">Funcional</td>
         <td class="s3">EF33</td>
