@@ -7,6 +7,17 @@
 | 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
 |   22/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
 |   22/04/2019   | Aline Laureano de Araujo Vilela | Adição de alguns cenários | 0.6  |
+|21/06/2019|Matheus Blanco| Adição de definição e metodologia|0.7|
+
+### Definição
+
+Na Engenharia de Requisitos, os Cenários são uma estratégia reconhecida para compreender as interações entre ambientes e sistemas, como também elicitar a parte comportamental do software, sua dinâmica e/ou seu fluxo. 
+
+Os Cenários fazem uso de algumas abstrações como Título, Metas ou Objetivos, Contexto Atores, Recursos, Exceção ou Episódios.
+
+### Metodologia
+
+Como metodologia de trabalho, foi definido que a equipe deveria navegar pela plataforma do Medium para encontrar possíveis casos onde uma funcionalidade poderia ser transformada em cenários. O grupo definiu uma meta de 4 a 5 cenários por pessoa, o que totalizaria 35 cenários identificados.
 
 ### Cenários
 
