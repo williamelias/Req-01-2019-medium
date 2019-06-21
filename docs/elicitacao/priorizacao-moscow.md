@@ -9,8 +9,14 @@
 |15/04/2019|Matheus Salles Blanco e Pedro Rodrigues| Adicionando o Rastro na tabela de Lista de requisitos eliticitados | 0.6 |
 |17/04/2019|William Elias |Remoção da lista de requisitos, moscow e ftf para arquivos avulsos |0.7|
 
-# Moscow
+### Introduçao
+
 **Descrição:** Por meio da técnica de priorização de Moscow, podemos classificar os requisitos quanto a importância, assim facilitando a continuação do ciclo de desenvolvimento do software. Para classificar utilizamos as seguintes denotações: must, could, should e would.
+
+
+***
+
+####Tabela de Moscow (versão 1)
 
 ID | Funcionalidade conforme a área | Prioridade 
 ------- | ------- | -------

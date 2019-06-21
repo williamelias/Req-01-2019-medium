@@ -1,7 +1,5 @@
 site_name: MEDIUM
 nav:
-    - Home: index.md
-    - Baseline: baseline.md
     - Pré-rastreabilidade:
         - Definição: pre-rastreabilidade/pre-rastreabilidade.md
         - 5W2H:  pre-rastreabilidade/5w2h.md
@@ -12,7 +10,6 @@ nav:
         - Introspecções: elicitacao/introspeccao.md
         - Storytelling: elicitacao/storytelling.md
         - StoryBoard: elicitacao/storyboards.md
-        - Lista de requisitos: elicitacao/lista-req.md
         - Priorização-Moscow: elicitacao/priorizacao-moscow.md
         - Priorização-Lista de Dependências: elicitacao/priorizacao-dependencias.md
         - Priorização-FTF: elicitacao/priorizacao-ftf.md
@@ -38,9 +35,10 @@ nav:
         - Inspeção 5W2H: analise/5w2h.md
         - Inspeção User Cases: analise/user_cases.md
         - Inspeção StoryBoard: analise/verificacao_storybord.md
-
     - Pós-rastreabilidade:
-        - Forward To: pos-rastreabilidade/forward_to.md
-
+        - Baseline: baseline.md
+        - Forward From: pos-rastreabilidade/forward_from.md
+        - Backward From: pos-rastreabilidade/backward_from.md
+        - Telas das Funcionalidades: pos-rastreabilidade/telas_das_funcionalidades.md
     - Atas: atas-reuniao.md
 theme: journal

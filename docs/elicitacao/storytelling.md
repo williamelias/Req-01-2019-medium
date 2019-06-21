@@ -6,19 +6,32 @@
 |   15/04/2019   |   Matheus Salles Blanco| Adição dos requisitos elicitados em cada técnica| 0.3  |
 |   16/04/2019   |   William Elias Alves| Correção do link de acesso ao storytelling 'explorar tópicos' e adicão do link para storybords| 0.4  |
 | 17/04/2019| William Elias Alves| Inserção da nova storytelling de configuração da aplicação e adição do rastro da mesma| 0.5|
+|   17/06/2019   |  william elias alves | Inserção dos resultados| 1.0|
 
 
-##Descrição 
+### Descrição 
 Por meio da aplicação de algumas técnicas de elicitação de requisitos os foi decidido que cada integrante do grupo focasse em uma área da plataforma MEDIUM. Mediante a utilização da técnica de storytelling, foram concebidos modelos de [storyboards](storyboards.md).
-##Escopo
+
+### Escopo
 
 O presente documento foi concebido por meio da aplicação das técnicas de storytelling e storybord com as seguintes ênfases: customização de interesses de um usuário, edição de perfil, login e cadastro na aplicação, criação de uma nova _storie_ e exploração de tópicos de leitura.
 
+### Resultados
+
+Foram concebidos os seguintes modelos:
+
+* Editar perfil
+* New storie
+* Login e cadastro
+* explorar tópicos
+* Configurar aplicação
+
 ***
 
-# Storytellings
+### Storytellings
 
-## Editar perfil
+
+#### Editar perfil
 
 Carlos é um engenheiro de software fascinado na área de inteligência artificial. Ele gasta boa parte do seu tempo desenvolvendo estudos e pesquisas para a criação de novos algoritmos que sejam cada vez mais eficientes em manipular estruturas de dados do tipo redes neurais.
 Buscando apresentar suas ideias em uma plataforma que tivesse leitores que partilham dos mesmos interesses de Carlos, ele decidiu adaptar parte de seus estudos e pesquisas em forma de textos jornalísticos e a postar eles na  plataforma Medium... [LER MAIS](storytellings/Storytelling - Editar perfil.docx)  
@@ -36,7 +49,7 @@ Buscando apresentar suas ideias em uma plataforma que tivesse leitores que parti
 |R050|Aprender mais sobre estatísticas|
 
 
-## Escritor - New Story
+#### Escritor - New Story
 
 Natália é uma aluna de Engenharia de Software da UnB - FGA, escrevendo seu TCC 2 e chegando perto da tão esperada formatura. Seu TCC trata sobre um assunto que têm ganhado bastante espaço no meio de seu curso, inclusive nos laboratórios de desenvolvimento de Software presentes na faculdade. Natália está escrevendo um TCC baseado na usabilidade de um ChatBot, e está extremamente empolgada com o assunto. 
 
@@ -56,7 +69,7 @@ Natália, além de engenheira de software em formação, também é uma pessoa q
 |R048|Ver seus seguidores|
 |R054|Criar Publicação|
 
-## Login e Cadastro
+#### Login e Cadastro
 
 Marcos, estudante de psicologia na PUC-rio, tem 18 anos e é um leitor ávido e amante de conteúdos relacionados a mente humana. Ele gosta de assuntos relacionados ao campo da psicologia cognitiva.  
 
@@ -73,7 +86,7 @@ Ao sair da aula de cognição humana, cujo o mentor é o Prof. Dr. Paulo de Mend
 |R106|Cadastrar com Google|
 |R107|Cadastrar com Facebook|
 
-## Usuário, Explorar Tópicos
+#### Usuário, Explorar Tópicos
 
 Gustavo é um estudante do curso de Educação Física da USP, amante de esportes e atleta, que se preocupa bastante com sua saúde e alimentação. Ao sair do treinamento de polo aquático ele ficou sabendo por meio de seus colegas da existência de um site chamado Médium com os diversos assuntos de seu interesse.  
 
@@ -85,7 +98,7 @@ Assim que chegou em casa Gustavo ligou seu PC e entrou em tal site vendo uma var
 | ------ | ----------------------------- |
 |R004|Pesquisar artigos por nome|
 
-## Usuário, Configurando a aplicação
+#### Usuário, Configurando a aplicação
 
 Maria é uma usuária ávida da aplicação Medium, tanto em sua plataforma mobile quanto em sua plataforma web. Em todo seu tempo vago ela para e lê um artigo ou ouve um podcast. Em uma dessas leituras, Maria decide visualizar quais são as principais formas de configuração e personalização que a aplicação disponibiliza, tanto para ela, quanto para questões gerais do próprio site ou aplicativo.
 Ao acessar a página de ‘settings’ se depara com diversas guias, essas guias tinham os seguintes enfoques: 

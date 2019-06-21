@@ -1,18 +1,15 @@
 ## Versionamento de edições
 | Data           | autor                | Descrição                               |Versão|
 |----------------|----------------------|-----------------------------------------|------|
-| 30/03/2019     | Matheus Blanco e Pedro Rodrigues | Adição de texto base e richpictures v.1| 0.1  |
-| 03/04/2019     | William Elias Alves  | Inserção do texto no mkdocs             |  0.2 |  
-| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento     |  0.3 | 
-| 08/04/2019     | Gabriel Filie Manso Araujo  | Inserção de Richpicture          |  0.4 |  
-
-
-# RichPictures
+| 30/03/2019     | Matheus Blanco e Pedro Rodrigues | Adição de texto base e richpictures v.1| 1.0  |
+| 03/04/2019     | William Elias Alves  | Inserção do texto no mkdocs             |  1.1 |  
+| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento     |  1.2 | 
+| 08/04/2019     | Gabriel Filie Manso Araujo  | Inserção de Richpicture          |  2.0 |  
 
 ### Definição
 O Rich Picture é um modelo informal e fácil de se entender, podendo até ser contruído juntamente com o cliente. 
 Auxilia na identificação de processos, atores envolvidos, e o relacionamento dos processos e atores. 
-## Modelos
+### Modelos
 
 Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do autor e o ponto de vista do leitor.
 

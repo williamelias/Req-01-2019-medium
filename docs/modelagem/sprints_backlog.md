@@ -148,6 +148,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de customização de interesses.
 
+<span id="caUS005"></span>
 ###US005 - Realizar cadastro com o Facebook
 
 **Eu, como  usuário desejo realizar cadastro com o Facebook  para que eu possa me tornar um usuário via integração com uma conta existente do Facebook.**
@@ -157,7 +158,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de customização de interesses.
 
-###US055 - Editar Perfil 
+###US055 - Editar Perfil
 
 **Eu, como  usuário desejo editar perfil  para que eu possa editar alterar as informações do meu perfil de acordo com o meu querer.**
 
@@ -167,7 +168,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve ser capaz de alterar seu nome de usuário
 * O usuário deve ser capaz de introduz uma pequena autobiografia
 * O usuário deve ser capaz de salvar as alterações em seu perfil
-* O usuário deve ser capaz de cancelar as alterações em seu perfil 
+* O usuário deve ser capaz de cancelar as alterações em seu perfil
 
 ###US039 - Realizar login via Facebook
 
@@ -309,6 +310,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
     </table>
 
 
+<span id="caUS063"></span>
 ###US063 - Escrever ‘New Storie’
 
 **Eu, como  usuário desejo escrever e publicar novas histórias**
@@ -324,7 +326,8 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve ser capaz de salvar o rascunho da história;
 * O usuário deve ser capaz de adicionar uma imagem prévia da história;
 
-###US059 - Criar uma nova Serie	
+<span id="caUS059"></span>
+###US059 - Criar uma nova Serie
 
 **Eu, como  usuário desejo publicar conjuntos de textos sequenciais**
 
@@ -341,6 +344,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve ser capaz de ver a prévia da série, em formato de cards;
 * O usuário deve ser capaz de enviar a prévia da série para o aplicativo de telefone;
 
+<span id="caUS061"></span>
 ###US061 - Deletar uma serie existente
 
 **Eu, como  usuário desejo remover, por motivos pessoais, uma serie de minha lista de rascunhos ou publicadas**
@@ -350,7 +354,8 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve ser capaz de remover a serie de suas publicações com o clique de um botão;
 * O usuário deve receber uma confirmação visual de deletamento da serie;
 * O usuário deve receber um feedback visual caso o processo tenha falhado.
- 
+
+<span id="caUS006"></span>
 ###US006 - Conectar com Facebook
 
 **Eu, como  usuário desejo realizar uma integração com o Facebook, adicionando uma nova forma de login**
@@ -474,6 +479,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
     </table>
 
 
+<span id="caUS023"></span>
 ###US023 – Desativar conta
 
 **Eu, como usuário, desejo desativar a minha conta do Medium e remover o seu conteúdo momentaneamente. Desejo que ao realizar o login novamente ela seja restaurada junto com seu conteúdo.**
@@ -484,6 +490,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * A conta deve ser restaurada juntamente com seu conteúdo ao realizado o login novamente.
 * Caso ocorra uma falha no processo de desativação, o usuário deve receber um feedback visual.
 
+<span id="caUS024"></span>
 ###US024 – Deletar conta
 
 **Eu, como usuário, desejo deletar a minha conta do Medium e remover o seu conteúdo definitivamente.**
@@ -494,6 +501,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * Caso ocorra uma falha no processo de deletar conta, o usuário deve receber um feedback visual.
 * O usuário não deverá ser capaz de realizar o login novamente com a mesma conta
 
+<span id="caUS026"></span>
 ###US026 – Seguir usuários
 
 **Eu, como usuário, desejo seguir outros usuários e ser capaz de ver mais facilmente os textos por eles publicados e que os interessam.**
@@ -504,6 +512,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve ser capaz de ver uma lista de todos os usuários que segue em seu perfil.
 * O usuário deve ser capaz de acessar rapidamente o perfil dos usuários que segue.
 
+<span id="caUS064"></span>
 ###US64 – Importar ‘storie’
 
 **Eu, como usuário escritor, desejo aproveitar uma história já publicada por min em outro lugar para editá-la e/ou publicá-la nas minhas histórias Medium**
@@ -688,6 +697,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * Caso ocorra uma falha no processo de login, o usuário deve receber um feedback visual.
 * Caso o login seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
 
+<span id="caUS056"></span>
 ###US056 –  Visualizar próprio perfil
 
 **Eu, como usuário, desejo ter acesso a todos os dados do meu perfil no Medium, para que eu possa visualizar os dados dele.**
@@ -706,6 +716,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário tem como editar o seu nome de usuário no Medium;
 * Após a edição, o usuário é redirecionado para a sua página de perfil e consegue ver a edição no seu nome de usuário;
 
+<span id="caUS031"></span>
 ###US031 –  Visualizar comentários da storie
 
 **Eu, como usuário, desejo visualizar os comentários de uma storie, para que eu possa ler todos os comentários feitos em uma storie.**
@@ -714,6 +725,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 
 * O usuário tem como visualizar todos comentários feitos em uma storie;
 
+<span id="caUS032"></span>
 ###US032 –  Reportar storie
 
 **Eu, como usuário, desejo poder reportar uma storie, para que eu possa denunciar uma storie que considerei ofensiva e contribuir positivamente para a saúde mental da comunidade em questão.**
@@ -723,6 +735,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve poder visualizar um ícone para iniciar o processo de reportar uma storie;
 * Após reportar uma storie, o usuário recebe um feedback visual mostrando que a storie foi reportada;
 
+<span id="caUS019"></span>
 ###US019 –  Ativar/desativar notificação por e-mail
 
 **Eu, como usuário, desejo poder ativar e/ou desativar o recebimento de notificações por e-mail, para que eu possa selecionar entre receber ou não notificações por e-mail.**
@@ -854,6 +867,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
         </tbody>
     </table>
 
+<span id="caUS010"></span>
 ###US010 – Ativar/desativar notificação social
 
 **Eu, como usuário, desejo receber ou não notificações de medias sociais.**
@@ -872,6 +886,8 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
 
 
+
+<span id="caUS025"></span>
 ###US025 – Seguir escritor
 
 **Eu, como usuário, desejo receber notificações das histórias deles.**
@@ -882,6 +898,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 * O usuário deve ser capaz de visualizar um ícone para seguir o escritor;
 * O usuário deve ser capaz de deixar de seguir o escritor.
 
+<span id="caUS029"></span>
 ###US029 – Visualizar perfis de outros usuários
 
 **Eu, como usuário, desejo ver seus históricos de leitura/Escolher segui-los ou não/Achar novos assuntos de interesse.**
@@ -894,6 +911,7 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
   * foto de perfil
   * claps
 
+<span id="caUS071"></span>
 ###US071 – Visualizar storie
 
 **Eu, como usuário, desejo ler um texto na íntegra e realizar outras ações posteriores relacionadas ao mesmo.**

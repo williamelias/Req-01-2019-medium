@@ -3,13 +3,27 @@
 |----------------|----------------------|-------------------------------------|------|
 |   09/04/2019   |   William Elias Alves| Inserção dos brainstormings e mindmaps| 0.1  |
 |   15/04/2019   |   Matheus Salles Blanco| Adição dos requisitos elicitados em cada técnica| 0.2  |
+|   17/06/2019   |   William Elias Alves| Inserção dos resultados e introdução| 1.0  |
 
 
-# Descrição 
+### Introdução
+
+A utlização da técnica de brainstorming é benéfica para realização de processos criativos, ou seja, processos que requerem sugestões de ideias.
+O brainstorming consiste em uma reunião com duas ou mais pessoas, na qual há um espaço para expor opniões e ideias sem pré-julgamento. Com esse espaço é possível receber um volume muito grande de ideias e possíveis alternativas para concepção de um produto , por exemplo.
+
+### Metodologia
+
 Mediante reuniões presenciais e via Hangouts, foram organizados brainstormings. Esses foram feitos mediante a resposta de perguntas favoráveis ao entedimento e elicitação dos requisitos da aplicação MEDIUM.
-#Escopo
+Com a aplicação da técnica de brainstorming e representação dos brainstormings via mapas mentais.
 
-O presente documento foi concebido por meio da aplicação da técnica de brainstorming e representação dos brainstormings via mapas mentais.
+### Resultados
+
+Foram concebidos brainstormings com os seguintes focos:
+
+* Definição e divisão de tarefas
+* Elicitação de requisitos
+
+E após o brainstorming foram criados para cada modelo concretizado um mapa mental para melhor visualização do mesmo.
 
 ***
 
@@ -17,7 +31,7 @@ O presente documento foi concebido por meio da aplicação da técnica de brains
 
 **Tema:** Definição e divisão de tarefas 
 
-**Como levantar os requisitos?**
+**Pergunta:**Como levantar os requisitos?
 
 | Membro     | Sugestão |
 |------------|-----------|
@@ -42,7 +56,7 @@ O presente documento foi concebido por meio da aplicação da técnica de brains
 Ficou decidido pelo grupo um levantamento de requisitos de software ,da aplicação MEDIUM, por meio do brainstorming. Esse levantamento ocorreu sem a utilização direta da aplicação. 
 Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e posteriormente de uma forma mais organizada.
 
-**Quais são os requisitos funcionais e não funcionais da área comum da aplicação?**
+**Pergunta:**Quais são os requisitos funcionais e não funcionais da área comum da aplicação?
 
 | Membro     | Sugestão |
 |------------|-----------|
@@ -74,8 +88,7 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 
 **Tema:** Elicitação de Requisitos
 
-**Quais são os requisitos voltados ao leitor?**
-
+**Pergunta:**Quais são os requisitos voltados ao leitor?
 
 
 | Membro     | Sugestão |
@@ -114,7 +127,7 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 
 **Tema:** Elicitação de Requisitos
 
-**Quais são os requisitos para a experiência de escritor?**
+**Pergunta:**Quais são os requisitos para a experiência de escritor?
 
 | Membro     | Sugestão |
 |------------|----------|

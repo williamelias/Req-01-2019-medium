@@ -8,14 +8,28 @@
 |  10/04/2019    | Aline Laureano       |Adição do relato da introspecção da Exploraração de tópicos | 0.5 |
 |  10/04/2019    | Matheus Salles Blanco       |Adição do relato da introspecção do Usuário no processo de criação de uma nova _Story_ | 0.6 |
 |  10/04/2019    | Matheus Salles Blanco       |Adição de requisitos elicitados em cada técnica | 0.7 |
+|  17/06/2019    | William Elias        |Adição dos resultados| 1.0|
 
-## Definição
+### Introdução
+
 Introspecção é uma técnica que consiste em entender quais propriedades o sistema deve possuir para que ele seja um sucesso. A introspecção deve ser usada como uma forma de imaginar o caminho que um usuário ou qualquer outro stakeholder fará no sistema. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.
 
+### Resultados 
+
+Foram desenvolvidas introspecções com os seguintes focos:
+
+* Comportamento do usuário na página inicial da aplicação
+* Comportamento do usuário ao se logar ou cadastrar na aplicação
+* Comportamento do usuário n
+* Comportamento do usuário na criação de uma nova 'storie'
+* Comportamento do usuário na utilização da página de marcador
+* Comportamento do usuário ao explorar tópicos
+* Comportamento do usuário ao customizar seus interesses
+
 ***
-## Introspecções Desenvolvidas
+### Introspecções Desenvolvidas
 ***
-### Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação
+#### Relato de introspecção 1: Comportamento do usuário na Página inicial da aplicação
 
 **Relator: Gabriel Filipe**
 
@@ -77,7 +91,7 @@ vi. **Notificações:** permite que o usuário tenha acesso às notificações d
 
 
 ***
-### Relato de introspecção 2: Comportamento do usuário no ato de se logar ou se cadastrar na aplicação.
+#### Relato de introspecção 2: Comportamento do usuário no ato de se logar ou se cadastrar na aplicação.
 
 **Relator: William Elias Alves**
 
@@ -129,7 +143,7 @@ iii - Ao realizar um login com sucesso ser redirecionado à página principal da
 
 ***
 
-### Relato de introspecção 3: Usuário no processo de criação de uma nova _Story_
+#### Relato de introspecção 3: Usuário no processo de criação de uma nova _Story_
 
 **Relator: Matheus Blanco**
 
@@ -154,7 +168,7 @@ Ao meu entender, para que o Medium possa prover uma experiência efetiva para um
 * Possibilidade de se realizar a revisão e visualização da prévia da história;
 * Possibilidade de ajustar e escolher um horário de publicação para a história.
 
-######[Relato de introspecção 3 - V2.0]
+####[Relato de introspecção 3 - V2.0]
 
 **Relator: Matheus Blanco**
 
@@ -186,7 +200,7 @@ vi - O usuário encontra outro botão verde com os dizeres "Publish now", e o ap
 
 ***
 
-### Relato de introspecção 4: Utilização da página de Marcador
+#### Relato de introspecção 4: Utilização da página de Marcador
 
 **Relator: Guilherme**
 
@@ -202,7 +216,7 @@ Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presente
 * Fácil recuperação de um artigo salvo
 * Registro do ponto em que o artigo salvo foi fechado
 
-######[Relato de introspecção 4 - V2.0]
+####[Relato de introspecção 4 - V2.0]
 
 **Relator(es): Aline e Guilherme**
 
@@ -218,7 +232,7 @@ ii. **Listagem de artigos salvos:** para um usuário logado, apresenta uma lista
 |R035|Ver os artigos curtidos|
 
 ***
-### Relato de introspecção 5: Exploraração de  Tópicos
+#### Relato de introspecção 5: Exploraração de  Tópicos
 
 **Relator: Luís Cláudio**
 
@@ -233,14 +247,14 @@ Funcionalidades que devam estar presentes na página para que o Medium possa pro
     - Life
     - Society
 
-######[Relato de introspecção 5 - V2.0]
+####[Relato de introspecção 5 - V2.0]
 
 **Relator(es): Aline e Luís**
 
 i. **Design intuitivo -** apresenta-se como uma página que permite uma fácil navegação e que contenha todas as categorias do site - classificadas em títulos como: “Arts & Entertainment”, “Industry”, “Innovation & Tech”, “Life” e “Society”.
 
 ***
-### Relato de introspecção 6: Customização de Interesses
+#### Relato de introspecção 6: Customização de Interesses
 
 **Relator: Pedro Rodrigues**
 
