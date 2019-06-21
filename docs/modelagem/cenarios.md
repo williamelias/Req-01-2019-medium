@@ -6,7 +6,7 @@
 | 21/04/2019| William Elias Alves | Adição de alguns cenários | 0.3|
 | 21/04/2019| Pedro Rodrigues Pereira | Adição de alguns cenários | 0.4|
 |   22/04/2019   | Gabriel Filipe Manso Araujo  | Adição de alguns cenários | 0.5  |
-|   22/04/2019   | Aline Laureano de Araujo Vilela | Adição de alguns cenários | 0.6  |
+|   22/04/2019   | Aline Laureano de Araujo Vilela | Adição de alguns cenários | 0.6|
 |21/06/2019|Matheus Blanco| Adição de definição e metodologia|0.7|
 
 ### Definição
@@ -21,7 +21,17 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Cenários
 
+#### Ajuda
+
+**Responsável**: Luis Cláudio
+
+**Ajuda - V1.0**
+
+![AJUDA](cenarios/cenario-ajuda.png)
+
 #### Dar Claps
+
+**Responsável**: Matheus Blanco
 
 **Dar Claps - V1.0**
 
@@ -39,6 +49,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 #### Compartilhar publicação
 
+**Responsável**: MatheusBlanco
+
 **Compartilhar publicação - V1.0**
 
 ![Share V1.0](cenarios/cenariocompartilhar-1.png)
@@ -55,6 +67,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 #### Leitura de texto
 
+**Responsável**: MatheusBlanco
+
 **Leitura de texto - V1.0**
 
 ![ler V1.0](cenarios/cenarioleitura-1.png)
@@ -69,7 +83,17 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
-#### Editar perfil
+### Explorar Categorias
+
+**Responsável**: Luis Cláudio
+
+**Explorar categorias - V1.0**
+
+![categorias](cenarios/categoria.png)
+
+### Editar perfil
+
+**Responsável**: Matheus Blanco
 
 **Editar perfil - V1.0**
 
@@ -85,7 +109,9 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
-#### Premium
+#### Assinar Premium
+
+**Responsável**: Matheus Blanco
 
 **Premium - V1.0**
 
@@ -101,7 +127,25 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
+### Trocar de usuário
+
+**Responsável**: Luis Cláudio
+
+**Trocar de usuário - V1.0**
+
+![trocar](cenarios/trocar.png)
+
+### Se candidatar a uma vaga de emprego
+
+**Responsável**: Guilherme Marques
+
+**Se candidatar a uma vaga de emprego - V1.0**
+
+![candidatar](cenarios/candidatar.png)
+
 #### Cadastro
+
+**Responsável**: William Elias
 
 **Cadastro - V1.0**
 
@@ -115,6 +159,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 #### Login
 
+**Responsável**: William Elias
+
 **Login - V1.0**
 
 ![login](cenarios/login.png)
@@ -126,6 +172,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 ***
 
 #### Comentar publicação
+
+**Responsável**: William Elias
 
 **comentar publicação - V1.0**
 
@@ -139,6 +187,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 #### Customizar interesses
 
+**Responsável**: William Elias
+
 **Customizar interesses - V1.0**
 
 ![customizar](cenarios/customizarinter.png)
@@ -151,6 +201,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 #### Configurar notificações de e-mail
 
+**Responsável**: William Elias
+
 **Configurar notificações de e-mail - V1.0**
 
 ![configurar email](cenarios/confignotiemail.png)
@@ -161,7 +213,17 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
+#### Criar nova Série
+
+**Responsável**: Pedro Rodrigues
+
+**Criar nova Série - V1.0**
+
+![series](cenarios/serie.png)
+
 ### Criar um novo Storie
+
+**Responsável**: Pedro Rodrigues
 
 **Criar um novo storie - V1.0**
 
@@ -175,6 +237,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Criar um novo Bookmark
 
+**Responsável**: Pedro Rodrigues
+
 **Criar um novo bookmark - V1.0**
 
 ![criar um bookmark](cenarios/criar_um_bookmark.png)
@@ -185,7 +249,17 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
+### Criar uma resposta
+
+**Responsável**: Aline Laureano
+
+**Criar uma resposta - V1.0**
+
+![resposta](cenarios/resposta.png)
+
 ### Importar um storie
+
+**Responsável**: Pedro Rodrigues
 
 **Importar um storie - V1.0**
 
@@ -199,6 +273,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Responder um storie
 
+**Responsável**: Pedro Rodrigues
+
 **Responder um storie - V1.0**
 
 ![responder um storie](cenarios/responder_um_storie.png)
@@ -210,6 +286,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 ***
 
 ### Seguir usuário
+
+**Responsável**: Gabriel Filipe
 
 **Seguir Usuário - V1.0**
 
@@ -223,6 +301,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Deixar de seguir usuário
 
+**Responsável**: Gabriel Filipe
+
 **Deixar de seguir usuário - V1.0**
 
 ![deixar de seguir um usuário](cenarios/deixar_de_seguir_usuario.png)
@@ -233,7 +313,17 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
+### Excluir conta
+
+**Responsável**: Aline Laureano
+
+**Excluir conta - V1.0**
+
+![excluir](cenarios/excluir.png)
+
 ### Pesquisa por usuário
+
+**Responsável**: Gabriel Filipe
 
 **Pesquisa por usuário - V1.0**
 
@@ -247,6 +337,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Pesquisa por artigo
 
+**Responsável**: Gabriel Filipe
+
 **Pesquisa por artigo - V1.0**
 
 ![pesquisa por artigo](cenarios/pesquisar_por_artigo.png)
@@ -258,6 +350,8 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 ***
 
 ### Ver vagas de emprego disponíveis
+
+**Responsável**: Aline Laureano
 
 **Ver vagas de emprego disponíveis - V1.0**
 
