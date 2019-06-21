@@ -10,7 +10,8 @@
 |   29/05/2019   | Aline Laureano  | Adição dos nfrs de performance | 0.7  |
 |   29/05/2019   | Luis Claudio T. Lima  | Adição dos nfrs de confiabilidade | 0.8  |
 |   29/05/2019   | Gabriel Filipe  | Adição dos nfrs de iteroperabilidade | 0.9  |
-
+|   21/06/2019   | Pedro Rodrigues Pereira | Adição da metodologia | 1.0 |
+|   21/06/2019   | Pedro R. e Guilherme M. | Adição de modelos de nfr refatorados | 1.1 |
 
 ## Definição
 
@@ -364,6 +365,9 @@ Foram modelados NFRs de análise e relação com os seguintes enfoques:
 
 ![modelo 3 r manutenibilidade](nfrs/nfr_blanco_manutenibilidade-3-.png)
 
+**Modelo Analítico(V4.0) - Pós Refatoração(Autores: Pedro Rodrigues e Guilherme Marques)**
+![modelo 4 a manutenibilidade](nfrs/refatoracao-NFR-Blanco-Pedro-manutenibilidade-COM-IMPACTOS.jpg)
+
 **Modelo Relacional(V1.0)**
 
 ![modelo 1 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-1-.png)
@@ -376,6 +380,8 @@ Foram modelados NFRs de análise e relação com os seguintes enfoques:
 
 ![modelo 3 a manutenibilidade](nfrs/analise_nfr_blanco_manutenibilidade-3-.png)
 
+**Modelo Relacional(V4.0) - Pós Refatoração(Autores: Pedro Rodrigues e Guilherme Marques)** 
+![modelo 4 a manutenibilidade](nfrs/refatoracao-NFR-Blanco-Pedro-matutenibilidade.jpg)
 
 #### Controle de Qualidade
 
@@ -456,8 +462,14 @@ Foram modelados NFRs de análise e relação com os seguintes enfoques:
 
 **Modelo Analítico(V1.0)**
 
-![modelo 1 r relacional](nfrs/nfr_guilherme_seguranca_2_analise.png)
+![modelo 1 r seguranca](nfrs/nfr_guilherme_seguranca_2_analise.png)
 
-**Modelo Relacional(V2.0)**
+**Modelo Analítico(V2.0) - Pós Refatoração(Autores: Pedro Rodrigues e Guilherme Marques)** 
+![modelo 4 a seguranca](nfrs/refatoracao-NFR-impactado-Guilherme-pedro-seguranca.jpg)
 
-![modelo 1 a usabilidade](nfrs/nfr_guilherme_seguranca_2.png)
+**Modelo Relacional(V1.0)**
+
+![modelo 1 a seguranca](nfrs/nfr_guilherme_seguranca_2.png)
+
+**Modelo Relacional(V2.0) - Pós Refatoração(Autores: Pedro Rodrigues e Guilherme Marques)** 
+![modelo 4 a seguranca](nfrs/refatoracao-NFR-Guilherme-pedro-seguranca.jpg)
