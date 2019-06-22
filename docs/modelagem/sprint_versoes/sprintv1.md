@@ -1,50 +1,14 @@
-## Versionamento de edições
-| Data       | autor                               | Descrição                               | Versão |
-|------------|-------------------------------------|-----------------------------------------|--------|
-| 07/05/2019 | William Elias Alves                 | Criação da página                       | 0.1    |
-| 07/05/2019 | William Elias Alves                 | Inserção do backlog das sprints 1 e 2   | 0.2    |
-| 07/05/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
-| 07/05/2019 | Matheus Blanco                      | Adição de rastro relativo aos temas     | 0.4    |
-
-### Definição
-
-Com o auxílio do desenvolvimento do backlog do produto, ficou possível obter uma visão mais clara a respeito da concepção das histórias de usuário e funcionamento da aplicação. Com isso, se tornou possível por meio da priorização e pontuação, construir o backlog de sprints.
-São tidos como uma lista dos afazeres e transparência das ações durante dado período (normalmente padronizado como 2 duas semanas).
-
-### Objetivo
-
-Com a concepção do backlog de algumas sprints fica possível visualizar e até projetar o andamento do desenvolvimento da aplicação e facilitar a concepção de um produto que agregue valor a cada sprint.
-
-### Metodologia
-
-### Resultados
-
-Foram especificados 5 sprints contentendo no total 26 histórias de usuários, sendo cada uma possui seus próprios critérios de aceitção.
-
-***
-
-
-#### [Backlog das sprints (versão 1)](sprint_versoes/sprintv1.md)
-
-***
-
-### Backlog das Sprints (Versão 2)
-
-Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produto](../product_backlog). Cada sprint contém uma tabela com informações gerais, outra tabela com as histórias de usuários com link e logo abaixo uma descrição com os critérios de aceitação de cada história de usuário.
-
 ### Sprint 1
 
-\# **Informações gerais**
+**Autor**: william
 
-|Autor|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|William|Duas semanas|Sprint 2|31|
+**Duração**: Duas semanas
 
+**Término**: Sprint 2
 
-\# **Tabela de requisitos Sprint 1**
+**Total de pontos**: 31
 
-
-<table id="sprint1">
+<table>
         <tbody>
             <tr>
                 <td>
@@ -65,7 +29,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US005">US005</a></p>
+                    <p><span>US005</span></p>
                 </td>
                 <td>
                     <p><span>Cadastro</span></p>
@@ -82,7 +46,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US004">US004</a></p>
+                    <p><span>US004</span></p>
                 </td>
                 <td>
                     <p><span>Cadastro</span></p>
@@ -99,7 +63,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US043">US043</a></p>
+                    <p><span>US055</span></p>
                 </td>
                 <td>
                     <p><span>Perfil</span></p>
@@ -108,7 +72,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                     <p><span></span></p>
                 </td>
                 <td>
-                    <p><span>Editar informações de perfil</span></p>
+                    <p><span>Editar Perfil</span></p>
                 </td>
                 <td>
                     <p><span>5</span></p>
@@ -116,7 +80,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US035">US035</a></p>
+                    <p><span>US039</span></p>
                 </td>
                 <td>
                     <p><span>Login</span></p>
@@ -125,7 +89,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                     <p><span>Integração com APIs</span></p>
                 </td>
                 <td>
-                    <p><span>Realizar login via redes sociais</span></p>
+                    <p><span>Realizar login via Facebook</span></p>
                 </td>
                 <td>
                     <p><span>5</span></p>
@@ -133,7 +97,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US036">US036</a></p>
+                    <p><span>US041</span></p>
                 </td>
                 <td>
                     <p><span>Login</span></p>
@@ -151,13 +115,8 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
         </tbody>
     </table>
 
-***
 
-### Descrição individual - Sprint 1
-
-Abaixo está a descrição juntamente com os critérios de aceitação de cada história de usuário da [sprint 1](#sprint1).
-
- \# **US004 - Realizar cadastro com o Google**
+###US004 - Realizar cadastro com o Google
 
 **Eu, como  usuário desejo realizar cadastro com o Google para que eu possa me tornar um usuário via integração com uma conta existente da Google.**
 
@@ -166,9 +125,8 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de customização de interesses.
 
-***
-
-\# **US005 - Realizar cadastro com o Facebook**
+<span id="caUS005"></span>
+###US005 - Realizar cadastro com o Facebook
 
 **Eu, como  usuário desejo realizar cadastro com o Facebook  para que eu possa me tornar um usuário via integração com uma conta existente do Facebook.**
 
@@ -177,9 +135,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de customização de interesses.
 
-***
-
-\# **US043 - Editar informações de Perfil**
+###US055 - Editar Perfil
 
 **Eu, como  usuário desejo editar perfil  para que eu possa editar alterar as informações do meu perfil de acordo com o meu querer.**
 
@@ -191,9 +147,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve ser capaz de salvar as alterações em seu perfil
 * O usuário deve ser capaz de cancelar as alterações em seu perfil
 
-***
-
-\# **US035 - Realizar login via Facebook**
+###US039 - Realizar login via Facebook
 
 **Eu, como  usuário desejo  realizar login via Facebook  para que eu possa me conectar a minha conta via integração com o Facebook**
 
@@ -202,9 +156,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
 
-***
-
-\# **US041 - Realizar login via Google**
+###US041 - Realizar login via Google
 
 **Eu, como  usuário desejo realizar login via Google  para que eu possa me conectar a minha conta via integração com o Google**
 
@@ -215,17 +167,15 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 
 ***
-### Sprint 2
+##Sprint 2
 
+**Autor**: Matheus
 
-\# **Informações gerais**
+**Duração**: Duas semanas
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Matheus blanco e william|Duas semanas|Sprint 3|26|
+**Término**: Sprint 3
 
-
-\# **Tabela de requisitos Sprint 2**
+**Total de pontos**: 31
 
  <table>
     <tbody>
@@ -248,14 +198,14 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US049">US049</a></p>
-                    <p 17"><span></span></p>
+                    <p><span>US063</span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Storie</span></p>
                 </td>
                 <td>
-                    <p 17"><span></span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Escrever &lsquo;new storie</span></p>
@@ -266,14 +216,14 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US045">US045</a></p>
-                    <p 17"><span></span></p>
+                    <p><span>US059</span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Serie</span></p>
                 </td>
                 <td>
-                    <p 17"><span></span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Criar uma nova serie</span></p>
@@ -284,13 +234,13 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a  href="../product_backlog#US047">US047</a></p>
+                    <p><span>US061</span></p>
                 </td>
                 <td>
                     <p><span>Serie</span></p>
                 </td>
                 <td>
-                    <p 17"><span></span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Deletar uma serie existente</span></p>
@@ -301,7 +251,24 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US006">US006</a></p>
+                    <p><span>US006</span></p>
+                </td>
+                <td>
+                    <p><span>Conex&otilde;es</span></p>
+                </td>
+                <td>
+                    <p><span>Configura&ccedil;&otilde;es</span></p>
+                </td>
+                <td>
+                    <p><span>Conectar com Facebook</span></p>
+                </td>
+                <td>
+                    <p><span>5</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US008</span></p>
                 </td>
                 <td>
                     <p><span>Conex&otilde;es</span></p>
@@ -321,12 +288,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 
 <span id="caUS063"></span>
-
-### Descrição individual - Sprint 2
-
-Abaixo está a descrição juntamente com os critérios de aceitação de cada história de usuário da sprint 2.
-
-\# **US049 - Escrever ‘New Storie’**
+###US063 - Escrever ‘New Storie’
 
 **Eu, como  usuário desejo escrever e publicar novas histórias**
 
@@ -341,11 +303,8 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve ser capaz de salvar o rascunho da história;
 * O usuário deve ser capaz de adicionar uma imagem prévia da história;
 
-***
-
 <span id="caUS059"></span>
-
-\# **US045 - Criar uma nova Serie**
+###US059 - Criar uma nova Serie
 
 **Eu, como  usuário desejo publicar conjuntos de textos sequenciais**
 
@@ -363,10 +322,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve ser capaz de enviar a prévia da série para o aplicativo de telefone;
 
 <span id="caUS061"></span>
-
-***
-
-\# **US047 - Deletar uma serie existente**
+###US061 - Deletar uma serie existente
 
 **Eu, como  usuário desejo remover, por motivos pessoais, uma serie de minha lista de rascunhos ou publicadas**
 
@@ -377,10 +333,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve receber um feedback visual caso o processo tenha falhado.
 
 <span id="caUS006"></span>
-
-***
-
-\# **US006 - Conectar com redes sociais**
+###US006 - Conectar com Facebook
 
 **Eu, como  usuário desejo realizar uma integração com o Facebook, adicionando uma nova forma de login**
 
@@ -390,19 +343,27 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve ser redirecionado à página de autorização do Facebook para confirmação da integração;
 * Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de configurações do Medium.
 
+###US006 - Conectar com Google
+
+**Eu, como  usuário desejo realizar uma integração com o Google, adicionando uma nova forma de login**
+
+**Critérios de aceitação:**
+
+* Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual;
+* O usuário deve ser redirecionado à página de autorização do Google para confirmação da integração;
+* Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página de configurações do Medium.
+
 ***
 
-### Sprint 3
+##Sprint 3
 
+**Autor**: Luís
 
-\# **Informações gerais**
+**Duração**: Duas semanas
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Luís e william|Duas semanas|Sprint 4|21|
+**Término**: Sprint 4
 
-
-\# **Tabela de requisitos Sprint 3**
+**Total de pontos**: 21
 
  <table>
     <tbody>
@@ -423,72 +384,72 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                     <p><span><b>Pontos</b></span></p>
                 </td>
             </tr>
-             <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US022" >US022</a></p>
+             <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US023</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Configura&ccedil;&atilde;o</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Configura&ccedil;&atilde;o</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Conta</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Conta</span></p>
                 </td>
-                <td 16" colspan="1" rowspan="1">
-                    <p ><span >Desativar conta</span></p>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Desativar conta</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >5</span></p>
-                </td>
-            </tr>
-            <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US023">US023</a></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Configura&ccedil;&atilde;o</span></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Conta</span></p>
-                </td>
-                <td 16" colspan="1" rowspan="1">
-                    <p ><span >Deletar conta</span></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >5</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
                 </td>
             </tr>
-            <tr 13">
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US025" >US025</a></p>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US024</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Intera&ccedil;&atilde;o</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Configura&ccedil;&atilde;o</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p 13"><span ></span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Conta</span></p>
                 </td>
-                <td 16" colspan="1" rowspan="1">
-                    <p ><span 9">Seguir usu&aacute;rios</span></p>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Deletar conta</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >3</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
                 </td>
             </tr>
-            <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US050">US050</a></p>
+            <tr class="c13">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US026</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Storie</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Intera&ccedil;&atilde;o</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p 13"><span ></span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
                 </td>
-                <td 16" colspan="1" rowspan="1">
-                    <p ><span 28">Importar &#39;storie&#39;</span></p>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c23 c9">Seguir usu&aacute;rios</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >8</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">3</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US064</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Storie</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c16" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c9 c28">Importar &#39;storie&#39;</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">8</span></p>
                 </td>
             </tr>
         </tbody>
@@ -496,12 +457,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 
 <span id="caUS023"></span>
-
-### Descrição individual - Sprint 3
-
-Abaixo está a descrição juntamente com os critérios de aceitação de cada história de usuário da sprint 3.
-
-\# **US022 – Desativar conta**
+###US023 – Desativar conta
 
 **Eu, como usuário, desejo desativar a minha conta do Medium e remover o seu conteúdo momentaneamente. Desejo que ao realizar o login novamente ela seja restaurada junto com seu conteúdo.**
 
@@ -511,11 +467,8 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * A conta deve ser restaurada juntamente com seu conteúdo ao realizado o login novamente.
 * Caso ocorra uma falha no processo de desativação, o usuário deve receber um feedback visual.
 
-***
-
 <span id="caUS024"></span>
-
-\# **US023 – Deletar conta**
+###US024 – Deletar conta
 
 **Eu, como usuário, desejo deletar a minha conta do Medium e remover o seu conteúdo definitivamente.**
 
@@ -526,8 +479,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário não deverá ser capaz de realizar o login novamente com a mesma conta
 
 <span id="caUS026"></span>
-***
-\# **US025 – Seguir usuários**
+###US026 – Seguir usuários
 
 **Eu, como usuário, desejo seguir outros usuários e ser capaz de ver mais facilmente os textos por eles publicados e que os interessam.**
 
@@ -538,9 +490,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve ser capaz de acessar rapidamente o perfil dos usuários que segue.
 
 <span id="caUS064"></span>
-***
-
-\# **US50 – Importar ‘storie’**
+###US64 – Importar ‘storie’
 
 **Eu, como usuário escritor, desejo aproveitar uma história já publicada por min em outro lugar para editá-la e/ou publicá-la nas minhas histórias Medium**
 
@@ -554,15 +504,13 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 ##Sprint 4
 
+**Autor**: Aline
 
-\# **Informações gerais**
+**Duração**: Duas semanas
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Aline e william|Duas semanas|Sprint 5|21|
+**Término**: Sprint 6
 
-
-\# **Tabela de requisitos Sprint 4**
+**Total de pontos**: 27
 
  <table>
     <tbody>
@@ -583,99 +531,141 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                     <p><span><b>Pontos</b></span></p>
                 </td>
             </tr>
-            <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US037" >US037</a></p>
+             <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US007</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Login</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Conex&otilde;es</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >integra&ccedil;&atilde;o</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span 9">Login via E-mail</span></p>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Conectar com twitter</span></p>
                 </td>
-                <td 19" colspan="1" rowspan="1">
-                    <p ><span >5</span></p>
-                </td>
-            </tr>
-            <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US044" >US044</a></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Perfil</span></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p 13"><span ></span></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span 9">Visualizar pr&oacute;prio perfil</span></p>
-                </td>
-                <td 19" colspan="1" rowspan="1">
-                    <p ><span >3</span></p>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
                 </td>
             </tr>
-            <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US029">US029</a></p>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US042</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Intera&ccedil;&atilde;o</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Login</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p 13"><span ></span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">integra&ccedil;&atilde;o</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span 23">Visualizar coment&aacute;rios da storie</span></p>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Login via E-mail</span></p>
                 </td>
-                <td 19" colspan="1" rowspan="1">
-                    <p ><span >3</span></p>
-                </td>
-            </tr>
-            <tr>
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US030" >US030</a></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Intera&ccedil;&atilde;o</span></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p 13"><span ></span></p>
-                </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span 9">Reportar storie</span></p>
-                </td>
-                <td 19" colspan="1" rowspan="1">
-                    <p ><span >5</span></p>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
                 </td>
             </tr>
-            <tr 13">
-                <td  colspan="1" rowspan="1">
-                    <p ><a href="../product_backlog#US018">US018</a></p>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US056</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >Configura&ccedil;&atilde;o</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Perfil</span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span >notifica&ccedil;&atilde;o</span></p>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
                 </td>
-                <td  colspan="1" rowspan="1">
-                    <p ><span 9">Ativar/desativar notifica&ccedil;&atilde;o por e-mail</span></p>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Visualizar pr&oacute;prio perfil</span></p>
                 </td>
-                <td 19" colspan="1" rowspan="1">
-                    <p ><span >5</span></p>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">3</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US057</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Perfil</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5 c9">Editar nome de usu&aacute;rio</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">1</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US031</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Intera&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c9 c23">Visualizar coment&aacute;rios da storie</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">3</span></p>
+                </td>
+            </tr>
+            <tr class="c11">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US032</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Intera&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1 c13"><span class="c5"></span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c23 c9">Reportar storie</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
+                </td>
+            </tr>
+            <tr class="c13">
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">US019</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">Configura&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c3" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">notifica&ccedil;&atilde;o</span></p>
+                </td>
+                <td class="c22" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c23 c9">Ativar/desativar notifica&ccedil;&atilde;o por e-mail</span></p>
+                </td>
+                <td class="c19" colspan="1" rowspan="1">
+                    <p class="c1"><span class="c5">5</span></p>
                 </td>
             </tr>
     </table>
 
 
-### Descrição individual - Sprint 4
+###US007 –  Conectar com twitter
 
-Abaixo está a descrição juntamente com os critérios de aceitação de cada história de usuário da sprint 4.
+**Eu, como usuário, desejo conectar a minha conta do Medium com o Twitter, para que eu possa realizar uma integração com o Twitter, adicionando uma nova forma de login.**
 
-\# **US037 –  Login via E-mail**
+**Critérios de aceitação:**
+
+* O usuário deve ser capaz de clicar em botão que abra uma janela para que ele efetue o login na sua conta do Twitter;
+* Após o login no Twitter ter sido efetuado, o sistema deverá pegar os dados da conta do Twitter do usuário e vincular com do usuário no Medium;
+* Após o login no Twitter ter sido efetuado, o usuário deverá ser redirecionado para a página de configurações;
+* Após o login no Twitter ter sido efetuado, o usuário deverá ter um feedback visual que mostra a conexão do Twitter com a conta do Medium;
+
+
+###US042 –  Login via E-mail
 
 **Eu, como usuário, desejo efetuar o login com o E-mail, para que eu possa me conectar a conta do Medium usando o E-mail em que eu cadastrei na minha nela.**
 
@@ -685,9 +675,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * Caso o login seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
 
 <span id="caUS056"></span>
-***
-
-\# **US044 –  Visualizar próprio perfil**
+###US056 –  Visualizar próprio perfil
 
 **Eu, como usuário, desejo ter acesso a todos os dados do meu perfil no Medium, para que eu possa visualizar os dados dele.**
 
@@ -696,11 +684,17 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário tem como acessar uma página com dados do seu perfil;
 * Na página de perfil, o sistema retorna todos os dados do perfil do usuário;
 
-***
+###US057 –  Editar nome de usuário
+
+**Eu, como usuário, desejo editar o meu nome de usuário no Medium, para que eu possa alterar o meu nome de usuário.**
+
+**Critérios de aceitação:**
+
+* O usuário tem como editar o seu nome de usuário no Medium;
+* Após a edição, o usuário é redirecionado para a sua página de perfil e consegue ver a edição no seu nome de usuário;
 
 <span id="caUS031"></span>
-
-\# **US029 –  Visualizar comentários da storie**
+###US031 –  Visualizar comentários da storie
 
 **Eu, como usuário, desejo visualizar os comentários de uma storie, para que eu possa ler todos os comentários feitos em uma storie.**
 
@@ -709,10 +703,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário tem como visualizar todos comentários feitos em uma storie;
 
 <span id="caUS032"></span>
-
-***
-
-\# **US030 –  Reportar storie**
+###US032 –  Reportar storie
 
 **Eu, como usuário, desejo poder reportar uma storie, para que eu possa denunciar uma storie que considerei ofensiva e contribuir positivamente para a saúde mental da comunidade em questão.**
 
@@ -722,10 +713,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * Após reportar uma storie, o usuário recebe um feedback visual mostrando que a storie foi reportada;
 
 <span id="caUS019"></span>
-
-***
-
-\# **US018 –  Ativar/desativar notificação por e-mail**
+###US019 –  Ativar/desativar notificação por e-mail
 
 **Eu, como usuário, desejo poder ativar e/ou desativar o recebimento de notificações por e-mail, para que eu possa selecionar entre receber ou não notificações por e-mail.**
 
@@ -737,17 +725,15 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 ***
 
-### Sprint 5
+##Sprint 5
 
+**Autores**: Aline e william
 
-\# **Informações gerais**
+**Duração**: Duas semanas
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Aline e william|Duas semanas|Sprint 6|21|
+**Término**: Sprint 6
 
-
-\# **Tabela de requisitos Sprint 5**
+**Total de pontos**: 26
 
  <table>
     <tbody>
@@ -770,14 +756,14 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US009">US009</a></p>
-                    <p 17"><span></span></p>
+                    <p><span>US010</span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Configuração</span></p>
                 </td>
                 <td>
-                    <p 17"><span>notificação</span></p>
+                    <p class="c9 c17"><span>notificação</span></p>
                 </td>
                 <td>
                     <p><span>Ativar/desativar notificação social</span></p>
@@ -788,13 +774,31 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US024">US024</a></p>
+                    <p><span>US040</span></p>
+                    <p class="c9 c17"><span></span></p>
+                </td>
+                <td>
+                    <p><span>Login</span></p>
+                </td>
+                <td>
+                    <p class="c9 c17"><span>Integração via API</span></p>
+                </td>
+                <td>
+                    <p><span>Login via twitter</span></p>
+                </td>
+                <td>
+                    <p><span>5</span></p>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <p><span>US025</span></p>
                 </td>
                 <td>
                     <p><span>Interação</span></p>
                 </td>
                 <td>
-                    <p 17"><span></span></p>
+                    <p class="c9 c17"><span></span></p>
                 </td>
                 <td>
                     <p><span>Seguir escritores</span></p>
@@ -805,7 +809,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US027">US027</a></p>
+                    <p><span>US029</span></p>
                 </td>
                 <td>
                     <p><span>Interação</span></p>
@@ -822,7 +826,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
             </tr>
             <tr>
                 <td>
-                    <p><a href="../product_backlog#US055">US055</a></p>
+                    <p><span>US071</span></p>
                 </td>
                 <td>
                     <p><span>Interação</span></p>
@@ -840,14 +844,8 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
         </tbody>
     </table>
 
-
-### Descrição individual - Sprint 5
-
-Abaixo está a descrição juntamente com os critérios de aceitação de cada história de usuário da sprint 5.
-
 <span id="caUS010"></span>
-
-\# **US009 – Ativar/desativar notificação social**
+###US010 – Ativar/desativar notificação social
 
 **Eu, como usuário, desejo receber ou não notificações de medias sociais.**
 
@@ -855,9 +853,19 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 * O usuário poderá, por meio de checkbox selecionar o status para recebimento de notificação em suas redes socias.
 
-***
+###US040 – Login via twitter
 
-\# **US024 – Seguir escritor**
+**Eu, como usuário, desejo me conectar a minha conta via integração com o Twitter.**
+
+**Critérios de aceitação:**
+
+* Caso ocorra uma falha no processo de integração, o usuário deve receber um feedback visual.
+* Caso o cadastro seja efetuado com sucesso, o usuário deve ser redirecionado à página principal da aplicação.
+
+
+
+<span id="caUS025"></span>
+###US025 – Seguir escritor
 
 **Eu, como usuário, desejo receber notificações das histórias deles.**
 
@@ -868,10 +876,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 * O usuário deve ser capaz de deixar de seguir o escritor.
 
 <span id="caUS029"></span>
-
-***
-
-\# **US027 – Visualizar perfis de outros usuários**
+###US029 – Visualizar perfis de outros usuários
 
 **Eu, como usuário, desejo ver seus históricos de leitura/Escolher segui-los ou não/Achar novos assuntos de interesse.**
 
@@ -884,10 +889,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
   * claps
 
 <span id="caUS071"></span>
-
-***
-
-\# **US055 – Visualizar storie**
+###US071 – Visualizar storie
 
 **Eu, como usuário, desejo ler um texto na íntegra e realizar outras ações posteriores relacionadas ao mesmo.**
 
@@ -910,4 +912,3 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 | Storie         | Storytelling - Escrever 'New Storie'           |
 | Cadastro       | Storyboard - Cadastro e Login                  |
 | Login          | Storyboard - Cadastro e Login                  |
-

@@ -234,7 +234,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p id="Cadastro">Cadastro</p>
         </td>
         <td >
-            <p>004</p>
+            <p id="US004">004</p>
         </td>
         <td >
             <p>Visitante</p>
@@ -258,7 +258,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>005</p>
+            <p id="US005">005</p>
         </td>
         <td >
             <p>Visitante</p>
@@ -285,7 +285,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p id="Conexoes">Conexões</p>
         </td>
         <td >
-            <p>006</p>
+            <p id="US006">006</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -357,7 +357,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>009</p>
+            <p id="US009">009</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -573,7 +573,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>018</p>
+            <p id="US018">018</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -720,7 +720,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p id="Interacao">Interação</p>
         </td>
         <td >
-            <p>024</p>
+            <p id="US024">024</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -745,7 +745,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>025</p>
+            <p id="US025">025</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -792,7 +792,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>027</p>
+            <p id="US027">027</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -836,7 +836,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>029</p>
+            <p id="US029">029</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -858,7 +858,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>030</p>
+            <p id="US030">030</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -953,7 +953,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>035</p>
+            <p id="US035">035</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -977,7 +977,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>036</p>
+            <p id="US036">036</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -1001,7 +1001,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>037</p>
+            <p id="US037">037</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -1144,7 +1144,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p id="Perfil">Perfil</p>
         </td>
         <td >
-            <p>043</p>
+            <p id="US043">043</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -1168,7 +1168,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>044</p>
+            <p id="US044">044</p>
         </td>
         <td >
             <p>Usuário</p>
@@ -1195,7 +1195,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p id="Serie">Serie</p>
         </td>
         <td >
-            <p>045</p>
+            <p id="US045">045</p>
         </td>
         <td >
             <p>Usuário Escritor</p>
@@ -1239,7 +1239,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>047</p>
+            <p id="US047">047</p>
         </td>
         <td >
             <p>Usuário Escritor</p>
@@ -1286,7 +1286,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p id="Storie">Storie</p>
         </td>
         <td >
-            <p>049</p>
+            <p id="US049">049</p>
         </td>
         <td >
             <p>Usuário Escritor</p>
@@ -1311,7 +1311,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>050</p>
+            <p id="US050">050</p>
         </td>
         <td >
             <p>Usuário Escritor</p>
@@ -1428,7 +1428,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
     </tr>
     <tr >
         <td >
-            <p>055</p>
+            <p id="US055">055</p>
         </td>
         <td >
             <p>Usuário</p>
