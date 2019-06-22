@@ -141,7 +141,7 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, marcar
     </tr>
     <tr>
         <td>05</td>
-        <td>V</td>
+        <td></td>
         <td>V</td>
         <td>V</td>
         <td>V</td>
@@ -205,7 +205,7 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, marcar
     </tr> 
     <tr>
         <td>09</td>
-        <td>V</td>
+        <td></td>
         <td>V</td>
         <td>V</td>
         <td>V</td>
@@ -221,7 +221,7 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, marcar
     </tr> 
     <tr>
         <td>10</td>
-        <td>V</td>
+        <td></td>
         <td>V</td>
         <td>V</td>
         <td>V</td>
