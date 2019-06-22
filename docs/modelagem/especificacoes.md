@@ -9,13 +9,18 @@
 
 Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão mais clara a respeito da concepção de casos de uso. Os casos de uso facilitam na obtenção de uma visão geral a respeito de dada funcionalidade de uma aplicação e poderá ser usada beneficamente por desenvolvedores, pois ela contém aspectos relevantes referentes a relacionamentos entre entidades.
 
+<span id ="versaoAntiga"></span>
 ***
 #Especificações
+<a href="#versaoRefatorada">ir para versão final(refatorada)</a>
+
 ***
 
 #### Área comum(william elias alves)
-
+<span id = "UC01_antigo"></span>
 **UC01-Efetuar Cadastro**
+
+<a href="#UC01_refatorado">ver UC01 refatorado</a>
 
 |||
 |---|---|
@@ -29,7 +34,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
+<span id = "UC02_antigo"></span>
 **UC02-Efetuar Login**
+
+<a href="#UC02_refatorado">ver UC02 refatorado</a>
 
 |||
 |---|---|
@@ -43,7 +51,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 ***
 
+<span id = "UC03_antigo"></span>
 **UC03-Pesquisar artigo**
+
+<a href="#UC03_refatorado">ver UC03 refatorado</a>
 
 |||
 |---|---|
@@ -52,12 +63,15 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
 |**Pós-condições**|Usuário/Visitante receberá um artigo para leitura
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário pesquisar um artigo na  aplicação**<br/> 1-Usuário/Visitante clica no ícone da lupa<br/>2-Usuário/Visitante insere o termo a ser pesquisado <br>3-Usuário/Visitante recebe como resultado um ou mais artigos para leitura|
-|**Fluxo alternativo**|** [FA01] Selecionar podcast:**<br/>No passo 3 do fluxo   principal, há a opção de selecionar um podcast a ser escutado|
+|**Fluxo alternativo**|** [FA01] Selecionar podcast:**<br/>No passo 3 do fluxo principal, há a opção de selecionar um podcast a ser escutado|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 3, pode haver um erro de digitação ou a não existência de artigos/podcasts para o termo inserido|
 
 ***
 
+<span id = "UC04_antigo"></span>
 **UC04-Escutar podcast**
+
+<a href="#UC04_refatorado">ver UC04 refatorado</a>
 
 |||
 |---|---|
@@ -67,11 +81,14 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pós-condições**|Usuário/Visitante receberá/terá escutado um podcast
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário seleciona um podcast a ouvir**<br> 1-Usuário/Visitante clica no podcast escolhido<br/>2-Usuário/Visitante visualiza um reprodutor de mídia<br>3-Usuário/visitante clica em reproduzir|
 |**Fluxo alternativo**|** [FA01] Voltar para página principal:**<br/>No passo 2 o usuário pode retornar a página principal da aplicação para selecionar outro podcast|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Reprodutor com problemas**<br/>No passo 3, pode haver um erro de no reprodutor usado pela plataforma|
+|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Reprodutor com problemas**<br/>No passo 3, pode haver um erro no reprodutor usado pela plataforma|
 
 ***
 
+<span id = "UC05_antigo"></span>
 **UC05-Ler artigo**
+
+<a href="#UC05_refatorado">ver UC05 refatorado</a>
 
 |||
 |---|---|
@@ -502,4 +519,98 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo alternativo**|[FA01] UC35-Editar Publicação.|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
+<span id = "versaoRefatorada"></span>
 ***
+#Especificações(versão final)
+**Responsável: Luís Cláudio T. Lima**
+
+<a href="#versaoAntiga">voltar à versão antiga</a>
+
+***
+
+#### Área comum(william elias alves)
+
+<span id = "UC01_refatorado"></span>
+**UC01-Efetuar Cadastro**
+
+<a href="#UC01_antigo">voltar ao UC01 antigo</a>
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por realizar cadastro na aplicação.|
+|**Atores**|Visitante e Usuário|
+|**Pré-condições**|Visitante deve estar conectado à internet|
+|**Pós-condições**|Visitante se tornará Usuário<br/>Usuário estará logado na aplicação <br/>Usuário terá acesso às funcionalidades da aplicação|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja realizar o cadastro na aplicação:**<br/> 1-Visitante clica em 'Get started' <br/>2-Visitante escolhe entre as opções de integração via redes sociais <br>3-Visitante escolhe tópicos de interesse <br/>4-Visitante é redirecionado a página principal da aplicação já logado|
+|**Fluxo alternativo**|** [FA01] Possibilidade de cadastro clicando em "Sign in"**<br/> 1-Visitante clica em 'Sign in' <br/> 2-Visitante clica em 'create one' e segue a partir do passo 2 do [FP01]
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 3 ocorre um erro de conexão com a internet <br>** [FE02] Erro no serviço de integração de contas**<br/>No passo 3, a integração com as redes sociais deve retornar status 200 |
+
+***
+
+<span id = "UC02_refatorado"></span>
+**UC02-Efetuar Login**
+
+<a href="#UC02_antigo">voltar ao UC02 antigo</a>
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por realizar login na aplicação.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado à internet<br/>Usuário deve ter um cadastro ativo|
+|**Pós-condições**|Usuário estará logado na aplicação <br/>Usuário terá acesso às funcionalidades da aplicação|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja realizar o login na    aplicação:**<br/> 1-Usuário clica em 'Sign in' <br/>2-Usuário escolhe entre as opções de integração via redes sociais <br/>3-Usuário é redirecionada a página principal da aplicação já logado|
+|**Fluxo alternativo**|** [FA01] Possibilidade de integração via E-mail:**<br/>No passo 2 do fluxo   principal, há a opção de login via E-mail|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet <br>** [FE02] Erro no serviço de integração de contas**<br/>No passo 2, a integração com as redes sociais deve retornar status 200 |
+
+***
+
+<span id = "UC03_refatorado"></span>
+**UC03-Pesquisar artigo**
+
+<a href="#UC03_antigo">voltar ao UC03 antigo</a>
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por realizar pesquisa de artigos na plataforma Medium.|
+|**Atores**|Visitante e Usuário|
+|**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
+|**Pós-condições**|Usuário/Visitante terá visualizado o(s) resultado(s) de sua pesquisa
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja pesquisar um artigo na  aplicação**<br/> 1-Usuário/Visitante clica no ícone da lupa<br/>2-Usuário/Visitante insere o termo a ser pesquisado <br>3-Usuário/Visitante visualiza o(s) resultado(s) de sua pesquisa.|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro  de  conexão com a internet|
+
+
+***
+
+<span id = "UC04_refatorado"></span>
+**UC04-Escutar podcast**
+
+<a href="#UC04_antigo">voltar ao UC04 antigo</a>
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por permitir escutar um podcast.|
+|**Atores**|Visitante e Usuário|
+|**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
+|**Pós-condições**|Usuário/Visitante receberá/terá escutado um podcast
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário seleciona um podcast a ouvir**<br> 1-Usuário/Visitante clica no podcast escolhido<br/>2-Usuário/Visitante visualiza um reprodutor de mídia<br>3-Usuário/visitante clica em reproduzir<br>4-Usuário/visitante escuta o podcast|
+|**Fluxo alternativo**|** [FA01] Voltar para página principal:**<br/>No passo 2 o usuário pode retornar a página principal da aplicação para selecionar outro podcast|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet** <br/>[FE02] Reprodutor com problemas**<br/>No passo 3, pode haver um erro no reprodutor usado pela plataforma|
+
+***
+
+<span id = "UC05_refatorado"></span>
+**UC05-Ler artigo**
+
+<a href="#UC05_antigo">voltar ao UC05 antigo</a>
+
+|||
+|---|---|
+|**Descrição**| Funcionalidade responsável por possibilitar a leitura de um artigona plataforma Medium.|
+|**Atores**|Visitante e Usuário|
+|**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
+|**Pós-condições**|Usuário/Visitante terá lido um artigo 
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário selecionar um artigo para   leitura**<br/> 1-Usuário/Visitante clica no artigo escolhido<br/>2-Usuário/Visitante visualiza a página com conteúdo do artigo|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
+
+***
+
