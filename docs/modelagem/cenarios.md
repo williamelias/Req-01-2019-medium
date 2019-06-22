@@ -157,6 +157,11 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 **Trocar de usuário - V1.0**
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| ????? |
+
+
 ![trocar](cenarios/trocar.png)
 
 ### Se candidatar a uma vaga de emprego
@@ -384,6 +389,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Excluir conta - V1.0**
 
 ![excluir](cenarios/excluir.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - Usuário, Configurando a aplicação|
 
 ### Pesquisa por usuário
 
