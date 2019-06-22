@@ -5,10 +5,12 @@
 |   07/05/2019   | Matheus Blanco  | Adição de rastro relativo aos temas | 1.1  |
 |   04/06/2019   | Gabriel Filipe Manso Araujo  | Adição de rastros | 1.2  |
 |   05/06/2019   | Gabriel Filipe Manso Araujo  | Validação e melhoria das definições | 1.3  |
-|   16/06/2019   | William Elias Alves  | inserção do backlog do produto versão 2 da página | 2.0  |
+|   16/06/2019   | William Elias Alves  | inserção do backlog do produto versão 2 | 1.4  |
+|   22/06/2019   | William Elias Alves  | inserção do backlog do produto versão 3 | 1.5  |
+|   22/06/2019   | William Elias Alves  | inserção dos rastros da versão 3 | 2.0  |
 
 
-## Definição
+### Definição
 
 O Product Backlog, ou Backlog do Produto, é uma lista de funcionalidades desejadas de um produto, ou seja, os requisitos que um cliente espera receber ao final do projeto, descrito com sua própria linguagem. O ponto central do Scrum é a criação do Product Backlog, é nele que o projeto começa.
 
@@ -16,661 +18,63 @@ Diferente do modelo tradicional de gestão de projetos, onde precisamos fechar o
 
 O Backlog do Produto se mostra como uma parte essencial para especificação e clareamento dos requisitos já elicitados. É bastante importante por trazer uma visão mais transparente do software assim como de suas funcionalidades. Ele é facilmente entendido pelos stakeholders e é principalmente usada juntamente com metodologias ágeis.
 
-## Objetivo
+### Objetivo
 
 Por meio da estruturação dos requisitos e separação dos mesmos de acordo com temas, buscamos facilitar a visualização das funcionalidades da aplicação para o cliente e os desenvolvedores envolvidos. Além de ir um pouco mais além por meio da criação de histórias de usuário e agragação de pontuação e __MoSCoW__.
 
 
-## Resultados
+### Metodologia
 
-Foram especificados os requisitos com base no mapeamento prévio utilizando o First Things First (FTF) e esses foram pontuados por meio de uma reunião realizadas com os membros da equipe. No total foram determinadas 71 funcionalidades na primeira versão, entretanto na segunda versão esse número caiu para 59.
+Para a realização da confecção do backlog do produto v.3 foi necessário a utilização da [baseline](../../baseline) de requisitos juntamento com a priorização dos requisitos.
+Após a priorização dos requisitos, eles foram divididos nos seguintes temas:
+
+* [Ajuda](#Ajuda)
+* [Cadastro](#Cadastro)
+* [Conexões](#Conexoes)
+* [Interação](#Interacao)
+* [Login](#Login)
+* [Membership](#Member)
+* [Partner program](#Parter)
+* [Perfil](#Perfil)
+* [Serie](#Serie)
+* [Storie](#Storie)
+* [Publicação](#Publicacao)
+
+Após a divisão dos temas os requisitos da [baseline](../../baseline) foram agrupos de acordo com o tema pertencente. Também está atrelado a cada requisito sua pontuação com base em *story points*, sua priorização em [Moscow](../../elicitacao/priorizacao-moscow) e o seu rastro, quando existente.
+
+
+### Resultados
+
+Foram especificados os requisitos com base no mapeamento prévio utilizando o First Things First (FTF) e esses foram pontuados por meio de uma reunião realizadas com os membros da equipe. No total foram determinadas 71 funcionalidades na primeira versão, entretanto na segunda versão esse número caiu para 59 e esse número se manteve para a [terceira versão](#t3).
 
 ***
-## Backlog do produto
+
+### Backlog do produto
+
 ***
 
-**Versão 1**
+####[Versão 1](backlog_versoes/backlogv1.md)
 
-<table>
-    <tbody>
-      <tr>
-        <th>Tema</th>
-        <th>ID</th>
-        <th>Eu, como</th>
-        <th>Desejo</th>
-        <th>Para que eu possa</th>
-        <th>Pontos</th>
-        <th>MoSCoW</th>
-      </tr>
-      <tr>
-        <td rowspan="3">Ajuda</td>
-        <td><a id="US001">001</a></td>
-        <td>Usuário</td>
-        <td>Acessar glossário MEDIUM</td>
-        <td>Visualizar a lista de palavras-chave da plataforma</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td><a id="US001">002</a></td>
-        <td>Usuário</td>
-        <td>Responder questionário de satisfação</td>
-        <td>Contribuir para o feedback de alguns aspectos da área de ajuda do site</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td><a id="US003">003</a></td>
-        <td>Usuário</td>
-        <td>Pesquisar tópico de ajuda</td>
-        <td>Encontrar com uma maior facilidade conteúdos específicos para o meu auxílio</td>
-        <td>3</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Cadastro</td>
-        <td><a id="US004">004</a></td>
-        <td>Visitante</td>
-        <td>Realizar cadastro com Google</td>
-        <td>Me tornar um usuário via integração com uma conta existente da Google</td>
-        <td>8</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>005</td>
-        <td>Visitante</td>
-        <td>Realizar cadastro com Facebook</td>
-        <td>Me tornar um usuário via integração com uma conta existente do Facebook</td>
-        <td>8</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="3">Conexões</td>
-        <td>006</td>
-        <td>Usuário</td>
-        <td>Conectar com facebook</td>
-        <td>Realizar uma integração com o Facebook, adicionando uma nova forma de login</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>007</td>
-        <td>Usuário</td>
-        <td>Conectar com twitter</td>
-        <td>Realizar uma integração com o Twitter, adicionando uma nova forma de login</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>008</td>
-        <td>Usuário</td>
-        <td>Conectar com Google</td>
-        <td>Realizar uma integração com o Google, adicionando uma nova forma de login</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="14">Configuração</td>
-        <td><a id="US009">009</a></td>
-        <td>Usuário</td>
-        <td>selecionar/remover tópicos de interesse</td>
-        <td>Possuir tópicos de meu interesse para leitura</td>
-        <td>8</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>010</td>
-        <td>Usuário</td>
-        <td>Ativar/desativar notificação social</td>
-        <td>Receber ou não notificações de medias sociais</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td><a id="US011">011</a></td>
-        <td>Usuário</td>
-        <td>Ativar/desativar modo noturno</td>
-        <td>Possuir um modo de leitura noturno, o qual facilita a leitura no escuro</td>
-        <td>5</td>
-        <td>Would</td>
-      </tr>
-      <tr>
-        <td>012</td>
-        <td>Usuário</td>
-        <td>Automatizar modo noturno</td>
-        <td>Ativar de forma automatica o modo noturno de acordo com o horário do dia</td>
-        <td>8</td>
-        <td>Would</td>
-      </tr>
-      <tr>
-        <td>013</td>
-        <td>Usuário</td>
-        <td>Editar email</td>
-        <td>Realizar a troca do email cadastrado</td>
-        <td>3</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>014</td>
-        <td>Usuário</td>
-        <td>Selecionar périodo de sugestão de artigos</td>
-        <td>Alterar o período em que artigos me são sugeridos.</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>015</td>
-        <td>Usuário</td>
-        <td>Desativar sugestão de artigos</td>
-        <td>Desativar a sugestão de artigos e series</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>    
-        <td>016</td>
-        <td>Usuário</td>
-        <td>Ativar/desativar boletim informativo</td>
-        <td>Visualizar ou não o boletim informativo</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td><a id="US017">017</a></td>
-        <td>Usuário</td>
-        <td>Selecionar tema do boletim informativo</td>
-        <td>Selecionar os temas para o boletim informativo </td>
-        <td>5</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td><a id="US018">018</a></td>
-        <td>Usuário</td>
-        <td>Ativar/desativar recomendações de stories</td>
-        <td>Selecionar entre receber ou não recomendações de stories selecionados para o usuário
-        </td>
-        <td>5</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td><a id="US019">019</a></td>
-        <td>Usuário</td>
-        <td>Ativar/desativar notificação por e-mail</td>
-        <td>Selecionar entre receber ou não notificações por e-mail </td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>020</td>
-        <td>Usuário</td>
-        <td>Selecionar privacidade de menções</td>
-        <td>Selecionar os níveis de privacidade e citação das minhas menções</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>021</td>
-        <td>Usuário</td>
-        <td>Desativar menções</td>
-        <td>Desativar as menções</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>022</td>
-        <td>Usuário</td>
-        <td>Mostrar links para facebook e twitter na página de perfil</td>
-        <td>Possuir links para as redes socias na minha página de perfil</td>
-        <td>8</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Conta</td>
-        <td>023</td>
-        <td>Usuário</td>
-        <td>Desativar sua conta</td>
-        <td>Desativar a minha conta do Medium</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>024</td>
-        <td>Usuário</td>
-        <td>Deletar sua conta</td>
-        <td>Excluir definitivamente a minha conta do medium</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td class="s3" rowspan="13">Interação</td>
-        <td>025</td>
-        <td>Usuário</td>
-        <td>Seguir escritores</td>
-        <td>Receber notificações das histórias deles</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>026</td>
-        <td>Usuário</td>
-        <td>Seguir usuários</td>
-        <td>Ver mais facilmente os textos de interesse deles</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>027</td>
-        <td>Usuário</td>
-        <td>Visualizar textos publicados de um escritor em específico</td>
-        <td>Achar com mais facilidade o texto que estou procurando/Ler mais textos que apelem ao
-          meu gosto</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>028</td>
-        <td>Usuário</td>
-        <td>Ter recomendações de leituras de acordo com histórico de leitura</td>
-        <td>Ler mais textos relacionados aos meus assuntos de interesse</td>
-        <td>13</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>029</td>
-        <td>Usuário</td>
-        <td>Visualizar perfis de outros usuários</td>
-        <td>Ver seus históricos de leitura/Escolher segui-los ou não/Achar novos assuntos de
-          interesse</td>
-        <td>5</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>030</td>
-        <td>Usuário</td>
-        <td>Favoritar publicação</td>
-        <td>Salvar a publicação para leitura ou releitura posterior</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>031</td>
-        <td>Usuário</td>
-        <td>Visualizar comentários da publicação</td>
-        <td>Me atentar às discussões relacionadas ao artigo/Dar minha opinião em relação ao
-          artigo/Entender aspectos que passaram despercebidos</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>032</td>
-        <td>Usuário</td>
-        <td>Reportar publicação </td>
-        <td>Retirar uma publicação que considerei ofensiva/Contribuir positivamente para a saúde
-          mental da comunidade em questão</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>033</td>
-        <td>Usuário</td>
-        <td>Bloquear usuário</td>
-        <td>Parar de receber notificações do mesmo/Cortar relações com o usuário</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>034</td>
-        <td>Usuário</td>
-        <td>visualizar seguidores</td>
-        <td>Encontrar uma pessoa à qual estou procurando, mais facilmente/Ver meu status de
-          popularidade na plataforma</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>035</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Visualizar claps em suas publicações</td>
-        <td>Ver o quão positiva foi a recepção de minha publicação, para que possa melhorar para a
-          próxima</td>
-        <td>3</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>036</td>
-        <td>Usuário</td>
-        <td>Ver seus seguidores</td>
-        <td>Encontrar uma pessoa à qual estou procurando, mais facilmente/Ver meu status de
-          popularidade na plataforma</td>
-        <td>5</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>037</td>
-        <td>Usuário</td>
-        <td>Visualizar artigos populares </td>
-        <td></td>
-        <td>13</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td class="s3" rowspan="5">Login</td>
-        <td>038</td>
-        <td>Usuário</td>
-        <td>Deslogar de outras sessões </td>
-        <td>Impedir que terceiros tenham acesso a minha conta</td>
-        <td>13</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>039</td>
-        <td>Usuário</td>
-        <td>Login via Facebook</td>
-        <td>Me conectar a minha conta via integração com o Facebook</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>040</td>
-        <td>Usuário</td>
-        <td>Login via twitter</td>
-        <td>Me conectar a minha conta via integração com o Twitter</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>041</td>
-        <td>Usuário</td>
-        <td>Login via Google</td>
-        <td>Me conectar a minha conta via integração com o Google</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>042</td>
-        <td>Usuário</td>
-        <td>Login via E-mail</td>
-        <td>Me conectar a minha conta usando o email que me cadastrei</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Membership</td>
-        <td>043</td>
-        <td>Usuário</td>
-        <td>Escolher um plano de assinatura</td>
-        <td>Encontrar um plano adequado ao meu querer</td>
-        <td>3</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>044</td>
-        <td>Usuário</td>
-        <td>Inserir forma de pagamento</td>
-        <td>Visualizar as formas de pagamento existentes e selecionar a que me satisfaz</td>
-        <td>13</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="6">Não funcional</td>
-        <td>045</td>
-        <td>Usuário</td>
-        <td>Realizar tutoriais da aplicação</td>
-        <td>Sanar minhas dúvidas por meio do autoaprendizado</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>046</td>
-        <td>Usuário</td>
-        <td>Visualizar tempo estimado de leitura de um artigo</td>
-        <td>Ver o tempo estimado que eu levarei para ler um artigo</td>
-        <td>8</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>047</td>
-        <td>Usuário</td>
-        <td>Pesquisar por nome de artigo</td>
-        <td>Pesquisar um artigo pelo seu nome completo ou por um trecho do seu nome </td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>048</td>
-        <td>Usuário</td>
-        <td>Desejo visualizar as páginas da plataforma em questão de forma responsiva</td>
-        <td>Independentemente do dispositivo, vislumbrar o site sem quebra em relação a aspectos de
-          conteúdo ou afins</td>
-        <td>21</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>049</td>
-        <td>Usuário</td>
-        <td>Poder acessar a aplicação via dispositivo IOS</td>
-        <td>Ter uma nova plataforma de acesso que seja portável</td>
-        <td>21</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>050</td>
-        <td>Usuário</td>
-        <td>Poder acessar a aplicação via dispositivo Android</td>
-        <td>Ter uma nova plataforma de acesso que seja portável</td>
-        <td>21</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="4">Partner Program</td>
-        <td>051</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Aceitar termos do Partner Program</td>
-        <td>Concordar com os termos de serviço do Medium Partner Program</td>
-        <td>2</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>052</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Configurar conta como internacional</td>
-        <td>Configurar minha conta como sendo internacional</td>
-        <td>13</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>053</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Configurar conta como de empresa</td>
-        <td>Configurar minha conta como sendo de uma empresa</td>
-        <td>8</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>054</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Configurar cartão de débito</td>
-        <td>Configurar o cartão de débito de acordo com os interesses<br>da empresa</td>
-        <td>13</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td rowspan="4">Perfil</td>
-        <td>055</td>
-        <td>Usuário</td>
-        <td>editar perfil</td>
-        <td>Editar alterar as informações do meu perfil de acordo com o meu querer</td>
-        <td>5</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>056</td>
-        <td>Usuário</td>
-        <td>visualizar próprio perfil</td>
-        <td>Ver todas as informações do meu perfil</td>
-        <td>3</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>057</td>
-        <td>Usuário</td>
-        <td>Editar nome de usuário</td>
-        <td>Editar o meu nome na minha conta do Medium</td>
-        <td>1</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>058</td>
-        <td>Usuário</td>
-        <td>Fazer download de suas informações</td>
-        <td>Ter um arquivo com todas as informações do meu perfil no Medium</td>
-        <td>13</td>
-        <td>Would</td>
-      </tr>
-      <tr>
-        <td rowspan="4">Serie</td>
-        <td>059</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Criar uma nova Serie</td>
-        <td>Publicar conjuntos de textos sequenciais </td>
-        <td>8</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>060</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Editar uma Serie existente</td>
-        <td>Modificar aspectos da mesma de acordo com o meu querer</td>
-        <td>8</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>061</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Deletar uma Serie existente</td>
-        <td>Remover, por motivos pessoais, uma serie de minha lista de rascunhos ou publicadas</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>062</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Ver estatísticas de uma série</td>
-        <td>Me manter atualizado quanto a quantidade de leituras e claps da mesma</td>
-        <td>2</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td rowspan="9">Storie</td>
-        <td>063</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Escrever &#39;new storie&#39;</td>
-        <td>Escrever e publicar novas histórias</td>
-        <td>8</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>064</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Importar &#39;storie&#39;</td>
-        <td>Aproveitar uma história já publicada em algum site para editá-la e/ou publicá-la entre
-          as minhas histórias do Medium</td>
-        <td>8</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>065</td>
-        <td>Usuário</td>
-        <td>Aplaudir um texto lido</td>
-        <td>Expressar que gostei de um texto que li</td>
-        <td>3</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>066</td>
-        <td>Usuário</td>
-        <td>Compartilhar texto lido no Facebook ou Instagram</td>
-        <td>Divulgar o texto lido com mais pessoas de outras redes sociais</td>
-        <td>3</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>067</td>
-        <td>Usuário</td>
-        <td>Comentar no corpo do texto</td>
-        <td>Adicionar anotações que eu achar relevantes sobre uma parte específica do texto</td>
-        <td>3</td>
-        <td>Could</td>
-      </tr>
-      <tr>
-        <td>068</td>
-        <td>Usuário</td>
-        <td>Adicionar texto aos seus favoritos</td>
-        <td>Ter um acesso rápido e fácil aos meus textos preferidos</td>
-        <td>5</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>069</td>
-        <td>Usuário</td>
-        <td>Escutar publicação</td>
-        <td>Receber notificações para acompanhar todas as novas stories de uma Publicação </td>
-        <td>8</td>
-        <td>Should</td>
-      </tr>
-      <tr>
-        <td>070</td>
-        <td>
-          <div>Usuário Escritor</div>
-        </td>
-        <td>Criar publicação</td>
-        <td>Criar um grupo de usuários editores ou escritores, para que eles publiquem textos que
-          vão pertencer a essa nova publicação </td>
-        <td>13</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>071</td>
-        <td>
-          <div>Usuário</div>
-        </td>
-        <td>Visualizar storie</td>
-        <td>receber ou não notificações de medias sociais.</td>
-        <td>8</td>
-        <td>Must</td>
-      </tr>
-      <tr>
-        <td>Total</td>
-        <td>13</td>
-        <td>2</td>
-        <td></td>
-        <td></td>
-        <td>464</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
+
+**Divisão de tarefas**
+
+Para essa primeira versão do backlog as terefas foram divididas da seguinte maneira:
+
+|id	|Tema	|Nº de funcionalidades	|Responsável|
+|---|-----|-----------|-----------|
+|1	|Stories	|8	|Aline|
+|2	|Series	|4	|william|
+|3	|Perfil	|4	|Aline|
+|4	|Cadastro	|2	|william|
+|5	|Login 	|5	|Guilherme|
+|6	|configuração	|12	|Pedro|
+|7	|Interações 	|11|	|Blanco|
+|8	|Conexões	|3	|william|
+|9	|membership	|2	|william|
+|10	|Conta	|2	|Luís|
+|12	|partner program	|4|	Luís| 
+|13|	não funcional	|6	|aline/wlliam|
+|14|	Ajuda	|4	|william|
 
 
 | Rastro de Tema | Origem |
@@ -684,534 +88,1482 @@ Foram especificados os requisitos com base no mapeamento prévio utilizando o Fi
 
 
 ***
-***
 
-**Versão 2**
+####[Versão 2](backlog_versoes/backlogv2.md)
+
+**Divisão de tarefas**
+
+Para essa segunda versão do backlog as terefas foram divididas entre os seguintes membros responsáveis:
+
+- William Elias Alves
+- Mathes Blanco
+
+
+
+| Rastro de Tema | Origem |
+| ------- | ------- |
+| Geral | [Priorização First Things First](../elicitacao/priorizacao-ftf.md) / Brainstorming |
+| Configuração | [Storytelling](../elicitacao/storytelling.md) - Configurar Aplicação |
+| Editar perfil | [Storyboard](../elicitacao/storyboards.md) - Editar Perfil |
+| Storie | [Storytelling](../elicitacao/storytelling.md) - Escrever 'New Storie' |
+| Cadastro | [Storyboard](../elicitacao/storyboards.md) - Cadastro e Login |
+| Login | [Storyboard](../elicitacao/storyboards.md) - Cadastro e Login |
+
+***
+<a id="t3"></a>
+#### Versão 3
+
+**Divisão de tarefas**
+
+Para essa terceira versão do backlog as terefas delegadas com base nos responsáveis das análise, sendo que o seguinte membro ficou responsável pela refatoração do backlog do produto.
+
+**Responsável**: William Elias Alves
+<br>
+#### Tabela de Backlog do produto
+<br>
 
 <table>
-  
-  <tbody>
     <tr >
-      <td  >Tema</td>
-      <td  >ID</td>
-      <td  >Eu, como</td>
-      <td  >Desejo</td>
-      <td  >Para que eu possa</td>
-      <td  >Pontos</td>
-      <td  >MoSCoW</td>
+        <th >
+            <p>Tema</p>
+        </th>
+        <th >
+            <p>ID</p>
+        </th>
+        <th >
+            <p>Eu, como</p>
+        </th>
+        <th >
+            <p>Desejo</p>
+        </th>
+        <th >
+            <p>Para que eu possa</p>
+        </th>
+        <th >
+            <p>Pontos</p>
+        </th>
+        <th >
+            <p>MoSCoW</p>
+        </th>
+        <th >
+            <p>Rastro</p>
+        </th>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="3">Ajuda</td>
-      <td  >001</td>
-      <td  >Usuário</td>
-      <td >Acessar glossário MEDIUM</td>
-      <td  >visualizar a lista de palavras-chave da aplicação Medium</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td rowspan="3" >
+            <p id="Ajuda">Ajuda</p>
+        </td>
+        <td >
+            <p>001</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Acessar o glossário MEDIUM</p>
+        </td>
+        <td >
+            <p>visualizar a lista de palavras-chave da aplicação </p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../user_case#areacomum">Área comum</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >002</td>
-      <td  >Usuário</td>
-      <td  >Responder questionário de satisfação da aplicação </td>
-      <td  >contribuir para o feedback de alguns aspectos da aplicação Medium</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>002</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Responder o questionário de satisfação da aplicação </p>
+        </td>
+        <td >
+            <p>contribuir para o feedback de alguns aspectos da aplicação Medium</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p>
+            <a href="../user_case#areacomum">Área comum</a>
+            </p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >003</td>
-      <td  >Usuário</td>
-      <td >Pesquisar tópico de ajuda</td>
-      <td  >Encontrar com uma maior facilidade conteúdos específicos para o meu auxílio</td>
-      <td  >3</td>
-      <td  >Must</td>
+        <td >
+            <p>003</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Pesquisar por tópico de ajuda</p>
+        </td>
+        <td >
+            <p>Encontrar com uma maior facilidade conteúdos específicos para o meu auxílio</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../user_case#areacomum">Área comum</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="2">Cadastro</td>
-      <td  >004</td>
-      <td  >Visitante</td>
-      <td  >Realizar cadastro com Google</td>
-      <td  >Me tornar um usuário via integração com uma conta existente da Google</td>
-      <td  >8</td>
-      <td  >Must</td>
+        <td rowspan="2" >
+            <p id="Cadastro">Cadastro</p>
+        </td>
+        <td >
+            <p>004</p>
+        </td>
+        <td >
+            <p>Visitante</p>
+        </td>
+        <td >
+            <p>Realizar cadastro com Google</p>
+        </td>
+        <td >
+            <p>Me tornar um usuário via integração com uma conta existente da Google</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../user_case#areacomum">Área comum</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >005</td>
-      <td  >Visitante</td>
-      <td  >Realizar cadastro com Facebook</td>
-      <td  >Me tornar um usuário via integração com uma conta existente do Facebook</td>
-      <td  >8</td>
-      <td  >Must</td>
+        <td >
+            <p>005</p>
+        </td>
+        <td >
+            <p>Visitante</p>
+        </td>
+        <td >
+            <p>Realizar cadastro com Facebook</p>
+        </td>
+        <td >
+            <p>Me tornar um usuário via integração com uma conta existente do Facebook</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../user_case#areacomum">Área comum</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="18">Conexões</td>
-      <td  >006</td>
-      <td  >Usuário</td>
-      <td  >Conectar com redes sociais</td>
-      <td  >Realizar uma integração com o Facebook ou Twitter, adicionando uma nova forma de login
-      </td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td rowspan="18" >
+            <p id="Conexoes">Conexões</p>
+        </td>
+        <td >
+            <p>006</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Conectar com redes sociais</p>
+        </td>
+        <td >
+            <p>Realizar uma integração com o Facebook ou Twitter, adicionando uma nova forma de login</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >007</td>
-      <td  >Usuário</td>
-      <td >Conectar com Google</td>
-      <td  >Realizar uma integração com o Google, adicionando uma nova forma de login</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>007</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Conectar com Google</p>
+        </td>
+        <td >
+            <p>Realizar uma integração com uma conta da Google, adicionando uma nova forma de login</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >008</td>
-      <td  >Usuário</td>
-      <td  >selecionar alguns tópicos de meu interesse</td>
-      <td  >gerenciar conteúdos que me serão sugeridos para leitura</td>
-      <td  >8</td>
-      <td  >Could</td>
+        <td >
+            <p>008</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>selecionar alguns tópicos de meu interesse</p>
+        </td>
+        <td >
+            <p>gerenciar conteúdos que me serão sugeridos para leitura</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a><br/><a href="../../elicitacao/introspeccao#introspec5">-Introspecção 5</a><br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >009</td>
-      <td  >Usuário</td>
-      <td >Ativar/desativar notificação social</td>
-      <td  >Receber ou não notificações de medias sociais</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>009</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Ativar a notificação social</p>
+        </td>
+        <td >
+            <p>Receber ou não notificações de medias sociais</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a>;<br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >010</td>
-      <td  >Usuário</td>
-      <td  >Ativar modo noturno</td>
-      <td  > gerenciar o modo de leitura noturno</td>
-      <td  >5</td>
-      <td  >Would</td>
+        <td >
+            <p>010</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Ativar modo noturno</p>
+        </td>
+        <td >
+            <p> gerenciar o modo de leitura noturno</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Would</p>
+        </td>
+        <td >
+            <p> <a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a>;<br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >011</td>
-      <td  >Usuário</td>
-      <td >Automatizar modo noturno</td>
-      <td  >Ativar de forma automatica o modo noturno de acordo com o horário</td>
-      <td  >8</td>
-      <td  >Would</td>
+        <td >
+            <p>011</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Automatizar modo noturno</p>
+        </td>
+        <td >
+            <p>Ativar de forma automatica o modo noturno de acordo com o horário</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Would</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a>;<br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >012</td>
-      <td  >Usuário</td>
-      <td  >Editar email padrão</td>
-      <td  >Realizar a troca do email cadastrado</td>
-      <td  >3</td>
-      <td  >Could</td>
+        <td >
+            <p>012</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Editar email padrão</p>
+        </td>
+        <td >
+            <p>Realizar a troca do email cadastrado</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >013</td>
-      <td  >Usuário</td>
-      <td  >Selecionar período de sugestão de artigos</td>
-      <td  >gerenciar a recorrência dos artigos sugeridos</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>013</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Selecionar período de  sugestão de artigos</p>
+        </td>
+        <td >
+            <p>gerenciar a recorrência dos artigos sugeridos</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >014</td>
-      <td  >Usuário</td>
-      <td >Desativar sugestão de artigos</td>
-      <td  >gerenciar períodos de inatividade na sugestão de artigos</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>014</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Desativar sugestão de artigos</p>
+        </td>
+        <td >
+            <p>gerenciar períodos de inatividade na sugestão de artigos</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >015</td>
-      <td  >Usuário</td>
-      <td >Ativar/desativar boletim informativo</td>
-      <td  >Visualizar ou não o boletim informativo</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>015</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Ativar boletim informativo</p>
+        </td>
+        <td >
+            <p>Visualizar ou não o boletim informativo em meu e-mail</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >016</td>
-      <td  >Usuário</td>
-      <td >Selecionar tema do boletim informativo</td>
-      <td  >receber artigos novos de acordo com o tema escolhido</td>
-      <td  >5</td>
-      <td  >Could</td>
+        <td >
+            <p>016</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Selecionar tema do boletim informativo</p>
+        </td>
+        <td >
+            <p>receber artigos novos de acordo com o tema escolhido</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a>;<br/><a href="../../elicitacao/introspeccao#introspec5">-Introspecção 5</a><br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >017</td>
-      <td  >Usuário</td>
-      <td  >Ativar as recomendações de stories</td>
-      <td  >receber ou não sugestões de artigos populares</td>
-      <td  >5</td>
-      <td  >Could</td>
+        <td >
+            <p>017</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Ativar as recomendações de stories</p>
+        </td>
+        <td >
+            <p>receber ou não sugestões de artigos populares</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a>;<br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >018</td>
-      <td  >Usuário</td>
-      <td  >Ativar as notificação por e-mail</td>
-      <td  >receber ou não mensagens em meu e-mail cadastrado</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>018</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Ativar as notificação por e-mail</p>
+        </td>
+        <td >
+            <p>receber ou não mensagens em meu e-mail cadastrado</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >019</td>
-      <td  >Usuário</td>
-      <td  >gerenciar a privacidade de menções</td>
-      <td  >selecionar os níveis acesso referentes à citações</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>019</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>gerenciar a privacidade de menções</p>
+        </td>
+        <td >
+            <p>selecionar os níveis acesso referentes à citações</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >020</td>
-      <td  >Usuário</td>
-      <td  >Desativar menções a mim</td>
-      <td  >gerir minhas interações com outros usuários</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>020</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Desativar menções a mim</p>
+        </td>
+        <td >
+            <p>gerir minhas interações com outros usuários</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >021</td>
-      <td  >Usuário</td>
-      <td  >Mostrar links para minhas redes sociais</td>
-      <td  >compartilhar minhas leituras</td>
-      <td  >8</td>
-      <td  >Could</td>
+        <td >
+            <p>021</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Mostrar links para minhas redes sociais</p>
+        </td>
+        <td >
+            <p>compartilhar minhas leituras</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >022</td>
-      <td  >Usuário</td>
-      <td  >Desativar minha conta</td>
-      <td  >inativar temporariamente minhas ações dentro da aplicação</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>022</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Desativar minha conta</p>
+        </td>
+        <td >
+            <p>inativar temporariamente minhas ações dentro da aplicação</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >023</td>
-      <td  >Usuário</td>
-      <td  >Deletar minha conta</td>
-      <td  >excluir definitivamente meus dados da conta do medium</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>023</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Deletar minha conta</p>
+        </td>
+        <td >
+            <p>excluir definitivamente meus dados da conta do medium</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="9">Interação</td>
-      <td  >024</td>
-      <td  >Usuário</td>
-      <td >Seguir escritores</td>
-      <td  >Receber notificações de suas ações</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td rowspan="9" >
+            <p id="Interacao">Interação</p>
+        </td>
+        <td >
+            <p>024</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Seguir escritores</p>
+        </td>
+        <td >
+            <p>Receber notificações de suas ações</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storyboards#tutorial">-StoryBord Tutorial e seguir escritor</a></p>
+            <p><a href="../../elicitacao/brainstormings#brain3">-Brainstorming 3</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >025</td>
-      <td  >Usuário</td>
-      <td >Seguir usuários</td>
-      <td  >Receber notificações de suas ações</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>025</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Seguir usuários</p>
+        </td>
+        <td >
+            <p>Receber notificações de suas ações</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storyboards#tutorial">-StoryBord Tutorial e seguir escritor</a></p>
+            <p><a href="../../elicitacao/brainstormings#brain3">-Brainstorming 3</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >026</td>
-      <td  >Usuário</td>
-      <td  >Visualizar textos publicados de um escritor em seu perfil</td>
-      <td  >Encontrar com uma maior facilidade conteúdos específicos para o meu auxílio</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>026</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Visualizar textos publicados de um escritor em seu perfil</p>
+        </td>
+        <td >
+            <p>Encontrar com uma maior facilidade conteúdos específicos para o meu auxílio</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >027</td>
-      <td  >Usuário</td>
-      <td >Visualizar perfis de outros usuários</td>
-      <td  >Ver seus históricos de leitura, ou segui-los ou ou ainda encontrar novos assuntos de
-        interesse</td>
-      <td  >5</td>
-      <td  >Could</td>
+        <td >
+            <p>027</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Visualizar perfis de outros usuários</p>
+        </td>
+        <td >
+            <p>Ver seus históricos de leitura, ou segui-los ou ou ainda encontrar novos assuntos de interesse</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >028</td>
-      <td  >Usuário</td>
-      <td  >Favoritar texto </td>
-      <td  >tê-lo para leitura posterior</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>028</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Favoritar texto </p>
+        </td>
+        <td >
+            <p>tê-lo para leitura posterior</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >029</td>
-      <td  >Usuário</td>
-      <td >Visualizar comentários da publicação</td>
-      <td  >Me atentar às discussões relacionadas ao artigo ou dar minha opinião em relação ao
-        assunto</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>029</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Visualizar comentários da publicação</p>
+        </td>
+        <td >
+            <p>Me atentar às discussões relacionadas ao artigo ou dar minha opinião em relação ao assunto</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >030</td>
-      <td  >Usuário</td>
-      <td  >Reportar publicação </td>
-      <td  >Denunciar uma publicação considerei ofensiva/Contribuir positivamente para a saúde
-        mental da comunidade em questão</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>030</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Reportar publicação </p>
+        </td>
+        <td >
+            <p>Denunciar uma publicação considerei ofensiva/Contribuir positivamente para a saúde mental da comunidade em questão</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >031</td>
-      <td  >Usuário</td>
-      <td  >reportar usuário</td>
-      <td  >Parar de receber notificações do mesmo/Cortar relações com o usuário</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>031</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>reportar usuário</p>
+        </td>
+        <td >
+            <p>Parar de receber notificações do mesmo/Cortar relações com o usuário</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td ><a href="../../elicitacao/storytelling#editprofile">Storytelling editar perfil</a> </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >032</td>
-      <td  >Usuário</td>
-      <td >visualizar seguidores</td>
-      <td  >Encontrar uma pessoa à qual estou procurando, mais facilmente/Ver meu status de
-        popularidade na plataforma</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>032</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>visualizar seguidores</p>
+        </td>
+        <td >
+            <p>Encontrar uma pessoa à qual estou procurando, mais facilmente/Ver meu status de popularidade na plataforma</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="4">Login</td>
-      <td  >034</td>
-      <td  >Usuário</td>
-      <td >Deslogar de outras sessões </td>
-      <td  >Impedir que terceiros tenham acesso a minha conta</td>
-      <td  >13</td>
-      <td  >Should</td>
+        <td rowspan="4" >
+            <p id="Login">Login</p>
+        </td>
+        <td >
+            <p>034</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Deslogar de outras sessões </p>
+        </td>
+        <td >
+            <p>Impedir que terceiros tenham acesso a minha conta</p>
+        </td>
+        <td >
+            <p>13</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >035</td>
-      <td  >Usuário</td>
-      <td  >Realizar login via redes sociais</td>
-      <td  >Me conectar a minha conta via integração(Facebook ou twitter)</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>035</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Realizar login via redes sociais</p>
+        </td>
+        <td >
+            <p>Me conectar a minha conta via integração(Facebook ou twitter)</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#login">- Storytelling e storybord: login e cadastro;</a><br></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >036</td>
-      <td  >Usuário</td>
-      <td  >Realizar login via Google</td>
-      <td  >Me conectar a minha conta via integração com o Google</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>036</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Realizar login via Google</p>
+        </td>
+        <td >
+            <p>Me conectar a minha conta via integração com o Google</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/introspeccao#introspec2">-Introspecção 2</a><br/><a href="../../elicitacao/storytelling#login">- Storytelling e storybord: login e cadastro;</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >037</td>
-      <td  >Usuário</td>
-      <td  >Realizar login via E-mail</td>
-      <td  >Me conectar a minha conta usando o email institucional ou pessoal</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td >
+            <p>037</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Realizar login via E-mail</p>
+        </td>
+        <td >
+            <p>Me conectar a minha conta usando o email institucional ou pessoal</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/introspeccao#introspec2">-Introspecção 2</a><br/><a href="../../elicitacao/storytelling#login">- Storytelling e storybord: login e cadastro;</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="2">Membership</td>
-      <td  >038</td>
-      <td  >Usuário</td>
-      <td  >visualizar os planos de assinatura disponíveis</td>
-      <td  >selecionar o plano mais adequado ao meu orçamento</td>
-      <td  >3</td>
-      <td  >Must</td>
+        <td rowspan="2" >
+            <p id ="Member">Membership</p>
+        </td>
+        <td >
+            <p>038</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>visualizar os planos de assinatura disponíveis</p>
+        </td>
+        <td >
+            <p>selecionar o plano mais adequado ao meu orçamento</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >039</td>
-      <td  >Usuário</td>
-      <td  >visualizar as formas de pagamento existentes</td>
-      <td  >inserir uma forma de pagamento que me satisfaça</td>
-      <td  >13</td>
-      <td  >Must</td>
+        <td >
+            <p>039</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>visualizar as formas de pagamento existentes</p>
+        </td>
+        <td >
+            <p>inserir uma forma de pagamento que me satisfaça</p>
+        </td>
+        <td >
+            <p>13</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="3">Partner Program</td>
-      <td  >040</td>
-      <td >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >visualizar os termos de usuário</td>
-      <td  >concordar ou não com os termos de serviço do Medium Partner Program</td>
-      <td  >2</td>
-      <td  >Must</td>
+        <td rowspan="3" >
+            <p id="Parter">Partner Program</p>
+        </td>
+        <td >
+            <p>040</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>visualizar os termos de usuário</p>
+        </td>
+        <td >
+            <p>concordar ou não com os termos de serviço do Medium Partner Program</p>
+        </td>
+        <td >
+            <p>2</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >041</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >selecionar minha conta como de empresa </td>
-      <td  >inserir dados de conta empresarial</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>041</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>selecionar minha conta como de empresa </p>
+        </td>
+        <td >
+            <p>inserir dados de conta empresarial</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >042</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >configurar meu cartão de débito</td>
-      <td  >ter um novo método de pagamento</td>
-      <td  >5</td>
-      <td  >must</td>
+        <td >
+            <p>042</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>configurar meu cartão de débito</p>
+        </td>
+        <td >
+            <p>ter um novo método de pagamento</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>must</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="2">Perfil</td>
-      <td  >043</td>
-      <td  >Usuário</td>
-      <td  >editar informações de perfil</td>
-      <td  >alterar as informações do meu perfil de acordo com o meu querer</td>
-      <td  >5</td>
-      <td  >Must</td>
+        <td rowspan="2" >
+            <p id="Perfil">Perfil</p>
+        </td>
+        <td >
+            <p>043</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>editar informações de perfil</p>
+        </td>
+        <td >
+            <p>alterar as informações do meu perfil de acordo com o meu querer</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#editprofile">Storytelling editar perfil</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >044</td>
-      <td  >Usuário</td>
-      <td  >Visualizar próprio perfil</td>
-      <td  >Ver todas as informações do meu perfil</td>
-      <td  >3</td>
-      <td  >Must</td>
+        <td >
+            <p>044</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Visualizar próprio perfil</p>
+        </td>
+        <td >
+            <p>Ver todas as informações do meu perfil</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/storytelling#editprofile">Storytelling editar perfil</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="4">Serie</td>
-      <td  >045</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >Criar uma nova Serie</td>
-      <td  >Publicar conjuntos de textos sequenciais </td>
-      <td  >8</td>
-      <td  >Must</td>
+        <td rowspan="4" >
+            <p id="Serie">Serie</p>
+        </td>
+        <td >
+            <p>045</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Criar uma nova Serie</p>
+        </td>
+        <td >
+            <p>Publicar conjuntos de textos sequenciais </p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > <a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a><br><a href="../../elicitacao/storytelling#newstory">-Storytelling new story</a></td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >046</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >Editar uma Serie existente</td>
-      <td  >Modificar aspectos da mesma de acordo com o meu querer</td>
-      <td  >8</td>
-      <td  >Should</td>
+        <td >
+            <p>046</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Editar uma Serie existente</p>
+        </td>
+        <td >
+            <p>Modificar aspectos da mesma de acordo com o meu querer</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td ><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a> <br><a href="../../elicitacao/storytelling#newstory">-Storytelling new story</a></td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >047</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >Deletar uma Serie existente</td>
-      <td  >Remover, por motivos pessoais, uma serie de minha lista de rascunhos ou publicadas</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>047</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Deletar uma Serie existente</p>
+        </td>
+        <td >
+            <p>Remover, por motivos pessoais, uma serie de minha lista de rascunhos ou publicadas</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td ><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a> <br><a href="../../elicitacao/storytelling#newstory">-Storytelling new story</a></td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >048</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >Ver estatísticas de uma série</td>
-      <td  >Me manter atualizado quanto a quantidade de leituras e claps da mesma</td>
-      <td  >2</td>
-      <td  >Should</td>
+        <td >
+            <p>048</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Ver estatísticas de uma série</p>
+        </td>
+        <td >
+            <p>Me manter atualizado quanto a quantidade de leituras e claps  da mesma</p>
+        </td>
+        <td >
+            <p>2</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="9">Storie</td>
-      <td  >049</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td >Escrever 'new storie'</td>
-      <td  >Escrever e publicar novas histórias</td>
-      <td  >8</td>
-      <td  >Must</td>
+        <td rowspan="8" >
+            <p id="Storie">Storie</p>
+        </td>
+        <td >
+            <p>049</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Escrever 'new storie'</p>
+        </td>
+        <td >
+            <p>Escrever e publicar novas histórias</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+            <p><a href="../../elicitacao/storytelling#newstory">Storytelling new story</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >050</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td >Importar storie</td>
-      <td  >Aproveitar uma história já publicada em algum site para editá-la e/ou publicá-la entre
-        as minhas histórias do Medium</td>
-      <td  >8</td>
-      <td  >Could</td>
+        <td >
+            <p>050</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Importar 'storie'</p>
+        </td>
+        <td >
+            <p>Aproveitar uma história já publicada em algum site para editá-la e/ou publicá-la entre as minhas histórias do Medium</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+            <p><a href="../../elicitacao/storytelling#newstory">Storytelling new story</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >051</td>
-      <td  >Usuário</td>
-      <td >Aplaudir um texto lido</td>
-      <td  >Expressar que gostei de um texto que li</td>
-      <td  >3</td>
-      <td  >Could</td>
+        <td >
+            <p>051</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Aplaudir um texto lido</p>
+        </td>
+        <td >
+            <p>Expressar que gostei de um texto que li</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >052</td>
-      <td  >Usuário</td>
-      <td  >Compartilhar texto lido nas redes sociais</td>
-      <td  >Divulgar o texto lido com mais pessoas de outras redes sociais</td>
-      <td  >3</td>
-      <td  >Should</td>
+        <td >
+            <p>052</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Compartilhar texto lido nas redes sociais</p>
+        </td>
+        <td >
+            <p>Divulgar o texto lido com mais pessoas de outras redes sociais</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >053</td>
-      <td  >Usuário</td>
-      <td  >Comentar no corpo do texto da &#39;story&#39;</td>
-      <td  >Adicionar anotações que eu achar relevantes sobre uma storie</td>
-      <td  >3</td>
-      <td  >Could</td>
+        <td >
+            <p>053</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Comentar no corpo do texto da 'story'</p>
+        </td>
+        <td >
+            <p>Adicionar anotações que eu achar relevantes sobre uma storie</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td >
+            <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+        </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >054</td>
-      <td  >Usuário</td>
-      <td  >Favoritar publicação para leitura posterior</td>
-      <td  >Ter um acesso rápido e fácil aos meus textos preferidos</td>
-      <td  >5</td>
-      <td  >Should</td>
+        <td >
+            <p>054</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Escutar podcast</p>
+        </td>
+        <td >
+            <p>Receber notificações para acompanhar todas as novas stories de uma Publicação </p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >055</td>
-      <td  >Usuário</td>
-      <td  >Escutar podcast</td>
-      <td  >Receber notificações para acompanhar todas as novas stories de uma Publicação </td>
-      <td  >8</td>
-      <td  >Should</td>
+        <td >
+            <p>055</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Visualizar storie</p>
+        </td>
+        <td >
+            <p>Ler um texto na íntegra e realizar outras ações posteriores relacionadas ao mesmo</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > <a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >056</td>
-      <td  >Usuário</td>
-      <td  >Visualizar storie</td>
-      <td  >Ler um texto na íntegra e realizar outras ações posteriores relacionadas ao mesmo</td>
-      <td  >8</td>
-      <td  >Must</td>
+        <td >
+            <p>056</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Visualizar claps em suas publicações</p>
+        </td>
+        <td >
+            <p>Ver o quão positiva foi a recepção de minha publicação, para que possa melhorar para a próxima</p>
+        </td>
+        <td >
+            <p>3</p>
+        </td>
+        <td >
+            <p>Could</p>
+        </td>
+        <td > <a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >057</td>
-      <td >Usuário Escritor  </td>
-      <td >Visualizar claps em suas publicações</td>
-      <td  >Ver o quão positiva foi a recepção de minha publicação, para que possa melhorar para a
-        próxima</td>
-      <td  >3</td>
-      <td  >Could</td>
+        <td rowspan="3" >
+            <p id="Publicacao">Publicação </p>
+        </td>
+        <td >
+            <p>057</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Criar publicação</p>
+        </td>
+        <td >
+            <p>Ter um blog dentro da aplicação Medium</p>
+        </td>
+        <td >
+            <p>13</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td   rowspan="2">Publicação </td>
-      <td  >058</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td >Criar publicação</td>
-      <td  >Ter um blog dentro da aplicação Medium</td>
-      <td  >13</td>
-      <td  >Must</td>
+        <td >
+            <p>058</p>
+        </td>
+        <td >
+            <p>Usuário Escritor</p>
+        </td>
+        <td >
+            <p>Editar publicação </p>
+        </td>
+        <td >
+            <p>Alterar aspectos de meu blog conforme meu querer</p>
+        </td>
+        <td >
+            <p>8</p>
+        </td>
+        <td >
+            <p>Must</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >059</td>
-      <td  >
-        <div >Usuário Escritor</div>
-      </td>
-      <td  >Editar publicação </td>
-      <td  >Alterar aspectos de meu blog conforme meu querer</td>
-      <td  >8</td>
-      <td  >Must</td>
+        <td >
+            <p>059</p>
+        </td>
+        <td >
+            <p>Usuário</p>
+        </td>
+        <td >
+            <p>Favoritar publicação para leitura posterior</p>
+        </td>
+        <td >
+            <p>Ter um acesso rápido e fácil meus blogs favoritos</p>
+        </td>
+        <td >
+            <p>5</p>
+        </td>
+        <td >
+            <p>Should</p>
+        </td>
+        <td > </td>
+        <td  > </td>
     </tr>
     <tr >
-      <td  >Total</td>
-      <td  ></td>
-      <td  >2</td>
-      <td></td>
-      <td ></td>
-      <td  >312</td>
-      <td  ></td>
+        <td  > </td>
+        <td  > </td>
+        <td >
+            <p>Total</p>
+        </td>
+        <td > </td>
+        <td >
+            <p>2</p>
+        </td>
+        <td > </td>
+        <td > </td>
+        <td >
+            <p>312</p>
+        </td>
+        <td > </td>
+        <td  > </td>
+        <td  > </td>
     </tr>
-  </tbody>
 </table>
+
+
+| Rastro de Tema | Origem |
+| ------- | ------- |
+| Geral | [Priorização First Things First](../elicitacao/priorizacao-ftf.md) / Brainstorming |
+| Configuração | [Storytelling](../elicitacao/storytelling.md) - Configurar Aplicação |
+| Editar perfil | [Storyboard](../elicitacao/storyboards.md) - Editar Perfil |
+| Storie | [Storytelling](../elicitacao/storytelling.md) - Escrever 'New Storie' |
+| Cadastro | [Storyboard](../elicitacao/storyboards.md) - Cadastro e Login |
+| Login | [Storyboard](../elicitacao/storyboards.md) - Cadastro e Login |

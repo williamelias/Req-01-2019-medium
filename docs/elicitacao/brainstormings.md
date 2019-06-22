@@ -51,7 +51,7 @@ E após o brainstorming foram criados para cada modelo concretizado um mapa ment
 
 ###Brainstorming 2
 
-**Tema:** Elicitação de Requisitos
+**Tema:** <a id="brain2">Elicitação de Requisitos</a>
 
 Ficou decidido pelo grupo um levantamento de requisitos de software ,da aplicação MEDIUM, por meio do brainstorming. Esse levantamento ocorreu sem a utilização direta da aplicação. 
 Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e posteriormente de uma forma mais organizada.
@@ -86,7 +86,7 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 
 ###Brainstorming 3
 
-**Tema:** Elicitação de Requisitos
+**Tema:** <a id="brain3">Elicitação de Requisitos</a>
 
 **Pergunta:**Quais são os requisitos voltados ao leitor?
 

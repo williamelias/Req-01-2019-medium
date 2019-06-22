@@ -123,6 +123,7 @@ Se houver inconsistência nos dados de login.
 * Ao realizar um cadastro com sucesso, ser redirecionado à página principal já logado
 
 ######[Relato de introspecção 2 - V2.0]
+<a id="introspec2"></a>
 
 **Relator: William Elias Alves**
 
@@ -172,6 +173,7 @@ Ao meu entender, para que o Medium possa prover uma experiência efetiva para um
 
 **Relator: Matheus Blanco**
 
+<a id="introspec3"></a>
 **Criação de New Story:** Usuário logado, com o intuito de criar uma nova história para publicar.
 
 i - Deve clicar no ícone de perfil no canto direito de sua tela para ver as opções existentes;
@@ -248,6 +250,8 @@ Funcionalidades que devam estar presentes na página para que o Medium possa pro
     - Society
 
 ####[Relato de introspecção 5 - V2.0]
+
+<a id="introspec5"></a>
 
 **Relator(es): Aline e Luís**
 

@@ -33,6 +33,8 @@ Foram concebidos os seguintes modelos:
 
 #### Editar perfil
 
+<a id="editprofile"></a>
+
 Carlos é um engenheiro de software fascinado na área de inteligência artificial. Ele gasta boa parte do seu tempo desenvolvendo estudos e pesquisas para a criação de novos algoritmos que sejam cada vez mais eficientes em manipular estruturas de dados do tipo redes neurais.
 Buscando apresentar suas ideias em uma plataforma que tivesse leitores que partilham dos mesmos interesses de Carlos, ele decidiu adaptar parte de seus estudos e pesquisas em forma de textos jornalísticos e a postar eles na  plataforma Medium... [LER MAIS](storytellings/Storytelling - Editar perfil.docx)  
 
@@ -51,6 +53,7 @@ Buscando apresentar suas ideias em uma plataforma que tivesse leitores que parti
 
 #### Escritor - New Story
 
+<a id="newstory"></a>
 Natália é uma aluna de Engenharia de Software da UnB - FGA, escrevendo seu TCC 2 e chegando perto da tão esperada formatura. Seu TCC trata sobre um assunto que têm ganhado bastante espaço no meio de seu curso, inclusive nos laboratórios de desenvolvimento de Software presentes na faculdade. Natália está escrevendo um TCC baseado na usabilidade de um ChatBot, e está extremamente empolgada com o assunto. 
 
 Natália, além de engenheira de software em formação, também é uma pessoa que gosta de escrever e ensinar seus amigos e colegas sobre quaisquer assunto que domine. Um belo dia, enquanto estava falando sobre como a documentação do Framework RASA para ChatBots é rasa e carece de detalhamento, Natália, que também se demonstra capaz de argumentar com muita sabedoria sobre o assunto, recebe a sugestão de um amigo sobre espalhar seus pensamentos para mais pessoas. Este amigo, em outras palavras, pediu para que Natália criasse um blog para falar sobre Rasa. Entretanto, Natália desgostou da ideia de um blog, devido a suas má experiências no passado, ao tentar fazer bombar um blog sobre gatos e papagaios... [LER MAIS](storytellings/Storytelling - Escritor, New Story.docx)
@@ -71,6 +74,7 @@ Natália, além de engenheira de software em formação, também é uma pessoa q
 
 #### Login e Cadastro
 
+<a id="login"></a>
 Marcos, estudante de psicologia na PUC-rio, tem 18 anos e é um leitor ávido e amante de conteúdos relacionados a mente humana. Ele gosta de assuntos relacionados ao campo da psicologia cognitiva.  
 
 Ao sair da aula de cognição humana, cujo o mentor é o Prof. Dr. Paulo de Mendonça, ele recebe um insight de seu colega Pedro. Pedro o informa a respeito da existência de uma aplicação para leitura, chamado MEDIUM e após a conversa Marcos se despede e vai para sua casa... [LER MAIS](storytellings/Storytelling - login_cadastro.docx)  
@@ -99,6 +103,7 @@ Assim que chegou em casa Gustavo ligou seu PC e entrou em tal site vendo uma var
 |R004|Pesquisar artigos por nome|
 
 #### Usuário, Configurando a aplicação
+<a id="storytuconfig"></a>
 
 Maria é uma usuária ávida da aplicação Medium, tanto em sua plataforma mobile quanto em sua plataforma web. Em todo seu tempo vago ela para e lê um artigo ou ouve um podcast. Em uma dessas leituras, Maria decide visualizar quais são as principais formas de configuração e personalização que a aplicação disponibiliza, tanto para ela, quanto para questões gerais do próprio site ou aplicativo.
 Ao acessar a página de ‘settings’ se depara com diversas guias, essas guias tinham os seguintes enfoques: 

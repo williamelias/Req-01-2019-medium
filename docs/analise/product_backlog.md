@@ -2169,7 +2169,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 
 **Descrição:**Levando em consideração os déficits de cada história de usuário, ficou resolvido a realização da refatoração de cada história de usuário de acordo com o critério que está em falta, abaixo estão listadas as histórias de usuário refatoradas, isso após descrever o porquê de não está adequada ao critério:
 
-| [US001](../../modelagem/product_backlog#US001)           |                                                                                                                        |
+| US001         |                                                                                                                        |
 |----------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|
 | **Texto Original:**                                      | Eu, como usuário, desejo acessar glossário MEDIUM para que eu possa visualizar a lista de palavras-chave da plataforma |
 | (**Critério 3**)                                         |                                                                                                                        |
@@ -2183,7 +2183,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 ***
 ***
 
-| [US002](../../modelagem/product_backlog#US002)                                                                                                                      |                                                                                                                                                        |
+| US002                                                                                                                    |                                                                                                                                                        |
 |---------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Texto Original:**                                                                                                                                                 | Eu, como usuário, desejo responder questionário de satisfação para que eu possa contribuir para o feedback de alguns aspectos da área de ajuda do site |
 | (**Critério 3**)                                                                                                                                                    |                                                                                                                                                        |
@@ -2196,7 +2196,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 ***
 ***
 
-| [US009](../../modelagem/product_backlog#US009)           |                                                                                                                               |
+| US009           |                                                                                                                               |
 |----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------|
 | **texto original:**                                      | Eu, como usuário, desejo selecionar/remover tópicos de interesse para que eu possa possuir tópicos de meu interesse para leitura |
 | **Critério 3**                                           |                                                                                                                               |
@@ -2213,7 +2213,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 ***
 ***
 
-| [US011](../../modelagem/product_backlog#US011)           |                                                                                                                                                  |
+| US011         |                                                                                                                                                  |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|
 | **texto original:**                                      | Eu, como usuário, desejo ativar/desativar modo noturno para que eu possa possuir um modo de leitura noturno, o qual facilita a leitura no escuro |
 | **Critério 3**                                           |                                                                                                                                                  |
@@ -2231,7 +2231,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 ***
 
 
-| [US017](../../modelagem/product_backlog#US017)           |                                                                                                                                |
+| US017        |                                                                                                                                |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | **texto original:**                                      | Eu, como usuário, desejo selecionar tema do boletim informativo para que eu possa selecionar os temas para o boletim informativo |
 | **Critério 3**                                           |                                                                                                                                |
@@ -2247,7 +2247,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 ***
 ***
 
-| [US018](../../modelagem/product_backlog#US018)           |                                                                                                                                                                           |
+| US018          |                                                                                                                                                                           |
 |----------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **texto original:**                                      | Eu, como usuário, desejo ativar/desativar recomendações de stories para que eu possa selecionar entre receber ou não recomendações de stories selecionados para o usuário |
 | **Critério 3**                                           |                                                                                                                                                                           |
@@ -2263,7 +2263,7 @@ Como critérios de qualidade, ficaram estabelecidas as seguintes qualificações
 ***
 ***
 
-| [US019](../../modelagem/product_backlog#US019)           |                                                                                                                                            |
+| US019          |                                                                                                                                            |
 |----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------|
 | **texto original:**                                      | Eu, como usuário, desejo ativar/desativar notificação por e-mail para que eu possa Selecionar entre receber ou não notificações por e-mail |
 | **Critério 3**                                           |                                                                                                                                            |
