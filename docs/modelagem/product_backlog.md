@@ -7,8 +7,10 @@
 |   05/06/2019   | Gabriel Filipe Manso Araujo  | Validação e melhoria das definições | 1.3  |
 |   16/06/2019   | William Elias Alves  | inserção do backlog do produto versão 2 | 1.4  |
 |   22/06/2019   | William Elias Alves  | inserção do backlog do produto versão 3 | 1.5  |
-|   22/06/2019   | William Elias Alves  | inserção dos rastros da versão 3 | 2.0  |
+|   22/06/2019   | William Elias Alves  | inserção dos rastros da versão 3 | 1.6  |
+|   22/06/2019   | William Elias Alves  | Atualizando valores tabela v3 | 2.0  |
 
+---
 
 ### Definição
 
@@ -123,7 +125,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
 <br>
 
 <table>
-    <tr >
+    <tr style="color:black">
         <th >
             <p>Tema</p>
         </th>
@@ -1538,8 +1540,6 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td  > </td>
     </tr>
     <tr >
-        <td  > </td>
-        <td  > </td>
         <td >
             <p>Total</p>
         </td>
