@@ -29,6 +29,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![AJUDA](cenarios/cenario-ajuda.png)
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - Usuário, Configurando a aplicação|
+
 #### Dar Claps
 
 **Responsável**: Matheus Blanco
@@ -40,6 +44,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Dar Claps - V2.0**
 
 ![Claps V2.0](cenarios/cenarioclap-2.png)
+
+**Dar Claps - V3.0**
+
+![claps3](cenarios/cenarios3/claps3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -77,6 +85,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![ler V2.0](cenarios/cenarioleitura-2.png)
 
+**Leitura de texto - V3.0**
+
+![ler V2.0](cenarios/cenarios3/leitura3.png)
+
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| RichPicture - Visão de Leitor|
@@ -91,6 +103,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![categorias](cenarios/categoria.png)
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| StoryBoard - Customização de interesses|
+
 ### Editar perfil
 
 **Responsável**: Matheus Blanco
@@ -102,6 +118,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Editar perfil - V2.0**
 
 ![Editar perfil V2.0](cenarios/cenarioperfil-2.png)
+
+**Editar perfil - V3.0**
+
+![Editar perfil V2.0](cenarios/cenarios3/perfil3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -120,6 +140,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Premium - V2.0**
 
 ![Premium V2.0](cenarios/cenariopremium-2.png)
+
+**Premium - V3.0**
+
+![Premium V2.0](cenarios/cenarios3/premium3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -151,6 +175,14 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![cadastro](cenarios/cadastro.png)
 
+**Cadastro - V2.0**
+
+![Cadastro](cenarios/cenarios3/cadastro3.png)
+
+**Cadastro - V3.0**
+
+![Cadastro](cenarios/cenarios3/cenario4.png)
+
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Storytelling - cadastro e login |
@@ -164,6 +196,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Login - V1.0**
 
 ![login](cenarios/login.png)
+
+**Login - V2.0**
+
+![login](cenarios/cenarios3/login3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -193,6 +229,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![customizar](cenarios/customizarinter.png)
 
+**Customizar interesses - V2.0**
+
+![customizar](cenarios/cenarios3/interesses3.png)
+
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Storybord - customização de interesses|
@@ -206,6 +246,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Configurar notificações de e-mail - V1.0**
 
 ![configurar email](cenarios/confignotiemail.png)
+
+**Configurar notificações de e-mail - V2.0**
+
+![configurar email](cenarios/cenarios3/notif3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -229,6 +273,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![criar um storie](cenarios/criar_um_storie.png)
 
+**Criar um novo storie - V2.0**
+
+![criar um storie](cenarios/cenarios3/storie3.png)
+
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Storytelling - New story|
@@ -242,6 +290,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Criar um novo bookmark - V1.0**
 
 ![criar um bookmark](cenarios/criar_um_bookmark.png)
+
+**Criar um novo bookmark - V2.0**
+
+![bookmark](cenarios/cenarios3/bookmark3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -264,6 +316,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Importar um storie - V1.0**
 
 ![importar um storie](cenarios/importar_um_storie.png)
+
+**Importar um storie - V2.0**
+
+![import2](cenarios/cenarios3/import3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -293,6 +349,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![seguir um usuário](cenarios/seguir_usuario.png)
 
+**Seguir Usuário - V2.0**
+
+![seguir um usuário](cenarios/cenarios3/seguUser3.png)
+
 | Rastro | Origem |
 | ------- | ------- |
 |Rastro| Richpicture - Ponto de vista do Leitor|
@@ -306,6 +366,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Deixar de seguir usuário - V1.0**
 
 ![deixar de seguir um usuário](cenarios/deixar_de_seguir_usuario.png)
+
+**Deixar de seguir usuário - V2.0**
+
+![deixar_de_seguir_usuario](cenarios/cenarios3/deixaseguir3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
@@ -328,6 +392,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Pesquisa por usuário - V1.0**
 
 ![pesquisa por usuário](cenarios/pesquisar_por_usuario.png)
+
+**Pesquisa por usuário - V2.0**
+
+![pesquisa por usuário](cenarios/cenarios3/pesquser3.png)
 
 | Rastro | Origem |
 | ------- | ------- |
