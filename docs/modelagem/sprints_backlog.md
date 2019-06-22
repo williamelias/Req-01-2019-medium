@@ -5,6 +5,7 @@
 | 07/05/2019 | William Elias Alves                 | Inserção do backlog das sprints 1 e 2   | 0.2    |
 | 07/05/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
 | 07/05/2019 | Matheus Blanco                      | Adição de rastro relativo aos temas     | 0.4    |
+|   22/06/2019   | William Elias Alves  | atualizando modelos de sprint | 1.0  |
 
 ### Definição
 
