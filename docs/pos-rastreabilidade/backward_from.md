@@ -5,6 +5,7 @@
 |18/06/2019| Matheus Blanco | Adição de Elos | 2.0  |
 |18/06/2019| Matheus Blanco | Adição de Elos | 3.0  |
 |19/06/2019| Matheus Blanco | Adição de Elos | 4.0  |
+|21/06/2019|Matheus Blanco|Retirada da tabela temporariamente|5.0|
 
 
 ### Introdução
@@ -21,9 +22,8 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
 
 ***
 
-### Tabela Backward-from (versão 1)
+### Tabela Backward-from
 
-![](backward/Backward-From1.jpg)
 
 ### Elos Funcionais
 
@@ -1765,3 +1765,6 @@ Desenvolvimento
 **Alocação**: US003-Pesquisar tópico de ajuda **ALOCADO EM** UC Área Comum
 
 ***
+
+
+
