@@ -64,7 +64,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pós-condições**|Usuário/Visitante receberá um artigo para leitura
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário pesquisar um artigo na  aplicação**<br/> 1-Usuário/Visitante clica no ícone da lupa<br/>2-Usuário/Visitante insere o termo a ser pesquisado <br>3-Usuário/Visitante recebe como resultado um ou mais artigos para leitura|
 |**Fluxo alternativo**|** [FA01] Selecionar podcast:**<br/>No passo 3 do fluxo principal, há a opção de selecionar um podcast a ser escutado|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 3, pode haver um erro de digitação ou a não existência de artigos/podcasts para o termo inserido|
+|**Fluxo de exceção**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 3, pode haver um erro de digitação ou a não existência de artigos/podcasts para o termo inserido|
 
 ***
 
@@ -92,12 +92,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a leitura de um artigona plataforma Medium.|
+|**Descrição**| Funcionalidade responsável por possibilitar a leitura de um artigo na plataforma Medium.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
 |**Pós-condições**|Usuário/Visitante terá lido um artigo 
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário selecionar um artigo para   leitura**<br/> 1-Usuário/Visitante clica no artigo escolhido<br/>2-Usuário/Visitante visualiza a página com conteúdo do artigo|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
+|**Fluxo de exceção**&nbsp;|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de conexão com a internet|
 
 ***
 <span id = "UC06_antigo"></span>
@@ -111,7 +111,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Descrição**| Funcionalidade responsável exibir artigos populares.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
-|**Pós-condições**|Usuário/Visitante visualizará os artigos populares na barra lateral direita da página princiapal da aplicação|
+|**Pós-condições**|Usuário/Visitante visualizará os artigos populares na barra lateral direita da página principal da aplicação|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário acessa a área principal da  aplicação**<br/> 1-Usuário/Visitante clica no ícone do Medium<br/>2-Usuário/Visitante visualiza os artigos populares na lateral direita do site|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
 
@@ -174,7 +174,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá configurado alguns aspectos da aplicação
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica na foto de seu perfil**<br/> 1-Usuário clica em sua foto de perfil<br/>2-Usuário clica em 'settings'<br>3-Usuário visualiza opções de configurações de e-mail, conexões, conta, membership e seguraça<br>4-Usuário modifica o que achar necessário|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>**|
+|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de conexão com a internet|
 
 <span id = "UC11_antigo"></span>
 **UC11-Tornar-se membership**
@@ -187,7 +187,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário se tornará membership|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>6-Usuário clica em 'start membership'|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>5-Usuário clica em 'start membership'|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
 
 
@@ -632,11 +632,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a leitura de um artigona plataforma Medium.|
+|**Descrição**| Funcionalidade responsável por permitir a leitura de um artigo na plataforma Medium.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
 |**Pós-condições**|Usuário/Visitante terá lido um artigo 
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário selecionar um artigo para   leitura**<br/> 1-Usuário/Visitante clica no artigo escolhido<br/>2-Usuário/Visitante visualiza a página com conteúdo do artigo|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário selecionar um artigo para leitura**<br/> 1-Usuário/Visitante clica no artigo escolhido<br/>2-Usuário/Visitante visualiza a página com conteúdo do artigo|
 |**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
@@ -650,9 +650,9 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Descrição**| Funcionalidade responsável exibir artigos populares.|
 |**Atores**|Visitante e Usuário|
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
-|**Pós-condições**|Usuário/Visitante visualizará os artigos populares na barra lateral direita da página princiapal da aplicação|
+|**Pós-condições**|Usuário/Visitante visualizará os artigos populares na barra lateral direita da página principal da aplicação|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário acessa a área principal da  aplicação**<br/> 1-Usuário/Visitante clica no ícone do Medium<br/>2-Usuário/Visitante visualiza os artigos populares na lateral direita do site|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
 <span id = "UC07_refatorado"></span>
@@ -667,7 +667,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário/Visitante deve estar conectado à internet|
 |**Pós-condições**|Usuário/Visitante receberá uma lista de artigos para leitura, dada uma categoria
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário Acessa a página principal da aplicação**<br/>1-Usuário/Visitante clica no ícone do Medium<br/>2-Usuário/Visitante visualiza a barra de categorias na área superior do site<br>3-Usuário/Visitante escolhe uma categoria<br>4-Usuário clica na categoria desejada<br>5-Usuário visualiza um lista de artigos|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 5, pode ser que não exista artigos/podcasts para o termo clicado|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet <br>** [FE02] Nenhum resultado**<br/>No passo 5, pode ser que não exista artigos para o termo clicado|
 
 ***
 <span id = "UC08_refatorado"></span>
@@ -683,7 +683,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pós-condições**|Usuário/Visitante recebera várias instruções de utilização da plataforma
 |**Fluxo principal**|** [FP01] Este fluxo se inicia em qualquer página do site**<br/> 1-Usuário/Visitante clica em 'Help'<br/>2-Usuário/Visitante Seleciona o tópico de ajuda desejado <br>3-Usuário/Visitante recebe instruções sobre dado assunto|
 |**Fluxo alternativo**|** [FA01] Acessar pela foto do perfil:**<br/>O passo 1 pode ser substituido por acessar a página de ajuda por meio da foto do perfil de usuário|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
 <span id = "UC09_refatorado"></span>
@@ -693,13 +693,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a edição do perfil de usuário Medium.|
+|**Descrição**| Funcionalidade responsável pela edição de perfil do usuário Medium.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
-|**Pós-condições**|Usuário terá editado seus informações básicas|
+|**Pós-condições**|Usuário terá editado suas informações básicas|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'profile'**<br/> 1-Usuário clica em sua foto de usuário<br/>2-Usuário clica em 'profile'<br>3-Usuário clica em edit 'profile' <br> 4-Usuário altera seu nome no campo de texto<br>5-Usuário clica em sua foto de perfil  <br>6-Usuário seleciona uma foto para o perfil de seu dispositivo<br>7-Usuário clica em 'save'|
-|**Fluxo alternativo**|** [FA01] Cancelar edição:**<br/>No passo 7 do fluxo principal, há a opção de cancelar edição|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Erro de leitura de imagem**<br/>No passo 6, pode haver um erro de na leitura ou corrompimento da imagem 'upada'|
+|**Fluxo de exceção** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Erro de leitura de imagem**<br/>No passo 6, pode haver um erro de na leitura ou corrompimento da imagem 'upada' <br>** [FE03] Cancelamento de edição**<br>No passo 7 do fluxo principal, o usuário seleciona a opção cancelar impedindo a edição de perfil|
 
 <span id = "UC10_refatorado"></span>
 **UC10-Configurar preferências**
@@ -708,12 +707,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por exibir configurações da aplicação na plataforma web.|
+|**Descrição**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Funcionalidade responsável pelas configurações de usuário e de preferências da aplicação na plataforma web.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
-|**Pós-condições**|Usuário terá configurado alguns aspectos da aplicação
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica na foto de seu perfil**<br/> 1-Usuário clica em sua foto de perfil<br/>2-Usuário clica em 'settings'<br>3-Usuário visualiza opções de configurações de e-mail, conexões, conta, membership e seguraça<br>4-Usuário modifica o que achar necessário|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>**|
+|**Pós-condições**|Usuário terá configurado aspectos da aplicação de acordo com sua preferência
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica na foto de seu perfil**<br/> 1-Usuário clica em sua foto de perfil<br/>2-Usuário clica em 'settings'<br>3-Usuário visualiza opções de configurações de e-mail, conexões, conta, membership e seguraça<br>4-Usuário modifica o que achar necessário |
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 <span id = "UC11_refatorado"></span>
 **UC11-Tornar-se membership**
@@ -722,12 +721,13 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por exibir a área de membership.|
+|**Descrição**| Funcionalidade responsável por tornar o usuário membership.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário se tornará membership|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>6-Usuário clica em 'start membership'|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>5-Usuário clica em 'start membership'|
+|**Fluxo alternativo**|** [FA01] Este fluxo se inicia quando o usuário clica no ícone de perfil**<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica em 'Become a member'<br>3-Usuário segue a partir do passo 3 do [FP01]
+|**Fluxo de exceção**&nbsp;&nbsp;|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|  
 
 
 #### Acesso ao Medium Membership(william elias alves)
