@@ -264,7 +264,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Tabela de requisitos Sprint 2**
 
- <table>
+ <table id="sprint2">
     <tbody>
             <tr>
                <td>
@@ -453,7 +453,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Tabela de requisitos Sprint 3**
 
- <table>
+ <table id="sprint3">
     <tbody>
             <tr>
                 <td>
@@ -630,7 +630,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Tabela de requisitos Sprint 4**
 
- <table>
+ <table id="sprint4">
     <tbody>
             <tr>
                 <td>
@@ -827,7 +827,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Tabela de requisitos Sprint 5**
 
- <table>
+ <table id="sprint5">
     <tbody>
             <tr>
                <td>
