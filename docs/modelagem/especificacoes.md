@@ -187,7 +187,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário se tornará membership|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>5-Usuário clica em 'start membership'|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>5-Usuário clica em 'Start my membership'|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet|
 
 
@@ -205,7 +205,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá escolhido um plano de pagamento|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 3 há a verificação de  conexão com a internet|
+|**Fluxo de exceção**&nbsp;|** [FE01] Verificação de conexão à internet**<br/>No passo 3 há a verificação de  conexão com a internet|
 
 ***
 <span id = "UC13_antigo"></span>
@@ -265,7 +265,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário terá selecionado o método de pagamento|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Paypal**<br/>1-Usuário clica em 'Payments' <br/>2-Usuário clica em PayPal<br>3-Usuário visualiza um modal de inserção de dados do PayPal<br>4-Usuário insere seus dados de login no PayPal|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Paypal**<br/>1-Usuário clica em 'payments' <br/>2-Usuário clica em PayPal<br>3-Usuário visualiza um modal de inserção de dados do PayPal<br>4-Usuário insere seus dados de login no PayPal|
 |**Fluxo alternativo**|** [FA01] **UC17-Pagar via cartão de crédito**|
 |**Fluxo de exceção**|** [FE01] Dados PaylPal inválidos**<br/>No passo 4 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
 
@@ -283,7 +283,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pós-condições**|Usuário terá escolhido o método de pagamento como cartão de crédito|
 |**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Cartão de crédito**<br/>1-Usuário insere o número do cartão<br>2-Usuário insere a data de expiração do cartão<br>3-Usuário insere o código de segurança do cartão||
 |**Fluxo alternativo**|** [FA01] UC16-Pagar via PayPal**|
-|**Fluxo de exceção**|** [FE01] Dados do cartão de crédito inválidos**<br/>No passo 1,2 e 3 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
+|**Fluxo de exceção**&nbsp;&nbsp;&nbsp;&nbsp;|** [FE01] Dados do cartão de crédito inválidos**<br/>No passo 1,2 e 3 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
 
 ***
 
@@ -298,7 +298,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet|
 |**Pós-condições**|Usuário visualizará a área de membership|
-|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica em 'access'|
+|**Fluxo principal**&nbsp;&nbsp;|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica em 'access'|
 
 ***
 #### Series (Matheus Blanco)
@@ -698,7 +698,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá editado suas informações básicas|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'profile'**<br/> 1-Usuário clica em sua foto de usuário<br/>2-Usuário clica em 'profile'<br>3-Usuário clica em edit 'profile' <br> 4-Usuário altera seu nome no campo de texto<br>5-Usuário clica em sua foto de perfil  <br>6-Usuário seleciona uma foto para o perfil de seu dispositivo<br>7-Usuário clica em 'save'|
-|**Fluxo de exceção** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Erro de leitura de imagem**<br/>No passo 6, pode haver um erro de na leitura ou corrompimento da imagem 'upada' <br>** [FE03] Cancelamento de edição**<br>No passo 7 do fluxo principal, o usuário seleciona a opção cancelar impedindo a edição de perfil|
+|**Fluxo de exceção** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FE01] Verificação de conexão à internet**<br/>No passo 2 há a verificação de  conexão com a internet <br>** [FE02] Erro de leitura de imagem**<br/>No passo 6, pode haver um erro de leitura ou corrompimento do imagem 'upada' <br>** [FE03] Cancelamento de edição**<br>No passo 7 do fluxo principal, o usuário seleciona a opção cancelar impedindo a edição de perfil|
 
 <span id = "UC10_refatorado"></span>
 **UC10-Configurar preferências**
@@ -725,7 +725,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário se tornará membership|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>5-Usuário clica em 'start membership'|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica em 'upgrade'**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado<br>4-Usuário seleciona a forma de pagamento<br>5-Usuário clica em 'Start my membership'|
 |**Fluxo alternativo**|** [FA01] Este fluxo se inicia quando o usuário clica no ícone de perfil**<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica em 'Become a member'<br>3-Usuário segue a partir do passo 3 do [FP01]
 |**Fluxo de exceção**&nbsp;&nbsp;|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|  
 
@@ -739,12 +739,13 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a seleção de planos.|
+|**Descrição**| Funcionalidade responsável pela seleção de planos de pagamento.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá escolhido um plano de pagamento|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br>3-Usuário seleciona o plano desejado|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**<br/>No passo 3 há a verificação de  conexão com a internet|
+|**Fluxo alternativo**|** [FA01] Este fluxo se inicia quando o usuário clica no ícone de perfil**<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica em 'Become a member'<br>3-Usuário seleciona o plano desejado
+|**Fluxo de exceção**&nbsp;|** [FE01] Falha de conexão à internet**<br/>No passo 3 ocorre um erro de conexão com a internet|
 
 ***
 <span id = "UC13_refatorado"></span>
@@ -754,12 +755,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a seleção do plano mensal.|
+|**Descrição**| Funcionalidade responsável pela escolha do plano mensal.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá selecionado o plano mensal|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano mensal|
-|**Fluxo alternativo**|** [FA01] **UC14-Selecionar $50/Ano** **|
+|**Fluxo principal**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o plano mensal**<br/>1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br/> 3-Usuário vai na área 'PLAN' e seleciona "$5/month"|
 
 
 ***
@@ -770,12 +770,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a seleção do plano anual.|
+|**Descrição**| Funcionalidade responsável pela escolha do plano anual.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
-|**Pós-condições**|Usuário terá selecionado o plano mensal|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um plano**<br/> 1-Usuário clica na área 'plain'<br>2-Usuário clica em plano anual|
-|**Fluxo alternativo**|** [FA01] **UC13-Selecionar $5/Mês** **|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário terá selecionado o plano anual|
+|**Fluxo principal**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o plano anual**<br/>1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br/> 3-Usuário vai na área 'PLAN' e seleciona "$50/year (save $10)"|
 
 ***
 <span id = "UC15_refatorado"></span>
@@ -785,12 +784,11 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a seleção do método de pagamento.|
+|**Descrição**| Funcionalidade responsável pela escolha do método de pagamento.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá selecionado o método de pagamento|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um método de pagamento**<br/> 1-Usuário clica na área 'payment'<br>2-Usuário clica em 'credit card'|
-|**Fluxo alternativo**|** [FA01] **UC16-Pagar via PayPal**|
+|**Fluxo principal**&nbsp;&nbsp;&nbsp;|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar um método de pagamento**<br/>1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br/> 3-Usuário vai na área 'PAYMENT' e seleciona o método de pagamento desejado|
 
 ***
 <span id = "UC16_refatorado"></span>
@@ -800,13 +798,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por possibilitar a seleção do método de pagamento como PayPal.|
+|**Descrição**| Funcionalidade responsável por permitir o pagamento via PayPal.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
-|**Pós-condições**|Usuário terá selecionado o método de pagamento|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Paypal**<br/>1-Usuário clica em 'Payments' <br/>2-Usuário clica em PayPal<br>3-Usuário visualiza um modal de inserção de dados do PayPal<br>4-Usuário insere seus dados de login no PayPal|
-|**Fluxo alternativo**|** [FA01] **UC17-Pagar via cartão de crédito**|
-|**Fluxo de exceção**|** [FE01] Dados PaylPal inválidos**<br/>No passo 4 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário terá realizado o pagamento via PayPal|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja realizar o pagamento por meio do Paypal**<br/>1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br/> 3-Usuário vai na área 'PAYMENT' e clica em 'PayPal'<br>4-Usuário clica em 'PayPal Finalisar' e visualiza um modal de inserção de dados do PayPal<br>5-Usuário insere seus dados de login no PayPal<br>6-Usuário finaliza o pagamento|
+|**Fluxo de exceção**|** [FE01] Dados PaylPal inválidos**<br/>No passo 5 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
 
 ***
 <span id = "UC17_refatorado"></span>
@@ -816,13 +813,12 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável disponibilizar o método de pagamento como Cartão de crédito.|
+|**Descrição**| Funcionalidade responsável por permitir o pagamento via cartão de crédito.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
-|**Pós-condições**|Usuário terá escolhido o método de pagamento como cartão de crédito|
-|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja selecionar o método de pagamento como Cartão de crédito**<br/>1-Usuário insere o número do cartão<br>2-Usuário insere a data de expiração do cartão<br>3-Usuário insere o código de segurança do cartão||
-|**Fluxo alternativo**|** [FA01] UC16-Pagar via PayPal**|
-|**Fluxo de exceção**|** [FE01] Dados do cartão de crédito inválidos**<br/>No passo 1,2 e 3 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário terá realizado o pagamento com cartão de crédito|
+|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja realizar o pagamento por meio do cartão de crédito**<br/>1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br/> 3-Usuário vai na área 'PAYMENT' e clica em 'Credit card'<br>4-Usuário insere os dados de seu cartão de crédito<br>5-Usuário finaliza o pagamento| 
+|**Fluxo de exceção**&nbsp;&nbsp;|** [FE01] Dados do cartão de crédito inválidos**<br/>No passo 4 pode haver inconsistência nos dados inseridos o que impossibilita a execução dos próximos passos|
 
 ***
 
@@ -833,22 +829,15 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável disponibilizar o método de pagamento como Cartão de crédito.|
+|**Descrição**| Funcionalidade responsável pelo acesso da área de membro vip.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet|
-|**Pós-condições**|Usuário visualizará a área de membership|
-|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica em 'access'|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário acessa a área de membership|
+|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja acessar a área de membership**<br/>1-Usuário clica no ícone de 'upgrade'<br/>2-Usuário clica em 'get start'<br/> 3-Usuário seleciona os planos e insere seus dados no método de pagamento escolhido<br>4-Usuário clica em 'Start my membership'<br>5-Usuário tem acesso a área de membro vip|
 
 ***
 
 #### Series (Matheus Blanco)
-
-**Versão 1.0**
-
-![Especificação Serie](../images/esp2_001.png)
-![Especificação Serie](../images/esp2_002.png)
-
-**Versão 2.0**
 
 **UC19-Acessar menu lateral**
 
