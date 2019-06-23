@@ -1,11 +1,13 @@
 ## Versionamento de edições
 | Data       | autor                               | Descrição                               | Versão |
 |------------|-------------------------------------|-----------------------------------------|--------|
-| 07/05/2019 | William Elias Alves                 | Criação da página                       | 0.1    |
-| 07/05/2019 | William Elias Alves                 | Inserção do backlog das sprints 1 e 2   | 0.2    |
-| 07/05/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 0.3    |
-| 07/05/2019 | Matheus Blanco                      | Adição de rastro relativo aos temas     | 0.4    |
-|   22/06/2019   | William Elias Alves  | atualizando modelos de sprint | 1.0  |
+| 07/05/2019 | William Elias Alves                 | Criação da página                       | 1.0    |
+| 07/05/2019 | William Elias Alves                 | Inserção do backlog das sprints 1 e 2   | 1.1    |
+| 07/05/2019 | William Elias Alves ,Aline Laureano | Inserção do backlog das sprints 3,4 e 5 | 1.2    |
+| 07/05/2019 | Matheus Blanco                      | Adição de rastro relativo aos temas     | 1.3    |
+| 22/06/2019 | William Elias Alves                 | atualizando modelos de sprint           | 1.4    |
+| 23/06/2019 | William Elias Alves                 | Inserindo rastro individual           | 1.5    |
+| 23/06/2019 | William Elias Alves                 | Inserindo metodologia           | 2.0    |
 
 ### Definição
 
@@ -18,9 +20,25 @@ Com a concepção do backlog de algumas sprints fica possível visualizar e até
 
 ### Metodologia
 
+Para se obter uma organização das sprints, cada sprint foi dividida em três módulos:
+
+* Tabela de Informações gerais;
+* Tabela de requisitos;
+* Descrição individual.
+
+A primeira diz respeito a informações sobre autores, duração , término e total de pontos que a compoem. Já a segunda é de fato um lista dos requisitos que serão contemplados durante a sprint em questão e nessa tabela está explicitado a história de usuário, o épico a qual ela pertence, a sua pontuação e seu rastro individual (quando esse existir).
+A área de descrição individual é destinada a colocação dos critérios de aceitação de cada história de usuário.
+
+
 ### Resultados
 
-Foram especificados 5 sprints contentendo no total 26 histórias de usuários, sendo cada uma possui seus próprios critérios de aceitção.
+Foram especificados 5 sprints contentendo no total 26 histórias de usuários, sendo cada uma possui seus próprios critérios de aceitação e rastro.
+
+* [Sprint 1](#sprint1)
+* [Sprint 2](#sprint2)
+* [Sprint 3](#sprint3)
+* [Sprint 4](#sprint4)
+* [Sprint 5](#sprint5)
 
 ***
 
@@ -37,9 +55,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
 
 \# **Informações gerais**
 
-|Autor|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|William|Duas semanas|Sprint 2|31|
+| Autor   | Duração      | Término  | Total de pontos |
+|---------|--------------|----------|-----------------|
+| William | Duas semanas | Sprint 2 | 31              |
 
 
 \# **Tabela de requisitos Sprint 1**
@@ -63,6 +81,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                 <td>
                     <p><span><b>Pontos</b></span></p>
                 </td>
+                <td>
+                    <p><span><b>Rastro</b></span></p>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -79,6 +100,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                 </td>
                 <td>
                     <p><span>8</span></p>
+                </td>
+                <td>
+                     <p><a href="../user_case#areacomum">Caso de Uso Área comum</a></p>
                 </td>
             </tr>
             <tr>
@@ -97,6 +121,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                 <td>
                     <p><span>8</span></p>
                 </td>
+                <td>
+                    <p><a href="../user_case#areacomum">Caso de Uso Área comum</a></p>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -113,6 +140,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                 </td>
                 <td>
                     <p><span>5</span></p>
+                </td>
+                <td >
+                    <p><a href="../../elicitacao/storytelling#editprofile">Storytelling editar perfil</a></p>
                 </td>
             </tr>
             <tr>
@@ -131,6 +161,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                 <td>
                     <p><span>5</span></p>
                 </td>
+                 <td >
+                    <p><a href="../../elicitacao/storytelling#login">Storytelling e storybord: login e cadastro;</a><br></p>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -148,6 +181,9 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
                 <td>
                     <p><span>5</span></p>
                 </td>
+                 <td >
+                    <p><a href="../../elicitacao/introspeccao#introspec2">-Introspecção 2</a><br/><a href="../../elicitacao/storytelling#login">- Storytelling e storybord: login e cadastro;</a></p>
+                </td>
             </tr>
         </tbody>
     </table>
@@ -158,7 +194,7 @@ Abaixo estão listadadas as 5 Sprints idealizadas com base no [Backlog do produt
 
 Abaixo está a descrição juntamente com os critérios de aceitação de cada história de usuário da [sprint 1](#sprint1).
 
- \# **US004 - Realizar cadastro com o Google**
+\# **US004 - Realizar cadastro com o Google**
 
 **Eu, como  usuário desejo realizar cadastro com o Google para que eu possa me tornar um usuário via integração com uma conta existente da Google.**
 
@@ -221,9 +257,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Informações gerais**
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Matheus blanco e william|Duas semanas|Sprint 3|26|
+| Autores                  | Duração      | Término  | Total de pontos |
+|--------------------------|--------------|----------|-----------------|
+| Matheus blanco e william | Duas semanas | Sprint 3 | 26              |
 
 
 \# **Tabela de requisitos Sprint 2**
@@ -246,6 +282,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span><b>Pontos</b></span></p>
                 </td>
+                 <td>
+                    <p><span><b>Rastro</b></span></p>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -263,6 +302,10 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td>
                     <p><span>8</span></p>
+                </td>
+                <td >
+                     <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+                    <p><a href="../../elicitacao/storytelling#newstory">Storytelling new story</a></p>
                 </td>
             </tr>
             <tr>
@@ -282,6 +325,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span>8</span></p>
                 </td>
+                <td > <a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a><br><a href="../../elicitacao/storytelling#newstory">-Storytelling new story</a></td>
             </tr>
             <tr>
                 <td>
@@ -299,6 +343,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span>5</span></p>
                 </td>
+                <td ><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a> <br><a href="../../elicitacao/storytelling#newstory">-Storytelling new story</a></td>
             </tr>
             <tr>
                 <td>
@@ -315,6 +360,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td>
                     <p><span>5</span></p>
+                </td>
+                <td >
+                    <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a></p>
                 </td>
             </tr>
         </tbody>
@@ -398,9 +446,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Informações gerais**
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Luís e william|Duas semanas|Sprint 4|21|
+| Autores        | Duração      | Término  | Total de pontos |
+|----------------|--------------|----------|-----------------|
+| Luís e william | Duas semanas | Sprint 4 | 21              |
 
 
 \# **Tabela de requisitos Sprint 3**
@@ -423,6 +471,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span><b>Pontos</b></span></p>
                 </td>
+                <td>
+                    <p><span><b>Rastro</b></span></p>
+                </td>
             </tr>
              <tr>
                 <td  colspan="1" rowspan="1">
@@ -439,6 +490,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td  colspan="1" rowspan="1">
                     <p ><span >5</span></p>
+                </td>
+                <td >
+                    <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
                 </td>
             </tr>
             <tr>
@@ -457,6 +511,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td  colspan="1" rowspan="1">
                     <p ><span >5</span></p>
                 </td>
+                <td >
+                    <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+                </td>
             </tr>
             <tr 13">
                 <td  colspan="1" rowspan="1">
@@ -474,6 +531,10 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td  colspan="1" rowspan="1">
                     <p ><span >3</span></p>
                 </td>
+                <td >
+                    <p><a href="../../elicitacao/storyboards#tutorial">-StoryBord Tutorial e seguir escritor</a></p>
+                    <p><a href="../../elicitacao/brainstormings#brain3">-Brainstorming 3</a></p>
+                </td>
             </tr>
             <tr>
                 <td  colspan="1" rowspan="1">
@@ -490,6 +551,10 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td  colspan="1" rowspan="1">
                     <p ><span >8</span></p>
+                </td>
+                <td >
+                    <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+                    <p><a href="../../elicitacao/storytelling#newstory">Storytelling new story</a></p>
                 </td>
             </tr>
         </tbody>
@@ -558,9 +623,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Informações gerais**
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Aline e william|Duas semanas|Sprint 5|21|
+| Autores         | Duração      | Término  | Total de pontos |
+|-----------------|--------------|----------|-----------------|
+| Aline e william | Duas semanas | Sprint 5 | 21              |
 
 
 \# **Tabela de requisitos Sprint 4**
@@ -583,6 +648,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span><b>Pontos</b></span></p>
                 </td>
+                 <td>
+                    <p><span><b>Rastro</b></span></p>
+                </td>
             </tr>
             <tr>
                 <td  colspan="1" rowspan="1">
@@ -600,6 +668,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td 19" colspan="1" rowspan="1">
                     <p ><span >5</span></p>
                 </td>
+                <td >
+                    <p><a href="../../elicitacao/introspeccao#introspec2">-Introspecção 2</a><br/><a href="../../elicitacao/storytelling#login">- Storytelling e storybord: login e cadastro;</a></p>
+                </td>
             </tr>
             <tr>
                 <td  colspan="1" rowspan="1">
@@ -616,6 +687,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td 19" colspan="1" rowspan="1">
                     <p ><span >3</span></p>
+                </td>
+                <td >
+                    <p><a href="../../elicitacao/storytelling#editprofile">Storytelling editar perfil</a></p>
                 </td>
             </tr>
             <tr>
@@ -667,6 +741,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td 19" colspan="1" rowspan="1">
                     <p ><span >5</span></p>
+                </td>
+                <td >
+                    <p><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
                 </td>
             </tr>
     </table>
@@ -743,9 +820,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
 
 \# **Informações gerais**
 
-|Autores|Duração|Término|Total de pontos|
-|-----|-------|-------|---------------|
-|Aline e william|Duas semanas|Sprint 6|21|
+| Autores         | Duração      | Término  | Total de pontos |
+|-----------------|--------------|----------|-----------------|
+| Aline e william | Duas semanas | Sprint 6 | 21              |
 
 
 \# **Tabela de requisitos Sprint 5**
@@ -768,6 +845,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span><b>Pontos</b></span></p>
                 </td>
+                <td>
+                    <p><span><b>Rastro</b></span></p>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -786,6 +866,9 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span>5</span></p>
                 </td>
+                <td >
+                    <p><a href="../../elicitacao/brainstormings#brain2">-Brainstorming2</a>;<br/><a href="../../elicitacao/storytelling#storytuconfig">-Storytelling,Usuário configurando a aplicação</a></p>
+                </td>
             </tr>
             <tr>
                 <td>
@@ -803,6 +886,10 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td>
                     <p><span>3</span></p>
                 </td>
+                <td >
+                    <p><a href="../../elicitacao/storyboards#tutorial">-StoryBord Tutorial e seguir escritor</a></p>
+                    <p><a href="../../elicitacao/brainstormings#brain3">-Brainstorming 3</a></p>
+                 </td>
             </tr>
             <tr>
                 <td>
@@ -836,6 +923,10 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 </td>
                 <td>
                     <p><span>8</span></p>
+                </td>
+                <td >
+                 <p><a href="../../elicitacao/introspeccao#introspec3">-Introspecção 3</a></p>
+                 <p><a href="../../elicitacao/storytelling#newstory">Storytelling new story</a></p>
                 </td>
             </tr>
         </tbody>

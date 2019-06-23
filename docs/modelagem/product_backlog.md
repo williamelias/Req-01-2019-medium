@@ -175,7 +175,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p>Should</p>
         </td>
         <td >
-            <p><a href="../user_case#areacomum">Área comum</a></p>
+            <p><a href="../user_case#areacomum">Caso de Uso Área comum</a></p>
         </td>
         <td  > </td>
     </tr>
@@ -225,7 +225,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p>Must</p>
         </td>
         <td >
-            <p><a href="../user_case#areacomum">Área comum</a></p>
+            <p><a href="../user_case#areacomum">Caso de Uso Área comum</a></p>
         </td>
         <td  > </td>
     </tr>
@@ -252,7 +252,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p>Must</p>
         </td>
         <td >
-            <p><a href="../user_case#areacomum">Área comum</a></p>
+            <p><a href="../user_case#areacomum">Caso de Uso Área comum</a></p>
         </td>
         <td  > </td>
     </tr>
@@ -276,7 +276,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p>Must</p>
         </td>
         <td >
-            <p><a href="../user_case#areacomum">Área comum</a></p>
+            <p><a href="../user_case#areacomum">Caso de Uso Área comum</a></p>
         </td>
         <td  > </td>
     </tr>
