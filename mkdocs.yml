@@ -41,4 +41,6 @@ nav:
         - Backward From: pos-rastreabilidade/backward_from.md
         - Telas das Funcionalidades: pos-rastreabilidade/telas_das_funcionalidades.md
     - Atas: atas-reuniao.md
+    - Extras:
+        - Tabelas de Dedicação: extras.md
 theme: journal
