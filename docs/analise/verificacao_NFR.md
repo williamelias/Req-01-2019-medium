@@ -239,7 +239,7 @@ Para que as *NFR* sejam verificadas por meio de inspeção, será necessário re
     </tr>
     <tr>
         <td >
-            <p>Performance (Desempenho?)</p>
+            <p>Desempenho</p>
         </td>
         <td  >
             <p>V</p>
@@ -466,7 +466,7 @@ Para que as *NFR* sejam verificadas por meio de inspeção, será necessário re
     </tr>
     <tr>
         <td>
-            <p>Performance (Desempenho?)</p>
+            <p>Desempenho</p>
         </td>
         <td colspan="7">
             <p>
