@@ -1097,3 +1097,20 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pós-condições**|Usuário terá a sua publicação excluída.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir uma story:**<br/>  1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral. <br/>3-Usuário clica em 'Published' <br/>4-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer excluir. <br>5-O usuário clica na opção "Delete story" localizada em baixo da seta. <br/>6-O sistema redireciona o usuário para uma página para confirmar a exclusão da story. <br>7-O usuário clica sobre o botão "Delete".<br>8-O sistema sistema redireciona o usuário para a página de visualização de publicações sem a story excluída.|
 |**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
+
+***
+
+####Conta (Luís Cláudio T. Lima)
+
+***
+
+**UC37-Deletar Conta**
+
+|||
+|---|---|
+|**Descrição**|Funcionalidade que permite ao usuário deletar sua conta permenentemente.|
+|**Atores**|Usuário|
+|**Pré-condições**|Usuário deve estar conectado a internet|Usuário deve estar logado|
+|**Pós-condições**|Usuário terá excluído sua conta na aplicação Medium|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir permenentemente sua conta no medium:**<br/>  1-Usuário clica no ícone de perfil.<br/>2-Usuário clica em 'Settings'<br/>3-Usuário desce até o final da pagina e clica em 'Delete account'<br/>4-Usuário é direcionado para uma página de confirmação de exclusão da sua conta;<br/>5-Usuário digita seu username no campo indicado e clica em 'Confirm deletion'|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 5 ocorre um erro de conexão com a internet impedindo a exclusão de sua conta.|
