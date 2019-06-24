@@ -6,6 +6,7 @@
 |18/06/2019| Matheus Blanco | Adição de Elos | 3.0  |
 |19/06/2019| Matheus Blanco | Adição de Elos | 4.0  |
 |21/06/2019|Matheus Blanco|Retirada da tabela temporariamente|5.0|
+|24/06/2019|Matheus Blanco |Reinserção das tabelas e refatoração de elos|6.0|
 
 
 ### Introdução
@@ -22,7 +23,18 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
 
 ***
 
-### Tabela Backward-from
+
+### Tabela Backward-from V1.0
+
+[Link para a versão 1 da tabela](https://docs.google.com/spreadsheets/d/1gACKU5xShhvnuP6dCYfcKChXkiPm0cqoJu00qufwBwc/edit?usp=sharing)
+
+
+### Tabela Backward-from V2.0
+
+
+[Link para a versão 2 da tabela](https://docs.google.com/spreadsheets/d/1ZyY_F4PT7S0lJi5sz7PbEd6RYt24CnyTrytggcTJZsc/edit?usp=sharing)
+
+### Tabela Backward-from V3.0
 
 <div class="ritz grid-container" dir="ltr">
     <table class="waffle" cellspacing="0" cellpadding="0">
