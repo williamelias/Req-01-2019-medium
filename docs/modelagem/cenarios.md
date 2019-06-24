@@ -23,7 +23,7 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 #### Ajuda
 
-**Responsável**: Luis Cláudio
+**Responsável**: Luis Cláudio T. Lima
 
 **Ajuda - V1.0**
 
@@ -97,7 +97,7 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Explorar Categorias
 
-**Responsável**: Luis Cláudio
+**Responsável**: Luis Cláudio T. Lima
 
 **Explorar categorias - V1.0**
 
@@ -153,7 +153,7 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Trocar de usuário
 
-**Responsável**: Luis Cláudio
+**Responsável**: Luis Cláudio T. Lima
 
 **Trocar de usuário - V1.0**
 
@@ -391,7 +391,7 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ### Excluir conta
 
-**Responsável**: Aline Laureano
+**Responsável**: Luis Claudio T. Lima
 
 **Excluir conta - V1.0**
 
