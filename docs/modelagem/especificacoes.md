@@ -11,13 +11,13 @@
 
 
 
-#Definição
+### Definição
 
 Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão mais clara a respeito da concepção de casos de uso. Os casos de uso facilitam na obtenção de uma visão geral a respeito de dada funcionalidade de uma aplicação e poderá ser usada beneficamente por desenvolvedores, pois ela contém aspectos relevantes referentes a relacionamentos entre entidades.
 
 <span id ="versaoAntiga"></span>
 ***
-#Especificações
+### Especificações
 <a href="#versaoRefatorada">ir para versão final(refatorada)</a>
 
 ***
