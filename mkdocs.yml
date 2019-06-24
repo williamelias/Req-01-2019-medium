@@ -43,4 +43,5 @@ nav:
     - Extras:
         - Tabelas de Dedicação: extras.md
         - Atas: atas-reuniao.md
+        - Questionário: questionario.md
 theme: journal
