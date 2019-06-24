@@ -7,12 +7,12 @@
 |28/04/2019| William Elias Alves  | Inserção dos casos de uso de stories| 0.4  |
 |29/04/2019| Matheus Salles Blanco  | Inserção dos casos de uso de series e edição de perfil e bookmark| 0.4  |
 
-#Definição
+### Definição
 
 Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão mais clara a respeito da concepção de casos de uso. Os casos de uso facilitam na obtenção de uma visão geral a respeito de dada funcionalidade de uma aplicação e poderá ser usada beneficamente por desenvolvedores, pois ela contém aspectos relevantes referentes a relacionamentos entre entidades.
 
 ***
-#Casos de Uso
+#### Casos de Uso
 ***
 #### 
 **<a id="areacomum">Área comum V.1</a>**(william elias alves)

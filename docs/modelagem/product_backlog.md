@@ -8,7 +8,8 @@
 |   16/06/2019   | William Elias Alves  | inserção do backlog do produto versão 2 | 1.4  |
 |   22/06/2019   | William Elias Alves  | inserção do backlog do produto versão 3 | 1.5  |
 |   22/06/2019   | William Elias Alves  | inserção dos rastros da versão 3 | 1.6  |
-|   22/06/2019   | William Elias Alves  | Atualizando valores tabela v3 | 2.0  |
+|   22/06/2019   | William Elias Alves  | Atualizando valores tabela v3 | 1.7  |
+|   24/06/2019   | William Elias Alves  | Inserindo novos rastros | 2.0  |
 
 ---
 
@@ -831,7 +832,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Should</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m2">Richpicture 2 - Leitura de artigos</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -853,7 +854,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Should</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m3">Richpicture 3 - New story</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1045,7 +1046,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Must</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m6">Richpicture 6 - Premium</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1067,7 +1068,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Must</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m6">Richpicture 6 - Premium</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1092,7 +1093,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Must</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m6">Richpicture 6 - Premium</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1114,7 +1115,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Should</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m6">Richpicture 6 - Premium</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1136,7 +1137,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>must</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m6">Richpicture 6 - Premium</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1353,7 +1354,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Could</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m2">Richpicture 2 - Leitura de artigos</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1423,7 +1424,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Should</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m2">Richpicture 2 - Leitura de artigos</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1492,7 +1493,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Must</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m3">Richpicture 3 - New story</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1514,7 +1515,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Must</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m3">Richpicture 3 - New story</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1536,7 +1537,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
         <td >
             <p>Should</p>
         </td>
-        <td > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m3">Richpicture 3 - New story</a></p></td>
         <td  > </td>
     </tr>
     <tr >
@@ -1553,7 +1554,7 @@ Para essa terceira versão do backlog as terefas delegadas com base nos respons�
             <p>312</p>
         </td>
         <td > </td>
-        <td  > </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m3">Richpicture 3 - New story</a></p></td>
         <td  > </td>
     </tr>
 </table>

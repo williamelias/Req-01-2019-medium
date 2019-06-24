@@ -5,6 +5,7 @@
 |16/06/2019      | Aline Laureano  | Adição da estrutura da página e de algumas fotos das telas.    | 1.0|
 |17/06/2019      | Luís Cláudio T. Lima | Adição de mais fotos de telas | 1.1|
 |19/06/2019      | Guilherme Marques Rosa| Adição de mais imagens de telas | 1.2 |
+|19/06/2019      | Guilherme Marques Rosa| Adição de mais imagens de telas | 1.3 |
 
 
 
@@ -55,6 +56,14 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 
 **Foto 1:**
 ![Tela de funcionalidade](fotos_das_telas/R014.png)
+
+***
+
+<span id="imgR026"></span>
+#### R026 - Comentar no corpo do texto da 'story'
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R026.png)
 
 ***
 

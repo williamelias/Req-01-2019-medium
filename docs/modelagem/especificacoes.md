@@ -4,14 +4,20 @@
 |   28/04/2019   | William Elias Alves  | Criação da página | 0.1  |
 |   28/04/2019   | William Elias Alves  | Inserção das especificações| 0.2  |
 |   08/06/2019   | Luís Cláudio T. Lima | Correção da numeração das UC's| 0.3  |
+|   21/06/2019   | Luís Cláudio T. Lima | Refatoração de especificações | 0.4  |
+|   22/06/2019   | Luís Cláudio T. Lima | Refatoração de mais especificações e adição de links para as versões em cada UC | 0.5 |
+|   23/06/2019   | Luís Cláudio T. Lima | Refatoranção das especificações concluída | 0.6 |
 
-#Definição
+
+
+
+### Definição
 
 Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão mais clara a respeito da concepção de casos de uso. Os casos de uso facilitam na obtenção de uma visão geral a respeito de dada funcionalidade de uma aplicação e poderá ser usada beneficamente por desenvolvedores, pois ela contém aspectos relevantes referentes a relacionamentos entre entidades.
 
 <span id ="versaoAntiga"></span>
 ***
-#Especificações
+### Especificações
 <a href="#versaoRefatorada">ir para versão final(refatorada)</a>
 
 ***
@@ -310,7 +316,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 **Versão 2.0**
 
+<span id = "UC19_antigo"></span>
 **UC19-Acessar menu lateral**
+
+<a href="#UC19_refatorado">ver UC19 refatorado</a>
 
 |||
 |---|---|
@@ -321,8 +330,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja acessar o menu lateral**<br/>1-Usuário clica no ícone de perfil|
 
 ***
-
+<span id = "UC20_antigo"></span>
 **UC20-Visualizar Series**
+
+<a href="#UC20_refatorado">ver UC20 refatorado</a>
 
 |||
 |---|---|
@@ -331,11 +342,13 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve possuir rascunhos e/ou series publicados|
 |**Pós-condições**|Usuário poderá criar series, publicar rascunhos ou visualizar os publicados |
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário acessa a página de Series**<br/>1-Usuário clica no botão series no menu lateral; <br/>2-Usuário visualiza rascunhos criados.|
-|**Fluxo alternativo**|**[FA01] UC22 - Visualizar published**; <br/>**[FA02] UC23 - Criar series**|
+|**Fluxo alternativo**&nbsp;&nbsp;|**[FA01] UC22 - Visualizar published**; <br/>**[FA02] UC23 - Criar series**|
 
 ***
-
+<span id = "UC21_antigo"></span>
 **UC21-Visualizar Drafts**
+
+<a href="#UC21_refatorado">ver UC21 refatorado</a>
 
 |||
 |---|---|
@@ -347,7 +360,6 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo alternativo**|**[FA01] UC26 - Editar rascunho**|
 
 ***
-
 **UC22-Visualizar Published**
 
 |||
@@ -359,8 +371,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja abrir as series publicadas**<br/>1-Usuário seleciona uma serie publicada <br/>2-Usuário lê a serie criada|
 
 ***
+<span id = "UC23_antigo"></span>
+**UC23 - Criar Serie**
 
-**UC23 - Criar series**
+<a href="#UC23_refatorado">ver UC23 refatorado</a>
 
 |||
 |---|---|
@@ -372,8 +386,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo alternativo**|**[FA01] UC25 - Publicar serie**<br/>**[FA02] UC24 - Enviar prévia para app de celular**|
 
 ***
-
+<span id = "UC24_antigo"></span>
 **UC24 - Enviar prévia para app de celular**
+
+<a href="#UC24_refatorado">ver UC24 refatorado</a>
 
 |||
 |---|---|
@@ -384,8 +400,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja mandar a serie para o aplicativo de celular**<br/>1-Usuário aperta o botão de Send preview to phone<br/>2-Usuário visualiza serie no celular|
 
 ***
+<span id = "UC25_antigo"></span>
+**UC25-Publicar Serie**
 
-**UC25-Publicar serie**
+<a href="#UC25_refatorado">ver UC25 refatorado</a>
 
 |||
 |---|---|
@@ -396,8 +414,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja publicar a serie para que outros usuários a vejam**<br/>1-Usuário aperta o botão de publicar<br/>2-Usuário visualiza a serie publicada no computador|
 
 ***
-
+<span id = "UC26_antigo"></span>
 **UC26-Editar rascunho**
+
+<a href="#UC26_refatorado">ver UC26 refatorado</a>
 
 |||
 |---|---|
@@ -422,8 +442,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
-
+<span id = "UC28_antigo"></span>
 **UC28-Visualizar Stories**
+
+<a href="#UC28_refatorado">ver UC28 refatorado</a>
 
 |||
 |---|---|
@@ -435,8 +457,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
-
+<span id = "UC29_antigo"></span>
 **UC29-Visualizar Drafts**
+
+<a href="#UC29_refatorado">ver UC29 refatorado</a>
 
 |||
 |---|---|
@@ -463,8 +487,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
-
+<span id = "UC31_antigo"></span>
 **UC31-Importar uma Story.**
+
+<a href="#UC31_refatorado">ver UC31 refatorado</a>
 
 |||
 |---|---|
@@ -477,8 +503,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
-
+<span id = "UC32_antigo"></span>
 **UC32-Escrever uma nova Story.**
+
+<a href="#UC32_refatorado">ver UC32 refatorado</a>
 
 |||
 |---|---|
@@ -491,8 +519,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
+<span id = "UC33_antigo"></span>
+**UC33-Editar Drafts**
 
-**UC33-Editar Draft.**
+<a href="#UC33_refatorado">ver UC33 refatorado</a>
 
 |||
 |---|---|
@@ -505,8 +535,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
+<span id = "UC34_antigo"></span>
+**UC34-Excluir Draft**
 
-**UC34-Excluir Draft.**
+<a href="#UC34_refatorado">ver UC34 refatorado</a>
 
 |||
 |---|---|
@@ -515,12 +547,14 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá o seu draft excluído.|
 |**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir um draft:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer excluir. <br>3-O usuário clica na opção "Delete draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão do draft. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de drafts sem o draft excluído.|
-|**Fluxo alternativo**|[FA01] UC33-Editar Draft.|
+|**Fluxo alternativo**|[FA01] UC33-s.|
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
+<span id = "UC35_antigo"></span>
+**UC35-Editar Publicação**
 
-**UC35-Editar Publicação.**
+<a href="#UC35_refatorado">ver UC35 refatorado</a>
 
 |||
 |---|---|
@@ -533,8 +567,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
 
 ***
+<span id = "UC36_antigo"></span>
+**UC36-Excluir Publicação**
 
-**UC36-Excluir Publicação.**
+<a href="#UC36_refatorado">ver UC36 refatorado</a>
 
 |||
 |---|---|
@@ -839,7 +875,10 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 
 #### Series (Matheus Blanco)
 
+<span id = "UC19_refatorado"></span>
 **UC19-Acessar menu lateral**
+
+<a href="#UC19_antigo">voltar ao UC19 antigo</a>
 
 |||
 |---|---|
@@ -850,150 +889,129 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja acessar o menu lateral**<br/>1-Usuário clica no ícone de perfil|
 
 ***
+<span id = "UC20_refatorado"></span>
+**UC20-Visualizar Series Publicadas**
 
-**UC20-Visualizar Series**
-
-|||
-|---|---|
-|**Descrição**| Funcionalidade responsável por disponibilizar uma página que mostra as series criadas como rascunho ou publicadas.|
-|**Atores**|Usuário|
-|**Pré-condições**|Usuário deve possuir rascunhos e/ou series publicados|
-|**Pós-condições**|Usuário poderá criar series, publicar rascunhos ou visualizar os publicados |
-|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário acessa a página de Series**<br/>1-Usuário clica no botão series no menu lateral; <br/>2-Usuário visualiza rascunhos criados.|
-|**Fluxo alternativo**|**[FA01] UC22 - Visualizar published**; <br/>**[FA02] UC23 - Criar series**|
-
-***
-
-**UC21-Visualizar Drafts**
+<a href="#UC20_antigo">voltar ao UC20 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por permitir que o usuário acesse e reveja os rascunhos de series criados anteriormente.|
+|**Descrição**| Funcionalidade responsável por disponibilizar uma página que mostra as series publicadas do usuário.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve ter acessado a página de series e ter rascunhos salvos|
-|**Pós-condições**|Usuário visualizará as opções |
-|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja abrir as series rascunhadas**<br/>1-Usuário seleciona uma serie criada <br/>2-Usuário lê a serie criada|
-|**Fluxo alternativo**|**[FA01] UC26 - Editar rascunho**|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado<br>Usuário deve possuir séries já publicadas|
+|**Pós-condições**|Usuário terá visualizado suas séries já publicadas |
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja visualizar suas series criadas**<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica no botão series no menu lateral;<br/> 3-Usuário clica em 'Published' e visualiza uma lista de todas suas series publicadas|
 
 ***
+<span id = "UC21_refatorado"></span>
+**UC21-Visualizar Drafts de Series**
 
-**UC22-Visualizar Published**
+<a href="#UC21_antigo">voltar ao UC21 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por permitir que o usuário acesse e reveja as series publicadas anteriormente.|
+|**Descrição**|Funcionalidade responsável por permitir que o usuário acesse e reveja os rascunhos de series criados anteriormente.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve ter acessado a página de series e series publicadas|
-|**Pós-condições**|Usuário visualizará as opções de series publicadas |
-|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja abrir as series publicadas**<br/>1-Usuário seleciona uma serie publicada <br/>2-Usuário lê a serie criada|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado<br>Usuário deve possuir séries criadas como rascunho|
+|**Pós-condições**|Usuário terá visualizado seus rascunhos de series|
+|**Fluxo principal**&nbsp;&nbsp;&nbsp;|**[FP01] O fluxo se inicia quando o usuário deseja visualizar as series rascunhadas**<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica no botão series no menu lateral;<br/>3-Usuário clica em 'Drafts' e visualiza uma lista de todas as suas series rascunhadas|
 
 ***
 
-**UC23 - Criar series**
+<span id = "UC23_refatorado"></span>
+**UC23 - Criar Serie**
+
+<a href="#UC23_antigo">voltar ao UC23 antigo</a>
 
 |||
 |---|---|
 |**Descrição**| Funcionalidade responsável por permitir que o usuário crie uma nova serie.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve ter acessado a página de series|
-|**Pós-condições**|Usuário poderá rascunhar e publicar a história criada |
-|**Fluxo principal**|** [FP01] O fluxo se inicia quando o usuário deseja criar uma nova serie**<br/>1-Usuário aperta o botão de Create Series**<br/>2-Usuário cria a serie, incluindo texto, imagens|
-|**Fluxo alternativo**|**[FA01] UC25 - Publicar serie**<br/>**[FA02] UC24 - Enviar prévia para app de celular**|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário terá criado uma serie|
+|**Fluxo principal**&nbsp;&nbsp;&nbsp;|** [FP01] O fluxo se inicia quando o usuário deseja criar uma nova serie** <br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica no botão series no menu lateral;<br/> 3-Usuário aperta o botão Create series<br/>4-Usuário inclui textos e imagens na paginas<br/>5-Usuário clica em 'Publish' criando e publicando a serie|
 
 ***
-
+<span id = "UC24_refatorado"></span>
 **UC24 - Enviar prévia para app de celular**
+
+<a href="#UC24_antigo">voltar ao UC24 antigo</a>
 
 |||
 |---|---|
 |**Descrição**| Funcionalidade responsável por permitir que o usuário envie a prévia do rascunho para ser visualizada no aplicativo de celular.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve ter criado e salvo o rascunho de uma serie|
-|**Pós-condições**|Usuário poderá visualizar a serie no celular|
-|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja mandar a serie para o aplicativo de celular**<br/>1-Usuário aperta o botão de Send preview to phone<br/>2-Usuário visualiza serie no celular|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
+|**Pós-condições**|Usuário terá enviado uma prévia de serie para o celular|
+|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja mandar uma prévia de serie para o aplicativo de celular**<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica no botão series no menu lateral;<br/> 3-Usuário aperta o botão Create series<br/>4-Usuário inclui textos e imagens na pagina<br/>5-Usuário aperta o botão 'Send preview to phone' enviando uma previa para o app de celular|
 
 ***
+<span id = "UC25_refatorado"></span>
+**UC25-Publicar Serie**
 
-**UC25-Publicar serie**
+<a href="#UC25_antigo">voltar ao UC25 antigo</a>
 
 |||
 |---|---|
 |**Descrição**| Funcionalidade responsável por permitir que o usuário publique sua serie.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve ter criado e salvo o rascunho de uma serie|
-|**Pós-condições**|Usuário poderá visualizar a serie publicada|
-|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja publicar a serie para que outros usuários a vejam**<br/>1-Usuário aperta o botão de publicar<br/>2-Usuário visualiza a serie publicada no computador|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado<br>O usuário deve ter rascunho(s) de serie(s) salva(s) no Medium|
+|**Pós-condições**|Usuário terá publicado uma serie no Medium|
+|**Fluxo principal**|** [FP01] O fluxo se inicia quando o usuário deseja publicar uma serie para que outros usuários a vejam**<br/> 1- [FP01] UC26 - Editar Draft de Series<br/>2-Usuário clica em 'Publish'|
+|**Fluxo alternativo**|** [FA01] O fluxo se inicia quando o usuário deseja publicar uma serie mas ainda não possui rascunhos da mesma**<br/> [FP01] UC23 - Criar Serie|
 
 ***
+<span id = "UC26_refatorado"></span>
+**UC26-Editar Draft de Series**
 
-**UC26-Editar rascunho**
+<a href="#UC26_antigo">voltar ao UC26 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por permitir que o usuário faça edições no rascunho criado.|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário faça edições nas series criadas como rascunho.|
 |**Atores**|Usuário|
-|**Pré-condições**|Usuário deve ter criado e salvo o rascunho de uma serie|
-|**Pós-condições**|Usuário poderá melhorar o rascunho e posteriormente, publicá-lo|
-|**Fluxo principal**|**[FP01] O fluxo se inicia quando o usuário deseja editar o rascunho criado**<br/>1-Usuário visualiza a página com os rascunhos<br/>2-Usuário seleciona um rascunho a ser editado<br/>3-Usuário edita o rascunho<br/>4-Usuário pode sair da página recente para salvar o rascunho recém editado.|
+|**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado<br>Usuário deve ter criado e salvo o rascunho de uma serie|
+|**Pós-condições**|Usuário terá editado um rascunho de serie criado anteriormente|
+|**Fluxo principal**&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|** [FP01] O fluxo se inicia quando o usuário deseja editar um rascunho já criado **<br/> 1-Usuário clica no ícone de perfil<br/>2-Usuário clica no botão series no menu lateral;<br/>3-Usuário clica em 'Drafts' e visualiza seus rascunhos<br/>4-Usuário clica na seta para baixo no canto direito do rascunho que deseja editar<br/>5-Usuário clica em 'Edit draft' podendo editar seu rascunho, que é salvo automaticamente|
 
 ***
 #### UC Stories (Aline Laureano)
 
-**UC27 - Acessar menu lateral do usuário**
+***
+<span id = "UC28_refatorado"></span>
+**UC28-Visualizar Stories Publicados**
+
+<a href="#UC28_antigo">voltar ao UC28 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por mostrar todas as ações que somente um usuário com login efetuado pode fazer.|
+|**Descrição**| Funcionalidade responsável por disponibilizar uma página que mostra os stories publicados do usuário.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
-|**Pós-condições**|Usuário visualizará as funcionalidades disponíveis para um usuário com o login efetuado.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar as funcionalidades disponíveis para um usuário com o login efetuado:**<br/> 1-Usuário clica na sua foto de perfil localizida no superior esquerdo da página. <br/>2-É mostrado ao usuário logado um menu lateral com as funcionalidades disponíveis para ele. <br/>|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Pós-condições**|Usuário terá visualizado seus stories publicados.|
+|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja visualizar a área com todas os seus stories publicados **<br/>1-Usuário clica no ícone de perfil.<br>2-Usuário clica na opção "Stories" no menu lateral. <br>3-Usuário clica em 'Published' e visualiza uma lista de todos seus stories publicados|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**|<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
+<span id = "UC29_refatorado"></span>
+**UC29-Visualizar Drafts de Stories**
 
-**UC28-Visualizar Stories**
+<a href="#UC29_antigo">voltar ao UC29 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por mostrar uma aŕea com todos os rascunhos e publicações de stories de um usuário.|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário acesse e reveja os rascunhos de stories criados anteriormente.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
-|**Pós-condições**|Usuário visualizará a área de Stories.|
-|**Fluxo principal**|** [FP01]O fluxo se inicia quando o usuário deseja visualizar a área com todas as suas publicações e rascunhos:**<br/>1-[UC27] Acessar menu lateral do usuário.<br>2-Usuário clica na opção "Stories". <br>3-O usuário visualizará a área de Stories.||
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Pós-condições**|Usuário terá visualizado seus rascunhos de stories|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos os seus rascunhos de stories salvos:**<br/> 1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral. <br/>3-Usuário clica em 'Drafts' e visualiza uma lista de todos seus rascunhos de stories|
+|**Fluxo de exceção**&nbsp;|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
-
-**UC29-Visualizar Drafts**
-
-|||
-|---|---|
-|**Descrição**| Funcionalidade responsável por mostrar todos os Drafts de um usuário.|
-|**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
-|**Pós-condições**|Usuário visualizará os seus Drafts.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos os Drafts feitos por ele:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O sistema retorna para a visualização do usuário todos os Drafts feitos pelo usuário. |
-|**Fluxo alternativo**|[FA01] UC30-Visualizar Publicações.<br> [FA02] UC31- Importar uma Story.<br> [FA03] UC32-Escrever uma nova Story.<br>|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
-
-***
-
-**UC30-Visualizar Publicações**
-
-|||
-|---|---|
-|**Descrição**| Funcionalidade responsável por mostrar todos as Publicações de um usuário.|
-|**Atores**|Usuário|
-|**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
-|**Pós-condições**|Usuário visualizará as suas Publicações.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja visualizar a área com todos as publicações feitas por ele:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Publishes" localizada ao lado da opção "Drafts". <br/>3-O sistema retorna para a visualização do usuário todos as publicações feitas pelo usuário. |
-|**Fluxo alternativo**|[FA01] UC29-Visualizar Drafts.<br> [FA02] UC31- Importar uma Story.<br> [FA03] UC32-Escrever uma nova Story.<br>|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
-
-***
-
+<span id = "UC31_refatorado"></span>
 **UC31-Importar uma Story.**
+
+<a href="#UC31_antigo">voltar ao UC31 antigo</a>
 
 |||
 |---|---|
@@ -1001,13 +1019,14 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário publicará uma story já publicada em qualquer outro site.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma story já existente em qualquer outro site:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Import a story" localizada ao lado da opção "Write a story". <br/>3-O sistema solicita o link da story que o usuário quer publicar. <br>4-O usuário insere o link e clica no botão "import". <br>5-O usuário edita a story importada. <br> 6-O usuário clica na opção "Ready to publish?". <br>7-O sistema redireciona o usuário para uma página com a prévia da publicação importada. <br>8-O usuário clica na opção "Publish now". <br>9-O sistema retorna uma mensagem de publicação realizada com sucesso.|
-|**Fluxo alternativo**|[FA01] UC29-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC32-Escrever uma nova Story.<br>|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma story já existente em qualquer outro site:**<br/> 1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral.<br/>3-O usuário clica sobre a opção "Import a story" localizada ao lado da opção "Write a story". <br/>4-O sistema solicita o link da story que o usuário quer publicar. <br>5-O usuário insere o link e clica no botão "import". <br>6-O usuário edita a story importada. <br> 7-O usuário clica na opção "Ready to publish?". <br>8-O sistema redireciona o usuário para uma página com a prévia da publicação importada. <br>9-O usuário clica na opção "Publish now". <br>10-O sistema retorna uma mensagem dizendo que a publicação foi realizada com sucesso.|
+|**Fluxo de exceção**&nbsp;|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
-
+<span id = "UC32_refatorado"></span>
 **UC32-Escrever uma nova Story.**
+
+<a href="#UC32_antigo">voltar ao UC32 antigo</a>
 
 |||
 |---|---|
@@ -1015,62 +1034,66 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua nova story publicada.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma nova story:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre a opção "Write a story" localizada ao lado da opção "Import a story". <br/>3-O sistema redireciona o usuário para uma página de criação da nova story. <br>4-O usuário insere o conteúdo da nova story e clica no botão "Ready to publish?".<br>5-O sistema redireciona o usuário para uma página com a prévia da nova publicação. <br>6-O usuário clica na opção "Publish now". <br>7-O sistema retorna uma mensagem de publicação realizada com sucesso.|
-|**Fluxo alternativo**|[FA01] UC29-Visualizar Drafts.<br> [FA02] UC30-Visualizar publicações.<br> [FA03] UC31-Importar uma Story.<br>|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja publicar uma nova story:** <br/> 1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral. <br/>3-O usuário clica sobre a opção "Write a story" localizada ao lado da opção "Import a story". <br/>4-O sistema redireciona o usuário para uma página de criação da nova story. <br>5-O usuário insere o conteúdo da nova story e clica no botão "Ready to publish?".<br>6-O sistema redireciona o usuário para uma página com a prévia da nova publicação. <br>7-O usuário clica na opção "Publish now". <br>8-O sistema retorna uma mensagem dizendo que a publicação foi realizada com sucesso.|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
+
 
 ***
+<span id = "UC33_refatorado"></span>
+**UC33-Editar Drafts de Stories.**
 
-**UC33-Editar Draft.**
+<a href="#UC33_antigo">voltar ao UC33 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por permitir que um usuário edite um draft.|
+|**Descrição**| Funcionalidade responsável por permitir que o usuário faça edições nos stories criados como rascunho.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
-|**Pós-condições**|Usuário terá o seu draft editado.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja editar um draft:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer editar. <br/>3-O usuário clica na opção "Edit draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página de edição do draft. <br>5-O usuário insere as alterações no conteúdo do draft e sai da página de edição sem salvar o rascunho.<br>6-O sistema irá salvar as edições feitas no rascunho.|
-|**Fluxo alternativo**|[FA01] UC34-Excluir Draft.|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Pós-condições**|Usuário terá editado um rascunho de story.|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja editar um rascunho de story:**<br/>1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral.  <br/>3-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer editar. <br/>4-O usuário clica na opção "Edit draft" localizada em baixo da seta. <br/>5-O sistema redireciona o usuário para uma página de edição do draft. <br>6-O usuário insere as alterações no conteúdo do draft, que é salvo automaticamente.|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
+<span id = "UC34_refatorado"></span>
+**UC34-Excluir Draft de Story**
 
-**UC34-Excluir Draft.**
+<a href="#UC34_antigo">voltar ao UC34 antigo</a>
 
 |||
 |---|---|
 |**Descrição**| Funcionalidade responsável por permitir que um usuário exclua um draft.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
-|**Pós-condições**|Usuário terá o seu draft excluído.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir um draft:**<br/> 1-[US02] Usuário visualiza a área de Stories. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer excluir. <br>3-O usuário clica na opção "Delete draft" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão do draft. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de drafts sem o draft excluído.|
-|**Fluxo alternativo**|[FA01] UC33-Editar Draft.|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Pós-condições**|Usuário terá o seu rascunho de story excluído.|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir um draft:** <br/>1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral.<br/>3-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição do draft que ele quer excluir. <br>4-O usuário clica na opção "Delete draft" localizada em baixo da seta. <br/>5-O sistema redireciona o usuário para uma página para confirmar a exclusão do draft. <br>6-O usuário clica sobre o botão "Delete".<br>7-O sistema sistema redireciona o usuário para a página de visualização de drafts sem o draft excluído.|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
+<span id = "UC35_refatorado"></span>
+**UC35-Editar Publicação de Story.**
 
-**UC35-Editar Publicação.**
+<a href="#UC35_antigo">voltar ao UC35 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por permitir que um usuário edite uma publicação.|
+|**Descrição**| Funcionalidade responsável por permitir que um usuário edite uma publicação de story.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua publicação editada.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja editar uma publicação:**<br/> 1-[US04] Usuário visualiza a área de Publicações. <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer editar. <br/>3-O usuário clica na opção "Edit story" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página de edição da story. <br>5-O usuário insere as alterações no conteúdo da story e clica no botão "Save and publish".<br>6-O sistema redireciona o usuário para a página da story com as alterações feitas.|
-|**Fluxo alternativo**|[FA01] UC36-Excluir Publicação.|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja editar uma publicação:**<br/> 1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral. <br/>3-Usuário clica em 'Published'<br/>4-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer editar. <br/>5-O usuário clica na opção "Edit story" localizada em baixo da seta. <br/>6-O sistema redireciona o usuário para uma página de edição da story. <br>7-O usuário insere as alterações no conteúdo da story e clica no botão "Save and publish".<br>8-O sistema redireciona o usuário para a página da story com as alterações feitas.|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 ***
+<span id = "UC36_refatorado"></span>
+**UC36-Excluir Publicação de Story**
 
-**UC36-Excluir Publicação.**
+<a href="#UC36_antigo">voltar ao UC36 antigo</a>
 
 |||
 |---|---|
-|**Descrição**| Funcionalidade responsável por permitir que um usuário exclua uma publicação.|
+|**Descrição**| Funcionalidade responsável por permitir que um usuário exclua a publicação de um story.|
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet, ser cadastrado na plataforma Medium e estar com o login efetuado no Medium.|
 |**Pós-condições**|Usuário terá a sua publicação excluída.|
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir uma story:**<br/>  1-[US04] Usuário visualiza a área de Publicações.  <br/>2-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer excluir. <br>3-O usuário clica na opção "Delete story" localizada em baixo da seta. <br/>4-O sistema redireciona o usuário para uma página para confirmar a exclusão da story. <br>5-O usuário clica sobre o botão "Delete".<br>5-O sistema sistema redireciona o usuário para a página de visualização de publicações sem a story excluída.|
-|**Fluxo alternativo**|[FA01] UC35-Editar Publicação.|
-|**Fluxo de exceção**|** [FE01] Verificação de conexão à internet**|
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário deseja excluir uma story:**<br/>  1-Usuário clica no ícone de perfil. <br/>2-Usuário clica no botão "Stories" no menu lateral. <br/>3-Usuário clica em 'Published' <br/>4-O usuário clica sobre uma seta apontada para baixo localizada ao lado da descrição da publicação que ele quer excluir. <br>5-O usuário clica na opção "Delete story" localizada em baixo da seta. <br/>6-O sistema redireciona o usuário para uma página para confirmar a exclusão da story. <br>7-O usuário clica sobre o botão "Delete".<br>8-O sistema sistema redireciona o usuário para a página de visualização de publicações sem a story excluída.|
+|**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
