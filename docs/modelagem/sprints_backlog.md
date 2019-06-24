@@ -42,7 +42,6 @@ Foram especificados 5 sprints contentendo no total 26 histórias de usuários, s
 
 ***
 
-
 #### [Backlog das sprints (versão 1)](sprint_versoes/sprintv1.md)
 
 ***

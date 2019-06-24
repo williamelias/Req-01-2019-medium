@@ -4,7 +4,8 @@
 |----------------|----------------------|-------------------------------------|------|
 | 30/03/2019     | Aline Laureano       | Inserção de texto base              |  0.1 |
 | 03/04/2019     | William Elias Alves  | Inserção de texto no mkdocs         |  0.2 |  
-| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento |  1.0 |  
+| 08/04/2019     | William Elias Alves  | Inserção da tabela de versionamento |  0.3 |  
+| 24/06/2019     | William Elias Alves  | corração dos links |  1.0 |  
 
 
 # Definição
@@ -21,8 +22,8 @@ A rastreabilidade dos requisitos pode ser definida como a capacidade de rastrear
 
 ## Algumas modelagens para a pré-rastreabilidade
 
-- [**5W2H aplicado à plataforma Medium**](https://github.com/williamelias/Req-01-2019-medium/wiki/5W2H)
+- [**5W2H aplicado à plataforma Medium**](../5w2h)
 
-- [**Richpicture aplicado à plataforma Medium**](https://github.com/williamelias/Req-01-2019-medium/wiki/Richpicture)
+- [**Richpicture aplicado à plataforma Medium**](../argumentacao)
 
-- [**Argumentação aplicada à plataforma Medium**](https://github.com/williamelias/Req-01-2019-medium/wiki/Argumenta%C3%A7%C3%A3o)
+- [**Argumentação aplicada à plataforma Medium**](../richpicture)
