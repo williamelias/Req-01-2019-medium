@@ -159,10 +159,13 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 | Rastro | Origem |
 | ------- | ------- |
-|Rastro| ????? |
-
+|Rastro| Storytelling - Extras do Medium|
 
 ![trocar](cenarios/trocar.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - Extras do Medium|
 
 ### Se candidatar a uma vaga de emprego
 
@@ -314,6 +317,10 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ![resposta](cenarios/resposta.png)
 
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - Extras do Medium|
+
 ### Importar um storie
 
 **Responsável**: Pedro Rodrigues
@@ -433,5 +440,9 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 **Ver vagas de emprego disponíveis - V1.0**
 
 ![Ver vagas de emprego disponíveis](cenarios/cenario_ver_empregos.png)
+
+| Rastro | Origem |
+| ------- | ------- |
+|Rastro| Storytelling - Extras do Medium|
 
 ***

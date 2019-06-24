@@ -15,6 +15,7 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ### Ponto de vista do Leitor
 ***
+<span id="RC1"></span>
 **Modelo 1**
 - Versão 1  
 
@@ -32,6 +33,8 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 
 ![versão4_1](richpictures/rich_medium_ver4.png)
 
+<span id="RC2"></span>
+
 **Modelo 2**
 
 - Versão 1
@@ -45,6 +48,7 @@ Os modelos foram dividos em dois pontos de vista diferentes, o ponto de vista do
 - Versão final
 
 ![versão3_2](richpictures/Rich_picture_Gabriel.png)
+
 
 ### Ponto de vista do Escritor
 

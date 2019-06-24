@@ -6,6 +6,7 @@
 |16/06/2019      | Aline Laureano  | Adição dos resultados   | 1.1|
 |17/06/2019      | Luís Cláudio T. Lima  | Adição de mais links para telas das respectivas funcionalidades   | 1.2|
 |19/06/2019      | Aline Laureano  | Adição de nova versão da tabela de resultados   | 1.3 |
+|19/06/2019      | Guilherme Marques  | Adiciona novos dados na tabela   | 1.4 |
 
 ### Introdução
 
@@ -41,35 +42,35 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 | Aline |	R023 |	Deletar story |	 |
 | Aline |	R024 |	Aplaudir um texto lido |  |
 | Aline |	R025 |	Compartilhar texto lido nas redes sociais |	 |
-|  |	R026 |	Comentar no corpo do texto da 'story' |  |		
+| Guilherme Marques |	R026 |	Comentar no corpo do texto da 'story' | <a href="../telas_das_funcionalidades/#imgR026">Tela(s) do R026</a> |		
 |  |	R027 |	Escutar podcasts		|  |
 |Luís Cláudio|	R028 |	Seguir escritores		|<a href="../telas_das_funcionalidades/#imgR028">Tela(s) do R028</a>  |
 ||	R029 |	Seguir usuários		|  |
-|  |	R030 |	Receber notificações dos escritores seguidos		|  |
+| Guilherme Marques |	R030 |	Receber notificações dos escritores seguidos		| <a href="../telas_das_funcionalidades/#imgR030">Tela(s) do R030</a> |
 |  |	R031 |	Selecionar tema de artigos para leitura		|  |
 | Aline |	R032 |	Visualizar textos publicados por um escritor em seu perfil		|  |
 | Aline |	R033 |	Visualizar os artigos favoritados		|  |
 | Aline |	R034 |	Visualizar os artigos curtidos		|  |
 | Aline |	R035 |	Visualizar perfis de outros usuários	|  |
-|  |	R036 |	Favoritar publicação para leitura posterior		|  |
-|  |	R037 |	Visualizar comentários da publicação		|  |
+| Guilherme Marques |	R036 |	Favoritar publicação para leitura posterior		| <a href="../telas_das_funcionalidades/#imgR036">Tela(s) do R036</a> |
+| Guilherme Marques |	R037 |	Visualizar comentários da publicação		| <a href="../telas_das_funcionalidades/#imgR037">Tela(s) do R037</a> |
 | Luís Cláudio |	R038 |	Reportar publicação		|<a href="../telas_das_funcionalidades/#imgR038">Tela(s) do R038</a>  |
 | Luís Cláudio |	R039 |	Reportar usuário		|<a href="../telas_das_funcionalidades/#imgR039">Tela(s) do R039</a>  |
 | Luís Cláudio |	R040 |	Editar informações de perfil		| <a href="../telas_das_funcionalidades/#imgR040">Tela(s) do R040</a> |
 | Luís Cláudio |	R041 |	Salvar/cancelar edição de perfil		|<a href="../telas_das_funcionalidades/#imgR041">Tela(s) do R041</a>  |
 |  |	R042 |	Visualizar autores seguidos		|  |
 |  |	R043 |	Visualizar seguidores		|  |
-|  |	R044 |	Visualizar 'claps' em 'stories'		|  |
+| Guilherme Marques |	R044 |	Visualizar 'claps' em 'stories'		| <a href="../telas_das_funcionalidades/#imgR044">Tela(s) do R044</a> |
 | Luís Cláudio |	R045 |	visualizar próprio perfil		|<a href="../telas_das_funcionalidades/#imgR045">Tela(s) do R045</a>  |
 |  |	R046 |	Visualizar estatisticas de leitura em gráfico		|  |
-|  |	R047 |	Visualizar marcações feitas		|  |
+| Guilherme Marques |	R047 |	Visualizar marcações feitas		| <a href="../telas_das_funcionalidades/#imgR047">Tela(s) do R047</a> |
 | Luís Cláudio |	R048 |	Criar publicação		| <a href="../telas_das_funcionalidades/#imgR048">Tela(s) do R048</a> |
-|  |	R049 |	visualizar rascunho de publicação		|  |
+| Guilherme Marques |	R049 |	visualizar rascunho de publicação		| <a href="../telas_das_funcionalidades/#imgR049">Tela(s) do R049</a> |
 | |	R050 |	Editar publicação		|  |
 | |	R051 |	Deletar publicação		|  |
-|  |	R052 |	Selecionar tópicos de interesse		|  |
-|  |	R053 |	Deixar de seguir usuários		|  |
-|  |	R054 |	Deixar de seguir publicações		|  |
+| Guilherme Marques |	R052 |	Selecionar tópicos de interesse		| <a href="../telas_das_funcionalidades/#imgR052">Tela(s) do R052</a> |
+| Guilherme Marques |	R053 |	Deixar de seguir usuários		| <a href="../telas_das_funcionalidades/#imgR053">Tela(s) do R053</a> |
+| Guilherme Marques |	R054 |	Deixar de seguir publicações		| <a href="../telas_das_funcionalidades/#imgR054">Tela(s) do R054</a> |
 |    |	R055 |	Ativar/desativar modo noturno		|  |
 | Luís Cláudio |	R057 |	Editar email padrão		|<a href="../telas_das_funcionalidades/#imgR057">Tela(s) do R057</a>  |
 |  |	R058 |	Selecionar périodo de sugestão de artigos		|  |

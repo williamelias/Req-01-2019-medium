@@ -12,6 +12,7 @@
 |   29/05/2019   | Gabriel Filipe  | Adição dos nfrs de iteroperabilidade | 0.9  |
 |   21/06/2019   | Pedro Rodrigues Pereira | Adição da metodologia | 1.0 |
 |   21/06/2019   | Pedro R. e Guilherme M. | Adição de modelos de nfr refatorados | 1.1 |
+|   21/06/2019   | Pedro R. e Guilherme M. | Adição de modelos de nfr refatorados | 1.2 |
 
 ## Definição
 
@@ -423,10 +424,15 @@ Foram modelados NFRs de análise e relação com os seguintes enfoques:
 
 ![modelo nfr para performance versão 2](nfrs/nfr_aline_performance-modelo_V2.png)
 
+**Modelo Relacional(V3.0) - Pós Refatoração (Autores: Pedro Rodrigues e Guilherme Marques)**
+![modelo nfr para performance versão 3](nfrs/refactor_nfr_aline_performance-modelo_V2.png)
 
 **Modelo Analítico(V1.0)**
 
 ![modelo nfr analítico para performance](nfrs/nfr_aline_performance-analise.png)
+
+**Modelo Analítico(V2.0) - Pós Refatoração (Autores: Pedro Rodrigues e Guilherme Marques)**
+![modelo nfr para performance versão 3](nfrs/analitico_refactor_nfr_aline_performance-modelo_V2.png)
 
 #### Confiabilidade
 

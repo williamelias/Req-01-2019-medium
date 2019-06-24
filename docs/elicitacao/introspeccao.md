@@ -38,6 +38,7 @@ Abaixo estão citadas funcionalidades que devam estar presentes na página inici
 * Design intuitivo;
 * Página inicial com variedade de artigos;
 * Página inicial com categorias de artigos expostas;
+* Poder ver o status do usuário;
 * Ter um botão de redirecionamento à categorias como: “Culture”;
 * Ter um botão de redirecionamento à categorias como: “Tech “;
 * Ter um botão de redirecionamento à categorias como: “Health”;
@@ -64,6 +65,9 @@ Abaixo estão citadas funcionalidades que devam estar presentes na página inici
 * Possibilitar que o usuário possa salvar artigos em sua coleção para que leia futuramente;
 * Possibilitar que o usuário possa ver a data de publicação do artigo;
 * Possibilitar que o usuário solicite ver artigos com temas relacionados aos artigos expostos na página principal;
+* Possibilitar que um usuário aplauda um texto;
+* Possibilitar a escuta de podcasts;
+* Possibilitar a adição de comentários a uma publicação.
 
 ######[Relato de introspecção 1 - V2.0]
 
@@ -169,7 +173,7 @@ Ao meu entender, para que o Medium possa prover uma experiência efetiva para um
 * Possibilidade de se realizar a revisão e visualização da prévia da história;
 * Possibilidade de ajustar e escolher um horário de publicação para a história.
 
-####[Relato de introspecção 3 - V2.0]
+#### [Relato de introspecção 3 - V2.0]
 
 **Relator: Matheus Blanco**
 
@@ -187,6 +191,27 @@ iv - O usuário então facilmente encontra o botão verde de publicação;
 v - É mostrada uma tela com uma prévia da história, um campo para se adicionar tags e um botão que permitiria que curadores recomendar a história para os leitores do publicador.
 
 vi - O usuário encontra outro botão verde com os dizeres "Publish now", e o aperta para publicar a história.
+
+#### [Relato de introspecção 3 - V2.1]
+
+**Relator: Matheus Blanco**
+
+<a id="introspec3"></a>
+**Criação de New Story:** Usuário logado, com o intuito de criar uma nova história para publicar.
+
+i - Deve clicar no ícone de perfil no canto direito de sua tela para ver as opções existentes;
+
+ii - Consegue facilmente achar a opção de New Story;
+
+iii - Aparece uma tela limpa com campos para se escrever título e corpo do texto. A tela é de fácil utilização;
+
+iv - O usuário então facilmente encontra o botão verde de publicação;
+
+v - É mostrada uma tela com uma prévia da história, um campo para se adicionar tags e um botão que permitiria que curadores recomendar a história para os leitores do publicador.
+
+vi - O usuário pode então editar o rascunho criado, ou simplemesmente apagá-lo.
+
+vii - Caso contrário O usuário encontra outro botão verde com os dizeres "Publish now", e o aperta para publicar a história.
 
 **Requisitos Elicitados**
 

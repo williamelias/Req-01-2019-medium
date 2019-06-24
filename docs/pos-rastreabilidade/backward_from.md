@@ -24,12 +24,13 @@ Para a realização dessa tarefa, em um primeiro momento, fora refatorada a base
 
 ### Tabela Backward-from
 
+<a href="../../elicitacao/storytelling/#storytellings/#EditarPerfil">Link para os critérios</a>
 
 ### Elos Funcionais
 
 **Legenda:**
-- Representação/Representa = R
-- Alocação = A
+- R/R = R
+- A = A
 - Alocado e = AE
 
 #### EF1
@@ -264,6 +265,7 @@ Desenvolvimento
 - UC32-Escrever uma nova Story.	
 - US 063 - Usuário Escritor: Escrever 'new storie' 
 - I* Publicações
+- I* Stories
 
 #### Elos
 
@@ -280,6 +282,10 @@ Desenvolvimento
 **R**: RichPicture "Ponto de vista do escritor/New Story" **R** StoryTelling - Escritor, New Story
 
 **R**: US 063 **R** i* Publicações
+
+**R**: UC Stories **R** i* Stories
+
+**A**: US 063 **AE** i* Stories
 ***
 
 #### EF10
@@ -292,12 +298,11 @@ Desenvolvimento
 - Léxico Storie	
 - UC stories	
 - UC32-Escrever uma nova Story.	
-- US 063 - Usuário Escritor: Escrever 'new storie' 
+- UC29 - Visualizar Drafts
 - I* Publicações
+- I* Stories
 
 #### Elos
-
-**R**: 
 
 **R**: Léxico Stories **R** UC stories
 
@@ -308,6 +313,10 @@ Desenvolvimento
 **A**: Cenário Criar um novo stories **AE** Introspecção 3
 
 **R**: US 063 **R** i* Publicações
+
+**R**: UC Stories **R** i* Stories
+
+**A**: UC29 **AE** UC32
 ***
 
 #### EF11
@@ -320,7 +329,8 @@ Desenvolvimento
 - Cenário Criar um novo Storie	
 - Léxico Storie	
 - UC stories	
-- UC32-Escrever uma nova Story.	
+- UC32-Escrever uma nova Story.
+- - UC29 - Visualizar Drafts	
 - I* Publicações
 
 #### Elos
@@ -336,6 +346,13 @@ Desenvolvimento
 **R**: StoryTelling - Escritor, New Story **R** Introspecção 3
 
 **A**: US 032 **AE** UC Stories
+
+**A**: UC29 **AE** UC32
+
+**R**: UC Stories **R** i* Stories
+
+**A**: i* Stories **AE** i* Publicações
+
 ***
 
 #### EF12
@@ -351,7 +368,9 @@ Desenvolvimento
 - UC28-Visualizar Stories	
 - US 071 - Usuário: Visualizar storie 
 - I* Publicações
-
+- I* Stories
+- I* Customização de interesses
+  
 #### Elos
 
 **R**: StoryBoard Tutorial **R** Introspecção 1
@@ -367,6 +386,12 @@ Desenvolvimento
 **R**: US 071 **R** UC28
 
 **R**: US 071 **R** i* Publicações
+
+**R**: US071 **AE** i* Stories
+
+**A**: Introspecção **AE** i* Customização de interesses
+
+**A**: i* Stories **AE** i* Publicações
 ***
 
 #### EF13
@@ -382,8 +407,9 @@ Desenvolvimento
 - Léxico Storie	
 - UC stories	
 - UC31-Importar uma Story	
-- US 064 - Usuário Escritor: Importar 'storie'
+- US 064- Usuário Escritor: Importar 'storie'
 - i* Publicações
+- I* Stories
 
 #### Elos
 
@@ -400,6 +426,8 @@ Desenvolvimento
 **R**: RichPicture "Ponto de vista do escritor/New Story" **R** StoryTelling - Escritor, New Story
 
 **R**: US 064 **R** i* Publicações
+
+**A**: i* Stories **AE** i* Publicações
 ***
 
 #### EF14
@@ -415,6 +443,7 @@ Desenvolvimento
 - UC35-Editar Publicação
 - US 060 - Usuário Escritor: Editar uma Serie existente
 - i* Publicações
+- i* Stories
 
 #### Elos
 **R**: StoryTelling - Escritor, New Story **R** US 064
@@ -430,6 +459,8 @@ Desenvolvimento
 **R**: US 060 **R** i* Publicações
 
 **R**: StoryTelling - Escritor, New Story **R** Introspecção 3
+
+**A**: i* Stories **AE** i* Publicações
 ***
 
 #### EF15
@@ -443,6 +474,7 @@ Desenvolvimento
 - UC36-Excluir Publicação	
 - US 061 - Usuário Escritor: Deletar uma Serie existente
 - i* Publicações
+- i* Stories
 
 #### Elos
 
@@ -459,6 +491,9 @@ Desenvolvimento
 **R**: US 061 **R** i* Publicações
 
 **R**: Léxico Stories **R** Introspecção 3
+
+**A**: i* Stories **AE** i* Publicações
+
 ***
 
 #### EF16
@@ -473,7 +508,8 @@ Desenvolvimento
 - Léxico Clap 
 - US 065 - Usuário: Aplaudir um texto lido
 - I* Publicações
-
+- I* Stories
+  
 #### Elos
 
 **R**: Léxico Clap **R** US 065
@@ -485,6 +521,9 @@ Desenvolvimento
 **A**: US 065 **AE** i* Publicações
 
 **A**: Cenário Dar Claps **AE**  Brainstorming 3
+
+**A**: i* Stories **AE** i* Publicações
+
 ***
 
 #### EF17
@@ -521,6 +560,7 @@ Desenvolvimento
 - Léxico Response	
 - US 067 - Usuário: Comentar no corpo do texto		
 - I* Publicações
+- I* Stories
 
 #### Elos
 
@@ -531,6 +571,9 @@ Desenvolvimento
 **A**: Léxico Response **AE** Cenário Comentar Publicação
 
 **R**: US 067 **Rdo em** i* Publicações
+
+**A**: i* Stories **AE** i* Publicações
+
 ***
 
 #### EF19
@@ -634,12 +677,14 @@ Desenvolvimento
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-- Brainstorming 3: "Gabriel: Selecionar tema de artigos"		
+- Brainstorming 3: "Gabriel: Selecionar tema de artigos"
+- Relato de Introspecção 1		
 - Cenário Pesquisa por artigo	
 - Léxico Search e Léxico Tag	
 - UC Área comum	
 - UC03 - Pesquisar artigo	
 - i* Pesquisar conteúdo
+- i* Customização de interesses
 #### Elos
 **R**: Brainstorming 3 **R** Cenário Pesquisa por artigo
 
@@ -648,6 +693,10 @@ Desenvolvimento
 **R**: UC Área comum **R** UC03
 
 **R**: UC03 **R** i* Pesquisar Conteúdo
+
+**R**: instrospecção  1 **R** i* Pesquisar conteúdo
+
+**A**: i* Pesquisar Conteúdo **AE** i* Customização de interesses
 ***
 
 #### EF24
@@ -757,8 +806,10 @@ Desenvolvimento
 - Cenário Comentar publicação	
 - Léxico Response		
 - UC30 - Visualizar Publicações	
-- US 031 - Usuário: Visualizar comentários da publicação		
+- US 031 - Usuário: Visualizar comentários da publicação	
+- i* Publicações	
 - i* Stories
+- 
 #### Elos
 **R**: Brainstorming 4 **R** Cenário Comentar Publicação
 
@@ -767,6 +818,9 @@ Desenvolvimento
 **A**: UC30 **AE** US 031
 
 **R**:Cenário Comentar Publicação **R** i* Stories
+
+**A**: i* Stories **AE** i* Publicações
+
 ***
 
 #### EF30
@@ -815,7 +869,8 @@ Desenvolvimento
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-- Storytelling - Editar Perfil: "Ao lado do seu nome nesta página de perfil, existia um botão chamado “Edit profile” e logo Carlos clicou sobre esse botão."			
+- Storytelling - Editar Perfil: "Ao lado do seu nome nesta página de perfil, existia um botão chamado “Edit profile” e logo Carlos clicou sobre esse botão."		
+- Brainstorming 2 "William: Editar seu próprio perfil"
 - Cenário Editar perfil	
 - Léxico Edit e Léxico Profile	
 - UC Área comum	
@@ -825,6 +880,10 @@ Desenvolvimento
 - i* Perfil
 #### Elos
 **R**: StoryTelling Editar **R** Cenário Editar Perfil
+
+**R** Storytelling Editar **R** Brainstorming 2
+
+**A**: Cenário Editar Perfil **AE** Brainstorming 2
 
 **A**: Léxico Edit e Profile **AE** Cenário Editar Perfil
 
@@ -841,6 +900,7 @@ Desenvolvimento
 Desenvolvimento
 #### Elementos Rastreáveis
 - Storytelling - Editar Perfil: "Após ter editado tudo o que desejava, Carlos clicou no botão chamado “Save” e foi redirecionado para a página que apresentava os seus dados cadastrais, agora editados."
+- Brainstorming 2 "William: Editar seu próprio perfil"
 - Cenário Editar perfil	-
 - Léxico Edit e Léxico Profile	
 - UC Área comum	UC09 - Editar perfil	
@@ -849,6 +909,10 @@ Desenvolvimento
 - i* Perfil
 #### Elos
 **R**: StoryTelling Editar **R** Cenário Editar Perfil
+
+**R** Storytelling Editar **R** Brainstorming 2
+
+**A**: Cenário Editar Perfil **AE** Brainstorming 2
 
 **A**: Léxico Edit e Profile **AE** Cenário Editar Perfil
 
@@ -862,12 +926,15 @@ Desenvolvimento
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-- StoryBoard - Tutorial e seguir escritor: "Realmente. E ainda consigo seguir o perfil de escritores dos tutoriais estando logado"			
+- StoryBoard - Tutorial e seguir escritor: "Realmente. E ainda consigo seguir o perfil de escritores dos tutoriais estando logado"	
+- Brainstorming 3 "Gabriel: seguir o escritor"		
 - Cenário Deixar de seguir usuário	
 - Léxico Following		
 - i* Pesquisar conteúdo
 #### Elos
 **R**: StoryBoard Tutorial **R** Cenário Deixar de Seguir usuário
+
+**A**: Brainstorming 3 **AE** Cenário Deixar de Seguir usuário
 
 **A**: Léxico Following **AE** Cenário Deixar de Seguir usuário
 
@@ -881,11 +948,13 @@ Desenvolvimento
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-- Storytelling - Escritor New Story: "Medium, como é chamado o site, é uma plataforma pensada na troca de conhecimentos por seus usuários, a partir de textos técnicos, assuntos atuais, sociais, tecnológicos, psicológicos e até mesmo pesquisas"			
+- Storytelling - Escritor New Story: "Medium, como é chamado o site, é uma plataforma pensada na troca de conhecimentos por seus usuários, a partir de textos técnicos, assuntos atuais, sociais, tecnológicos, psicológicos e até mesmo pesquisas"	
 - Léxico Followers	
 - US 032 - Usuário: Visualizar seguidores
+
 #### Elos
 **A**: StoryTelling Escritor **AE** Léxico Followers
+
 
 **R**: Léxico Followers **R** US 032
 
@@ -898,14 +967,18 @@ Desenvolvimento
 Desenvolvimento
 #### Elementos Rastreáveis
 - Storytelling - Escritor New Story: "Entretanto, ela estava satisfeita com os resultados, pois havia recebido um bom número de “claps”"			
+- Brainstorming 3 "Matheus: ver quem deu clap em suas publicações"		
 - Cenário Dar clap	
 - Léxico Clap		
 - UC30 - Visualizar Publicações	
 - US 057 - Usuário: Visualizar claps em suas publicações	
 - NFR Controle de Qualidade	
 - i* Stories
+- i* Publicações
 #### Elos
 **R**: Cenário Dar Clap **R** Storytelling Escritor
+
+**A**: Brainstorming 3 **AE** Cenário Dar Clap
 
 **A**: Léxico clap **AE** Cenário Dar Clap
 
@@ -916,6 +989,9 @@ Desenvolvimento
 **R**: US 057 **R** NFR Controle de Qualidade
 
 **R**: NFR Controle de Qualidade **R** i* Stories
+
+**A**: i* Stories **AE** i* Publicações
+
 ***
 
 #### EF37
@@ -923,7 +999,8 @@ Desenvolvimento
 #### Categoria
 Desenvolvimento
 #### Elementos Rastreáveis
-- Storytelling - Editar Perfil: "Entre essas opções estava escrita a opção “Profile”, então Carlos clicou sobre essa opção e ao mesmo instante ele foi redirecionado para uma página que apresentava todos os seus dados cadastrais."			
+- Storytelling - Editar Perfil: "Entre essas opções estava escrita a opção “Profile”, então Carlos clicou sobre essa opção e ao mesmo instante ele foi redirecionado para uma página que apresentava todos os seus dados cadastrais."		
+- Brainstorming 3 "Matheus: acessar o perfil de usuário"	
 - Cenário Editar perfil	
 - Léxico Profile	
 - UC Área comum	
@@ -933,6 +1010,8 @@ Desenvolvimento
 - i* Perfil
 #### Elos
 **R**: Storytelling Editar Perfil **R** Cenário Editar Perfil
+
+**R**: Storytelling Editar Perfil **R** Brainstorming 3
 
 **A**: Léxico Profile **AE** Cenário Editar Perfil
 
@@ -1014,11 +1093,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: StoryTelling Escritor, New Story e UC Stories **REPRESENTA** Cenário Criar um novo storie
+**R**: StoryTelling Escritor, New Story e UC Stories **R** Cenário Criar um novo storie
 
-**Representação**: I* Publicações **REPRESENTA** Cenário criar novo Storie e UC cenários
+**R**: I* Publicações **R** Cenário criar novo Storie e UC cenários
 
-**Alocação**: Pergunta "Como você classifica o editor de textos padrão do Médium?" **ALOCADA EM** UC Stories, Cenário - criar novo Storie
+**A**: Pergunta "Como você classifica o editor de textos padrão do Médium?" **ALOCADA EM** UC Stories, Cenário - criar novo Storie
 
 
 ***
@@ -1039,17 +1118,17 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: StoryTelling Escritor, New Story e UC Stories **REPRESENTA** Cenário Criar um novo storie
+**R**: StoryTelling Escritor, New Story e UC Stories **R** Cenário Criar um novo storie
 
-**Representação**: I* Publicações **REPRESENTA** Cenário criar novo Storie e US 059
+**R**: I* Publicações **R** Cenário criar novo Storie e US 059
 
-**Representação**: UC Stories **REPRESENTA** US 059 - Editar publicação
+**R**: UC Stories **R** US 059 - Editar publicação
 
-**Alocação**: Pergunta "Como você classifica o editor de textos padrão do Médium?" **ALOCADA EM** UC Stories, Cenário - criar novo Storie
+**A**: Pergunta "Como você classifica o editor de textos padrão do Médium?" **ALOCADA EM** UC Stories, Cenário - criar novo Storie
 
-**Alocação**: UC Stories **ALOCADO EM** I* Publicações
+**A**: UC Stories **AE** I* Publicações
 
-**Alocação**: Léxico editar **ALOCADO EM** Cenário Criar um novo storie
+**A**: Léxico editar **AE** Cenário Criar um novo storie
 
 ***
 
@@ -1066,11 +1145,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* Publicações **REPRESENTA** Cenário criar novo Storie
+**R**: I* Publicações **R** Cenário criar novo Storie
 
-**Representação**: UC Stories **REPRESENTA** US UC - Excluir publicação
+**R**: UC Stories **R** US UC - Excluir publicação
 
-**Alocação**: UC Stories **ALOCADO EM** I* Publicações
+**A**: UC Stories **AE** I* Publicações
 
 ***
 
@@ -1087,14 +1166,17 @@ Desenvolvimento
 - US 008 - Usuário: Selecionar alguns tópicos de meu interesse
 - NFR: Controle de Conteúdo
 - I* Pesquisar conteúdo
+- I* Customização de interesses
 
 #### Elo
 
-**Representação** UC cadastro **REPRESENTA** US 008 - Usuário: Selecionar alguns tópicos de meu interesse
+**R** UC cadastro **R** US 008 - Usuário: Selecionar alguns tópicos de meu interesse
 
-**Alocação**: Cenário customizar interesses, US 008 **ALOCADO EM**  NFR Controle de Conteúdo
+**A**: Cenário customizar interesses, US 008 **AE**  NFR Controle de Conteúdo
 
-**Alocação**: I* Pesquisar conteúdo **ALOCADO EM** Especificação: UC01 - Área comum
+**A**: I* Pesquisar conteúdo **AE** Especificação: UC01 - Área comum
+
+**A**: I* Pesquisar conteúdo **AE** i* Customização de interesses
 ***
 
 #### EF45
@@ -1111,11 +1193,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: UC01 - Área Comum **REPRESENTA** Cenário deixar de seguir usuários
+**R**: UC01 - Área Comum **R** Cenário deixar de seguir usuários
 
-***Representação**:  **REPRESENTA** Cenário deixar de seguir usuários
+***R**:  **R** Cenário deixar de seguir usuários
 
-**Alocação**: Léxico Seguidores **ALOCADO EM** Especificação: UC01 - Área comum, UC01- Área Comum
+**A**: Léxico Seguidores **AE** Especificação: UC01 - Área comum, UC01- Área Comum
 ***
 
 #### EF46
@@ -1129,14 +1211,17 @@ Desenvolvimento
 - Especificação:UC10-Configurar preferências
 - NFR Controle de Conteúdo
 - i* Pesquisar conteúdo
+- i* Customização de interesses
 
 #### Elo
 
-**Representação**: UC01 - Área comum  **REPRESENTA** Especificação:UC10-Configurar preferências
+**R**: UC01 - Área comum  **R** Especificação:UC10-Configurar preferências
 
-**Alocação**: Introspecção 3 **ALOCADO EM** NFR Controle de Conteúdo
+**A**: Introspecção 3 **AE** NFR Controle de Conteúdo
 
-**Alocação**: i* Pesquisar conteúdo  **ALOCADO EM** UC01 - Área Comum
+**A**: i* Pesquisar conteúdo  **AE** UC01 - Área Comum
+
+**A**: I* Pesquisar conteúdo **AE** i* Customização de interesses
 
 ***
 
@@ -1153,11 +1238,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: UC01 - Área comum  **REPRESENTA** Especificação:UC10-Configurar preferências
+**R**: UC01 - Área comum  **R** Especificação:UC10-Configurar preferências
 
-**Alocação**: Léxico night mode **ALOCADO EM** Storytelling - Configurações,US010 - Ativar modo noturno
+**A**: Léxico night mode **AE** Storytelling - Configurações,US010 - Ativar modo noturno
 
-**Alocação** Storytelling - Configurações e US010 - Ativar modo noturno  **ALOCADO EM** NFR Usabilidade
+**A** Storytelling - Configurações e US010 - Ativar modo noturno  **AE** NFR Usabilidade
 
 ***
 
@@ -1174,11 +1259,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: UC01 - Área comum  **REPRESENTA** Especificação:UC10-Configurar preferências
+**R**: UC01 - Área comum  **R** Especificação:UC10-Configurar preferências
 
-**Alocação**: Léxico night mode **ALOCADO EM** Storytelling - Configurações,US011-Automatizar modo noturno
+**A**: Léxico night mode **AE** Storytelling - Configurações,US011-Automatizar modo noturno
 
-**Alocação** Storytelling - Configurações e US011-Automatizar modo noturno  **ALOCADO EM** NFR Usabilidade
+**A** Storytelling - Configurações e US011-Automatizar modo noturno  **AE** NFR Usabilidade
 
 ***
 
@@ -1199,13 +1284,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações: (task) editar email **REPRESENTA** US012 - Editar email padrão
+**R**: I* SD configurações: (task) editar email **R** US012 - Editar email padrão
 
-**Representação**: UC Área comum **REPRESENTA** C04 editar perfil
+**R**: UC Área comum **R** C04 editar perfil
 
-**Alocação** Storytelling - Configurações **ALOCADO EM** Especificação: UC10-Configurar preferências
+**A** Storytelling - Configurações **AE** Especificação: UC10-Configurar preferências
 
-**Alocação** US012-Editar email padrão  **ALOCADO EM** Storytelling - Configurações e Brainstorming 2
+**A** US012-Editar email padrão  **AE** Storytelling - Configurações e Brainstorming 2
 
 ***
 
@@ -1223,19 +1308,21 @@ Desenvolvimento
 - US013-Selecionar período de sugestão de artigos
 - NFR Controle de qualidade
 - I* SD configurações
+- i* Customização de interesses
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Representação**: Caso de uso : Área comum  **REPRESENTA** Léxico newsletter
+**R**: Caso de uso : Área comum  **R** Léxico newsletter
 
-**Alocação** I* SD configurações e US013-Selecionar período de sugestão de artigos  **ALOCADO EM** NFR Controle de qualidade
+**A** I* SD configurações e US013-Selecionar período de sugestão de artigos  **AE** NFR Controle de qualidade
 
-**Alocação** Léxico newsletter **ALOCADO EM** US013-Selecionar período de sugestão de artigos
+**A** Léxico newsletter **AE** US013-Selecionar período de sugestão de artigos
 
+**A**: i* Customização de interesses **AE** i* Configurações
 ***
 
 #### EF51
@@ -1252,18 +1339,21 @@ Desenvolvimento
 - US014-Desativar sugestão de artigos
 - NFR Controle de qualidade
 - I* SD configurações
+- I* Customização de interesses
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Representação**: Caso de uso : Área comum  **REPRESENTA** Léxico newsletter
+**R**: Caso de uso : Área comum  **R** Léxico newsletter
 
-**Alocação** I* SD configurações e US014-Desativar sugestão de artigos **ALOCADO EM** NFR Controle de qualidade
+**A** I* SD configurações e US014-Desativar sugestão de artigos **AE** NFR Controle de qualidade
 
-**Alocação** Léxico newsletter **ALOCADO EM** US013-Selecionar período de sugestão de artigos
+**A** Léxico newsletter **AE** US013-Selecionar período de sugestão de artigos
+
+**A**: i* Customização de interesses **AE** i* Configurações
 
 ***
 
@@ -1285,15 +1375,15 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Representação**: Caso de uso : Área comum  **REPRESENTA** Léxico newsletter e introspecçaõ 1
+**R**: Caso de uso : Área comum  **R** Léxico newsletter e introspecçaõ 1
 
-**Alocação** I* SD configurações e US015-Ativar/desativar boletim informativo **ALOCADO EM** NFR Controle de qualidade
+**A** I* SD configurações e US015-Ativar/desativar boletim informativo **AE** NFR Controle de qualidade
 
-**Alocação** Léxico newsletter **ALOCADO EM** US013-Selecionar período de sugestão de artigos e Introspecção 1
+**A** Léxico newsletter **AE** US013-Selecionar período de sugestão de artigos e Introspecção 1
 
 ***
 
@@ -1315,15 +1405,15 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Representação**: Caso de uso : Área comum  **REPRESENTA** Léxico newsletter e introspecçaõ 1
+**R**: Caso de uso : Área comum  **R** Léxico newsletter e introspecçaõ 1
 
-**Alocação** I* SD configurações e US016-Selecionar tema do boletim informativo **ALOCADO EM** NFR Controle de qualidade
+**A** I* SD configurações e US016-Selecionar tema do boletim informativo **AE** NFR Controle de qualidade
 
-**Alocação** Léxico newsletter **ALOCADO EM** US013-Selecionar período de sugestão de artigos e Introspecção 1
+**A** Léxico newsletter **AE** US013-Selecionar período de sugestão de artigos e Introspecção 1
 
 ***
 
@@ -1341,16 +1431,19 @@ Desenvolvimento
 - US017-Ativar as recomendações de stories
 - NFR Controle de qualidade
 - I* SD configurações
+- I* Customização de interesses
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Alocação**: US017-Ativar as recomendações de stories e Cenário: C10:Configurar notificações de e-mail **ALOCADO EM** Brainstorming 3
+**A**: US017-Ativar as recomendações de stories e Cenário: C10:Configurar notificações de e-mail **AE** Brainstorming 3
 
-**Alocação** I* SD configurações e 017-Ativar as recomendações de stories **ALOCADO EM** NFR Controle de qualidade
+**A** I* SD configurações e 017-Ativar as recomendações de stories **AE** NFR Controle de qualidade
+
+**A**: i* Customização de interesses **AE** i* Configurações
 
 ***
 
@@ -1371,13 +1464,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Alocação**: US018-Ativar as notificação por e-mail e Cenário: C10:Configurar notificações de e-mail **ALOCADO EM** Brainstorming 3
+**A**: US018-Ativar as notificação por e-mail e Cenário: C10:Configurar notificações de e-mail **AE** Brainstorming 3
 
-**Alocação**: Cenário: C10:Configurar notificações de e-mail  **ALOCADO EM** Introspecção 1:Comportamento do usuário na Página inicial da aplicação
+**A**: Cenário: C10:Configurar notificações de e-mail  **AE** Introspecção 1:Comportamento do usuário na Página inicial da aplicação
 
 ***
 
@@ -1395,11 +1488,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências
 
-**Alocação**: Cenário: C10:Configurar notificações de e-mail  **ALOCADO EM** Especificação: UC10
+**A**: Cenário: C10:Configurar notificações de e-mail  **AE** Especificação: UC10
 
 ***
 
@@ -1418,11 +1511,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Léxico mention **ALOCADO EM** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US019
+**A**: Léxico mention **AE** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US019
 
 ***
 
@@ -1441,11 +1534,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Léxico mention **ALOCADO EM** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  
+**A**: Léxico mention **AE** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  
 
 ***
 
@@ -1465,11 +1558,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Léxico conection **ALOCADO EM** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  e US006-Conectar com redes sociais
+**A**: Léxico conection **AE** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  e US006-Conectar com redes sociais
 
 ***
 
@@ -1488,11 +1581,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Léxico conection **ALOCADO EM** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US007-Conectar com Google
+**A**: Léxico conection **AE** Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US007-Conectar com Google
 ***
 
 #### EF61
@@ -1509,11 +1602,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US021-Mostrar links para minhas redes sociais **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US021-Mostrar links para minhas redes sociais **AE** UC Área Comum
 ***
 
 #### EF62
@@ -1530,13 +1623,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Léxico editar **ALOCADO EM** UC Área Comum e Storybord- Usuário configurando a aplicação
+**A**: Léxico editar **AE** UC Área Comum e Storybord- Usuário configurando a aplicação
 ***
 
 #### EF63
@@ -1552,11 +1645,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
 ***
 
@@ -1574,13 +1667,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Léxico seguidores **ALOCADO EM** UC Área Comum e Storybord- Usuário configurando a aplicação
+**A**: Léxico seguidores **AE** UC Área Comum e Storybord- Usuário configurando a aplicação
 ***
 
 #### EF65
@@ -1596,11 +1689,11 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 ***
 
 #### EF66
@@ -1617,13 +1710,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação** US034-Deslogar de outras sessões **ALOCADO EM** Especificação: UC10-Configurar preferências
+**A** US034-Deslogar de outras sessões **AE** Especificação: UC10-Configurar preferências
 ***
 
 #### EF67
@@ -1641,15 +1734,15 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Léxico conta **ALOCADO EM** UC Área Comum e I* SD configurações
+**A**: Léxico conta **AE** UC Área Comum e I* SD configurações
 
-**Alocação** US022-Desativar minha conta **ALOCADO EM** Especificação: UC10-Configurar preferências
+**A** US022-Desativar minha conta **AE** Especificação: UC10-Configurar preferências
 ***
 
 #### EF68
@@ -1667,15 +1760,15 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: I* SD configurações **REPRESENTA** Storybord - Usuário, Configurando a aplicação
+**R**: I* SD configurações **R** Storybord - Usuário, Configurando a aplicação
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Léxico conta **ALOCADO EM** UC Área Comum e I* SD configurações
+**A**: Léxico conta **AE** UC Área Comum e I* SD configurações
 
-**Alocação** US023- Deletar minha conta **ALOCADO EM** Especificação: UC10-Configurar preferências
+**A** US023- Deletar minha conta **AE** Especificação: UC10-Configurar preferências
 ***
 
 #### EF69
@@ -1690,9 +1783,9 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
 ***
 
@@ -1710,13 +1803,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Storybord, UC Área comum **ALOCADO EM** Léxico Medium
+**A**: Storybord, UC Área comum **AE** Léxico Medium
 
-**Alocação**: US001-Acessar glossário MEDIUM **ALOCADO EM** UC Área Comum
+**A**: US001-Acessar glossário MEDIUM **AE** UC Área Comum
 
 ***
 
@@ -1733,13 +1826,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Storybord, UC Área comum **ALOCADO EM** Léxico Medium
+**A**: Storybord, UC Área comum **AE** Léxico Medium
 
-**Alocação**: US002-Responder questionário de satisfação da aplicação **ALOCADO EM** UC Área Comum
+**A**: US002-Responder questionário de satisfação da aplicação **AE** UC Área Comum
 
 ***
 
@@ -1756,13 +1849,13 @@ Desenvolvimento
 
 #### Elo
 
-**Representação**: Storybord-Usuário, Configurando a aplicação **REPRESENTA** Especificação: UC10-Configurar preferências
+**R**: Storybord-Usuário, Configurando a aplicação **R** Especificação: UC10-Configurar preferências
 
-**Alocação**: Especificação: UC10-Configurar preferências **ALOCADO EM** UC Área Comum
+**A**: Especificação: UC10-Configurar preferências **AE** UC Área Comum
 
-**Alocação**: Storybord, UC Área comum **ALOCADO EM** Léxico Medium
+**A**: Storybord, UC Área comum **AE** Léxico Medium
 
-**Alocação**: US003-Pesquisar tópico de ajuda **ALOCADO EM** UC Área Comum
+**A**: US003-Pesquisar tópico de ajuda **AE** UC Área Comum
 
 ***
 
