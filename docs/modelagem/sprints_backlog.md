@@ -7,7 +7,8 @@
 | 07/05/2019 | Matheus Blanco                      | Adição de rastro relativo aos temas     | 1.3    |
 | 22/06/2019 | William Elias Alves                 | atualizando modelos de sprint           | 1.4    |
 | 23/06/2019 | William Elias Alves                 | Inserindo rastro individual           | 1.5    |
-| 23/06/2019 | William Elias Alves                 | Inserindo metodologia           | 2.0    |
+| 23/06/2019 | William Elias Alves                 | Inserindo metodologia           | 1.6    |
+| 24/06/2019 | William Elias Alves                 | Inserindo novos rastros           | 2.0    |
 
 ### Definição
 
@@ -707,6 +708,7 @@ Abaixo está a descrição juntamente com os critérios de aceitação de cada h
                 <td 19" colspan="1" rowspan="1">
                     <p ><span >3</span></p>
                 </td>
+        <td > <p><a href="../../pre-rastreabilidade/richpicture#m3">Richpicture 3 - New story</a></p></td>
             </tr>
             <tr>
                 <td  colspan="1" rowspan="1">
