@@ -300,10 +300,11 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p>Para a realização dessa tarefa, em um primeiro momento, fora refatorada a baseline e posteriormente o backlog do produto. Após esse processo de refatoração se tornou possível linkar os requisitos em relação a sua origem, levando em consideração todas as suas ocorrências.</p>
 <hr />
 <h3 id="tabela-backward-from">Tabela Backward-from</h3>
+<p><a href="../../elicitacao/storytelling/#storytellings/#EditarPerfil">Link para os critérios</a></p>
 <h3 id="elos-funcionais">Elos Funcionais</h3>
 <p><strong>Legenda:</strong>
-- Representação/Representa = R
-- Alocação = A
+- R/R = R
+- A = A
 - Alocado e = AE</p>
 <h4 id="ef1">EF1</h4>
 <h4 id="categoria">Categoria</h4>
@@ -493,6 +494,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>UC32-Escrever uma nova Story. </li>
 <li>US 063 - Usuário Escritor: Escrever 'new storie' </li>
 <li>I* Publicações</li>
+<li>I* Stories</li>
 </ul>
 <h4 id="elos_4">Elos</h4>
 <p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
@@ -502,6 +504,8 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>A</strong>: Cenário Criar um novo stories <strong>AE</strong> Introspecção 3</p>
 <p><strong>R</strong>: RichPicture "Ponto de vista do escritor/New Story" <strong>R</strong> StoryTelling - Escritor, New Story</p>
 <p><strong>R</strong>: US 063 <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: UC Stories <strong>R</strong> i* Stories</p>
+<p><strong>A</strong>: US 063 <strong>AE</strong> i* Stories</p>
 <hr />
 <h4 id="ef10">EF10</h4>
 <h4 id="categoria_9">Categoria</h4>
@@ -514,16 +518,18 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Léxico Storie </li>
 <li>UC stories    </li>
 <li>UC32-Escrever uma nova Story. </li>
-<li>US 063 - Usuário Escritor: Escrever 'new storie' </li>
+<li>UC29 - Visualizar Drafts</li>
 <li>I* Publicações</li>
+<li>I* Stories</li>
 </ul>
 <h4 id="elos_5">Elos</h4>
-<p><strong>R</strong>: </p>
 <p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
 <p><strong>A</strong>: Léxico Stories <strong>AE</strong> Cenário Criar um novo stories</p>
 <p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> US 063</p>
 <p><strong>A</strong>: Cenário Criar um novo stories <strong>AE</strong> Introspecção 3</p>
 <p><strong>R</strong>: US 063 <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: UC Stories <strong>R</strong> i* Stories</p>
+<p><strong>A</strong>: UC29 <strong>AE</strong> UC32</p>
 <hr />
 <h4 id="ef11">EF11</h4>
 <h4 id="categoria_10">Categoria</h4>
@@ -535,7 +541,12 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Cenário Criar um novo Storie  </li>
 <li>Léxico Storie </li>
 <li>UC stories    </li>
-<li>UC32-Escrever uma nova Story. </li>
+<li>UC32-Escrever uma nova Story.</li>
+<li>
+<ul>
+<li>UC29 - Visualizar Drafts    </li>
+</ul>
+</li>
 <li>I* Publicações</li>
 </ul>
 <h4 id="elos_6">Elos</h4>
@@ -545,6 +556,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>A</strong>: Introspecção 3 <strong>AE</strong> i* Publicações</p>
 <p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> Introspecção 3</p>
 <p><strong>A</strong>: US 032 <strong>AE</strong> UC Stories</p>
+<p><strong>A</strong>: UC29 <strong>AE</strong> UC32</p>
+<p><strong>R</strong>: UC Stories <strong>R</strong> i* Stories</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef12">EF12</h4>
 <h4 id="categoria_11">Categoria</h4>
@@ -559,6 +573,8 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>UC28-Visualizar Stories   </li>
 <li>US 071 - Usuário: Visualizar storie </li>
 <li>I* Publicações</li>
+<li>I* Stories</li>
+<li>I* Customização de interesses</li>
 </ul>
 <h4 id="elos_7">Elos</h4>
 <p><strong>R</strong>: StoryBoard Tutorial <strong>R</strong> Introspecção 1</p>
@@ -568,6 +584,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>A</strong>: UC28 <strong>AE</strong> UC Stories</p>
 <p><strong>R</strong>: US 071 <strong>R</strong> UC28</p>
 <p><strong>R</strong>: US 071 <strong>R</strong> i* Publicações</p>
+<p><strong>R</strong>: US071 <strong>AE</strong> i* Stories</p>
+<p><strong>A</strong>: Introspecção <strong>AE</strong> i* Customização de interesses</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef13">EF13</h4>
 <h4 id="categoria_12">Categoria</h4>
@@ -582,8 +601,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Léxico Storie </li>
 <li>UC stories    </li>
 <li>UC31-Importar uma Story   </li>
-<li>US 064 - Usuário Escritor: Importar 'storie'</li>
+<li>US 064- Usuário Escritor: Importar 'storie'</li>
 <li>i* Publicações</li>
+<li>I* Stories</li>
 </ul>
 <h4 id="elos_8">Elos</h4>
 <p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
@@ -593,6 +613,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>A</strong>: Cenário Importar um storie <strong>AE</strong> Introspecção 3</p>
 <p><strong>R</strong>: RichPicture "Ponto de vista do escritor/New Story" <strong>R</strong> StoryTelling - Escritor, New Story</p>
 <p><strong>R</strong>: US 064 <strong>R</strong> i* Publicações</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef14">EF14</h4>
 <h4 id="categoria_13">Categoria</h4>
@@ -607,6 +628,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>UC35-Editar Publicação</li>
 <li>US 060 - Usuário Escritor: Editar uma Serie existente</li>
 <li>i* Publicações</li>
+<li>i* Stories</li>
 </ul>
 <h4 id="elos_9">Elos</h4>
 <p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> US 064</p>
@@ -616,6 +638,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>A</strong>: UC35 <strong>AE</strong> i* Publicações</p>
 <p><strong>R</strong>: US 060 <strong>R</strong> i* Publicações</p>
 <p><strong>R</strong>: StoryTelling - Escritor, New Story <strong>R</strong> Introspecção 3</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef15">EF15</h4>
 <h4 id="categoria_14">Categoria</h4>
@@ -629,6 +652,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>UC36-Excluir Publicação   </li>
 <li>US 061 - Usuário Escritor: Deletar uma Serie existente</li>
 <li>i* Publicações</li>
+<li>i* Stories</li>
 </ul>
 <h4 id="elos_10">Elos</h4>
 <p><strong>R</strong>: Léxico Stories <strong>R</strong> UC stories</p>
@@ -638,6 +662,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>R</strong>: UC36 <strong>R</strong> US 061</p>
 <p><strong>R</strong>: US 061 <strong>R</strong> i* Publicações</p>
 <p><strong>R</strong>: Léxico Stories <strong>R</strong> Introspecção 3</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef16">EF16</h4>
 <h4 id="categoria_15">Categoria</h4>
@@ -651,6 +676,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Léxico Clap </li>
 <li>US 065 - Usuário: Aplaudir um texto lido</li>
 <li>I* Publicações</li>
+<li>I* Stories</li>
 </ul>
 <h4 id="elos_11">Elos</h4>
 <p><strong>R</strong>: Léxico Clap <strong>R</strong> US 065</p>
@@ -658,6 +684,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p><strong>R</strong>: introspecção 1 <strong>R</strong> StoryBoard Tutorial</p>
 <p><strong>A</strong>: US 065 <strong>AE</strong> i* Publicações</p>
 <p><strong>A</strong>: Cenário Dar Claps <strong>AE</strong>  Brainstorming 3</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef17">EF17</h4>
 <h4 id="categoria_16">Categoria</h4>
@@ -690,12 +717,14 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Léxico Response   </li>
 <li>US 067 - Usuário: Comentar no corpo do texto      </li>
 <li>I* Publicações</li>
+<li>I* Stories</li>
 </ul>
 <h4 id="elos_13">Elos</h4>
 <p><strong>R</strong>: Brainstorming 4 <strong>R</strong> Introspecção 1</p>
 <p><strong>R</strong>: Cenário Comentar Publicação <strong>R</strong> US 067</p>
 <p><strong>A</strong>: Léxico Response <strong>AE</strong> Cenário Comentar Publicação</p>
 <p><strong>R</strong>: US 067 <strong>Rdo em</strong> i* Publicações</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef19">EF19</h4>
 <h4 id="categoria_18">Categoria</h4>
@@ -781,18 +810,22 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p>Desenvolvimento</p>
 <h4 id="elementos-rastreaveis_22">Elementos Rastreáveis</h4>
 <ul>
-<li>Brainstorming 3: "Gabriel: Selecionar tema de artigos"        </li>
+<li>Brainstorming 3: "Gabriel: Selecionar tema de artigos"</li>
+<li>Relato de Introspecção 1      </li>
 <li>Cenário Pesquisa por artigo   </li>
 <li>Léxico Search e Léxico Tag    </li>
 <li>UC Área comum </li>
 <li>UC03 - Pesquisar artigo   </li>
 <li>i* Pesquisar conteúdo</li>
+<li>i* Customização de interesses</li>
 </ul>
 <h4 id="elos_18">Elos</h4>
 <p><strong>R</strong>: Brainstorming 3 <strong>R</strong> Cenário Pesquisa por artigo</p>
 <p><strong>A</strong>: Léxico Search e Tag <strong>AE</strong> Cenário Pesquisa por artigo</p>
 <p><strong>R</strong>: UC Área comum <strong>R</strong> UC03</p>
 <p><strong>R</strong>: UC03 <strong>R</strong> i* Pesquisar Conteúdo</p>
+<p><strong>R</strong>: instrospecção  1 <strong>R</strong> i* Pesquisar conteúdo</p>
+<p><strong>A</strong>: i<em> Pesquisar Conteúdo <strong>AE</strong> i</em> Customização de interesses</p>
 <hr />
 <h4 id="ef24">EF24</h4>
 <h4 id="categoria_23">Categoria</h4>
@@ -887,14 +920,17 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Cenário Comentar publicação   </li>
 <li>Léxico Response       </li>
 <li>UC30 - Visualizar Publicações </li>
-<li>US 031 - Usuário: Visualizar comentários da publicação        </li>
+<li>US 031 - Usuário: Visualizar comentários da publicação    </li>
+<li>i* Publicações    </li>
 <li>i* Stories</li>
+<li></li>
 </ul>
 <h4 id="elos_24">Elos</h4>
 <p><strong>R</strong>: Brainstorming 4 <strong>R</strong> Cenário Comentar Publicação</p>
 <p><strong>A</strong>: Léxico Response <strong>AE</strong> Cenário Comentar Publicação</p>
 <p><strong>A</strong>: UC30 <strong>AE</strong> US 031</p>
 <p><strong>R</strong>:Cenário Comentar Publicação <strong>R</strong> i* Stories</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef30">EF30</h4>
 <h4 id="categoria_29">Categoria</h4>
@@ -936,7 +972,8 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p>Desenvolvimento</p>
 <h4 id="elementos-rastreaveis_31">Elementos Rastreáveis</h4>
 <ul>
-<li>Storytelling - Editar Perfil: "Ao lado do seu nome nesta página de perfil, existia um botão chamado “Edit profile” e logo Carlos clicou sobre esse botão."            </li>
+<li>Storytelling - Editar Perfil: "Ao lado do seu nome nesta página de perfil, existia um botão chamado “Edit profile” e logo Carlos clicou sobre esse botão."        </li>
+<li>Brainstorming 2 "William: Editar seu próprio perfil"</li>
 <li>Cenário Editar perfil </li>
 <li>Léxico Edit e Léxico Profile  </li>
 <li>UC Área comum </li>
@@ -947,6 +984,8 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 </ul>
 <h4 id="elos_27">Elos</h4>
 <p><strong>R</strong>: StoryTelling Editar <strong>R</strong> Cenário Editar Perfil</p>
+<p><strong>R</strong> Storytelling Editar <strong>R</strong> Brainstorming 2</p>
+<p><strong>A</strong>: Cenário Editar Perfil <strong>AE</strong> Brainstorming 2</p>
 <p><strong>A</strong>: Léxico Edit e Profile <strong>AE</strong> Cenário Editar Perfil</p>
 <p><strong>R</strong>: US 043 <strong>R</strong> UC09</p>
 <p><strong>A</strong>: UC09 <strong>AE</strong> UC Área Comum</p>
@@ -958,6 +997,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <h4 id="elementos-rastreaveis_32">Elementos Rastreáveis</h4>
 <ul>
 <li>Storytelling - Editar Perfil: "Após ter editado tudo o que desejava, Carlos clicou no botão chamado “Save” e foi redirecionado para a página que apresentava os seus dados cadastrais, agora editados."</li>
+<li>Brainstorming 2 "William: Editar seu próprio perfil"</li>
 <li>Cenário Editar perfil -</li>
 <li>Léxico Edit e Léxico Profile  </li>
 <li>UC Área comum UC09 - Editar perfil    </li>
@@ -967,6 +1007,8 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 </ul>
 <h4 id="elos_28">Elos</h4>
 <p><strong>R</strong>: StoryTelling Editar <strong>R</strong> Cenário Editar Perfil</p>
+<p><strong>R</strong> Storytelling Editar <strong>R</strong> Brainstorming 2</p>
+<p><strong>A</strong>: Cenário Editar Perfil <strong>AE</strong> Brainstorming 2</p>
 <p><strong>A</strong>: Léxico Edit e Profile <strong>AE</strong> Cenário Editar Perfil</p>
 <p><strong>A</strong>: i* Perfl <strong>AE</strong> NFR Segurança</p>
 <p><strong>R</strong>: US 043 <strong>R</strong> UC Área Comum</p>
@@ -976,13 +1018,15 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p>Desenvolvimento</p>
 <h4 id="elementos-rastreaveis_33">Elementos Rastreáveis</h4>
 <ul>
-<li>StoryBoard - Tutorial e seguir escritor: "Realmente. E ainda consigo seguir o perfil de escritores dos tutoriais estando logado"          </li>
+<li>StoryBoard - Tutorial e seguir escritor: "Realmente. E ainda consigo seguir o perfil de escritores dos tutoriais estando logado"  </li>
+<li>Brainstorming 3 "Gabriel: seguir o escritor"      </li>
 <li>Cenário Deixar de seguir usuário  </li>
 <li>Léxico Following      </li>
 <li>i* Pesquisar conteúdo</li>
 </ul>
 <h4 id="elos_29">Elos</h4>
 <p><strong>R</strong>: StoryBoard Tutorial <strong>R</strong> Cenário Deixar de Seguir usuário</p>
+<p><strong>A</strong>: Brainstorming 3 <strong>AE</strong> Cenário Deixar de Seguir usuário</p>
 <p><strong>A</strong>: Léxico Following <strong>AE</strong> Cenário Deixar de Seguir usuário</p>
 <p><strong>R</strong>: StoryBoard Tutorial <strong>R</strong> i* Pesquisar Conteúdo</p>
 <p><strong>A</strong>: Léxico Following <strong>AE</strong> i* Pesquisar Conteúdo</p>
@@ -992,7 +1036,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <p>Desenvolvimento</p>
 <h4 id="elementos-rastreaveis_34">Elementos Rastreáveis</h4>
 <ul>
-<li>Storytelling - Escritor New Story: "Medium, como é chamado o site, é uma plataforma pensada na troca de conhecimentos por seus usuários, a partir de textos técnicos, assuntos atuais, sociais, tecnológicos, psicológicos e até mesmo pesquisas"         </li>
+<li>Storytelling - Escritor New Story: "Medium, como é chamado o site, é uma plataforma pensada na troca de conhecimentos por seus usuários, a partir de textos técnicos, assuntos atuais, sociais, tecnológicos, psicológicos e até mesmo pesquisas" </li>
 <li>Léxico Followers  </li>
 <li>US 032 - Usuário: Visualizar seguidores</li>
 </ul>
@@ -1007,27 +1051,32 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <h4 id="elementos-rastreaveis_35">Elementos Rastreáveis</h4>
 <ul>
 <li>Storytelling - Escritor New Story: "Entretanto, ela estava satisfeita com os resultados, pois havia recebido um bom número de “claps”"            </li>
+<li>Brainstorming 3 "Matheus: ver quem deu clap em suas publicações"      </li>
 <li>Cenário Dar clap  </li>
 <li>Léxico Clap       </li>
 <li>UC30 - Visualizar Publicações </li>
 <li>US 057 - Usuário: Visualizar claps em suas publicações    </li>
 <li>NFR Controle de Qualidade </li>
 <li>i* Stories</li>
+<li>i* Publicações</li>
 </ul>
 <h4 id="elos_31">Elos</h4>
 <p><strong>R</strong>: Cenário Dar Clap <strong>R</strong> Storytelling Escritor</p>
+<p><strong>A</strong>: Brainstorming 3 <strong>AE</strong> Cenário Dar Clap</p>
 <p><strong>A</strong>: Léxico clap <strong>AE</strong> Cenário Dar Clap</p>
 <p><strong>A</strong>: UC30 <strong>AE</strong> Storytelling Escritor</p>
 <p><strong>A</strong>: UC30 <strong>AE</strong> US 057</p>
 <p><strong>R</strong>: US 057 <strong>R</strong> NFR Controle de Qualidade</p>
 <p><strong>R</strong>: NFR Controle de Qualidade <strong>R</strong> i* Stories</p>
+<p><strong>A</strong>: i<em> Stories <strong>AE</strong> i</em> Publicações</p>
 <hr />
 <h4 id="ef37">EF37</h4>
 <h4 id="categoria_36">Categoria</h4>
 <p>Desenvolvimento</p>
 <h4 id="elementos-rastreaveis_36">Elementos Rastreáveis</h4>
 <ul>
-<li>Storytelling - Editar Perfil: "Entre essas opções estava escrita a opção “Profile”, então Carlos clicou sobre essa opção e ao mesmo instante ele foi redirecionado para uma página que apresentava todos os seus dados cadastrais."           </li>
+<li>Storytelling - Editar Perfil: "Entre essas opções estava escrita a opção “Profile”, então Carlos clicou sobre essa opção e ao mesmo instante ele foi redirecionado para uma página que apresentava todos os seus dados cadastrais."       </li>
+<li>Brainstorming 3 "Matheus: acessar o perfil de usuário"    </li>
 <li>Cenário Editar perfil </li>
 <li>Léxico Profile    </li>
 <li>UC Área comum </li>
@@ -1038,6 +1087,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 </ul>
 <h4 id="elos_32">Elos</h4>
 <p><strong>R</strong>: Storytelling Editar Perfil <strong>R</strong> Cenário Editar Perfil</p>
+<p><strong>R</strong>: Storytelling Editar Perfil <strong>R</strong> Brainstorming 3</p>
 <p><strong>A</strong>: Léxico Profile <strong>AE</strong> Cenário Editar Perfil</p>
 <p><strong>R</strong>: US 044 <strong>R</strong> UC Área comum</p>
 <p><strong>A</strong>: UC09 <strong>AE</strong> UC Área comum</p>
@@ -1104,9 +1154,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* Publicações</li>
 </ul>
 <h4 id="elo_4">Elo</h4>
-<p><strong>Representação</strong>: StoryTelling Escritor, New Story e UC Stories <strong>REPRESENTA</strong> Cenário Criar um novo storie</p>
-<p><strong>Representação</strong>: I* Publicações <strong>REPRESENTA</strong> Cenário criar novo Storie e UC cenários</p>
-<p><strong>Alocação</strong>: Pergunta "Como você classifica o editor de textos padrão do Médium?" <strong>ALOCADA EM</strong> UC Stories, Cenário - criar novo Storie</p>
+<p><strong>R</strong>: StoryTelling Escritor, New Story e UC Stories <strong>R</strong> Cenário Criar um novo storie</p>
+<p><strong>R</strong>: I* Publicações <strong>R</strong> Cenário criar novo Storie e UC cenários</p>
+<p><strong>A</strong>: Pergunta "Como você classifica o editor de textos padrão do Médium?" <strong>ALOCADA EM</strong> UC Stories, Cenário - criar novo Storie</p>
 <hr />
 <h4 id="ef42">EF42</h4>
 <h4 id="categoria_41">Categoria</h4>
@@ -1122,12 +1172,12 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* Publicações</li>
 </ul>
 <h4 id="elo_5">Elo</h4>
-<p><strong>Representação</strong>: StoryTelling Escritor, New Story e UC Stories <strong>REPRESENTA</strong> Cenário Criar um novo storie</p>
-<p><strong>Representação</strong>: I* Publicações <strong>REPRESENTA</strong> Cenário criar novo Storie e US 059</p>
-<p><strong>Representação</strong>: UC Stories <strong>REPRESENTA</strong> US 059 - Editar publicação</p>
-<p><strong>Alocação</strong>: Pergunta "Como você classifica o editor de textos padrão do Médium?" <strong>ALOCADA EM</strong> UC Stories, Cenário - criar novo Storie</p>
-<p><strong>Alocação</strong>: UC Stories <strong>ALOCADO EM</strong> I* Publicações</p>
-<p><strong>Alocação</strong>: Léxico editar <strong>ALOCADO EM</strong> Cenário Criar um novo storie</p>
+<p><strong>R</strong>: StoryTelling Escritor, New Story e UC Stories <strong>R</strong> Cenário Criar um novo storie</p>
+<p><strong>R</strong>: I* Publicações <strong>R</strong> Cenário criar novo Storie e US 059</p>
+<p><strong>R</strong>: UC Stories <strong>R</strong> US 059 - Editar publicação</p>
+<p><strong>A</strong>: Pergunta "Como você classifica o editor de textos padrão do Médium?" <strong>ALOCADA EM</strong> UC Stories, Cenário - criar novo Storie</p>
+<p><strong>A</strong>: UC Stories <strong>AE</strong> I* Publicações</p>
+<p><strong>A</strong>: Léxico editar <strong>AE</strong> Cenário Criar um novo storie</p>
 <hr />
 <h4 id="ef43">EF43</h4>
 <h4 id="categoria_42">Categoria</h4>
@@ -1140,9 +1190,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* Publicações</li>
 </ul>
 <h4 id="elo_6">Elo</h4>
-<p><strong>Representação</strong>: I* Publicações <strong>REPRESENTA</strong> Cenário criar novo Storie</p>
-<p><strong>Representação</strong>: UC Stories <strong>REPRESENTA</strong> US UC - Excluir publicação</p>
-<p><strong>Alocação</strong>: UC Stories <strong>ALOCADO EM</strong> I* Publicações</p>
+<p><strong>R</strong>: I* Publicações <strong>R</strong> Cenário criar novo Storie</p>
+<p><strong>R</strong>: UC Stories <strong>R</strong> US UC - Excluir publicação</p>
+<p><strong>A</strong>: UC Stories <strong>AE</strong> I* Publicações</p>
 <hr />
 <h4 id="ef44">EF44</h4>
 <h4 id="categoria_43">Categoria</h4>
@@ -1156,11 +1206,13 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US 008 - Usuário: Selecionar alguns tópicos de meu interesse</li>
 <li>NFR: Controle de Conteúdo</li>
 <li>I* Pesquisar conteúdo</li>
+<li>I* Customização de interesses</li>
 </ul>
 <h4 id="elo_7">Elo</h4>
-<p><strong>Representação</strong> UC cadastro <strong>REPRESENTA</strong> US 008 - Usuário: Selecionar alguns tópicos de meu interesse</p>
-<p><strong>Alocação</strong>: Cenário customizar interesses, US 008 <strong>ALOCADO EM</strong>  NFR Controle de Conteúdo</p>
-<p><strong>Alocação</strong>: I* Pesquisar conteúdo <strong>ALOCADO EM</strong> Especificação: UC01 - Área comum</p>
+<p><strong>R</strong> UC cadastro <strong>R</strong> US 008 - Usuário: Selecionar alguns tópicos de meu interesse</p>
+<p><strong>A</strong>: Cenário customizar interesses, US 008 <strong>AE</strong>  NFR Controle de Conteúdo</p>
+<p><strong>A</strong>: I* Pesquisar conteúdo <strong>AE</strong> Especificação: UC01 - Área comum</p>
+<p><strong>A</strong>: I<em> Pesquisar conteúdo <strong>AE</strong> i</em> Customização de interesses</p>
 <hr />
 <h4 id="ef45">EF45</h4>
 <h4 id="categoria_44">Categoria</h4>
@@ -1174,9 +1226,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Especificação:UC10-Configurar preferências</li>
 </ul>
 <h4 id="elo_8">Elo</h4>
-<p><strong>Representação</strong>: UC01 - Área Comum <strong>REPRESENTA</strong> Cenário deixar de seguir usuários</p>
-<p><strong><em>Representação</em>*:  </strong>REPRESENTA** Cenário deixar de seguir usuários</p>
-<p><strong>Alocação</strong>: Léxico Seguidores <strong>ALOCADO EM</strong> Especificação: UC01 - Área comum, UC01- Área Comum</p>
+<p><strong>R</strong>: UC01 - Área Comum <strong>R</strong> Cenário deixar de seguir usuários</p>
+<p><strong><em>R</em>*:  </strong>R** Cenário deixar de seguir usuários</p>
+<p><strong>A</strong>: Léxico Seguidores <strong>AE</strong> Especificação: UC01 - Área comum, UC01- Área Comum</p>
 <hr />
 <h4 id="ef46">EF46</h4>
 <h4 id="categoria_45">Categoria</h4>
@@ -1188,11 +1240,13 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Especificação:UC10-Configurar preferências</li>
 <li>NFR Controle de Conteúdo</li>
 <li>i* Pesquisar conteúdo</li>
+<li>i* Customização de interesses</li>
 </ul>
 <h4 id="elo_9">Elo</h4>
-<p><strong>Representação</strong>: UC01 - Área comum  <strong>REPRESENTA</strong> Especificação:UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Introspecção 3 <strong>ALOCADO EM</strong> NFR Controle de Conteúdo</p>
-<p><strong>Alocação</strong>: i* Pesquisar conteúdo  <strong>ALOCADO EM</strong> UC01 - Área Comum</p>
+<p><strong>R</strong>: UC01 - Área comum  <strong>R</strong> Especificação:UC10-Configurar preferências</p>
+<p><strong>A</strong>: Introspecção 3 <strong>AE</strong> NFR Controle de Conteúdo</p>
+<p><strong>A</strong>: i* Pesquisar conteúdo  <strong>AE</strong> UC01 - Área Comum</p>
+<p><strong>A</strong>: I<em> Pesquisar conteúdo <strong>AE</strong> i</em> Customização de interesses</p>
 <hr />
 <h4 id="ef47">EF47</h4>
 <h4 id="categoria_46">Categoria</h4>
@@ -1205,9 +1259,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>NFR Usabilidade</li>
 </ul>
 <h4 id="elo_10">Elo</h4>
-<p><strong>Representação</strong>: UC01 - Área comum  <strong>REPRESENTA</strong> Especificação:UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Léxico night mode <strong>ALOCADO EM</strong> Storytelling - Configurações,US010 - Ativar modo noturno</p>
-<p><strong>Alocação</strong> Storytelling - Configurações e US010 - Ativar modo noturno  <strong>ALOCADO EM</strong> NFR Usabilidade</p>
+<p><strong>R</strong>: UC01 - Área comum  <strong>R</strong> Especificação:UC10-Configurar preferências</p>
+<p><strong>A</strong>: Léxico night mode <strong>AE</strong> Storytelling - Configurações,US010 - Ativar modo noturno</p>
+<p><strong>A</strong> Storytelling - Configurações e US010 - Ativar modo noturno  <strong>AE</strong> NFR Usabilidade</p>
 <hr />
 <h4 id="ef48">EF48</h4>
 <h4 id="categoria_47">Categoria</h4>
@@ -1220,9 +1274,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>NFR Usabilidade</li>
 </ul>
 <h4 id="elo_11">Elo</h4>
-<p><strong>Representação</strong>: UC01 - Área comum  <strong>REPRESENTA</strong> Especificação:UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Léxico night mode <strong>ALOCADO EM</strong> Storytelling - Configurações,US011-Automatizar modo noturno</p>
-<p><strong>Alocação</strong> Storytelling - Configurações e US011-Automatizar modo noturno  <strong>ALOCADO EM</strong> NFR Usabilidade</p>
+<p><strong>R</strong>: UC01 - Área comum  <strong>R</strong> Especificação:UC10-Configurar preferências</p>
+<p><strong>A</strong>: Léxico night mode <strong>AE</strong> Storytelling - Configurações,US011-Automatizar modo noturno</p>
+<p><strong>A</strong> Storytelling - Configurações e US011-Automatizar modo noturno  <strong>AE</strong> NFR Usabilidade</p>
 <hr />
 <h4 id="ef49">EF49</h4>
 <h4 id="categoria_48">Categoria</h4>
@@ -1239,10 +1293,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações: (task) editar email</li>
 </ul>
 <h4 id="elo_12">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações: (task) editar email <strong>REPRESENTA</strong> US012 - Editar email padrão</p>
-<p><strong>Representação</strong>: UC Área comum <strong>REPRESENTA</strong> C04 editar perfil</p>
-<p><strong>Alocação</strong> Storytelling - Configurações <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong> US012-Editar email padrão  <strong>ALOCADO EM</strong> Storytelling - Configurações e Brainstorming 2</p>
+<p><strong>R</strong>: I* SD configurações: (task) editar email <strong>R</strong> US012 - Editar email padrão</p>
+<p><strong>R</strong>: UC Área comum <strong>R</strong> C04 editar perfil</p>
+<p><strong>A</strong> Storytelling - Configurações <strong>AE</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong> US012-Editar email padrão  <strong>AE</strong> Storytelling - Configurações e Brainstorming 2</p>
 <hr />
 <h4 id="ef50">EF50</h4>
 <h4 id="categoria_49">Categoria</h4>
@@ -1257,13 +1311,15 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US013-Selecionar período de sugestão de artigos</li>
 <li>NFR Controle de qualidade</li>
 <li>I* SD configurações</li>
+<li>i* Customização de interesses</li>
 </ul>
 <h4 id="elo_13">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Representação</strong>: Caso de uso : Área comum  <strong>REPRESENTA</strong> Léxico newsletter</p>
-<p><strong>Alocação</strong> I* SD configurações e US013-Selecionar período de sugestão de artigos  <strong>ALOCADO EM</strong> NFR Controle de qualidade</p>
-<p><strong>Alocação</strong> Léxico newsletter <strong>ALOCADO EM</strong> US013-Selecionar período de sugestão de artigos</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: Caso de uso : Área comum  <strong>R</strong> Léxico newsletter</p>
+<p><strong>A</strong> I* SD configurações e US013-Selecionar período de sugestão de artigos  <strong>AE</strong> NFR Controle de qualidade</p>
+<p><strong>A</strong> Léxico newsletter <strong>AE</strong> US013-Selecionar período de sugestão de artigos</p>
+<p><strong>A</strong>: i<em> Customização de interesses <strong>AE</strong> i</em> Configurações</p>
 <hr />
 <h4 id="ef51">EF51</h4>
 <h4 id="categoria_50">Categoria</h4>
@@ -1278,13 +1334,15 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US014-Desativar sugestão de artigos</li>
 <li>NFR Controle de qualidade</li>
 <li>I* SD configurações</li>
+<li>I* Customização de interesses</li>
 </ul>
 <h4 id="elo_14">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Representação</strong>: Caso de uso : Área comum  <strong>REPRESENTA</strong> Léxico newsletter</p>
-<p><strong>Alocação</strong> I* SD configurações e US014-Desativar sugestão de artigos <strong>ALOCADO EM</strong> NFR Controle de qualidade</p>
-<p><strong>Alocação</strong> Léxico newsletter <strong>ALOCADO EM</strong> US013-Selecionar período de sugestão de artigos</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: Caso de uso : Área comum  <strong>R</strong> Léxico newsletter</p>
+<p><strong>A</strong> I* SD configurações e US014-Desativar sugestão de artigos <strong>AE</strong> NFR Controle de qualidade</p>
+<p><strong>A</strong> Léxico newsletter <strong>AE</strong> US013-Selecionar período de sugestão de artigos</p>
+<p><strong>A</strong>: i<em> Customização de interesses <strong>AE</strong> i</em> Configurações</p>
 <hr />
 <h4 id="ef52">EF52</h4>
 <h4 id="categoria_51">Categoria</h4>
@@ -1302,11 +1360,11 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_15">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Representação</strong>: Caso de uso : Área comum  <strong>REPRESENTA</strong> Léxico newsletter e introspecçaõ 1</p>
-<p><strong>Alocação</strong> I* SD configurações e US015-Ativar/desativar boletim informativo <strong>ALOCADO EM</strong> NFR Controle de qualidade</p>
-<p><strong>Alocação</strong> Léxico newsletter <strong>ALOCADO EM</strong> US013-Selecionar período de sugestão de artigos e Introspecção 1</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: Caso de uso : Área comum  <strong>R</strong> Léxico newsletter e introspecçaõ 1</p>
+<p><strong>A</strong> I* SD configurações e US015-Ativar/desativar boletim informativo <strong>AE</strong> NFR Controle de qualidade</p>
+<p><strong>A</strong> Léxico newsletter <strong>AE</strong> US013-Selecionar período de sugestão de artigos e Introspecção 1</p>
 <hr />
 <h4 id="ef53">EF53</h4>
 <h4 id="categoria_52">Categoria</h4>
@@ -1324,11 +1382,11 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_16">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Representação</strong>: Caso de uso : Área comum  <strong>REPRESENTA</strong> Léxico newsletter e introspecçaõ 1</p>
-<p><strong>Alocação</strong> I* SD configurações e US016-Selecionar tema do boletim informativo <strong>ALOCADO EM</strong> NFR Controle de qualidade</p>
-<p><strong>Alocação</strong> Léxico newsletter <strong>ALOCADO EM</strong> US013-Selecionar período de sugestão de artigos e Introspecção 1</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: Caso de uso : Área comum  <strong>R</strong> Léxico newsletter e introspecçaõ 1</p>
+<p><strong>A</strong> I* SD configurações e US016-Selecionar tema do boletim informativo <strong>AE</strong> NFR Controle de qualidade</p>
+<p><strong>A</strong> Léxico newsletter <strong>AE</strong> US013-Selecionar período de sugestão de artigos e Introspecção 1</p>
 <hr />
 <h4 id="ef54">EF54</h4>
 <h4 id="categoria_53">Categoria</h4>
@@ -1343,12 +1401,14 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US017-Ativar as recomendações de stories</li>
 <li>NFR Controle de qualidade</li>
 <li>I* SD configurações</li>
+<li>I* Customização de interesses</li>
 </ul>
 <h4 id="elo_17">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: US017-Ativar as recomendações de stories e Cenário: C10:Configurar notificações de e-mail <strong>ALOCADO EM</strong> Brainstorming 3</p>
-<p><strong>Alocação</strong> I* SD configurações e 017-Ativar as recomendações de stories <strong>ALOCADO EM</strong> NFR Controle de qualidade</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: US017-Ativar as recomendações de stories e Cenário: C10:Configurar notificações de e-mail <strong>AE</strong> Brainstorming 3</p>
+<p><strong>A</strong> I* SD configurações e 017-Ativar as recomendações de stories <strong>AE</strong> NFR Controle de qualidade</p>
+<p><strong>A</strong>: i<em> Customização de interesses <strong>AE</strong> i</em> Configurações</p>
 <hr />
 <h4 id="ef55">EF55</h4>
 <h4 id="categoria_54">Categoria</h4>
@@ -1365,10 +1425,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_18">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: US018-Ativar as notificação por e-mail e Cenário: C10:Configurar notificações de e-mail <strong>ALOCADO EM</strong> Brainstorming 3</p>
-<p><strong>Alocação</strong>: Cenário: C10:Configurar notificações de e-mail  <strong>ALOCADO EM</strong> Introspecção 1:Comportamento do usuário na Página inicial da aplicação</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: US018-Ativar as notificação por e-mail e Cenário: C10:Configurar notificações de e-mail <strong>AE</strong> Brainstorming 3</p>
+<p><strong>A</strong>: Cenário: C10:Configurar notificações de e-mail  <strong>AE</strong> Introspecção 1:Comportamento do usuário na Página inicial da aplicação</p>
 <hr />
 <h4 id="ef56">EF56</h4>
 <h4 id="categoria_55">Categoria</h4>
@@ -1382,9 +1442,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_19">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Cenário: C10:Configurar notificações de e-mail  <strong>ALOCADO EM</strong> Especificação: UC10</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação e Cenário: C10:Configurar notificações de e-mail</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Cenário: C10:Configurar notificações de e-mail e Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Cenário: C10:Configurar notificações de e-mail  <strong>AE</strong> Especificação: UC10</p>
 <hr />
 <h4 id="ef57">EF57</h4>
 <h4 id="categoria_56">Categoria</h4>
@@ -1399,9 +1459,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_20">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Léxico mention <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US019</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Léxico mention <strong>AE</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US019</p>
 <hr />
 <h4 id="ef58">EF58</h4>
 <h4 id="categoria_57">Categoria</h4>
@@ -1416,9 +1476,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_21">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Léxico mention <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  </p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Léxico mention <strong>AE</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  </p>
 <hr />
 <h4 id="ef59">EF59</h4>
 <h4 id="categoria_58">Categoria</h4>
@@ -1433,9 +1493,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_22">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Léxico conection <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  e US006-Conectar com redes sociais</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Léxico conection <strong>AE</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim  e US006-Conectar com redes sociais</p>
 <hr />
 <h4 id="ef60">EF60</h4>
 <h4 id="categoria_59">Categoria</h4>
@@ -1450,9 +1510,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_23">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Léxico conection <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US007-Conectar com Google</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Léxico conection <strong>AE</strong> Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US007-Conectar com Google</p>
 <hr />
 <h4 id="ef61">EF61</h4>
 <h4 id="categoria_60">Categoria</h4>
@@ -1466,9 +1526,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_24">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US021-Mostrar links para minhas redes sociais <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências e US019-Gerenciar a privacidade de menções e US020-Desativar menções a mim e US021-Mostrar links para minhas redes sociais <strong>AE</strong> UC Área Comum</p>
 <hr />
 <h4 id="ef62">EF62</h4>
 <h4 id="categoria_61">Categoria</h4>
@@ -1482,10 +1542,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_25">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Léxico editar <strong>ALOCADO EM</strong> UC Área Comum e Storybord- Usuário configurando a aplicação</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Léxico editar <strong>AE</strong> UC Área Comum e Storybord- Usuário configurando a aplicação</p>
 <hr />
 <h4 id="ef63">EF63</h4>
 <h4 id="categoria_62">Categoria</h4>
@@ -1498,9 +1558,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_26">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
 <hr />
 <h4 id="ef64">EF64</h4>
 <h4 id="categoria_63">Categoria</h4>
@@ -1514,10 +1574,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_27">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Léxico seguidores <strong>ALOCADO EM</strong> UC Área Comum e Storybord- Usuário configurando a aplicação</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Léxico seguidores <strong>AE</strong> UC Área Comum e Storybord- Usuário configurando a aplicação</p>
 <hr />
 <h4 id="ef65">EF65</h4>
 <h4 id="categoria_64">Categoria</h4>
@@ -1530,9 +1590,9 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_28">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
 <hr />
 <h4 id="ef66">EF66</h4>
 <h4 id="categoria_65">Categoria</h4>
@@ -1546,10 +1606,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_29">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong> US034-Deslogar de outras sessões <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong> US034-Deslogar de outras sessões <strong>AE</strong> Especificação: UC10-Configurar preferências</p>
 <hr />
 <h4 id="ef67">EF67</h4>
 <h4 id="categoria_66">Categoria</h4>
@@ -1564,11 +1624,11 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_30">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Léxico conta <strong>ALOCADO EM</strong> UC Área Comum e I* SD configurações</p>
-<p><strong>Alocação</strong> US022-Desativar minha conta <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Léxico conta <strong>AE</strong> UC Área Comum e I* SD configurações</p>
+<p><strong>A</strong> US022-Desativar minha conta <strong>AE</strong> Especificação: UC10-Configurar preferências</p>
 <hr />
 <h4 id="ef68">EF68</h4>
 <h4 id="categoria_67">Categoria</h4>
@@ -1583,11 +1643,11 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>I* SD configurações</li>
 </ul>
 <h4 id="elo_31">Elo</h4>
-<p><strong>Representação</strong>: I* SD configurações <strong>REPRESENTA</strong> Storybord - Usuário, Configurando a aplicação</p>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Léxico conta <strong>ALOCADO EM</strong> UC Área Comum e I* SD configurações</p>
-<p><strong>Alocação</strong> US023- Deletar minha conta <strong>ALOCADO EM</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>R</strong>: I* SD configurações <strong>R</strong> Storybord - Usuário, Configurando a aplicação</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Léxico conta <strong>AE</strong> UC Área Comum e I* SD configurações</p>
+<p><strong>A</strong> US023- Deletar minha conta <strong>AE</strong> Especificação: UC10-Configurar preferências</p>
 <hr />
 <h4 id="ef69">EF69</h4>
 <h4 id="categoria_68">Categoria</h4>
@@ -1599,8 +1659,8 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>Especificação: UC10-Configurar preferências</li>
 </ul>
 <h4 id="elo_32">Elo</h4>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
 <hr />
 <h4 id="ef70">EF70</h4>
 <h4 id="categoria_69">Categoria</h4>
@@ -1614,10 +1674,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US001-Acessar glossário MEDIUM</li>
 </ul>
 <h4 id="elo_33">Elo</h4>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Storybord, UC Área comum <strong>ALOCADO EM</strong> Léxico Medium</p>
-<p><strong>Alocação</strong>: US001-Acessar glossário MEDIUM <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Storybord, UC Área comum <strong>AE</strong> Léxico Medium</p>
+<p><strong>A</strong>: US001-Acessar glossário MEDIUM <strong>AE</strong> UC Área Comum</p>
 <hr />
 <h4 id="ef71">EF71</h4>
 <h4 id="categoria_70">Categoria</h4>
@@ -1630,10 +1690,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US002-Responder questionário de satisfação da aplicação</li>
 </ul>
 <h4 id="elo_34">Elo</h4>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Storybord, UC Área comum <strong>ALOCADO EM</strong> Léxico Medium</p>
-<p><strong>Alocação</strong>: US002-Responder questionário de satisfação da aplicação <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Storybord, UC Área comum <strong>AE</strong> Léxico Medium</p>
+<p><strong>A</strong>: US002-Responder questionário de satisfação da aplicação <strong>AE</strong> UC Área Comum</p>
 <hr />
 <h4 id="ef72">EF72</h4>
 <h4 id="categoria_71">Categoria</h4>
@@ -1646,10 +1706,10 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
 <li>US003-Pesquisar tópico de ajuda</li>
 </ul>
 <h4 id="elo_35">Elo</h4>
-<p><strong>Representação</strong>: Storybord-Usuário, Configurando a aplicação <strong>REPRESENTA</strong> Especificação: UC10-Configurar preferências</p>
-<p><strong>Alocação</strong>: Especificação: UC10-Configurar preferências <strong>ALOCADO EM</strong> UC Área Comum</p>
-<p><strong>Alocação</strong>: Storybord, UC Área comum <strong>ALOCADO EM</strong> Léxico Medium</p>
-<p><strong>Alocação</strong>: US003-Pesquisar tópico de ajuda <strong>ALOCADO EM</strong> UC Área Comum</p>
+<p><strong>R</strong>: Storybord-Usuário, Configurando a aplicação <strong>R</strong> Especificação: UC10-Configurar preferências</p>
+<p><strong>A</strong>: Especificação: UC10-Configurar preferências <strong>AE</strong> UC Área Comum</p>
+<p><strong>A</strong>: Storybord, UC Área comum <strong>AE</strong> Léxico Medium</p>
+<p><strong>A</strong>: US003-Pesquisar tópico de ajuda <strong>AE</strong> UC Área Comum</p>
 <hr /></div>
         </div>
 
@@ -1659,7 +1719,7 @@ Com isso temos a pré-rastreabilidade como uma projeção de possíveis surgimen
         </footer>
         <script>
             var base_url = "../..",
-                shortcuts = {"next": 78, "help": 191, "search": 83, "previous": 80};
+                shortcuts = {"search": 83, "next": 78, "help": 191, "previous": 80};
         </script>
         <script src="../../js/base.js" defer></script>
         <script src="../../search/main.js" defer></script>
