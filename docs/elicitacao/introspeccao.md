@@ -8,11 +8,18 @@
 |  10/04/2019    | Aline Laureano       |Adição do relato da introspecção da Exploraração de tópicos | 0.5 |
 |  10/04/2019    | Matheus Salles Blanco       |Adição do relato da introspecção do Usuário no processo de criação de uma nova _Story_ | 0.6 |
 |  10/04/2019    | Matheus Salles Blanco       |Adição de requisitos elicitados em cada técnica | 0.7 |
-|  17/06/2019    | William Elias        |Adição dos resultados| 1.0|
+|  17/06/2019    | William Elias        |Adição dos resultados| 0.8|
+|  24/06/2019    | William Elias        |Adição da metodologia| 1.0|
 
 ### Introdução
 
 Introspecção é uma técnica que consiste em entender quais propriedades o sistema deve possuir para que ele seja um sucesso. A introspecção deve ser usada como uma forma de imaginar o caminho que um usuário ou qualquer outro stakeholder fará no sistema. O engenheiro de requisitos deve imaginar o que ele gostaria, se tivesse que desempenhar uma determinada tarefa, com os equipamentos disponíveis e demais recursos.
+
+
+### Metodologia
+
+Para a realização das introspecções o grupo se reuniu viu hangouts e definiu alguns temas para cada integrante.
+Após a definição dos temas individuais cada membro ficou responsável por realizar por meio de mentalização uma idealização do software em questão, em face as sua funcionalidades.
 
 ### Resultados 
 

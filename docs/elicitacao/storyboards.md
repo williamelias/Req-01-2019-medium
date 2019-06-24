@@ -7,6 +7,7 @@
 |   17/04/2019   |   William Elias Alves| Inserção de storybords nessa página avulsa| 0.4  |
 |   17/04/2019   |   William Elias Alves| Inserção do rastro de elicitação para login e customização| 0.4  |
 |   05/06/2019   |   Gabriel Filie Manso Araujo | Validação e aprimoramento de descrições | 0.5  |
+|  24/06/2019    | William Elias        |Adição da metodologia e autores| 1.0|
 
 
 
@@ -16,7 +17,9 @@ Storyboards são uma forma prática e eficiente de desenhar, comunicar e discuti
 
 Por meio da aplicação das técnicas de elicitação de requisitos, foi decidido que cada integrante do grupo focasse em uma área específica da plataforma MEDIUM e, mediante a utilização da técnica de [storytelling](storytelling.md), desenvolvessem diversos modelos de storyboards.
 
-### Escopo
+### Metodologia
+
+O presente documento foi concebido por meio da aplicação das técnicas de storytelling e storybord com as seguintes ênfases: customização de interesses de um usuário, edição de perfil, login e cadastro na aplicação, criação de uma nova _storie_ e exploração de tópicos de leitura.
 
 Os seguintes storyboards tiveram como ênfases: 
 
@@ -29,6 +32,8 @@ Os seguintes storyboards tiveram como ênfases:
 ###Storyboards
 
 ##### Customização de interesses
+
+**Responsável:**Pedro rodrigues
 
 ![custumização de interesses](storyboards/storyBoard_Customizar-seus-interesses_PedroRodrigues.jpg)
 
@@ -45,6 +50,8 @@ Os seguintes storyboards tiveram como ênfases:
 
 #### Login e cadastro
 
+**Responsável:**William Elias
+
 ![login/cadastro](storyboards/storyboard-login.png)
 
 **Requisitos Elicitados**
@@ -59,6 +66,8 @@ Os seguintes storyboards tiveram como ênfases:
 
 #### Tutorial e seguir escritor
 
+**Responsável:** Gabriel Filipe
+
 ![tutorial/seguir escritor](storyboards/storytelling_gabriel.jpg)
 **Requisitos Elicitados**
 
@@ -67,6 +76,8 @@ Os seguintes storyboards tiveram como ênfases:
 |R043|Visualizar autores seguidos|
 
 #### Bookmarking
+
+**Responsável:** Guilherme
 
 ![bookmarking](storyboards/storytelling_bookmarking.png)
 **Requisitos Elicitados**
