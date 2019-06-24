@@ -711,7 +711,7 @@ Com o auxílio do desenvolvimento de cenários, ficou possível obter uma visão
 |**Atores**|Usuário|
 |**Pré-condições**|Usuário deve estar conectado à internet<br>Usuário deve estar logado|
 |**Pós-condições**|Usuário terá configurado aspectos da aplicação de acordo com sua preferência
-|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica na foto de seu perfil**<br/> 1-Usuário clica em sua foto de perfil<br/>2-Usuário clica em 'settings'<br>3-Usuário visualiza opções de configurações de e-mail, conexões, conta, membership e seguraça<br>4-Usuário modifica o que achar necessário |
+|**Fluxo principal**|** [FP01] Este fluxo se inicia quando o usuário clica na foto de seu perfil**<br/> 1-Usuário clica em sua foto de perfil<br/>2-Usuário clica em 'settings'<br>3-Usuário visualiza opções de configurações de e-mail, notificações, sugestão de artigos, boletim informativo, privacidade de menções, usuários bloqueados, conexões, conta (deslogar, desativar, deletar links para redes sociais, download de informações), tutoriais, glossário, pesquisa de satisfação, ajudamembership e segurança<br>4-Usuário modifica o que achar necessário |
 |**Fluxo de exceção**|** [FE01] Falha de conexão à internet**<br/>No passo 2 ocorre um erro de conexão com a internet|
 
 <span id = "UC11_refatorado"></span>

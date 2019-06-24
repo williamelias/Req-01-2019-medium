@@ -7,6 +7,7 @@
 |   16/04/2019   |   William Elias Alves| Correção do link de acesso ao storytelling 'explorar tópicos' e adicão do link para storybords| 0.4  |
 | 17/04/2019| William Elias Alves| Inserção da nova storytelling de configuração da aplicação e adição do rastro da mesma| 0.5|
 |   17/06/2019   |  william elias alves | Inserção dos resultados| 1.0|
+|23/06/2019|Matheus Blanco | Adição de mais um storytelling|1.1|
 
 
 ### Descrição 
@@ -25,6 +26,7 @@ Foram concebidos os seguintes modelos:
 * Login e cadastro
 * explorar tópicos
 * Configurar aplicação
+* Extras
 
 ***
 
@@ -36,7 +38,7 @@ Foram concebidos os seguintes modelos:
 <a id="editprofile"></a>
 
 Carlos é um engenheiro de software fascinado na área de inteligência artificial. Ele gasta boa parte do seu tempo desenvolvendo estudos e pesquisas para a criação de novos algoritmos que sejam cada vez mais eficientes em manipular estruturas de dados do tipo redes neurais.
-Buscando apresentar suas ideias em uma plataforma que tivesse leitores que partilham dos mesmos interesses de Carlos, ele decidiu adaptar parte de seus estudos e pesquisas em forma de textos jornalísticos e a postar eles na  plataforma Medium... [LER MAIS](storytellings/Storytelling - Editar perfil.docx)  
+Buscando apresentar suas ideias em uma plataforma que tivesse leitores que partilham dos mesmos interesses de Carlos, ele decidiu adaptar parte de seus estudos e pesquisas em forma de textos jornalísticos e a postar eles na  plataforma Medium... [LER MAIS](storytellings/Storytelling - Editar perfil (2).docx)  
 
 **Requisitos Elicitados**
 
@@ -119,6 +121,7 @@ Ao acessar a guia de configuração geral e e-mails, Maria percebeu que é poss�
 
 | ID | Requisitos Elicitados desta técnica |
 | ------ | ----------------------------- |
+|R040|Bloquear usuário|
 |R061|Ativar/desativar modo noturno|
 |R062|Automatizar modo noturno|
 |R063|Editar email|
@@ -146,3 +149,21 @@ Ao acessar a guia de configuração geral e e-mails, Maria percebeu que é poss�
 |R085|Ativar/desativar notificação de novas funcionalidades da aplicação|
 |R086|Gerenciar atualizações de seus escritores|
 |R087|Receber e-mail quando receber clap|
+
+#### Extras do Medium
+
+Natália, agora uma ávida desenvolvedora de ChatBots e escritora do Medium, se deparou com algo que anteriormente havia deixado passar. Um belo dia, antes de entregar seu TCC, Natália estava falando para sua professora orientadora sobre um novo texto que havia escrito e postado no Medium. A professora era uma leitora assídua da plataforma e estava muito feliz com o empenho de sua aluna em propagar conhecimento mundo afora.
+
+No meio da conversa, a professora se lembrou que ficou de dar uma resposta para um outro usuário que tinha indagado uma nota que ela havia criado em um texto sobre Deep Learning. Como Natália estava com o computador ligado e o Medium aberto, ela o emprestou à professora para que pudesse realizar tal. A professora deslogou da conta de Natália e logou em sua própria. Entretanto, como são muitos textos novos sendo postados por dia, por um momento a professora se esqueceu sobre qual era o título do mesmo, assim dando uma olhada geral na página para ver se alguma coisa atiçava sua memória.
+
+A professora se lembrou, deu sua resposta, deslogou e devolveu o computador para Natália, que agradeceu e se retirou, pois estava na hora. Entretanto, durante este acontecimento, Natália percebeu algo no fim da homepage do Medium. A palavra *careers* estava escrita no fundo da página, bem pequeninha. Natália só foi capaz de notá-la após a professora ter descido até o fundo da mesma.
+
+Mais tarde naquele dia,Natália resolveu voltar ao Medium e ver o que descobria daquele link. Ao abrí-lo, Natália se surpreendeu com o que viu. Aparentemente, o link levava para uma página chamada Medium Jobs, que funcionava quase como que um recrutador de trabalhadores para trabalharem no prórprio Medium. Natália se interessou muito pela descoberta e já tratou de mandar seu currículo para lá.
+
+Foi uma descoberta muito interessante, pois possibilitaria a ela trabalhar na plataforma com a qual estava tão empenhada com.
+
+**Requisitos Elicitados**
+
+| ID | Requisitos Elicitados desta técnica |
+| ------ | ----------------------------- |
+|R082|Deslogar de outras sessões |
