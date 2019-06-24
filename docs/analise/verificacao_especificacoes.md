@@ -365,7 +365,7 @@ Para que os UCs sejam verificados por meio de inspeção, é necessário, marcar
     </tr> 
     <tr>
         <td>19</td>
-        <td></td>
+        <td>V</td>
         <td>V</td>
         <td>V</td>
         <td>V</td>
