@@ -1,6 +1,7 @@
 |Data      |        Autor            |           Descrição           |Versão|
 |----------|-------------------------|-------------------------------|------|
 |24/06/2019| Guilherme Marques| Adição da página e questionário | 1.0  |
+|24/06/2019| Guilherme Marques| Adição das imagens restantes | 1.1  |
 
 ### Descrição
 
@@ -38,23 +39,43 @@ Quantidade de respostas até o momento: 138
 
 - Classificação da interface: "Boa" a "Ótima"
 
+![Classificação Interface](images/questionario/leitor-classifica.jpg)
+
 - Nível de Satisfação com conteúdo: "Neutra" a "Boa"
+
+![Nível de Satisfação](images/questionario/content-satisfacao.jpg)
 
 - Frequência de comentários: "Pouca"
 
+![Frequência de Comentários](images/questionario/comentarios.jpg)
+
 - Frequência de 'Aplausos': "Pouca"
 
+![Frequência de Aplausos](images/questionario/claps.png)
+
 - Frequência de compartilhamento de publicações: "Pouca"
+
+![Frequência de Share](images/questionario/compartilha.jpg)
 
 ### Ponto de Vista do Autor
 
 Ponto de Vista do Autor
 
+- Assuntos geralmente abordados
+
+![Importação de texto](images/questionario/assunto-publica.jpg)
+
 - Sobre o recurso de importar textos
+
+![Importação de texto](images/questionario/import.jpg)
 
 - O editor de textos agrada uma boa parte dos usuários
 
+![Editor de Texto](images/questionario/editor-texto.jpg)
+
 - O recurso de métricas acerca das publicações é pouco utilizado
+
+![Metricas](images/questionario/metricas.jpg)
 
 ### Críticas, Sugestões e Elogios
 
