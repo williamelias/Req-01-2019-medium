@@ -3,5 +3,6 @@ version: '3.3'
 services:
   wiki:
     build: .
+    image: guilhesme/wiki_requisitos
     ports:
       - "8000:8000"
