@@ -26,3 +26,9 @@ Para rodar o projeto localmente, primeiramente instale as dependências:
 Após isso rode o seguinte comando:
 
 `$ mkdocs serve`
+
+Alternativamente, o projeto pode ser rodado utilizando o docker-compose:
+
+`$ docker-compose up --build`
+
+Ambas as alternativas irão rodar a wiki localmente, tornando-a acessível em `http://localhost:8000`.
