@@ -6,12 +6,25 @@
 |17/06/2019      | Luís Cláudio T. Lima | Adição de mais fotos de telas | 1.1|
 |19/06/2019      | Guilherme Marques Rosa| Adição de mais imagens de telas | 1.2 |
 |19/06/2019      | Guilherme Marques Rosa| Adição de mais imagens de telas | 1.3 |
+|20/06/2019      | Aline Laureano  | Adição da metodogia   | 1.5 |
+|21/06/2019      | Gabriel Felipe  | Adição de mais imagens de telas   | 1.6 |
+|23/06/2019      | Aline Laureano  | Adição de mais imagens de telas   | 1.7 |
 
 
 
 ### Introdução
+Página destinada à alocação das imagens que comprovam a implatação dos requisitos levantados para a pós-rastreabilidade forward-from.
 
-### Objetivo
+### Metodologia
+
+Para a realização dessa tarefa, em um primeiro momento, fora criada a página para a pós-rastreabilidade forward-from. Após esse processo decidimos criar essa página o que tornou possível linkar os requisitos com a(s) sua(s) tela(s) de funcionalidade implementadas.
+
+Foi estabelecida a seguinte divisão para a montagem da página de telas das funcionalidades:
+
+- Montagem inicial do arquivo forward-from com títulos, descrições e tabelas: Aline;
+- Criação do sistema de link direto de um requisito da página "Forward-From" para a(s) sua(s) tela(s) de funcionalidade;
+- Inserção das imagens (cerca de 15 requisitos para cada um dos seguintes integrantes): Aline, Gabriel, Guilherme e Luís Claúdio;
+- Refatoração da página de telas das funcionalidades: Aline, Gabriel, Guilherme e Luís Claúdio;
 
 ### Resultados
 O resultado está apresentado com imagens de como estão implantados os requisitos funcionais do Medium.
@@ -56,6 +69,97 @@ O resultado está apresentado com imagens de como estão implantados os requisit
 
 **Foto 1:**
 ![Tela de funcionalidade](fotos_das_telas/R014.png)
+
+***
+
+<span id="imgR015"></span>
+#### R015 - Deletar 'serie'
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R015.png)
+
+***
+
+<span id="imgR016"></span>
+#### R016 - Ver status
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R016-1.png)
+
+**Foto 2:**
+![Tela de funcionalidade](fotos_das_telas/R016-2.png)
+
+***
+
+<span id="imgR017"></span>
+#### R017 - Escrever 'new story'
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R017.png)
+
+***
+
+<span id="imgR018"></span>
+#### R018 - Salvar 'story' como rascunho
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R018.png)
+
+***
+
+<span id="imgR019"></span>
+#### R019 - visualizar rascunhos das 'stories'
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R019.png)
+
+***
+
+<span id="imgR020"></span>
+#### R020 - Visualizar stories publicadas
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R020.png)
+
+***
+
+<span id="imgR021"></span>
+#### R021 - Importar 'story'
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R021.png)
+
+***
+
+<span id="imgR022"></span>
+#### R022 - Editar story
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R022.png)
+
+***
+
+<span id="imgR023"></span>
+#### R023 - Deletar story
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R023.png)
+
+***
+
+<span id="imgR024"></span>
+#### R024 - Aplaudir um texto lido
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R024.png)
+
+***
+
+<span id="imgR025"></span>
+#### R025 - Compartilhar texto lido nas redes sociais
+
+**Foto 1:**
+![Tela de funcionalidade](fotos_das_telas/R025.png)
 
 ***
 
