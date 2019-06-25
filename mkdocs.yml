@@ -38,6 +38,7 @@ nav:
         - Inspeção User Cases: analise/user_cases.md
         - Inspeção StoryBoard: analise/verificacao_storybord.md
     - Pós-rastreabilidade:
+        - Definição: pos-rastreabilidade/index.md
         - Baseline: baseline.md
         - Forward From: pos-rastreabilidade/forward_from.md
         - Backward From: pos-rastreabilidade/backward_from.md
