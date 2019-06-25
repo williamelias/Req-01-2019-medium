@@ -22,7 +22,7 @@ Repositório destinado a documentação dos modelos usados durante o processo de
 
 * [Pré-rastreabilidade](pre-rastreabilidade/pre-rastreabilidade.md)
 * [Elicitação de requisitos](elicitacao/brainstormings.md)
-* Modelagem
+* [Modelagem](modelagem/index.md)
 * Análise
 * Pós-rastreabilidade
 

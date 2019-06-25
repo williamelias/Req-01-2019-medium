@@ -14,6 +14,7 @@ nav:
         - Priorização-Lista de Dependências: elicitacao/priorizacao-dependencias.md
         - Priorização-FTF: elicitacao/priorizacao-ftf.md
     - Modelagem:
+        - Definição: modelagem/index.md
         - Cenários: modelagem/cenarios.md
         - Léxicos:  modelagem/lexicos.md
         - Casos de uso:  modelagem/user_case.md
