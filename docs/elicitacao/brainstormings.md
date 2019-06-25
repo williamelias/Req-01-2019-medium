@@ -26,34 +26,35 @@ Foram concebidos brainstormings com os seguintes focos:
 E após o brainstorming foram criados para cada modelo concretizado um mapa mental para melhor visualização do mesmo.
 
 ***
-
+<span id="txtBrain1"></span>
 ### Brainstorming 1
 
-**Tema:** Definição e divisão de tarefas 
+**Tema:** Definição e divisão de tarefas
 
 **Pergunta:**Como levantar os requisitos?
 
 | Membro     | Sugestão |
 |------------|-----------|
-| william    |Dividindo os problemas a serem respondidos por meio de perguntas|
-| william  e Matheus   |Focando em requisitos com foco no leitor e também para o escritor|
+| William    |Dividindo os problemas a serem respondidos por meio de perguntas|
+| William  e Matheus   |Focando em requisitos com foco no leitor e também para o escritor|
 | Matheus    |Entendendo o funcionamento do site por observação|
 | Gabriel    |Fazendo a jornada do leitor|
-| william    |Fazendo a jornada do escritor|
+| William    |Fazendo a jornada do escritor|
 | Matheus    |fazendo a jornada de escrever uma história|
 | Matheus    |fazendo a jornada de pegar uma história de um site externo|
 | Matheus    |fazendo a jornada de criar o blog|
-| william    |Todos criarem ao menos três técnicas individualmente|
-| william    |Criação do questionário em grupo|
-| pedro      |Estudo de como fazer um questionário|
+| William    |Todos criarem ao menos três técnicas individualmente|
+| William    |Criação do questionário em grupo|
+| Pedro      |Estudo de como fazer um questionário|
 | Gabriel    |Fazendo a jornada do leitor|
-|pedro       |Criação de prototipação em trio/dupla|
+| Pedro       |Criação de prototipação em trio/dupla|
 
-###Brainstorming 2
+<span id="txtBrain2"></span>
+### Brainstorming 2
 
-**Tema:** <a id="brain2">Elicitação de Requisitos</a>
+**Tema:** <span id="brain2">Elicitação de Requisitos</span>
 
-Ficou decidido pelo grupo um levantamento de requisitos de software ,da aplicação MEDIUM, por meio do brainstorming. Esse levantamento ocorreu sem a utilização direta da aplicação. 
+Ficou decidido pelo grupo um levantamento de requisitos de software ,da aplicação MEDIUM, por meio do brainstorming. Esse levantamento ocorreu sem a utilização direta da aplicação.
 Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e posteriormente de uma forma mais organizada.
 
 **Pergunta:**Quais são os requisitos funcionais e não funcionais da área comum da aplicação?
@@ -69,7 +70,7 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 | william    |visualizar os perfis de outros usuários|
 | william    |carregamento eficiente de artigos|
 | william    |cores monocromáticas na construção básica do site|
-|matheus     | o design intuitivo e minimalista torna a experiência mais produtiva|	
+|matheus     | o design intuitivo e minimalista torna a experiência mais produtiva|
 |matheus     | A aplicação está disponível em plataformas : web e mobile (ios/android)|
 
 **Requisitos Elicitados**
@@ -113,11 +114,11 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 | R020 | Visualizar stories publicadas |
 | R024 | Aplaudir um texto lido |
 |R025|Compartilhar texto lido no Facebook ou Instagram|
-|R026	|Comentar no corpo do texto	| 
-|R027	|receber notificações de textos publicados por autores seguidos|	
-|R028	|Seguir escritores|	
+|R026	|Comentar no corpo do texto	|
+|R027	|receber notificações de textos publicados por autores seguidos|
+|R028	|Seguir escritores|
 |R029	|Seguir usuários	|
-|R030	|Escutar podcasts|	
+|R030	|Escutar podcasts|
 |R031	|Selecionar tema de artigos	|
 |R032	|Visualizar textos publicados por um escritor em seu perfil|
 |R033	|Ter recomendações de leituras conforme histórico de leitura	|
@@ -133,7 +134,7 @@ Decidiu-se que iriamos inicialmente respondendo as perguntas aleatoriamente e po
 |------------|----------|
 | Matheus    |possibilidade de escrever no blog ou fora do blog|
 | Matheus    |pegar textos de outras plataformas|
-|matheus     | ver quem deu clap em suas publicações|	
+|matheus     | ver quem deu clap em suas publicações|
 |matheus     | ter um registro dos seus textos em seu blog|
 | william    |O escritor tem a opção de ter relacionado a sua conta um blog pessoal|
 | william    |Poder escrever seus textos em um editor de texto simplificado|
