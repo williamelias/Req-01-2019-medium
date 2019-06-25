@@ -34,4 +34,4 @@ Os módulos após esses tiveram particiação de todos os membros, por isso não
 
 ***Responsáveis: (Matheus Blanco, William Elias e Guilherme Marques)***
 
-![modelagem](images/dedicação-modelagem.png)
+![modelagem](images/modelagem.jpg)
