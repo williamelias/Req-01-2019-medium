@@ -11,7 +11,7 @@
 
 ### Definição
 
-Na Engenharia de Requisitos, os Cenários são uma estratégia reconhecida para compreender as interações entre ambientes e sistemas, como também elicitar a parte comportamental do software, sua dinâmica e/ou seu fluxo. 
+Na Engenharia de Requisitos, os Cenários são uma estratégia reconhecida para compreender as interações entre ambientes e sistemas, como também elicitar a parte comportamental do software, sua dinâmica e/ou seu fluxo.
 
 Os Cenários fazem uso de algumas abstrações como Título, Metas ou Objetivos, Contexto Atores, Recursos, Exceção ou Episódios.
 
@@ -129,6 +129,7 @@ Como metodologia de trabalho, foi definido que a equipe deveria navegar pela pla
 
 ***
 
+<span id="cenarioPremium"></span>
 #### Assinar Premium
 
 **Responsável**: Matheus Blanco

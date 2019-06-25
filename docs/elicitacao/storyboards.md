@@ -11,7 +11,7 @@
 
 
 
-### Descrição 
+### Descrição
 
 Storyboards são uma forma prática e eficiente de desenhar, comunicar e discutir como um produto de software pode ser realizado ou modificado. Todas as pessoas, independente de sua área de atuação, podem visualizar e sugerir mudanças enquanto ainda é simples e barato realizá-las. E agora, os storyboards podem inclusive ajudar na homologação e teste de forma automatizada antes da entrega.
 
@@ -21,7 +21,7 @@ Por meio da aplicação das técnicas de elicitação de requisitos, foi decidid
 
 O presente documento foi concebido por meio da aplicação das técnicas de storytelling e storybord com as seguintes ênfases: customização de interesses de um usuário, edição de perfil, login e cadastro na aplicação, criação de uma nova _storie_ e exploração de tópicos de leitura.
 
-Os seguintes storyboards tiveram como ênfases: 
+Os seguintes storyboards tiveram como ênfases:
 
 * Customização de interesses de um usuário;
 * Login e cadastro na aplicação;
@@ -47,7 +47,7 @@ Os seguintes storyboards tiveram como ênfases:
 |R059|Deixar de seguir usuários|
 |R060|Deixar de seguir publicações|
 
-
+<span id="storybLogin"></span>
 #### Login e cadastro
 
 **Responsável:**William Elias

@@ -21,7 +21,7 @@ Introspecção é uma técnica que consiste em entender quais propriedades o sis
 Para a realização das introspecções o grupo se reuniu viu hangouts e definiu alguns temas para cada integrante.
 Após a definição dos temas individuais cada membro ficou responsável por realizar por meio de mentalização uma idealização do software em questão, em face as sua funcionalidades.
 
-### Resultados 
+### Resultados
 
 Foram desenvolvidas introspecções com os seguintes focos:
 
@@ -76,6 +76,7 @@ Abaixo estão citadas funcionalidades que devam estar presentes na página inici
 * Possibilitar a escuta de podcasts;
 * Possibilitar a adição de comentários a uma publicação.
 
+<span id="intro1v2"></span>
 ######[Relato de introspecção 1 - V2.0]
 
 **Relator(es): Aline e Gabriel**
@@ -102,6 +103,7 @@ vi. **Notificações:** permite que o usuário tenha acesso às notificações d
 
 
 ***
+
 #### Relato de introspecção 2: Comportamento do usuário no ato de se logar ou se cadastrar na aplicação.
 
 **Relator: William Elias Alves**
@@ -250,6 +252,7 @@ Abaixo estão citadas, ao meu entender, funcionalidades que devam estar presente
 * Fácil recuperação de um artigo salvo
 * Registro do ponto em que o artigo salvo foi fechado
 
+<span id="introspec4v2"></span>
 ####[Relato de introspecção 4 - V2.0]
 
 **Relator(es): Aline e Guilherme**
