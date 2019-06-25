@@ -25,6 +25,7 @@ nav:
         - NFR: modelagem/nfrs.md
         - I*: modelagem/i*.md
     - Análise:
+        - Definição: analise/index.md
         - Inspeção Backlog do produto: analise/product_backlog.md
         - Inspeção Cenários: analise/verificacao_cenarios.md
         - Inspeção I*: analise/verificacao_istars.md
